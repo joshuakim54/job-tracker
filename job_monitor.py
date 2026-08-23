@@ -21,7 +21,7 @@ TARGET_COMPANIES = {
     },
     "redhat": {
         "type": "greenhouse",
-        "slug": "redhat",
+        "slug": "redhatjobs", # Updated slug
         "display_name": "Red Hat (Raleigh HQ)",
     },
     "epicgames": {
