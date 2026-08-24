@@ -1,3 +1,4 @@
+import time
 import json
 import os
 import requests
@@ -7,9 +8,8 @@ import requests
 # ==========================================
 # Reads webhook from GitHub Actions secrets or local environment variable
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "YOUR_DISCORD_WEBHOOK_URL_HERE")
+HISTORY_FILE = "seen_jobs.json"
 
-# Companies to monitor
-# Companies to monitor mapped to their ATS type
 TARGET_COMPANIES = {
     # ----------------------------------------------------
     # 1. LOCAL RALEIGH / DURHAM / RTP TECH HUBS
@@ -20,8 +20,10 @@ TARGET_COMPANIES = {
         "display_name": "Pendo (Raleigh HQ)",
     },
     "redhat": {
-        "type": "greenhouse",
-        "slug": "redhatjobs", # Updated slug
+        "type": "workday",
+        "domain": "redhat.wd5.myworkdayjobs.com",
+        "tenant": "redhat",
+        "career_site": "jobs",
         "display_name": "Red Hat (Raleigh HQ)",
     },
     "epicgames": {
@@ -110,49 +112,32 @@ TARGET_COMPANIES = {
         "slug": "mongodb",
         "display_name": "MongoDB",
     },
-    "hashicorp": {
-        "type": "greenhouse",
-        "slug": "hashicorp",
-        "display_name": "HashiCorp",
-    },
-    "elastic": {
-        "type": "greenhouse",
-        "slug": "elastic",
-        "display_name": "Elastic",
-    },
-    "cockroachlabs": {
-        "type": "greenhouse",
-        "slug": "cockroachlabs",
-        "display_name": "Cockroach Labs",
-    },
     "atlassian": {
         "type": "lever",
         "slug": "atlassian",
         "display_name": "Atlassian",
     },
 }
-HISTORY_FILE = "seen_jobs.json"
 
 # ==========================================
-# TARGETING PARAMETERS (Mid-Level SWE in RTP / US Remote)
+# TARGETING PARAMETERS
 # ==========================================
 
-# 1. SOFTWARE ENGINEERING TITLES
 TITLE_INCLUDE = [
     "software engineer",
     "software development engineer",
     "sde",
-    "backend engineer",
-    "frontend engineer",
-    "full stack engineer",
-    "fullstack engineer",
+    "backend",
+    "frontend",
+    "full stack",
+    "fullstack",
     "systems engineer",
     "platform engineer",
     "infrastructure engineer",
-    "application engineer",
+    "developer",
 ]
 
-# Exclude entry-level/internships and high-level management
+# Excludes entry-level, internships, and high-level executive management
 TITLE_EXCLUDE = [
     "intern",
     "internship",
@@ -161,6 +146,8 @@ TITLE_EXCLUDE = [
     "university grad",
     "new grad",
     "entry level",
+    "junior",
+    "principal",
     "distinguished",
     "director",
     "vp",
@@ -168,7 +155,6 @@ TITLE_EXCLUDE = [
     "manager",
 ]
 
-# 2. LOCATIONS (RTP Region + US Remote)
 LOCATION_INCLUDE = [
     "research triangle",
     "rtp",
@@ -177,16 +163,14 @@ LOCATION_INCLUDE = [
     "chapel hill",
     "morrisville",
     "cary",
+    "nc",
+    "north carolina",
     "remote",
-    "us remote",
-    "remote - us",
-    "united states",
     "us",
-    "boston",
-    "nyc"
+    "united states",
+    "anywhere",
 ]
 
-# Exclude non-US locations (e.g., Remote Europe/APAC)
 LOCATION_EXCLUDE = [
     "uk",
     "london",
@@ -209,14 +193,14 @@ def is_matching_job(job):
     title = job["title"].lower()
     location = job["location"].lower()
 
-    # --- Title Filtering ---
+    # Title check
     if not any(kw in title for kw in TITLE_INCLUDE):
         return False
 
     if any(kw in title for kw in TITLE_EXCLUDE):
         return False
 
-    # --- Location Filtering ---
+    # Location check
     if not any(loc in location for loc in LOCATION_INCLUDE):
         return False
 
@@ -229,18 +213,21 @@ def is_matching_job(job):
 # ==========================================
 # API FETCHERS
 # ==========================================
-def fetch_greenhouse_jobs(company_slug):
+def fetch_greenhouse_jobs(company_key, config):
     """Fetch public jobs from Greenhouse ATS."""
-    url = f"https://boards-api.greenhouse.io/v1/boards/{company_slug}/jobs"
+    slug = config["slug"]
+    display_name = config.get("display_name", company_key.capitalize())
+    url = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"
     try:
         res = requests.get(url, timeout=10)
         if res.status_code != 200:
+            print(f"[{display_name}] Greenhouse error: status {res.status_code}")
             return []
         data = res.json()
         return [
             {
                 "id": f"gh_{item['id']}",
-                "company": company_slug.capitalize(),
+                "company": display_name,
                 "title": item.get("title", "Unknown Title"),
                 "location": item.get("location", {}).get("name", "Remote/Unspecified"),
                 "url": item.get("absolute_url", ""),
@@ -248,22 +235,25 @@ def fetch_greenhouse_jobs(company_slug):
             for item in data.get("jobs", [])
         ]
     except Exception as e:
-        print(f"Error fetching Greenhouse for {company_slug}: {e}")
+        print(f"[{display_name}] Greenhouse exception: {e}")
         return []
 
 
-def fetch_lever_jobs(company_slug):
+def fetch_lever_jobs(company_key, config):
     """Fetch public jobs from Lever ATS."""
-    url = f"https://api.lever.co/v0/postings/{company_slug}?mode=json"
+    slug = config["slug"]
+    display_name = config.get("display_name", company_key.capitalize())
+    url = f"https://api.lever.co/v0/postings/{slug}?mode=json"
     try:
         res = requests.get(url, timeout=10)
         if res.status_code != 200:
+            print(f"[{display_name}] Lever error: status {res.status_code}")
             return []
         data = res.json()
         return [
             {
                 "id": f"lever_{item['id']}",
-                "company": company_slug.capitalize(),
+                "company": display_name,
                 "title": item.get("text", "Unknown Title"),
                 "location": item.get("categories", {}).get("location", "Remote/Unspecified"),
                 "url": item.get("hostedUrl", ""),
@@ -271,8 +261,10 @@ def fetch_lever_jobs(company_slug):
             for item in data
         ]
     except Exception as e:
-        print(f"Error fetching Lever for {company_slug}: {e}")
+        print(f"[{display_name}] Lever exception: {e}")
         return []
+
+
 def fetch_workday_jobs(company_key, config):
     """Fetch public jobs from Workday ATS."""
     domain = config["domain"]
@@ -281,32 +273,23 @@ def fetch_workday_jobs(company_key, config):
     display_name = config.get("display_name", company_key.capitalize())
 
     url = f"https://{domain}/wday/cxs/{tenant}/{career_site}/jobs"
-    
-    payload = {
-        "appliedFacets": {},
-        "limit": 20,
-        "offset": 0,
-        "searchText": "Software Engineer"  # Initial filter to optimize Workday response payload
-    }
-    
+    payload = {"appliedFacets": {}, "limit": 50, "offset": 0, "searchText": ""}
     headers = {
         "Content-Type": "application/json",
         "Accept": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
     }
 
     try:
         res = requests.post(url, json=payload, headers=headers, timeout=10)
         if res.status_code != 200:
+            print(f"[{display_name}] Workday error: status {res.status_code}")
             return []
-        
         data = res.json()
         jobs = []
         for item in data.get("jobPostings", []):
             external_path = item.get("externalPath", "")
             job_url = f"https://{domain}/en-US/{career_site}{external_path}" if external_path else f"https://{domain}"
-            
-            # Use externalPath or title as unique ID
             job_id_suffix = external_path.replace("/", "_") if external_path else item.get("title", "")
             
             jobs.append({
@@ -318,7 +301,7 @@ def fetch_workday_jobs(company_key, config):
             })
         return jobs
     except Exception as e:
-        print(f"Error fetching Workday for {tenant}: {e}")
+        print(f"[{display_name}] Workday exception: {e}")
         return []
 
 
@@ -326,7 +309,11 @@ def fetch_workday_jobs(company_key, config):
 # DISCORD NOTIFIER
 # ==========================================
 def send_discord_alert(job):
-    """Sends a rich formatted embed message to Discord."""
+    """Sends a rich formatted embed message to Discord with rate-limit retry support."""
+    if not DISCORD_WEBHOOK_URL or DISCORD_WEBHOOK_URL == "YOUR_DISCORD_WEBHOOK_URL_HERE":
+        print("❌ ERROR: DISCORD_WEBHOOK_URL is not configured!")
+        return
+
     payload = {
         "username": "SWE Job Alert Bot",
         "embeds": [
@@ -338,15 +325,36 @@ def send_discord_alert(job):
                     {"name": "Company", "value": job["company"], "inline": True},
                     {"name": "Location", "value": job["location"], "inline": True},
                 ],
-                "footer": {"text": "Greenhouse/Lever Monitor"},
+                "footer": {"text": "Job Board Monitor"},
             }
         ],
     }
-    try:
-        requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=10)
-    except Exception as e:
-        print(f"Error sending Discord webhook: {e}")
 
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            res = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=10)
+
+            # Success
+            if res.status_code in (200, 204):
+                print(f"✅ Discord alert sent: [{job['company']}] {job['title']}")
+                time.sleep(0.5)  # Short pause between posts to stay under 5 req/sec
+                return
+
+            # Rate limited
+            elif res.status_code == 429:
+                data = res.json()
+                wait_time = data.get("retry_after", 1.0) + 0.1
+                print(f"⏳ Rate limited by Discord. Waiting {wait_time:.2f}s before retrying...")
+                time.sleep(wait_time)
+
+            else:
+                print(f"❌ Discord error HTTP {res.status_code}: {res.text}")
+                return
+
+        except Exception as e:
+            print(f"❌ Discord exception: {e}")
+            return
 
 # ==========================================
 # STATE MANAGEMENT & MAIN LOOP
@@ -368,38 +376,42 @@ def save_seen_jobs(seen_ids):
 
 def main():
     seen_ids = load_seen_jobs()
+    print(f"Starting job search... (Loaded {len(seen_ids)} previously seen job IDs)")
+
     new_jobs_found = []
 
-    print("Starting job search...")
+    for company_key, config in TARGET_COMPANIES.items():
+        board_type = config.get("type")
+        display_name = config.get("display_name", company_key)
 
-    for company, board_type in TARGET_COMPANIES.items():
         if board_type == "greenhouse":
-            jobs = fetch_greenhouse_jobs(company)
+            jobs = fetch_greenhouse_jobs(company_key, config)
         elif board_type == "lever":
-            jobs = fetch_lever_jobs(company)
+            jobs = fetch_lever_jobs(company_key, config)
+        elif board_type == "workday":
+            jobs = fetch_workday_jobs(company_key, config)
         else:
             continue
 
+        print(f"[{display_name}] Fetched {len(jobs)} total jobs.")
+
         for job in jobs:
-            # Skip if already stored in history
             if job["id"] in seen_ids:
                 continue
 
-            # Check role & location criteria
             if not is_matching_job(job):
                 continue
 
             new_jobs_found.append(job)
             seen_ids.add(job["id"])
 
-    # Dispatch Discord alerts
+    print(f"\nFound {len(new_jobs_found)} new matching role(s). Dispatching alerts...")
+
     for job in new_jobs_found:
-        print(f"Matched: [{job['company']}] {job['title']} - {job['location']}")
         send_discord_alert(job)
 
-    # Save state
     save_seen_jobs(seen_ids)
-    print(f"Job check finished. Sent {len(new_jobs_found)} alert(s).")
+    print("Job check completed successfully!")
 
 
 if __name__ == "__main__":
