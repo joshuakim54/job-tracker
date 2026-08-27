@@ -9,7 +9,7 @@ import requests
 # Reads webhook from GitHub Actions secrets or local environment variable
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "YOUR_DISCORD_WEBHOOK_URL_HERE")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-HISTORY_FILE = os.path.join(BASE_DIR, "seen_jobs.json")
+HISTORY_FILE = os.getenv("HISTORY_FILE", os.path.join(BASE_DIR, "seen_jobs.json"))
 COMPANIES_FILE = os.path.join(BASE_DIR, "companies.json")
 
 
