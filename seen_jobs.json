@@ -1,1 +1,1472 @@
-["gh_8617901002", "gh_6100023004", "gh_8142764", "gh_8103045", "gh_8416951002", "gh_8515648002", "gh_8092973", "gh_8107379", "gh_8303014002", "gh_8202700002", "gh_8089124", "gh_8367019002", "gh_8055701", "gh_4513122002", "gh_5608424", "gh_8015588", "gh_7235322", "gh_7993551", "gh_8089031", "gh_7642799002", "gh_5691886004", "gh_8584144002", "gh_7959962", "gh_5445641002", "gh_8649279002", "gh_8428818002", "gh_7635298", "gh_7232592", "gh_7274459002", "gh_7277110", "gh_8139662", "gh_7985840", "gh_4799387002", "gh_8493170002", "gh_5408888002", "gh_7743369", "gh_5646855002", "gh_8493002002", "lever_d83fac1c-353e-4b77-a586-3276b1090b6e", "gh_8637143002", "gh_8026634002", "gh_4599148", "gh_7882009002", "gh_8007589", "gh_8094106", "gh_8081477", "gh_8026511", "gh_6704975002", "lever_ce20af4c-4de3-4079-bbdf-bc30a2e25404", "gh_8065483", "gh_8105372", "gh_8095166", "gh_3210217", "gh_8482037002", "gh_7915330", "gh_8728254002", "gh_8035492", "gh_8582276002", "gh_8575248002", "gh_8556371002", "gh_8716187002", "gh_8716192002", "gh_8202698002", "gh_6176758", "gh_8107302", "gh_7091959", "gh_8035679", "gh_8416959002", "gh_7979523002", "gh_7947560", "gh_5552522004", "gh_8039548", "gh_6142506004", "gh_8089353", "gh_7643201002", "gh_8532682002", "gh_8119841", "gh_7986004", "gh_8582271002", "gh_7874990", "gh_8076151", "gh_5552549004", "gh_5790627004", "gh_3851935", "gh_6318503002", "gh_6042172", "gh_8422484002", "gh_7369269", "lever_98b81271-9e15-40b7-8dce-0c62f24702f9", "gh_5552560004", "gh_7107437", "gh_8224683002", "gh_7727896", "gh_5551730004", "gh_8007606", "gh_8032546002", "gh_5551686004", "gh_5552530004", "gh_7507904", "gh_8102624", "gh_7523911", "gh_8211647002", "gh_7939868", "gh_8081945", "gh_3851927", "gh_7523920", "gh_8552484002", "gh_5691911004", "gh_7898766002", "gh_8094111", "gh_5551532004", "gh_8211648002", "gh_6102379004"]
+{
+  "gh_3210217": {
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer",
+    "url": "https://careers.datadoghq.com/detail/3210217/?gh_jid=3210217"
+  },
+  "gh_3851927": {
+    "company": "Datadog",
+    "location": "Boston, Massachusetts, USA; New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Distributed Systems",
+    "url": "https://careers.datadoghq.com/detail/3851927/?gh_jid=3851927"
+  },
+  "gh_3851935": {
+    "company": "Datadog",
+    "location": "Boston, Massachusetts, USA; New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer ",
+    "url": "https://careers.datadoghq.com/detail/3851935/?gh_jid=3851935"
+  },
+  "gh_4513122002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Distributed Data Systems",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002"
+  },
+  "gh_4599148": {
+    "company": "Datadog",
+    "location": "Bordeaux, France; Paris, France",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Backend ",
+    "url": "https://careers.datadoghq.com/detail/4599148/?gh_jid=4599148"
+  },
+  "gh_4799387002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Backend",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002"
+  },
+  "gh_5408888002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Backend",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002"
+  },
+  "gh_5445641002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Fullstack",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002"
+  },
+  "gh_5551532004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Machine Learning",
+    "url": "https://boards.greenhouse.io/figma/jobs/5551532004?gh_jid=5551532004"
+  },
+  "gh_5551686004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Data Infrastructure",
+    "url": "https://boards.greenhouse.io/figma/jobs/5551686004?gh_jid=5551686004"
+  },
+  "gh_5551730004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - AI Product",
+    "url": "https://boards.greenhouse.io/figma/jobs/5551730004?gh_jid=5551730004"
+  },
+  "gh_5552522004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Graphics & Media",
+    "url": "https://boards.greenhouse.io/figma/jobs/5552522004?gh_jid=5552522004"
+  },
+  "gh_5552530004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - C++",
+    "url": "https://boards.greenhouse.io/figma/jobs/5552530004?gh_jid=5552530004"
+  },
+  "gh_5552549004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Distributed Systems",
+    "url": "https://boards.greenhouse.io/figma/jobs/5552549004?gh_jid=5552549004"
+  },
+  "gh_5552560004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Growth & Monetization",
+    "url": "https://boards.greenhouse.io/figma/jobs/5552560004?gh_jid=5552560004"
+  },
+  "gh_5608424": {
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer ",
+    "url": "https://careers.datadoghq.com/detail/5608424/?gh_jid=5608424"
+  },
+  "gh_5646855002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Distributed Data Systems",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002"
+  },
+  "gh_5691886004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - AI Platforms",
+    "url": "https://boards.greenhouse.io/figma/jobs/5691886004?gh_jid=5691886004"
+  },
+  "gh_5691911004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Full Stack",
+    "url": "https://boards.greenhouse.io/figma/jobs/5691911004?gh_jid=5691911004"
+  },
+  "gh_5790627004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Developer Experience",
+    "url": "https://boards.greenhouse.io/figma/jobs/5790627004?gh_jid=5790627004"
+  },
+  "gh_6042172": {
+    "company": "Stripe",
+    "location": "US-Remote, Chicago, Seattle, San Francisco",
+    "source": "greenhouse",
+    "title": "Backend Engineer, Core Technology",
+    "url": "https://stripe.com/jobs/search?gh_jid=6042172"
+  },
+  "gh_6100023004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Mobile Web",
+    "url": "https://boards.greenhouse.io/figma/jobs/6100023004?gh_jid=6100023004"
+  },
+  "gh_6102379004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Traffic",
+    "url": "https://boards.greenhouse.io/figma/jobs/6102379004?gh_jid=6102379004"
+  },
+  "gh_6142506004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Application Platform",
+    "url": "https://boards.greenhouse.io/figma/jobs/6142506004?gh_jid=6142506004"
+  },
+  "gh_6176758": {
+    "company": "Stripe",
+    "location": "US",
+    "source": "greenhouse",
+    "title": "Backend/API Engineer, Money as a Service",
+    "url": "https://stripe.com/jobs/search?gh_jid=6176758"
+  },
+  "gh_6318503002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Infrastructure and Tools",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6318503002"
+  },
+  "gh_6704975002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Fullstack Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6704975002"
+  },
+  "gh_6784618": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, EAA CX",
+    "url": "https://www.coinbase.com/careers/positions/6784618?gh_jid=6784618"
+  },
+  "gh_7091959": {
+    "company": "Stripe",
+    "location": "NYC-Privy, US-Remote ",
+    "source": "greenhouse",
+    "title": "Fullstack Engineer, Privy",
+    "url": "https://stripe.com/jobs/search?gh_jid=7091959"
+  },
+  "gh_7107437": {
+    "company": "Datadog",
+    "location": "Boston, Massachusetts, USA; New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - ML Observability",
+    "url": "https://careers.datadoghq.com/detail/7107437/?gh_jid=7107437"
+  },
+  "gh_7232592": {
+    "company": "Stripe",
+    "location": "US",
+    "source": "greenhouse",
+    "title": "Backend Engineer, Payments and Risk",
+    "url": "https://stripe.com/jobs/search?gh_jid=7232592"
+  },
+  "gh_7235322": {
+    "company": "MongoDB",
+    "location": "San Francisco",
+    "source": "greenhouse",
+    "title": "Software Engineer 3, Search Systems Replication & Routing",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=7235322"
+  },
+  "gh_7274459002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Security ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274459002"
+  },
+  "gh_7277110": {
+    "company": "Stripe",
+    "location": "San Francisco, NY, Seattle",
+    "source": "greenhouse",
+    "title": "Software Engineer, Bridge",
+    "url": "https://stripe.com/jobs/search?gh_jid=7277110"
+  },
+  "gh_7305744": {
+    "company": "Okta",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, AI Agentic Experience (Auth0)",
+    "url": "https://www.okta.com/company/careers/opportunity/7305744?gh_jid=7305744"
+  },
+  "gh_7366208": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer - Blockchain Platform",
+    "url": "https://www.coinbase.com/careers/positions/7366208?gh_jid=7366208"
+  },
+  "gh_7369269": {
+    "company": "Stripe",
+    "location": "NYC, SEA, San Francisco",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Issuing ",
+    "url": "https://stripe.com/jobs/search?gh_jid=7369269"
+  },
+  "gh_7379845": {
+    "company": "Okta",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Developer Advocate ",
+    "url": "https://www.okta.com/company/careers/opportunity/7379845?gh_jid=7379845"
+  },
+  "gh_7421419": {
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Communication & Connectivity",
+    "url": "https://careers.airbnb.com/positions/7421419?gh_jid=7421419"
+  },
+  "gh_7463421": {
+    "company": "Airbnb",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Community Support Engineering",
+    "url": "https://careers.airbnb.com/positions/7463421?gh_jid=7463421"
+  },
+  "gh_7483221": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer (EAA)",
+    "url": "https://www.coinbase.com/careers/positions/7483221?gh_jid=7483221"
+  },
+  "gh_7507904": {
+    "company": "Stripe",
+    "location": "San Francisco or New York",
+    "source": "greenhouse",
+    "title": "Software Engineer - Smart Contract, Bridge",
+    "url": "https://stripe.com/jobs/search?gh_jid=7507904"
+  },
+  "gh_7523911": {
+    "company": "MongoDB",
+    "location": "San Francisco",
+    "source": "greenhouse",
+    "title": "Software Engineer 3, Atlas Vector Search",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=7523911"
+  },
+  "gh_7523920": {
+    "company": "MongoDB",
+    "location": "San Francisco",
+    "source": "greenhouse",
+    "title": "Software Engineer 3, Atlas Search Systems",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=7523920"
+  },
+  "gh_7580292": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Core Automation",
+    "url": "https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292"
+  },
+  "gh_7629141": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Frontend (Consumer - Advanced Trading)",
+    "url": "https://www.coinbase.com/careers/positions/7629141?gh_jid=7629141"
+  },
+  "gh_7635298": {
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Logs Management",
+    "url": "https://careers.datadoghq.com/detail/7635298/?gh_jid=7635298"
+  },
+  "gh_7642799002": {
+    "company": "Databricks",
+    "location": "Aarhus, Denmark",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Backend  ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7642799002"
+  },
+  "gh_7643201002": {
+    "company": "Databricks",
+    "location": "Aarhus, Denmark",
+    "source": "greenhouse",
+    "title": "Sr. Software Engineer - Backend",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7643201002"
+  },
+  "gh_7674814": {
+    "company": "Okta",
+    "location": "Bellevue, Washington; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Data Platform (FedRAMP)",
+    "url": "https://www.okta.com/company/careers/opportunity/7674814?gh_jid=7674814"
+  },
+  "gh_7684298": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Solana Staking Protocol ",
+    "url": "https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298"
+  },
+  "gh_7688467": {
+    "company": "Airbnb",
+    "location": "Remote, USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Payments",
+    "url": "https://careers.airbnb.com/positions/7688467?gh_jid=7688467"
+  },
+  "gh_7701645": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Compute Platform",
+    "url": "https://www.coinbase.com/careers/positions/7701645?gh_jid=7701645"
+  },
+  "gh_7702714": {
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Streaming Infrastructure",
+    "url": "https://careers.airbnb.com/positions/7702714?gh_jid=7702714"
+  },
+  "gh_7711287": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Data Platform",
+    "url": "https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287"
+  },
+  "gh_7727896": {
+    "company": "MongoDB",
+    "location": "Austin; New York City; San Francisco; Seattle; United States",
+    "source": "greenhouse",
+    "title": "Security Software Engineer, Infrastructure Security (Staff or Senior)",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=7727896"
+  },
+  "gh_7739337": {
+    "company": "Airbnb",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Build (Bazel)",
+    "url": "https://careers.airbnb.com/positions/7739337?gh_jid=7739337"
+  },
+  "gh_7743369": {
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Logs Observability Pipelines ",
+    "url": "https://careers.datadoghq.com/detail/7743369/?gh_jid=7743369"
+  },
+  "gh_7745812": {
+    "company": "Okta",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Resiliency (Federal)",
+    "url": "https://www.okta.com/company/careers/opportunity/7745812?gh_jid=7745812"
+  },
+  "gh_7747259": {
+    "company": "Airbnb",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Machine Learning Engineer, Growth Platform Engineering",
+    "url": "https://careers.airbnb.com/positions/7747259?gh_jid=7747259"
+  },
+  "gh_7773776": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer (Platform - Identity IDV)",
+    "url": "https://www.coinbase.com/careers/positions/7773776?gh_jid=7773776"
+  },
+  "gh_7839280": {
+    "company": "Asana",
+    "location": "Vancouver, BC",
+    "source": "greenhouse",
+    "title": "IT Systems Engineer - Identity",
+    "url": "https://www.asana.com/jobs/apply/7839280?gh_jid=7839280"
+  },
+  "gh_7847431": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Core AI Infrastructure",
+    "url": "https://www.coinbase.com/careers/positions/7847431?gh_jid=7847431"
+  },
+  "gh_7866674": {
+    "company": "Coinbase",
+    "location": "Remote - Singapore",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Trading",
+    "url": "https://www.coinbase.com/careers/positions/7866674?gh_jid=7866674"
+  },
+  "gh_7874990": {
+    "company": "Datadog",
+    "location": "Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA",
+    "source": "greenhouse",
+    "title": "People Systems Developer",
+    "url": "https://careers.datadoghq.com/detail/7874990/?gh_jid=7874990"
+  },
+  "gh_7882009002": {
+    "company": "Databricks",
+    "location": "Remote - California",
+    "source": "greenhouse",
+    "title": "Staff Security Software Engineer, AI Security Engineering ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7882009002"
+  },
+  "gh_7898766002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Fullstack",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002"
+  },
+  "gh_7915330": {
+    "company": "MongoDB",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Query Execution",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=7915330"
+  },
+  "gh_7917002": {
+    "company": "Okta",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, AI-Core (Federal)",
+    "url": "https://www.okta.com/company/careers/opportunity/7917002?gh_jid=7917002"
+  },
+  "gh_7939868": {
+    "company": "Stripe",
+    "location": "San Francisco, Seattle",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Machine Learning Platform",
+    "url": "https://stripe.com/jobs/search?gh_jid=7939868"
+  },
+  "gh_7947560": {
+    "company": "MongoDB",
+    "location": "New York City; United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Storage Layer Services",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=7947560"
+  },
+  "gh_7959962": {
+    "company": "Datadog",
+    "location": "Dublin, Ireland; Madrid, Spain; Paris, France",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - REDAPL Graph Engine",
+    "url": "https://careers.datadoghq.com/detail/7959962/?gh_jid=7959962"
+  },
+  "gh_7961318": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer",
+    "url": "https://www.coinbase.com/careers/positions/7961318?gh_jid=7961318"
+  },
+  "gh_7961454": {
+    "company": "Asana",
+    "location": "Vancouver, BC",
+    "source": "greenhouse",
+    "title": "Software Engineer, Product",
+    "url": "https://www.asana.com/jobs/apply/7961454?gh_jid=7961454"
+  },
+  "gh_7964410": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Developer Infrastructure",
+    "url": "https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410"
+  },
+  "gh_7967649": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Blockchain Network",
+    "url": "https://www.coinbase.com/careers/positions/7967649?gh_jid=7967649"
+  },
+  "gh_7968154": {
+    "company": "Asana",
+    "location": "Vancouver, BC",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Web App Performance",
+    "url": "https://www.asana.com/jobs/apply/7968154?gh_jid=7968154"
+  },
+  "gh_7979523002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - User Activation",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7979523002"
+  },
+  "gh_7985840": {
+    "company": "Datadog",
+    "location": "California, USA, Remote; Nevada, USA, Remote; Texas, USA, Remote; Washington, USA, Remote",
+    "source": "greenhouse",
+    "title": "Senior Developer Advocate - Modern App Development",
+    "url": "https://careers.datadoghq.com/detail/7985840/?gh_jid=7985840"
+  },
+  "gh_7986004": {
+    "company": "Stripe",
+    "location": "Seattle, New York, San Francisco",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Payments Intelligence",
+    "url": "https://stripe.com/jobs/search?gh_jid=7986004"
+  },
+  "gh_7991691": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Core AI Infrastructure",
+    "url": "https://www.coinbase.com/careers/positions/7991691?gh_jid=7991691"
+  },
+  "gh_7993551": {
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Streaming Platform ",
+    "url": "https://careers.datadoghq.com/detail/7993551/?gh_jid=7993551"
+  },
+  "gh_7997840": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Backend (Consumer - Prediction Markets)",
+    "url": "https://www.coinbase.com/careers/positions/7997840?gh_jid=7997840"
+  },
+  "gh_8003605": {
+    "company": "Coinbase",
+    "location": "Charlotte, NC",
+    "source": "greenhouse",
+    "title": "Software Engineer",
+    "url": "https://www.coinbase.com/careers/positions/8003605?gh_jid=8003605"
+  },
+  "gh_8007589": {
+    "company": "Datadog",
+    "location": "Paris, France",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Security Agent",
+    "url": "https://careers.datadoghq.com/detail/8007589/?gh_jid=8007589"
+  },
+  "gh_8007606": {
+    "company": "Datadog",
+    "location": "Portugal, Remote",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Security Agent",
+    "url": "https://careers.datadoghq.com/detail/8007606/?gh_jid=8007606"
+  },
+  "gh_8015588": {
+    "company": "Datadog",
+    "location": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Nice, France; Paris, France; Sophia Antipolis, France",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - AI (EMEA)",
+    "url": "https://careers.datadoghq.com/detail/8015588/?gh_jid=8015588"
+  },
+  "gh_8021647": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer",
+    "url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647"
+  },
+  "gh_8021650": {
+    "company": "Coinbase",
+    "location": "Remote - Israel",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer",
+    "url": "https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650"
+  },
+  "gh_8024814": {
+    "company": "Coinbase",
+    "location": "Remote - Brazil",
+    "source": "greenhouse",
+    "title": "Software Engineer, Enterprise Apps",
+    "url": "https://www.coinbase.com/careers/positions/8024814?gh_jid=8024814"
+  },
+  "gh_8026511": {
+    "company": "Stripe",
+    "location": "South San Francisco, CA ",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer",
+    "url": "https://stripe.com/jobs/search?gh_jid=8026511"
+  },
+  "gh_8026634002": {
+    "company": "Databricks",
+    "location": "Remote - California",
+    "source": "greenhouse",
+    "title": "Staff Security Software Engineer, AI Security",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8026634002"
+  },
+  "gh_8029035": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Frontend (Consumer - Payments)",
+    "url": "https://www.coinbase.com/careers/positions/8029035?gh_jid=8029035"
+  },
+  "gh_8032546002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Customer Engagement & Docs Platform",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8032546002"
+  },
+  "gh_8035492": {
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Streaming Platform Client",
+    "url": "https://careers.datadoghq.com/detail/8035492/?gh_jid=8035492"
+  },
+  "gh_8035679": {
+    "company": "Cloudflare",
+    "location": "Austin, TX, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, People Ops and AI Tools",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8035679?gh_jid=8035679"
+  },
+  "gh_8039548": {
+    "company": "Stripe",
+    "location": "US",
+    "source": "greenhouse",
+    "title": "Full Stack Engineer, Support Experience (Greater China Support)",
+    "url": "https://stripe.com/jobs/search?gh_jid=8039548"
+  },
+  "gh_8039723": {
+    "company": "Airbnb",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Host Pricing & Settings",
+    "url": "https://careers.airbnb.com/positions/8039723?gh_jid=8039723"
+  },
+  "gh_8051871": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend - Platform (Core AI Automation)",
+    "url": "https://www.coinbase.com/careers/positions/8051871?gh_jid=8051871"
+  },
+  "gh_8053199": {
+    "company": "Okta",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Backend Engineer, Identity Threat Protection ",
+    "url": "https://www.okta.com/company/careers/opportunity/8053199?gh_jid=8053199"
+  },
+  "gh_8055701": {
+    "company": "Stripe",
+    "location": "San Francisco, Seattle",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, API Platform",
+    "url": "https://stripe.com/jobs/search?gh_jid=8055701"
+  },
+  "gh_8056068": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Payments",
+    "url": "https://www.coinbase.com/careers/positions/8056068?gh_jid=8056068"
+  },
+  "gh_8064873": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Data Layer",
+    "url": "https://www.coinbase.com/careers/positions/8064873?gh_jid=8064873"
+  },
+  "gh_8064889": {
+    "company": "Okta",
+    "location": "Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC",
+    "source": "greenhouse",
+    "title": "Staff Platform Engineer (FedRAMP)",
+    "url": "https://www.okta.com/company/careers/opportunity/8064889?gh_jid=8064889"
+  },
+  "gh_8064916": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Backend - FinHub (Ledger)",
+    "url": "https://www.coinbase.com/careers/positions/8064916?gh_jid=8064916"
+  },
+  "gh_8065483": {
+    "company": "MongoDB",
+    "location": "Atlanta; Austin; Baltimore; Boston; Charlotte; Chicago; Columbus; Dallas; Miami; Nashville; New York City; Philadelphia; Pittsburgh; Princeton; Raleigh; Tysons; Washington DC",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8065483"
+  },
+  "gh_8067033": {
+    "company": "Coinbase",
+    "location": "Remote - Singapore",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Consumer",
+    "url": "https://www.coinbase.com/careers/positions/8067033?gh_jid=8067033"
+  },
+  "gh_8070574": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Software Engineer, Frontend (Coinbase Advisor - Agentic Trading)",
+    "url": "https://www.coinbase.com/careers/positions/8070574?gh_jid=8070574"
+  },
+  "gh_8074897": {
+    "company": "Airbnb",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Backend Engineer - Ads Platform",
+    "url": "https://careers.airbnb.com/positions/8074897?gh_jid=8074897"
+  },
+  "gh_8076151": {
+    "company": "Stripe",
+    "location": "San Francisco",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Dashboard",
+    "url": "https://stripe.com/jobs/search?gh_jid=8076151"
+  },
+  "gh_8078019": {
+    "company": "Airbnb",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Backend Engineer, Host Pricing & Availability",
+    "url": "https://careers.airbnb.com/positions/8078019?gh_jid=8078019"
+  },
+  "gh_8081477": {
+    "company": "Datadog",
+    "location": "Bordeaux, France; Lyon, France; Madrid, Spain; Nantes, France; Paris, France; Sophia Antipolis, France",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Security Libraries",
+    "url": "https://careers.datadoghq.com/detail/8081477/?gh_jid=8081477"
+  },
+  "gh_8081732": {
+    "company": "Okta",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Core Infrastructure ",
+    "url": "https://www.okta.com/company/careers/opportunity/8081732?gh_jid=8081732"
+  },
+  "gh_8081945": {
+    "company": "MongoDB",
+    "location": "San Francisco",
+    "source": "greenhouse",
+    "title": " Senior Software Engineer, Search Deployments Infrastructure ",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8081945"
+  },
+  "gh_8082199": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Data Engineering Platform",
+    "url": "https://www.coinbase.com/careers/positions/8082199?gh_jid=8082199"
+  },
+  "gh_8084470": {
+    "company": "Asana",
+    "location": "San Francisco",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Infrastructure Security",
+    "url": "https://www.asana.com/jobs/apply/8084470?gh_jid=8084470"
+  },
+  "gh_8088201": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Frontend - Coinbase Card team",
+    "url": "https://www.coinbase.com/careers/positions/8088201?gh_jid=8088201"
+  },
+  "gh_8088588": {
+    "company": "Asana",
+    "location": "San Francisco",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Security Development",
+    "url": "https://www.asana.com/jobs/apply/8088588?gh_jid=8088588"
+  },
+  "gh_8089031": {
+    "company": "Cloudflare",
+    "location": "Austin, TX, United States",
+    "source": "greenhouse",
+    "title": "Systems Engineer, Product Platform Tools",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8089031?gh_jid=8089031"
+  },
+  "gh_8089124": {
+    "company": "MongoDB",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Software Engineer 3",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8089124"
+  },
+  "gh_8089353": {
+    "company": "Stripe",
+    "location": "US - Remote",
+    "source": "greenhouse",
+    "title": "Software Engineer, Vulnerability Management",
+    "url": "https://stripe.com/jobs/search?gh_jid=8089353"
+  },
+  "gh_8092973": {
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Systems Engineer 2, Technical Solutions (US-East)",
+    "url": "https://careers.datadoghq.com/detail/8092973/?gh_jid=8092973"
+  },
+  "gh_8094106": {
+    "company": "Datadog",
+    "location": "San Francisco, California, USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Corporate Development",
+    "url": "https://careers.datadoghq.com/detail/8094106/?gh_jid=8094106"
+  },
+  "gh_8094111": {
+    "company": "Datadog",
+    "location": "Paris, France",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Incident Insights & Readiness",
+    "url": "https://careers.datadoghq.com/detail/8094111/?gh_jid=8094111"
+  },
+  "gh_8095166": {
+    "company": "Datadog",
+    "location": "Atlanta, Georgia, USA; Boston, Massachusetts, USA; New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Bazel Tools",
+    "url": "https://careers.datadoghq.com/detail/8095166/?gh_jid=8095166"
+  },
+  "gh_8095252": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend - Platform (Tokens & Wrapped Assets)",
+    "url": "https://www.coinbase.com/careers/positions/8095252?gh_jid=8095252"
+  },
+  "gh_8095365": {
+    "company": "Airbnb",
+    "location": "Remote, USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Marketing Technology",
+    "url": "https://careers.airbnb.com/positions/8095365?gh_jid=8095365"
+  },
+  "gh_8100066": {
+    "company": "Coinbase",
+    "location": "Remote - Brazil",
+    "source": "greenhouse",
+    "title": "Software Engineer, EAA ",
+    "url": "https://www.coinbase.com/careers/positions/8100066?gh_jid=8100066"
+  },
+  "gh_8102624": {
+    "company": "Datadog",
+    "location": "Paris, France",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Action Platform",
+    "url": "https://careers.datadoghq.com/detail/8102624/?gh_jid=8102624"
+  },
+  "gh_8103045": {
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Social Media Lead, Developer Audience",
+    "url": "https://careers.datadoghq.com/detail/8103045/?gh_jid=8103045"
+  },
+  "gh_8103569": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Simple Trade Experience",
+    "url": "https://www.coinbase.com/careers/positions/8103569?gh_jid=8103569"
+  },
+  "gh_8104873": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Stablecoins",
+    "url": "https://www.coinbase.com/careers/positions/8104873?gh_jid=8104873"
+  },
+  "gh_8105372": {
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Corporate Development",
+    "url": "https://careers.datadoghq.com/detail/8105372/?gh_jid=8105372"
+  },
+  "gh_8105437": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Blockchain Platform Nodes",
+    "url": "https://www.coinbase.com/careers/positions/8105437?gh_jid=8105437"
+  },
+  "gh_8107302": {
+    "company": "Stripe",
+    "location": "South San Francisco, California",
+    "source": "greenhouse",
+    "title": "Software Engineer, Sending",
+    "url": "https://stripe.com/jobs/search?gh_jid=8107302"
+  },
+  "gh_8108855": {
+    "company": "Okta",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Agent Gateway",
+    "url": "https://www.okta.com/company/careers/opportunity/8108855?gh_jid=8108855"
+  },
+  "gh_8114877": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer (Platform - Access & Authorization)",
+    "url": "https://www.coinbase.com/careers/positions/8114877?gh_jid=8114877"
+  },
+  "gh_8119841": {
+    "company": "MongoDB",
+    "location": "New York City; United States",
+    "source": "greenhouse",
+    "title": "Software Engineer 3, Networking & Observability",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8119841"
+  },
+  "gh_8130787": {
+    "company": "Airbnb",
+    "location": "Remote - US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Payments Compliance",
+    "url": "https://careers.airbnb.com/positions/8130787?gh_jid=8130787"
+  },
+  "gh_8130817": {
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Passport & Commerce (Backend)",
+    "url": "https://careers.airbnb.com/positions/8130817?gh_jid=8130817"
+  },
+  "gh_8138002": {
+    "company": "Airbnb",
+    "location": "Remote, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Payments Platform ",
+    "url": "https://careers.airbnb.com/positions/8138002?gh_jid=8138002"
+  },
+  "gh_8138069": {
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Community Support Engineering (Frontend)",
+    "url": "https://careers.airbnb.com/positions/8138069?gh_jid=8138069"
+  },
+  "gh_8139374": {
+    "company": "Okta",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Frontend Agentic AI ",
+    "url": "https://www.okta.com/company/careers/opportunity/8139374?gh_jid=8139374"
+  },
+  "gh_8139662": {
+    "company": "Datadog",
+    "location": "California, USA, Remote; New York, USA, Remote",
+    "source": "greenhouse",
+    "title": "Developer Advocate - Service Management",
+    "url": "https://careers.datadoghq.com/detail/8139662/?gh_jid=8139662"
+  },
+  "gh_8142764": {
+    "company": "Stripe",
+    "location": "San Francisco, NYC",
+    "source": "greenhouse",
+    "title": "Full Stack Engineer, Bridge",
+    "url": "https://stripe.com/jobs/search?gh_jid=8142764"
+  },
+  "gh_8144769": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": " Staff Infrastructure Engineer, Trading ",
+    "url": "https://www.coinbase.com/careers/positions/8144769?gh_jid=8144769"
+  },
+  "gh_8146039": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer (Platform - Access & Authorization)",
+    "url": "https://www.coinbase.com/careers/positions/8146039?gh_jid=8146039"
+  },
+  "gh_8146265": {
+    "company": "Airbnb",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Software Engineer, Payments",
+    "url": "https://careers.airbnb.com/positions/8146265?gh_jid=8146265"
+  },
+  "gh_8154739": {
+    "company": "Airbnb",
+    "location": "USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Service Tools",
+    "url": "https://careers.airbnb.com/positions/8154739?gh_jid=8154739"
+  },
+  "gh_8154983": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Backend - Platform (Core AI Automation)",
+    "url": "https://www.coinbase.com/careers/positions/8154983?gh_jid=8154983"
+  },
+  "gh_8160557": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Compute Platform (Routing)",
+    "url": "https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557"
+  },
+  "gh_8202698002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - GenAI inference",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8202698002"
+  },
+  "gh_8202700002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - GenAI Performance and Kernel",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8202700002"
+  },
+  "gh_8211647002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Model Serving ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211647002"
+  },
+  "gh_8211648002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Model Serving",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211648002"
+  },
+  "gh_8224683002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Foundational Model Serving",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8224683002"
+  },
+  "gh_8303014002": {
+    "company": "Databricks",
+    "location": "Aarhus, Denmark",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer - Delta",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002"
+  },
+  "gh_8367019002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Backend Software Engineer- (AI Platform)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367019002"
+  },
+  "gh_8416951002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Sr Software Engineer- Customer Experience Intelligence (CXI)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8416951002"
+  },
+  "gh_8416959002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer \u2013 Customer Experience Intelligence (CXI)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8416959002"
+  },
+  "gh_8422484002": {
+    "company": "Databricks",
+    "location": "Aarhus, Denmark",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422484002"
+  },
+  "gh_8428818002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Sr. Developer Advocate - Neon",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8428818002"
+  },
+  "gh_8430182002": {
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Product Data Platform",
+    "url": "https://www.brex.com/careers/8430182002?gh_jid=8430182002"
+  },
+  "gh_8430197002": {
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Product Data Platform",
+    "url": "https://www.brex.com/careers/8430197002?gh_jid=8430197002"
+  },
+  "gh_8459783002": {
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Backend",
+    "url": "https://www.brex.com/careers/8459783002?gh_jid=8459783002"
+  },
+  "gh_8461333002": {
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend (Product Engineering) ",
+    "url": "https://www.brex.com/careers/8461333002?gh_jid=8461333002"
+  },
+  "gh_8461469002": {
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend (Product Engineering) ",
+    "url": "https://www.brex.com/careers/8461469002?gh_jid=8461469002"
+  },
+  "gh_8465003002": {
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend (Product Engineering)",
+    "url": "https://www.brex.com/careers/8465003002?gh_jid=8465003002"
+  },
+  "gh_8472633002": {
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Full Stack",
+    "url": "https://www.brex.com/careers/8472633002?gh_jid=8472633002"
+  },
+  "gh_8472634002": {
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Full Stack",
+    "url": "https://www.brex.com/careers/8472634002?gh_jid=8472634002"
+  },
+  "gh_8472635002": {
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Full Stack",
+    "url": "https://www.brex.com/careers/8472635002?gh_jid=8472635002"
+  },
+  "gh_8482037002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Systems PhD - Software Engineer ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002"
+  },
+  "gh_8493002002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer - Lakeflow Pipelines Datasets",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8493002002"
+  },
+  "gh_8493170002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Sr Software Engineer, Infrastructure",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8493170002"
+  },
+  "gh_8515648002": {
+    "company": "Pendo (Raleigh HQ)",
+    "location": "Raleigh, NC",
+    "source": "greenhouse",
+    "title": "Sr. Software Engineer (Backend)",
+    "url": "https://job-boards.greenhouse.io/pendo/jobs/8515648002"
+  },
+  "gh_8523177002": {
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Forward Deployed Agent Builder",
+    "url": "https://www.brex.com/careers/8523177002?gh_jid=8523177002"
+  },
+  "gh_8523203002": {
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Forward Deployed Agent Builder",
+    "url": "https://www.brex.com/careers/8523203002?gh_jid=8523203002"
+  },
+  "gh_8523205002": {
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Forward Deployed Agent Builder",
+    "url": "https://www.brex.com/careers/8523205002?gh_jid=8523205002"
+  },
+  "gh_8532682002": {
+    "company": "Databricks",
+    "location": "New York City, New York; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - AI Research Infrastructure",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8532682002"
+  },
+  "gh_8536424002": {
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Backend",
+    "url": "https://www.brex.com/careers/8536424002?gh_jid=8536424002"
+  },
+  "gh_8552484002": {
+    "company": "Databricks",
+    "location": "New York City, New York; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - AI Research Infrastructure",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8552484002"
+  },
+  "gh_8556371002": {
+    "company": "Databricks",
+    "location": "Paris, France",
+    "source": "greenhouse",
+    "title": "Senior Forward Deployed Engineer - Full stack, FDE",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8556371002"
+  },
+  "gh_8575248002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Sr. Staff Software Engineer \u2014 Observability, Insights & Governance",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575248002"
+  },
+  "gh_8582271002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, AI Runtime",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8582271002"
+  },
+  "gh_8582276002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, AI Runtime",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8582276002"
+  },
+  "gh_8584144002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer- CXI",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8584144002"
+  },
+  "gh_8605062002": {
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Data Enablement Platform",
+    "url": "https://www.brex.com/careers/8605062002?gh_jid=8605062002"
+  },
+  "gh_8605070002": {
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": " Senior Software Engineer, Data Enablement Platform",
+    "url": "https://www.brex.com/careers/8605070002?gh_jid=8605070002"
+  },
+  "gh_8605074002": {
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Data Enablement Platform",
+    "url": "https://www.brex.com/careers/8605074002?gh_jid=8605074002"
+  },
+  "gh_8612473002": {
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Banking",
+    "url": "https://www.brex.com/careers/8612473002?gh_jid=8612473002"
+  },
+  "gh_8617113002": {
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Release Infra ",
+    "url": "https://www.brex.com/careers/8617113002?gh_jid=8617113002"
+  },
+  "gh_8617115002": {
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Release Infra ",
+    "url": "https://www.brex.com/careers/8617115002?gh_jid=8617115002"
+  },
+  "gh_8617901002": {
+    "company": "Databricks",
+    "location": "Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Sr Software Engineer- CXI",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8617901002"
+  },
+  "gh_8618069002": {
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Banking",
+    "url": "https://www.brex.com/careers/8618069002?gh_jid=8618069002"
+  },
+  "gh_8618076002": {
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Banking",
+    "url": "https://www.brex.com/careers/8618076002?gh_jid=8618076002"
+  },
+  "gh_8623289002": {
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Travel & Expense",
+    "url": "https://www.brex.com/careers/8623289002?gh_jid=8623289002"
+  },
+  "gh_8635331002": {
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Travel & Expense",
+    "url": "https://www.brex.com/careers/8635331002?gh_jid=8635331002"
+  },
+  "gh_8635339002": {
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Travel & Expense",
+    "url": "https://www.brex.com/careers/8635339002?gh_jid=8635339002"
+  },
+  "gh_8637143002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Foundation Model Inference ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637143002"
+  },
+  "gh_8649279002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer- Foundation Model Inference",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8649279002"
+  },
+  "gh_8716187002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Sr. Developer Advocate, Open Source \u2014 Omnigent",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8716187002"
+  },
+  "gh_8716192002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Sr. Developer Advocate, AI and Machine Learning",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8716192002"
+  },
+  "gh_8728254002": {
+    "company": "Pendo (Raleigh HQ)",
+    "location": "Raleigh, NC",
+    "source": "greenhouse",
+    "title": "Software Engineer, Full Stack",
+    "url": "https://job-boards.greenhouse.io/pendo/jobs/8728254002"
+  },
+  "lever_98b81271-9e15-40b7-8dce-0c62f24702f9": {
+    "company": "Palantir",
+    "location": "Vilnius, Lithuania",
+    "source": "lever",
+    "title": "Forward Deployed Software Engineer",
+    "url": "https://jobs.lever.co/palantir/98b81271-9e15-40b7-8dce-0c62f24702f9"
+  },
+  "lever_ce20af4c-4de3-4079-bbdf-bc30a2e25404": {
+    "company": "Palantir",
+    "location": "Paris, France",
+    "source": "lever",
+    "title": "Edge Infrastructure Engineer",
+    "url": "https://jobs.lever.co/palantir/ce20af4c-4de3-4079-bbdf-bc30a2e25404"
+  },
+  "lever_d83fac1c-353e-4b77-a586-3276b1090b6e": {
+    "company": "Palantir",
+    "location": "Fayetteville, NC",
+    "source": "lever",
+    "title": "Forward Deployed Software Engineer - US Government",
+    "url": "https://jobs.lever.co/palantir/d83fac1c-353e-4b77-a586-3276b1090b6e"
+  },
+  "wd_visa__job_US---Austin-TX_Senior-Software-Engineer--Power-Platform--Copilot-Studio--Azure_REF087684W": {
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Senior Software Engineer, Power Platform, Copilot Studio, Azure",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Senior-Software-Engineer--Power-Platform--Copilot-Studio--Azure_REF087684W"
+  },
+  "wd_visa__job_US---Austin-TX_Software-Engineer---Sr-Consultant-level-1_REF083066W": {
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Software Engineer - Sr. Consultant level-1",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer---Sr-Consultant-level-1_REF083066W"
+  },
+  "wd_visa__job_US---Austin-TX_Staff-SW-Engineer_REF072113W": {
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Staff SW Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Staff-SW-Engineer_REF072113W"
+  },
+  "wd_visa__job_US---Foster-City-CA_Lead-Software-Engineer_REF083345W": {
+    "company": "Visa",
+    "location": "US - Foster City, CA",
+    "source": "workday",
+    "title": "Lead Software Engineer \u2013 Cloud Native Platforms (GCP)",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Lead-Software-Engineer_REF083345W"
+  }
+}

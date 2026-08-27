@@ -1,0 +1,150 @@
+{
+  "pendo": {
+    "type": "greenhouse",
+    "slug": "pendo",
+    "display_name": "Pendo (Raleigh HQ)"
+  },
+  "redhat": {
+    "type": "workday",
+    "domain": "redhat.wd5.myworkdayjobs.com",
+    "tenant": "redhat",
+    "career_site": "jobs",
+    "display_name": "Red Hat (Raleigh HQ)"
+  },
+  "epicgames": {
+    "type": "lever",
+    "slug": "epicgames",
+    "display_name": "Epic Games (Cary HQ)"
+  },
+  "cisco": {
+    "type": "workday",
+    "domain": "cisco.wd1.myworkdayjobs.com",
+    "tenant": "cisco",
+    "career_site": "Cisco_Careers",
+    "display_name": "Cisco (RTP Campus)"
+  },
+  "lenovo": {
+    "type": "workday",
+    "domain": "lenovo.wd3.myworkdayjobs.com",
+    "tenant": "lenovo",
+    "career_site": "External",
+    "display_name": "Lenovo (Morrisville HQ)"
+  },
+  "stripe": {
+    "type": "greenhouse",
+    "slug": "stripe",
+    "display_name": "Stripe"
+  },
+  "databricks": {
+    "type": "greenhouse",
+    "slug": "databricks",
+    "display_name": "Databricks"
+  },
+  "cloudflare": {
+    "type": "greenhouse",
+    "slug": "cloudflare",
+    "display_name": "Cloudflare"
+  },
+  "palantir": {
+    "type": "lever",
+    "slug": "palantir",
+    "display_name": "Palantir"
+  },
+  "netflix": {
+    "type": "lever",
+    "slug": "netflix",
+    "display_name": "Netflix"
+  },
+  "nvidia": {
+    "type": "workday",
+    "domain": "nvidia.wd5.myworkdayjobs.com",
+    "tenant": "nvidia",
+    "career_site": "NVIDIAExternalCareerSite",
+    "display_name": "NVIDIA"
+  },
+  "salesforce": {
+    "type": "workday",
+    "domain": "salesforce.wd1.myworkdayjobs.com",
+    "tenant": "salesforce",
+    "career_site": "External_Career_Site",
+    "display_name": "Salesforce"
+  },
+  "ibm": {
+    "type": "workday",
+    "domain": "ibm.wd5.myworkdayjobs.com",
+    "tenant": "ibm",
+    "career_site": "External",
+    "display_name": "IBM (RTP Campus)"
+  },
+  "figma": {
+    "type": "greenhouse",
+    "slug": "figma",
+    "display_name": "Figma"
+  },
+  "datadog": {
+    "type": "greenhouse",
+    "slug": "datadog",
+    "display_name": "Datadog"
+  },
+  "mongodb": {
+    "type": "greenhouse",
+    "slug": "mongodb",
+    "display_name": "MongoDB"
+  },
+  "atlassian": {
+    "type": "lever",
+    "slug": "atlassian",
+    "display_name": "Atlassian"
+  },
+  "airbnb": {
+    "type": "greenhouse",
+    "slug": "airbnb",
+    "display_name": "Airbnb"
+  },
+  "asana": {
+    "type": "greenhouse",
+    "slug": "asana",
+    "display_name": "Asana"
+  },
+  "brex": {
+    "type": "greenhouse",
+    "slug": "brex",
+    "display_name": "Brex"
+  },
+  "coinbase": {
+    "type": "greenhouse",
+    "slug": "coinbase",
+    "display_name": "Coinbase"
+  },
+  "duolingo": {
+    "type": "greenhouse",
+    "slug": "duolingo",
+    "display_name": "Duolingo"
+  },
+  "hubspot": {
+    "type": "greenhouse",
+    "slug": "hubspot",
+    "display_name": "HubSpot"
+  },
+  "okta": {
+    "type": "greenhouse",
+    "slug": "okta",
+    "display_name": "Okta"
+  },
+  "adobe": {
+    "type": "workday",
+    "domain": "adobe.wd5.myworkdayjobs.com",
+    "tenant": "adobe",
+    "career_site": "external_experienced",
+    "display_name": "Adobe"
+  },
+  "visa": {
+    "type": "workday",
+    "domain": "visa.wd5.myworkdayjobs.com",
+    "tenant": "visa",
+    "career_site": "visa",
+    "search_text": "software engineer",
+    "limit": 20,
+    "display_name": "Visa"
+  }
+}

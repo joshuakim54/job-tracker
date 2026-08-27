@@ -8,116 +8,22 @@ import requests
 # ==========================================
 # Reads webhook from GitHub Actions secrets or local environment variable
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "YOUR_DISCORD_WEBHOOK_URL_HERE")
-HISTORY_FILE = "seen_jobs.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+HISTORY_FILE = os.path.join(BASE_DIR, "seen_jobs.json")
+COMPANIES_FILE = os.path.join(BASE_DIR, "companies.json")
 
-TARGET_COMPANIES = {
-    # ----------------------------------------------------
-    # 1. LOCAL RALEIGH / DURHAM / RTP TECH HUBS
-    # ----------------------------------------------------
-    "pendo": {
-        "type": "greenhouse",
-        "slug": "pendo",
-        "display_name": "Pendo (Raleigh HQ)",
-    },
-    "redhat": {
-        "type": "workday",
-        "domain": "redhat.wd5.myworkdayjobs.com",
-        "tenant": "redhat",
-        "career_site": "jobs",
-        "display_name": "Red Hat (Raleigh HQ)",
-    },
-    "epicgames": {
-        "type": "lever",
-        "slug": "epicgames",
-        "display_name": "Epic Games (Cary HQ)",
-    },
-    "cisco": {
-        "type": "workday",
-        "domain": "cisco.wd1.myworkdayjobs.com",
-        "tenant": "cisco",
-        "career_site": "Cisco_Careers",
-        "display_name": "Cisco (RTP Campus)",
-    },
-    "lenovo": {
-        "type": "workday",
-        "domain": "lenovo.wd3.myworkdayjobs.com",
-        "tenant": "lenovo",
-        "career_site": "External",
-        "display_name": "Lenovo (Morrisville HQ)",
-    },
-    # ----------------------------------------------------
-    # 2. TECH & INFRASTRUCTURE GIANTS (US Remote / RTP Hubs)
-    # ----------------------------------------------------
-    "stripe": {
-        "type": "greenhouse",
-        "slug": "stripe",
-        "display_name": "Stripe",
-    },
-    "databricks": {
-        "type": "greenhouse",
-        "slug": "databricks",
-        "display_name": "Databricks",
-    },
-    "cloudflare": {
-        "type": "greenhouse",
-        "slug": "cloudflare",
-        "display_name": "Cloudflare",
-    },
-    "palantir": {
-        "type": "lever",
-        "slug": "palantir",
-        "display_name": "Palantir",
-    },
-    "netflix": {
-        "type": "lever",
-        "slug": "netflix",
-        "display_name": "Netflix",
-    },
-    "nvidia": {
-        "type": "workday",
-        "domain": "nvidia.wd5.myworkdayjobs.com",
-        "tenant": "nvidia",
-        "career_site": "NVIDIAExternalCareerSite",
-        "display_name": "NVIDIA",
-    },
-    "salesforce": {
-        "type": "workday",
-        "domain": "salesforce.wd1.myworkdayjobs.com",
-        "tenant": "salesforce",
-        "career_site": "External_Career_Site",
-        "display_name": "Salesforce",
-    },
-    "ibm": {
-        "type": "workday",
-        "domain": "ibm.wd5.myworkdayjobs.com",
-        "tenant": "ibm",
-        "career_site": "External",
-        "display_name": "IBM (RTP Campus)",
-    },
-    # ----------------------------------------------------
-    # 3. HIGH-GROWTH UNICORNS & DEVELOPER TOOLS (US Remote)
-    # ----------------------------------------------------
-    "figma": {
-        "type": "greenhouse",
-        "slug": "figma",
-        "display_name": "Figma",
-    },
-    "datadog": {
-        "type": "greenhouse",
-        "slug": "datadog",
-        "display_name": "Datadog",
-    },
-    "mongodb": {
-        "type": "greenhouse",
-        "slug": "mongodb",
-        "display_name": "MongoDB",
-    },
-    "atlassian": {
-        "type": "lever",
-        "slug": "atlassian",
-        "display_name": "Atlassian",
-    },
-}
+
+def load_target_companies():
+    with open(COMPANIES_FILE, "r", encoding="utf-8") as f:
+        companies = json.load(f)
+
+    if not isinstance(companies, dict):
+        raise ValueError("companies.json must contain an object of company configurations")
+
+    return companies
+
+
+TARGET_COMPANIES = load_target_companies()
 
 # ==========================================
 # TARGETING PARAMETERS
@@ -127,6 +33,7 @@ TITLE_INCLUDE = [
     "software engineer",
     "software development engineer",
     "sde",
+    "sw engineer",
     "backend",
     "frontend",
     "full stack",
@@ -166,8 +73,9 @@ LOCATION_INCLUDE = [
     "nc",
     "north carolina",
     "remote",
-    "us",
     "united states",
+    "usa",
+    "us -",
     "anywhere",
 ]
 
@@ -183,6 +91,11 @@ LOCATION_EXCLUDE = [
     "germany",
     "japan",
     "australia",
+    "paris",
+    "france",
+    "lithuania",
+    "china",
+    "denmark"
 ]
 
 
@@ -273,7 +186,12 @@ def fetch_workday_jobs(company_key, config):
     display_name = config.get("display_name", company_key.capitalize())
 
     url = f"https://{domain}/wday/cxs/{tenant}/{career_site}/jobs"
-    payload = {"appliedFacets": {}, "limit": 50, "offset": 0, "searchText": ""}
+    payload = {
+        "appliedFacets": {},
+        "limit": config.get("limit", 50),
+        "offset": 0,
+        "searchText": config.get("search_text", ""),
+    }
     headers = {
         "Content-Type": "application/json",
         "Accept": "application/json",
@@ -312,7 +230,7 @@ def send_discord_alert(job):
     """Sends a rich formatted embed message to Discord with rate-limit retry support."""
     if not DISCORD_WEBHOOK_URL or DISCORD_WEBHOOK_URL == "YOUR_DISCORD_WEBHOOK_URL_HERE":
         print("❌ ERROR: DISCORD_WEBHOOK_URL is not configured!")
-        return
+        return False
 
     payload = {
         "username": "SWE Job Alert Bot",
@@ -339,7 +257,7 @@ def send_discord_alert(job):
             if res.status_code in (200, 204):
                 print(f"✅ Discord alert sent: [{job['company']}] {job['title']}")
                 time.sleep(0.5)  # Short pause between posts to stay under 5 req/sec
-                return
+                return True
 
             # Rate limited
             elif res.status_code == 429:
@@ -350,11 +268,13 @@ def send_discord_alert(job):
 
             else:
                 print(f"❌ Discord error HTTP {res.status_code}: {res.text}")
-                return
+                return False
 
         except Exception as e:
             print(f"❌ Discord exception: {e}")
-            return
+            return False
+
+    return False
 
 # ==========================================
 # STATE MANAGEMENT & MAIN LOOP
@@ -363,15 +283,30 @@ def load_seen_jobs():
     if os.path.exists(HISTORY_FILE):
         with open(HISTORY_FILE, "r") as f:
             try:
-                return set(json.load(f))
+                data = json.load(f)
+                if isinstance(data, list):
+                    return {job_id: {} for job_id in data}
+                if isinstance(data, dict):
+                    return data
+                return {}
             except json.JSONDecodeError:
-                return set()
-    return set()
+                return {}
+    return {}
 
 
 def save_seen_jobs(seen_ids):
-    with open(HISTORY_FILE, "w") as f:
-        json.dump(list(seen_ids), f)
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(seen_ids, f, indent=2, sort_keys=True)
+
+
+def get_job_metadata(job, source):
+    return {
+        "company": job["company"],
+        "title": job["title"],
+        "location": job["location"],
+        "url": job["url"],
+        "source": source,
+    }
 
 
 def main():
@@ -379,6 +314,7 @@ def main():
     print(f"Starting job search... (Loaded {len(seen_ids)} previously seen job IDs)")
 
     new_jobs_found = []
+    pending_ids = set()
 
     for company_key, config in TARGET_COMPANIES.items():
         board_type = config.get("type")
@@ -397,18 +333,23 @@ def main():
 
         for job in jobs:
             if job["id"] in seen_ids:
+                if not seen_ids[job["id"]]:
+                    seen_ids[job["id"]] = get_job_metadata(job, board_type)
                 continue
 
             if not is_matching_job(job):
                 continue
 
-            new_jobs_found.append(job)
-            seen_ids.add(job["id"])
+            if job["id"] not in pending_ids:
+                new_jobs_found.append((job, board_type))
+                pending_ids.add(job["id"])
 
     print(f"\nFound {len(new_jobs_found)} new matching role(s). Dispatching alerts...")
 
-    for job in new_jobs_found:
-        send_discord_alert(job)
+    for job, board_type in new_jobs_found:
+        if send_discord_alert(job):
+            seen_ids[job["id"]] = get_job_metadata(job, board_type)
+            save_seen_jobs(seen_ids)
 
     save_seen_jobs(seen_ids)
     print("Job check completed successfully!")
