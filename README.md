@@ -2,7 +2,7 @@ Hi my name is Josh. I built a job tracker specifically for software engineering 
 
 ## Streamlit GUI
 
-The browser-based search interface is in `app.py`. It lets you search selected company career sites with custom role, location, include, and exclude terms.
+The browser-based search interface is in `app.py`. It lets you search selected company career sites with custom role, location, and required terms, plus selectable experience levels: internships, new grads, experienced, and seniors.
 
 Run it locally with:
 
@@ -13,4 +13,4 @@ streamlit run app.py
 
 To publish it, push the repository to GitHub and deploy it from [Streamlit Community Cloud](https://share.streamlit.io/). Select `app.py` as the main file and `requirements.txt` will be installed automatically. GitHub Pages cannot run this Python app.
 
-For internships, enter `internship` in **Role keywords** and remove `intern` or `internship` from **Exclude** if either is present.
+The experience selector maps titles automatically. Senior roles include titles containing `senior`, `staff`, `principal`, `lead`, `distinguished`, or `architect`.

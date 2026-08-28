@@ -7,6 +7,13 @@ from job_monitor import (
     fetch_workday_jobs,
 )
 
+
+EXPERIENCE_LEVEL_TERMS = {
+    "Internships": ["intern", "internship", "co-op", "coop"],
+    "New grads": ["new grad", "new graduate", "university grad", "entry level", "entry-level", "junior"],
+    "Seniors": ["senior", "staff", "principal", "lead", "distinguished", "architect"],
+}
+
 st.set_page_config(
     page_title="Career Signal",
     page_icon="🔎",
@@ -16,15 +23,18 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    .stApp { background: #f4f1ea; }
-    [data-testid="stHeader"] { background: rgba(244, 241, 234, 0.9); }
+    .stApp { background: #0d1919; }
+    [data-testid="stHeader"] { background: rgba(13, 25, 25, 0.9); }
+    [data-testid="stSidebar"] { background: #122222; }
     .hero { padding: 1.5rem 0 1rem; }
-    .eyebrow { color: #b24c2f; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
-    .hero h1 { color: #183b3b; font-family: Georgia, serif; font-size: 3.2rem; margin: 0.2rem 0; }
-    .hero p { color: #53605c; font-size: 1.05rem; margin: 0; }
-    .result { background: #fffdf8; border-left: 4px solid #d9794f; border-radius: 3px; padding: 1rem 1.2rem; margin: 0.6rem 0; box-shadow: 0 2px 8px rgba(24, 59, 59, 0.07); }
-    .result h3 { color: #183b3b; margin: 0 0 0.35rem; font-size: 1.05rem; }
-    .meta { color: #68736d; font-size: 0.88rem; }
+    .eyebrow { color: #f08a61; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+    .hero h1 { color: #e8f1ed; font-family: Georgia, serif; font-size: 3.2rem; margin: 0.2rem 0; }
+    .hero p { color: #b5c7c1; font-size: 1.05rem; margin: 0; }
+    .results-heading { color: #e8f1ed; font-family: Georgia, serif; font-size: 1.45rem; font-weight: 700; margin: 1.8rem 0 0.8rem; }
+    .result { background: #172929; border-left: 4px solid #f08a61; border-radius: 3px; padding: 1rem 1.2rem; margin: 0.6rem 0; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.22); }
+    .result h3 { color: #e8f1ed; margin: 0 0 0.35rem; font-size: 1.05rem; }
+    .result a { color: #ffad86; }
+    .meta { color: #b5c7c1; font-size: 0.88rem; }
     </style>
     """,
     unsafe_allow_html=True,
@@ -49,9 +59,11 @@ with st.sidebar:
         value="",
         help="Optional terms that must appear in the title or location.",
     )
-    exclude_terms = st.text_input(
-        "Exclude",
-        value="senior, principal, staff, manager, director",
+    experience_levels = st.multiselect(
+        "Experience level",
+        options=["Internships", "New grads", "Experienced", "Seniors"],
+        default=["Experienced"],
+        help="Choose one or more groups. Senior-level roles include senior, staff, principal, lead, and architect titles.",
     )
     location_terms = st.text_input(
         "Locations",
@@ -70,14 +82,26 @@ def split_terms(value):
     return [term.strip().lower() for term in value.split(",") if term.strip()]
 
 
-def matches(job, role_filters, required_filters, excluded_filters, location_filters):
+def get_experience_level(title):
+    title = title.lower()
+    matched_levels = {
+        level
+        for level, terms in EXPERIENCE_LEVEL_TERMS.items()
+        if any(term in title for term in terms)
+    }
+    if matched_levels:
+        return matched_levels
+    return {"Experienced"}
+
+
+def matches(job, role_filters, required_filters, selected_levels, location_filters):
     title = job.get("title", "").lower()
     location = job.get("location", "").lower()
     searchable = f"{title} {location}"
     return (
         any(term in title for term in role_filters)
         and (not required_filters or all(term in searchable for term in required_filters))
-        and not any(term in searchable for term in excluded_filters)
+        and (not selected_levels or get_experience_level(title) & set(selected_levels))
         and (not location_filters or any(term in location for term in location_filters))
     )
 
@@ -97,7 +121,6 @@ def fetch_jobs(company_key):
 if search_button:
     role_filters = split_terms(role_terms)
     required_filters = split_terms(include_terms)
-    excluded_filters = split_terms(exclude_terms)
     location_filters = split_terms(location_terms)
 
     if not role_filters:
@@ -113,7 +136,7 @@ if search_button:
                 results.extend(
                     job
                     for job in jobs
-                    if matches(job, role_filters, required_filters, excluded_filters, location_filters)
+                    if matches(job, role_filters, required_filters, experience_levels, location_filters)
                 )
             except Exception as error:
                 st.warning(f"Could not check {company_key}: {error}")
@@ -125,7 +148,10 @@ if search_button:
         st.session_state["search_summary"] = f"{len(results)} matching roles across {len(selected_companies)} companies"
 
 if "results" in st.session_state:
-    st.subheader(st.session_state["search_summary"])
+    st.markdown(
+        f'<div class="results-heading">{st.session_state["search_summary"]}</div>',
+        unsafe_allow_html=True,
+    )
     results = st.session_state["results"]
     if not results:
         st.info("No matching roles found. Try broader keywords or locations.")
