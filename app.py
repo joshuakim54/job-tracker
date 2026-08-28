@@ -1,15 +1,8 @@
+import json
+import os
 import re
 
 import streamlit as st
-
-from job_monitor import (
-    TARGET_COMPANIES,
-    fetch_greenhouse_jobs,
-    fetch_icims_jobs,
-    fetch_lever_jobs,
-    fetch_workday_jobs,
-)
-
 
 EXPERIENCE_LEVEL_TERMS = {
     "Internships": ["intern", "internship", "co-op", "coop"],
@@ -90,13 +83,7 @@ with st.sidebar:
         "Locations",
         value="remote, united states, usa, raleigh, durham, north carolina",
     )
-    selected_companies = st.multiselect(
-        "Companies",
-        options=list(TARGET_COMPANIES),
-        default=list(TARGET_COMPANIES),
-        format_func=lambda key: TARGET_COMPANIES[key].get("display_name", key),
-    )
-    search_button = st.button("Search career sites", type="primary", use_container_width=True)
+    search_button = st.button("Search jobs", type="primary", use_container_width=True)
 
 
 def split_terms(value):
@@ -138,18 +125,17 @@ def matches(job, role_filters, required_filters, excluded_filters, selected_leve
     )
 
 
-def fetch_jobs(company_key):
-    config = TARGET_COMPANIES[company_key]
-    board_type = config.get("type")
-    if board_type == "greenhouse":
-        return fetch_greenhouse_jobs(company_key, config)
-    if board_type == "icims":
-        return fetch_icims_jobs(company_key, config)
-    if board_type == "lever":
-        return fetch_lever_jobs(company_key, config)
-    if board_type == "workday":
-        return fetch_workday_jobs(company_key, config)
-    return []
+def load_jobs_cache():
+    cache_file = os.getenv("JOBS_CACHE_FILE", os.path.join(os.path.dirname(__file__), "jobs_cache.json"))
+    try:
+        with open(cache_file, "r", encoding="utf-8") as file:
+            data = json.load(file)
+        return data if isinstance(data, list) else data.get("jobs", [])
+    except FileNotFoundError:
+        return []
+    except (json.JSONDecodeError, AttributeError):
+        st.error("The job cache is unavailable. Please wait for the next scheduled update.")
+        return []
 
 
 if search_button:
@@ -160,34 +146,23 @@ if search_button:
 
     if not role_filters:
         st.error("Enter at least one role keyword.")
-    elif not selected_companies:
-        st.error("Select at least one company.")
     else:
-        results = []
-        progress = st.progress(0, text="Checking career sites...")
-        for index, company_key in enumerate(selected_companies):
-            try:
-                jobs = fetch_jobs(company_key)
-                results.extend(
-                    job
-                    for job in jobs
-                    if matches(
-                        job,
-                        role_filters,
-                        required_filters,
-                        excluded_filters,
-                        experience_levels,
-                        location_filters,
-                    )
-                )
-            except Exception as error:
-                st.warning(f"Could not check {company_key}: {error}")
-            progress.progress((index + 1) / len(selected_companies))
-        progress.empty()
+        results = [
+            job
+            for job in load_jobs_cache()
+            if matches(
+                job,
+                role_filters,
+                required_filters,
+                excluded_filters,
+                experience_levels,
+                location_filters,
+            )
+        ]
 
         results.sort(key=lambda job: (job.get("company", ""), job.get("title", "").lower()))
         st.session_state["results"] = results
-        st.session_state["search_summary"] = f"{len(results)} matching roles across {len(selected_companies)} companies"
+        st.session_state["search_summary"] = f"{len(results)} matching roles across the job database"
 
 if "results" in st.session_state:
     st.markdown(
@@ -205,4 +180,4 @@ if "results" in st.session_state:
                 unsafe_allow_html=True,
             )
 else:
-    st.info("Choose your filters, then search the selected company career sites.")
+    st.info("Choose your filters, then search the job database.")

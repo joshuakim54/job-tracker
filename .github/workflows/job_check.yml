@@ -29,12 +29,13 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           HISTORY_FILE: seen_jobs.json
+          JOBS_CACHE_FILE: jobs_cache.json
         run: python job_monitor.py
 
-      - name: Commit and push changes to seen_jobs.json
+      - name: Commit and push job state and cache
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add seen_jobs.json
-          git commit -m "Update seen jobs list" || echo "No changes to commit"
+          git add seen_jobs.json jobs_cache.json
+          git commit -m "Update job cache" || echo "No changes to commit"
           git push

@@ -13,6 +13,7 @@ import requests
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "YOUR_DISCORD_WEBHOOK_URL_HERE")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 HISTORY_FILE = os.getenv("HISTORY_FILE", os.path.join(BASE_DIR, "seen_jobs.local.json"))
+JOBS_CACHE_FILE = os.getenv("JOBS_CACHE_FILE", os.path.join(BASE_DIR, "jobs_cache.json"))
 COMPANIES_FILE = os.path.join(BASE_DIR, "companies.json")
 
 
@@ -356,6 +357,11 @@ def save_seen_jobs(seen_ids):
         json.dump(seen_ids, f, indent=2, sort_keys=True)
 
 
+def save_jobs_cache(jobs):
+    with open(JOBS_CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(jobs, f, indent=2, sort_keys=True)
+
+
 def get_job_metadata(job, source):
     return {
         "company": job["company"],
@@ -372,6 +378,7 @@ def main():
 
     new_jobs_found = []
     pending_ids = set()
+    cached_jobs = []
 
     for company_key, config in TARGET_COMPANIES.items():
         board_type = config.get("type")
@@ -389,6 +396,7 @@ def main():
             continue
 
         print(f"[{display_name}] Fetched {len(jobs)} total jobs.")
+        cached_jobs.extend(jobs)
 
         for job in jobs:
             if job["id"] in seen_ids:
@@ -414,6 +422,7 @@ def main():
             seen_ids[job["id"]] = get_job_metadata(job, board_type)
             save_seen_jobs(seen_ids)
 
+    save_jobs_cache(cached_jobs)
     save_seen_jobs(seen_ids)
     print("Job check completed successfully!")
 

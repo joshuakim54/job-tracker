@@ -15,4 +15,6 @@ To publish it, push the repository to GitHub and deploy it from [Streamlit Commu
 
 The experience selector maps titles automatically. New-grad roles include common markers such as `early career`, `associate software engineer`, `software engineer I`, and `software engineer 1`. Senior roles include titles containing `senior`, `staff`, `principal`, `lead`, `distinguished`, or `architect`.
 
+The app searches `jobs_cache.json` rather than contacting career sites during a search. The GitHub Actions workflow refreshes that cache every four hours and commits the updated file. Run the workflow manually once after deployment to populate the cache immediately.
+
 > TODO: Restore IBM and Salesforce after their current career-site API paths are verified.
