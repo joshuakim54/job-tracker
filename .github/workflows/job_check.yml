@@ -28,6 +28,7 @@ jobs:
       - name: Run Job Monitor Script
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          HISTORY_FILE: seen_jobs.json
         run: python job_monitor.py
 
       - name: Commit and push changes to seen_jobs.json

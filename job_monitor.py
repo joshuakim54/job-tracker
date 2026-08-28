@@ -9,8 +9,12 @@ import requests
 # Reads webhook from GitHub Actions secrets or local environment variable
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "YOUR_DISCORD_WEBHOOK_URL_HERE")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-HISTORY_FILE = os.getenv("HISTORY_FILE", os.path.join(BASE_DIR, "seen_jobs.json"))
+HISTORY_FILE = os.getenv("HISTORY_FILE", os.path.join(BASE_DIR, "seen_jobs.local.json"))
 COMPANIES_FILE = os.path.join(BASE_DIR, "companies.json")
+
+
+def discord_is_configured():
+    return bool(DISCORD_WEBHOOK_URL) and DISCORD_WEBHOOK_URL != "YOUR_DISCORD_WEBHOOK_URL_HERE"
 
 
 def load_target_companies():
@@ -31,7 +35,12 @@ TARGET_COMPANIES = load_target_companies()
 
 TITLE_INCLUDE = [
     "software engineer",
+    "software engineering",
     "software development engineer",
+    "software engineering intern",
+    "software engineer intern",
+    "software developer intern",
+    "engineering intern",
     "sde",
     "sw engineer",
     "backend",
@@ -44,16 +53,8 @@ TITLE_INCLUDE = [
     "developer",
 ]
 
-# Excludes entry-level, internships, and high-level executive management
+# Excludes high-level executive management
 TITLE_EXCLUDE = [
-    "intern",
-    "internship",
-    "co-op",
-    "coop",
-    "university grad",
-    "new grad",
-    "entry level",
-    "junior",
     "principal",
     "distinguished",
     "director",
@@ -228,7 +229,7 @@ def fetch_workday_jobs(company_key, config):
 # ==========================================
 def send_discord_alert(job):
     """Sends a rich formatted embed message to Discord with rate-limit retry support."""
-    if not DISCORD_WEBHOOK_URL or DISCORD_WEBHOOK_URL == "YOUR_DISCORD_WEBHOOK_URL_HERE":
+    if not discord_is_configured():
         print("❌ ERROR: DISCORD_WEBHOOK_URL is not configured!")
         return False
 
@@ -344,10 +345,14 @@ def main():
                 new_jobs_found.append((job, board_type))
                 pending_ids.add(job["id"])
 
-    print(f"\nFound {len(new_jobs_found)} new matching role(s). Dispatching alerts...")
+    print(f"\nFound {len(new_jobs_found)} new matching role(s). Processing results...")
 
     for job, board_type in new_jobs_found:
-        if send_discord_alert(job):
+        alert_sent = not discord_is_configured() or send_discord_alert(job)
+        if not discord_is_configured():
+            print(f"ℹ️ Discord not configured; recorded [{job['company']}] {job['title']}")
+
+        if alert_sent:
             seen_ids[job["id"]] = get_job_metadata(job, board_type)
             save_seen_jobs(seen_ids)
 
