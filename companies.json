@@ -141,10 +141,9 @@
     "display_name": "Garmin"
   },
   "sas": {
-    "type": "workday",
-    "domain": "sas.wd1.myworkdayjobs.com",
-    "tenant": "sas",
-    "career_site": "SAS",
+    "type": "icims",
+    "base_url": "https://globalcareers-sas.icims.com",
+    "search_text": "software engineer",
     "display_name": "SAS"
   },
   "bandwidth": {

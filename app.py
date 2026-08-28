@@ -3,6 +3,7 @@ import streamlit as st
 from job_monitor import (
     TARGET_COMPANIES,
     fetch_greenhouse_jobs,
+    fetch_icims_jobs,
     fetch_lever_jobs,
     fetch_workday_jobs,
 )
@@ -123,6 +124,8 @@ def fetch_jobs(company_key):
     board_type = config.get("type")
     if board_type == "greenhouse":
         return fetch_greenhouse_jobs(company_key, config)
+    if board_type == "icims":
+        return fetch_icims_jobs(company_key, config)
     if board_type == "lever":
         return fetch_lever_jobs(company_key, config)
     if board_type == "workday":

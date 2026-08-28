@@ -1,6 +1,9 @@
 import time
 import json
 import os
+import re
+from html import unescape
+from urllib.parse import quote_plus
 import requests
 
 # ==========================================
@@ -179,6 +182,59 @@ def fetch_lever_jobs(company_key, config):
         return []
 
 
+def fetch_icims_jobs(company_key, config):
+    """Fetch public jobs from an iCIMS search page."""
+    display_name = config.get("display_name", company_key.capitalize())
+    search_text = config.get("search_text", "software engineer")
+    url = (
+        f"{config['base_url'].rstrip('/')}/jobs/search?in_iframe=1"
+        f"&searchRelation=keyword_all&ss=1&searchKeyword={quote_plus(search_text)}"
+    )
+    headers = {"User-Agent": "Mozilla/5.0"}
+
+    try:
+        res = requests.get(url, headers=headers, timeout=10)
+        if res.status_code != 200:
+            print(f"[{display_name}] iCIMS error: status {res.status_code}")
+            return []
+
+        jobs = []
+        cards = re.findall(r'<li class="iCIMS_JobCardItem">(.*?)</li>', res.text, re.S)
+        for card in cards:
+            title_match = re.search(
+                r'<a href="([^"]+/jobs/[^" ]+)"[^>]*>.*?<h3[^>]*>(.*?)</h3>',
+                card,
+                re.S | re.I,
+            )
+            if not title_match:
+                continue
+
+            title = re.sub(r"<[^>]+>", " ", unescape(title_match.group(2)))
+            title = " ".join(title.split())
+            location_values = re.findall(
+                r'<dd class="iCIMS_JobHeaderData"[^>]*>.*?<span[^>]*>\s*(.*?)\s*</span>',
+                card,
+                re.S | re.I,
+            )
+            location = ", ".join(
+                " ".join(re.sub(r"<[^>]+>", " ", unescape(value)).split())
+                for value in location_values
+            )
+            job_url = unescape(title_match.group(1)).replace("&amp;", "&")
+            job_id = re.search(r"/jobs/(\d+)", job_url)
+            jobs.append({
+                "id": f"icims_{company_key}_{job_id.group(1) if job_id else job_url}",
+                "company": display_name,
+                "title": title,
+                "location": location or "Remote/Unspecified",
+                "url": job_url,
+            })
+        return jobs
+    except Exception as e:
+        print(f"[{display_name}] iCIMS exception: {e}")
+        return []
+
+
 def fetch_workday_jobs(company_key, config):
     """Fetch public jobs from Workday ATS."""
     domain = config["domain"]
@@ -325,6 +381,8 @@ def main():
             jobs = fetch_greenhouse_jobs(company_key, config)
         elif board_type == "lever":
             jobs = fetch_lever_jobs(company_key, config)
+        elif board_type == "icims":
+            jobs = fetch_icims_jobs(company_key, config)
         elif board_type == "workday":
             jobs = fetch_workday_jobs(company_key, config)
         else:
