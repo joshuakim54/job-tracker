@@ -20,12 +20,89 @@
     "title": "Senior Software Engineer ",
     "url": "https://careers.datadoghq.com/detail/3851935/?gh_jid=3851935"
   },
+  "gh_4302243005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+    "source": "greenhouse",
+    "title": "Software Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4302243005"
+  },
+  "gh_4363623005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+    "source": "greenhouse",
+    "title": "Software Engineer, Frontier AI Infrastructure",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4363623005"
+  },
   "gh_4513122002": {
     "company": "Databricks",
     "location": "San Francisco, California",
     "source": "greenhouse",
     "title": "Senior Software Engineer - Distributed Data Systems",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002"
+  },
+  "gh_4513943005": {
+    "company": "Scale AI",
+    "location": "New York, NY; San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Software Engineer, Enterprise AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4513943005"
+  },
+  "gh_4520320005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; New York, NY",
+    "source": "greenhouse",
+    "title": "AI Infrastructure Engineer, Model Serving Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4520320005"
+  },
+  "gh_4529529005": {
+    "company": "Scale AI",
+    "location": "New York, NY; San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Full-Stack - Enterprise Gen AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4529529005"
+  },
+  "gh_4569678005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; New York, NY",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Enterprise GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4569678005"
+  },
+  "gh_4572744008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA, New York City, NY, Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, iOS",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4572744008"
+  },
+  "gh_4591298005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; New York, NY",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591298005"
+  },
+  "gh_4591300005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; New York, NY",
+    "source": "greenhouse",
+    "title": "Software Engineer, Gen AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591300005"
+  },
+  "gh_4594879005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; New York, NY",
+    "source": "greenhouse",
+    "title": "Software Engineer, Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4594879005"
+  },
+  "gh_4595463008": {
+    "company": "Anthropic",
+    "location": "New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY | Seattle, WA; Washington, DC",
+    "source": "greenhouse",
+    "title": "Security Software Engineer, Detection & Response Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4595463008"
   },
   "gh_4599148": {
     "company": "Datadog",
@@ -34,12 +111,642 @@
     "title": "Senior Software Engineer - Backend ",
     "url": "https://careers.datadoghq.com/detail/4599148/?gh_jid=4599148"
   },
+  "gh_4599700005": {
+    "company": "Scale AI",
+    "location": "New York, NY; San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Senior Infrastructure Software Engineer, Enterprise AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4599700005"
+  },
+  "gh_4637484005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; New York, NY",
+    "source": "greenhouse",
+    "title": " Senior Software Engineer,  Full-Stack \u2013 Scale GP",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4637484005"
+  },
+  "gh_4649903005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; New York, NY",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Data Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4649903005"
+  },
+  "gh_4654897005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Agentic Tooling & Productivity",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4654897005"
+  },
+  "gh_4665557005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; New York, NY",
+    "source": "greenhouse",
+    "title": "Infrastructure Software Engineer, Enterprise GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4665557005"
+  },
+  "gh_4673771005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+    "source": "greenhouse",
+    "title": "Software Engineer, ARC Team",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673771005"
+  },
+  "gh_4674911005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4674911005"
+  },
+  "gh_4674913005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4674913005"
+  },
+  "gh_4710484005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; New York, NY; Washington, DC",
+    "source": "greenhouse",
+    "title": "Software Engineer, Identity",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4710484005"
+  },
+  "gh_4711898005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; New York, NY; Washington, DC",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Identity",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711898005"
+  },
+  "gh_4713608005": {
+    "company": "Scale AI",
+    "location": "New York, NY; San Francisco, CA; Seattle, WA; New York, NY",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Full Stack - Gen AI ",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713608005"
+  },
+  "gh_4716453005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA; Seattle, WA; New York, NY",
+    "source": "greenhouse",
+    "title": "AI Infrastructure Engineer, Sandbox Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4716453005"
+  },
+  "gh_4722512005": {
+    "company": "Scale AI",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Software Engineer - AI Enablement",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722512005"
+  },
+  "gh_4778843008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Safeguards ML Infrastructure",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4778843008"
+  },
   "gh_4799387002": {
     "company": "Databricks",
     "location": "San Francisco, California",
     "source": "greenhouse",
     "title": "Senior Software Engineer - Backend",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002"
+  },
+  "gh_4899511008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Android",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4899511008"
+  },
+  "gh_4926242008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Software Engineer, ML Networking",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4926242008"
+  },
+  "gh_4951844008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Safeguards",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4951844008"
+  },
+  "gh_4970314008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Infrastructure (Distributed Systems)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4970314008"
+  },
+  "gh_4981828008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY; San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Software Engineer, Research Tools",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4981828008"
+  },
+  "gh_5026097008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Product ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5026097008"
+  },
+  "gh_5063007008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Cybersecurity Products",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5063007008"
+  },
+  "gh_5065894008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Claude App Infrastructure",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5065894008"
+  },
+  "gh_5097186008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Full Stack Engineer, Education Labs",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097186008"
+  },
+  "gh_5098025008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Model Performance Software Engineer, Claude Code",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5098025008"
+  },
+  "gh_5110511008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Developer Productivity",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5110511008"
+  },
+  "gh_5113224008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, AI Reliability",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5113224008"
+  },
+  "gh_5114768008": {
+    "company": "Anthropic",
+    "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Data Infrastructure",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5114768008"
+  },
+  "gh_5119468008": {
+    "company": "Anthropic",
+    "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, People Products",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5119468008"
+  },
+  "gh_5123039008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Account Abuse",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5123039008"
+  },
+  "gh_5134895008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, API",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5134895008"
+  },
+  "gh_5146298008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Billing Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5146298008"
+  },
+  "gh_5157847008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5157847008"
+  },
+  "gh_5174743008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Full-stack",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174743008"
+  },
+  "gh_5174747008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Full-stack",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174747008"
+  },
+  "gh_5174755008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Backend",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174755008"
+  },
+  "gh_5186067008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Full-Stack Software Engineer, Reinforcement Learning",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5186067008"
+  },
+  "gh_5191226008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Software Engineer, Research Data Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5191226008"
+  },
+  "gh_5197529008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Data Scientist, Developer Productivity",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5197529008"
+  },
+  "gh_5203868008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Node Infra",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5203868008"
+  },
+  "gh_5205704008": {
+    "company": "Anthropic",
+    "location": "Remote-Friendly, United States; San Francisco, CA | New York City, NY | Washington, DC",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5205704008"
+  },
+  "gh_5206978008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Infrastructure Engineer, Cluster Infrastructure",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5206978008"
+  },
+  "gh_5211241008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Kubernetes Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5211241008"
+  },
+  "gh_5229345008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Claude Design",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5229345008"
+  },
+  "gh_5231496008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff + Sr. Software Engineer, Cloud Inference",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231496008"
+  },
+  "gh_5238296008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5238296008"
+  },
+  "gh_5245851008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff + Senior Software Engineer, Inference",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5245851008"
+  },
+  "gh_5250091008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, GRC Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5250091008"
+  },
+  "gh_5251671008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Safeguards Evals ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5251671008"
+  },
+  "gh_5257650008": {
+    "company": "Anthropic",
+    "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Inference Velocity",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5257650008"
+  },
+  "gh_5270442008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Identity & Access Controls",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5270442008"
+  },
+  "gh_5285557008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff + Senior Software Engineer, Inference Deployment",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5285557008"
+  },
+  "gh_5287327008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Salesforce Developer, Partnerships",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5287327008"
+  },
+  "gh_5288742008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5288742008"
+  },
+  "gh_5289450008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Enterprise Knowledge Work",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5289450008"
+  },
+  "gh_5290360008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Developer Acceleration",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5290360008"
+  },
+  "gh_5290468008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Experimentation",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5290468008"
+  },
+  "gh_5301737008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Caching",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5301737008"
+  },
+  "gh_5301750008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Databases",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5301750008"
+  },
+  "gh_5304425008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Labs: Applied AI",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5304425008"
+  },
+  "gh_5305402008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Web Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5305402008"
+  },
+  "gh_5310731008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Capacity Engineering",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5310731008"
+  },
+  "gh_5325909008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Financial Fraud",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5325909008"
+  },
+  "gh_5342935008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Safeguards Review Tooling",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5342935008"
+  },
+  "gh_5357947008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Finance Systems Engineer, Tax",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5357947008"
+  },
+  "gh_5363469008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Growth ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5363469008"
+  },
+  "gh_5364804008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Machine Learning Infrastructure Engineer, Safeguards Research",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5364804008"
+  },
+  "gh_5367436008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Environments Infrastructure",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5367436008"
+  },
+  "gh_5367585008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Software Engineer, Desktop",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5367585008"
+  },
+  "gh_5368034008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Enterprise AI Products",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368034008"
+  },
+  "gh_5368040008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Claude Science",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368040008"
+  },
+  "gh_5368166008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, GTM Systems",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368166008"
+  },
+  "gh_5370690008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Code RL",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5370690008"
+  },
+  "gh_5379140008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Safeguards Data ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5379140008"
+  },
+  "gh_5383114008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Privacy",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383114008"
+  },
+  "gh_5383596008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Developer Relations",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383596008"
+  },
+  "gh_5383610008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Claude Code",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383610008"
+  },
+  "gh_5388612008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Software Engineer, Infrastructure, Interpretability",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5388612008"
+  },
+  "gh_5389305008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Education",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5389305008"
+  },
+  "gh_5390728008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Finance Systems Engineer, Finance and Strategy",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390728008"
+  },
+  "gh_5392335008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Platform Ecosystem",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392335008"
+  },
+  "gh_5394943008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Product Sandboxing",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5394943008"
+  },
+  "gh_5395767008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Claude Managed Agents",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5395767008"
+  },
+  "gh_5396384008": {
+    "company": "Anthropic",
+    "location": "Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC",
+    "source": "greenhouse",
+    "title": "IT Systems Engineer, Mobile Client Platform Engineer ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5396384008"
+  },
+  "gh_5397005008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Platform Distribution",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397005008"
+  },
+  "gh_5397131008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Platform Portability ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397131008"
+  },
+  "gh_5398218008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Developer Experience",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398218008"
+  },
+  "gh_5398227008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Auth & Identity",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398227008"
+  },
+  "gh_5400012008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | Seattle, WA",
+    "source": "greenhouse",
+    "title": "Staff + Sr. Software Engineer, Scaling",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5400012008"
+  },
+  "gh_5400153008": {
+    "company": "Anthropic",
+    "location": "New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Software Engineer, Business Technology",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5400153008"
+  },
+  "gh_5404730008": {
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, RL Data Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5404730008"
   },
   "gh_5408888002": {
     "company": "Databricks",
@@ -342,6 +1049,20 @@
     "title": "Sr. Software Engineer - Backend",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7643201002"
   },
+  "gh_7654934": {
+    "company": "Gusto",
+    "location": "Denver, CO;San Francisco, CA;New York, NY",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Money Group ",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/7654934"
+  },
+  "gh_7673999": {
+    "company": "Gusto",
+    "location": "San Francisco, CA - Hybrid",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, AI Voice and Content",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/7673999"
+  },
   "gh_7674814": {
     "company": "Okta",
     "location": "Bellevue, Washington; San Francisco, California",
@@ -419,6 +1140,13 @@
     "title": "Senior Staff Machine Learning Engineer, Growth Platform Engineering",
     "url": "https://careers.airbnb.com/positions/7747259?gh_jid=7747259"
   },
+  "gh_7760341": {
+    "company": "Gusto",
+    "location": "San Francisco, CA - Hybrid; Denver, CO - Hybrid; New York, NY - Hybrid",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Core AI Platforms",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/7760341"
+  },
   "gh_7773776": {
     "company": "Coinbase",
     "location": "Remote - USA",
@@ -482,6 +1210,13 @@
     "title": "Staff Software Engineer, AI-Core (Federal)",
     "url": "https://www.okta.com/company/careers/opportunity/7917002?gh_jid=7917002"
   },
+  "gh_7918214": {
+    "company": "Gusto",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Tax Experiences",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/7918214"
+  },
   "gh_7939868": {
     "company": "Stripe",
     "location": "San Francisco, Seattle",
@@ -489,12 +1224,40 @@
     "title": "Staff Software Engineer, Machine Learning Platform",
     "url": "https://stripe.com/jobs/search?gh_jid=7939868"
   },
+  "gh_7942791": {
+    "company": "Gusto",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer - Pricing and Packaging",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/7942791"
+  },
+  "gh_7943169": {
+    "company": "Gusto",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Pricing and Packaging Engineering",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/7943169"
+  },
   "gh_7947560": {
     "company": "MongoDB",
     "location": "New York City; United States",
     "source": "greenhouse",
     "title": "Senior Software Engineer, Storage Layer Services",
     "url": "https://www.mongodb.com/careers/job/?gh_jid=7947560"
+  },
+  "gh_7947658": {
+    "company": "Gusto",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Developer Productivity Async",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/7947658"
+  },
+  "gh_7947684": {
+    "company": "Gusto",
+    "location": "San Francisco, CA - Hybrid",
+    "source": "greenhouse",
+    "title": "Software Engineer,  AI Developer Tools",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/7947684"
   },
   "gh_7959962": {
     "company": "Datadog",
@@ -545,6 +1308,13 @@
     "title": "Staff Software Engineer - User Activation",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7979523002"
   },
+  "gh_7982781": {
+    "company": "Gusto",
+    "location": "Denver, CO;San Francisco, CA;New York, NY",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, PEO Benefits",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/7982781"
+  },
   "gh_7985840": {
     "company": "Datadog",
     "location": "California, USA, Remote; Nevada, USA, Remote; Texas, USA, Remote; Washington, USA, Remote",
@@ -558,6 +1328,13 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Payments Intelligence",
     "url": "https://stripe.com/jobs/search?gh_jid=7986004"
+  },
+  "gh_7986047": {
+    "company": "Gusto",
+    "location": "Denver, CO;San Francisco, CA;New York, NY",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Retirement AI",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/7986047"
   },
   "gh_7991691": {
     "company": "Coinbase",
@@ -601,6 +1378,20 @@
     "title": "Staff Software Engineer - Security Agent",
     "url": "https://careers.datadoghq.com/detail/8007606/?gh_jid=8007606"
   },
+  "gh_8008696": {
+    "company": "Gusto",
+    "location": "New York, New York, United States; San Francisco, CA - Hybrid",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Core Products",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8008696"
+  },
+  "gh_8013480": {
+    "company": "Gusto",
+    "location": "Denver, CO;San Francisco, CA;New York, NY;Chicago, IL",
+    "source": "greenhouse",
+    "title": "Senior Staff Engineer - Tax Platform Engineering",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8013480"
+  },
   "gh_8015588": {
     "company": "Datadog",
     "location": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Nice, France; Paris, France; Sophia Antipolis, France",
@@ -643,6 +1434,41 @@
     "title": "Staff Security Software Engineer, AI Security",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8026634002"
   },
+  "gh_8026942": {
+    "company": "Mozilla",
+    "location": "Remote Finland",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Firefox Security",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8026942"
+  },
+  "gh_8026944": {
+    "company": "Mozilla",
+    "location": "Remote Belgium",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Firefox Security",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8026944"
+  },
+  "gh_8026953": {
+    "company": "Mozilla",
+    "location": "Remote Spain",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Firefox Security",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8026953"
+  },
+  "gh_8026957": {
+    "company": "Mozilla",
+    "location": "Remote Netherlands",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Firefox Security",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8026957"
+  },
+  "gh_8026958": {
+    "company": "Mozilla",
+    "location": "Remote Sweden",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Firefox Security",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8026958"
+  },
   "gh_8029035": {
     "company": "Coinbase",
     "location": "Remote - USA",
@@ -671,6 +1497,20 @@
     "title": "Senior Software Engineer, People Ops and AI Tools",
     "url": "https://boards.greenhouse.io/cloudflare/jobs/8035679?gh_jid=8035679"
   },
+  "gh_8035802": {
+    "company": "Gusto",
+    "location": "San Francisco, CA;New York, NY;Ontario, CAN - Remote;Toronto, Ontario, CAN - Remote;United States - Remote",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Business Money",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8035802"
+  },
+  "gh_8039516": {
+    "company": "Gusto",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Tax Accounts",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8039516"
+  },
   "gh_8039548": {
     "company": "Stripe",
     "location": "US",
@@ -685,6 +1525,13 @@
     "title": "Senior Staff Software Engineer, Host Pricing & Settings",
     "url": "https://careers.airbnb.com/positions/8039723?gh_jid=8039723"
   },
+  "gh_8047349": {
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Platform Engineer - Kubernetes",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8047349&gh_jid=8047349"
+  },
   "gh_8051871": {
     "company": "Coinbase",
     "location": "Remote - USA",
@@ -698,6 +1545,41 @@
     "source": "greenhouse",
     "title": "Staff Backend Engineer, Identity Threat Protection ",
     "url": "https://www.okta.com/company/careers/opportunity/8053199?gh_jid=8053199"
+  },
+  "gh_8055353": {
+    "company": "Mozilla",
+    "location": "Remote Finland",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Firefox Desktop",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8055353"
+  },
+  "gh_8055359": {
+    "company": "Mozilla",
+    "location": "Remote Belgium",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Firefox Desktop",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8055359"
+  },
+  "gh_8055362": {
+    "company": "Mozilla",
+    "location": "Remote Spain",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Firefox Desktop",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8055362"
+  },
+  "gh_8055365": {
+    "company": "Mozilla",
+    "location": "Remote Netherlands",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Firefox Desktop",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8055365"
+  },
+  "gh_8055366": {
+    "company": "Mozilla",
+    "location": "Remote Sweden",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Firefox Desktop",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8055366"
   },
   "gh_8055701": {
     "company": "Stripe",
@@ -741,6 +1623,20 @@
     "title": "Senior Software Engineer",
     "url": "https://www.mongodb.com/careers/job/?gh_jid=8065483"
   },
+  "gh_8066491": {
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8066491&gh_jid=8066491"
+  },
+  "gh_8066505": {
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Information Security Infrastructure Engineer - Security Architecture - InfoSec",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8066505&gh_jid=8066505"
+  },
   "gh_8067033": {
     "company": "Coinbase",
     "location": "Remote - Singapore",
@@ -748,12 +1644,26 @@
     "title": "Senior Software Engineer, Consumer",
     "url": "https://www.coinbase.com/careers/positions/8067033?gh_jid=8067033"
   },
+  "gh_8068222": {
+    "company": "Gusto",
+    "location": "San Francisco, CA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Growth Onboarding",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8068222"
+  },
   "gh_8070574": {
     "company": "Coinbase",
     "location": "Remote - USA",
     "source": "greenhouse",
     "title": "Software Engineer, Frontend (Coinbase Advisor - Agentic Trading)",
     "url": "https://www.coinbase.com/careers/positions/8070574?gh_jid=8070574"
+  },
+  "gh_8073232": {
+    "company": "Gusto",
+    "location": "Denver, CO - Hybrid; New York, New York, United States; San Francisco, CA - Hybrid",
+    "source": "greenhouse",
+    "title": "Software Engineer, ML Platform",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8073232"
   },
   "gh_8074897": {
     "company": "Airbnb",
@@ -768,6 +1678,13 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Dashboard",
     "url": "https://stripe.com/jobs/search?gh_jid=8076151"
+  },
+  "gh_8077301": {
+    "company": "Gusto",
+    "location": "New York, NY;Toronto, Ontario, CAN - Remote",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Time and Scheduling",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8077301"
   },
   "gh_8078019": {
     "company": "Airbnb",
@@ -804,6 +1721,20 @@
     "title": "Senior Software Engineer, Data Engineering Platform",
     "url": "https://www.coinbase.com/careers/positions/8082199?gh_jid=8082199"
   },
+  "gh_8082598": {
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Security - Elasticsearch",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8082598&gh_jid=8082598"
+  },
+  "gh_8083826": {
+    "company": "Gusto",
+    "location": "Denver, CO;San Francisco, CA;New York, NY;Seattle, WA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, iOS Platform",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8083826"
+  },
   "gh_8084470": {
     "company": "Asana",
     "location": "San Francisco",
@@ -831,6 +1762,13 @@
     "source": "greenhouse",
     "title": "Systems Engineer, Product Platform Tools",
     "url": "https://boards.greenhouse.io/cloudflare/jobs/8089031?gh_jid=8089031"
+  },
+  "gh_8089088": {
+    "company": "Mozilla",
+    "location": "Remote",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer, Ecosystems",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8089088"
   },
   "gh_8089124": {
     "company": "MongoDB",
@@ -866,6 +1804,13 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer - Incident Insights & Readiness",
     "url": "https://careers.datadoghq.com/detail/8094111/?gh_jid=8094111"
+  },
+  "gh_8095028": {
+    "company": "Gusto",
+    "location": "Denver, CO - Hybrid; New York, New York, United States; San Francisco, CA - Hybrid",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Gustie Assist",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8095028"
   },
   "gh_8095166": {
     "company": "Datadog",
@@ -944,12 +1889,33 @@
     "title": "Software Engineer, Sending",
     "url": "https://stripe.com/jobs/search?gh_jid=8107302"
   },
+  "gh_8108712": {
+    "company": "Bandwidth (Raleigh)",
+    "location": "Raleigh, NC",
+    "source": "greenhouse",
+    "title": "Software Engineer (Voice)",
+    "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8108712"
+  },
   "gh_8108855": {
     "company": "Okta",
     "location": "San Francisco, California",
     "source": "greenhouse",
     "title": "Staff Software Engineer, Agent Gateway",
     "url": "https://www.okta.com/company/careers/opportunity/8108855?gh_jid=8108855"
+  },
+  "gh_8110106": {
+    "company": "Gusto",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Business Insurance",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8110106"
+  },
+  "gh_8110113": {
+    "company": "Gusto",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer- Tax Credits",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8110113"
   },
   "gh_8114877": {
     "company": "Coinbase",
@@ -958,12 +1924,26 @@
     "title": "Staff Software Engineer (Platform - Access & Authorization)",
     "url": "https://www.coinbase.com/careers/positions/8114877?gh_jid=8114877"
   },
+  "gh_8119450": {
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Performance Tuning - Elasticsearch",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8119450&gh_jid=8119450"
+  },
   "gh_8119841": {
     "company": "MongoDB",
     "location": "New York City; United States",
     "source": "greenhouse",
     "title": "Software Engineer 3, Networking & Observability",
     "url": "https://www.mongodb.com/careers/job/?gh_jid=8119841"
+  },
+  "gh_8121732": {
+    "company": "Gusto",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Retirement",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8121732"
   },
   "gh_8130787": {
     "company": "Airbnb",
@@ -985,6 +1965,13 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer, Payments Platform ",
     "url": "https://careers.airbnb.com/positions/8138002?gh_jid=8138002"
+  },
+  "gh_8138060": {
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Lead Salesforce Full Stack Engineer",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8138060&gh_jid=8138060"
   },
   "gh_8138069": {
     "company": "Airbnb",
@@ -1014,6 +2001,13 @@
     "title": "Full Stack Engineer, Bridge",
     "url": "https://stripe.com/jobs/search?gh_jid=8142764"
   },
+  "gh_8144140": {
+    "company": "Gusto",
+    "location": "Denver, CO - Hybrid; New York, New York, United States; San Francisco, CA - Hybrid",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Salesforce Developer",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8144140"
+  },
   "gh_8144769": {
     "company": "Coinbase",
     "location": "Remote - USA",
@@ -1035,6 +2029,13 @@
     "title": "Software Engineer, Payments",
     "url": "https://careers.airbnb.com/positions/8146265?gh_jid=8146265"
   },
+  "gh_8148069": {
+    "company": "Bandwidth (Raleigh)",
+    "location": "Raleigh, NC",
+    "source": "greenhouse",
+    "title": "NetSuite Application Developer",
+    "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8148069"
+  },
   "gh_8154739": {
     "company": "Airbnb",
     "location": "USA",
@@ -1049,12 +2050,33 @@
     "title": "Staff Software Engineer, Backend - Platform (Core AI Automation)",
     "url": "https://www.coinbase.com/careers/positions/8154983?gh_jid=8154983"
   },
+  "gh_8159576": {
+    "company": "Bandwidth (Raleigh)",
+    "location": "Raleigh, NC",
+    "source": "greenhouse",
+    "title": "Software Engineer (Voice)",
+    "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8159576"
+  },
   "gh_8160557": {
     "company": "Coinbase",
     "location": "Remote - USA",
     "source": "greenhouse",
     "title": "Staff Software Engineer, Compute Platform (Routing)",
     "url": "https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557"
+  },
+  "gh_8161416": {
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8161416&gh_jid=8161416"
+  },
+  "gh_8161511": {
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Vector Search - Elasticsearch",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8161511&gh_jid=8161511"
   },
   "gh_8163319": {
     "company": "Airbnb",
@@ -1153,6 +2175,13 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Product Data Platform",
     "url": "https://www.brex.com/careers/8430197002?gh_jid=8430197002"
+  },
+  "gh_8448283002": {
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "source": "greenhouse",
+    "title": "Staff Backend Engineer (Ruby on Rails/AI), Verify",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8448283002"
   },
   "gh_8459783002": {
     "company": "Brex",
@@ -1392,6 +2421,13 @@
     "title": "Staff Software Engineer, Banking",
     "url": "https://www.brex.com/careers/8618076002?gh_jid=8618076002"
   },
+  "gh_8621620002": {
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer (Ruby), AI Engineering: AI Coding",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8621620002"
+  },
   "gh_8623289002": {
     "company": "Brex",
     "location": "New York, New York, United States",
@@ -1413,6 +2449,13 @@
     "title": "Staff Software Engineer, Travel & Expense",
     "url": "https://www.brex.com/careers/8635339002?gh_jid=8635339002"
   },
+  "gh_8636539002": {
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "source": "greenhouse",
+    "title": "Senior Frontend Engineer (Vue), Create:  Repository Management ",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636539002"
+  },
   "gh_8637143002": {
     "company": "Databricks",
     "location": "San Francisco, California",
@@ -1420,12 +2463,54 @@
     "title": "Staff Software Engineer, Foundation Model Inference ",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637143002"
   },
+  "gh_8646595002": {
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer (Ruby), AI Engineering: DAP Repository Flows",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646595002"
+  },
   "gh_8649279002": {
     "company": "Databricks",
     "location": "San Francisco, California",
     "source": "greenhouse",
     "title": "Staff Software Engineer- Foundation Model Inference",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8649279002"
+  },
+  "gh_8682860002": {
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer (Ruby), Plan: Spec-Driven Development",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8682860002"
+  },
+  "gh_8693103002": {
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer (Typescript), AI Clients: Duo CLI",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8693103002"
+  },
+  "gh_8697493002": {
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "source": "greenhouse",
+    "title": "Senior Fullstack Engineer, Marketing",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8697493002"
+  },
+  "gh_8705017002": {
+    "company": "GitLab",
+    "location": "Remote, United States",
+    "source": "greenhouse",
+    "title": "Staff Systems Engineer, IT ",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8705017002"
+  },
+  "gh_8716138002": {
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer, UK",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8716138002"
   },
   "gh_8716187002": {
     "company": "Databricks",
@@ -1447,6 +2532,41 @@
     "source": "greenhouse",
     "title": "Software Engineer, Full Stack",
     "url": "https://job-boards.greenhouse.io/pendo/jobs/8728254002"
+  },
+  "gh_8729451002": {
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer (Go), Tenant Scale: Gitaly ",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8729451002"
+  },
+  "gh_8749946002": {
+    "company": "GitLab",
+    "location": "Remote, Poland",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer, Poland",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749946002"
+  },
+  "gh_8749950002": {
+    "company": "GitLab",
+    "location": "Remote, Poland",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer (Ruby), Plan: Spec-Driven Development",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749950002"
+  },
+  "gh_8749951002": {
+    "company": "GitLab",
+    "location": "Remote, Poland",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer (Go), Tenant Scale: Gitaly ",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749951002"
+  },
+  "gh_8749952002": {
+    "company": "GitLab",
+    "location": "Remote, Poland",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer (Typescript), AI Clients: Duo CLI",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749952002"
   },
   "lever_98b81271-9e15-40b7-8dce-0c62f24702f9": {
     "company": "Palantir",
