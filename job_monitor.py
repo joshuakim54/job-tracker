@@ -46,15 +46,6 @@ TITLE_INCLUDE = [
 
 # Excludes entry-level, internships, and high-level executive management
 TITLE_EXCLUDE = [
-    "intern",
-    "internship",
-    "co-op",
-    "coop",
-    "university grad",
-    "new grad",
-    "entry level",
-    "junior",
-    "principal",
     "distinguished",
     "director",
     "vp",
