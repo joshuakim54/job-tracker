@@ -146,5 +146,102 @@
     "search_text": "software engineer",
     "limit": 20,
     "display_name": "Visa"
+  },
+  "garmin": {
+    "type": "workday",
+    "domain": "garmin.wd5.myworkdayjobs.com",
+    "tenant": "garmin",
+    "career_site": "Garmin",
+    "display_name": "Garmin"
+  },
+  "sas": {
+    "type": "workday",
+    "domain": "sas.wd1.myworkdayjobs.com",
+    "tenant": "sas",
+    "career_site": "SAS",
+    "display_name": "SAS"
+  },
+  "bandwidth": {
+    "type": "greenhouse",
+    "slug": "bandwidth",
+    "display_name": "Bandwidth (Raleigh)"
+  },
+  "wolfspeed": {
+    "type": "workday",
+    "domain": "wolfspeed.wd1.myworkdayjobs.com",
+    "tenant": "wolfspeed",
+    "career_site": "External",
+    "display_name": "Wolfspeed"
+  },
+  "iqvia": {
+    "type": "workday",
+    "domain": "iqvia.wd1.myworkdayjobs.com",
+    "tenant": "iqvia",
+    "career_site": "External",
+    "display_name": "IQVIA"
+  },
+  "netapp": {
+    "type": "workday",
+    "domain": "netapp.wd1.myworkdayjobs.com",
+    "tenant": "netapp",
+    "career_site": "External",
+    "display_name": "NetApp"
+  },
+  "fidelity": {
+    "type": "workday",
+    "domain": "fidelity.wd1.myworkdayjobs.com",
+    "tenant": "fidelity",
+    "career_site": "External",
+    "display_name": "Fidelity Investments"
+  },
+  "rti": {
+    "type": "greenhouse",
+    "slug": "rti",
+    "display_name": "RTI International"
+  },
+  "relias": {
+    "type": "greenhouse",
+    "slug": "relias",
+    "display_name": "Relias"
+  },
+  "insightsoftware": {
+    "type": "greenhouse",
+    "slug": "insightsoftware",
+    "display_name": "insightsoftware"
+  },
+  "anthropic": {
+    "type": "greenhouse",
+    "slug": "anthropic",
+    "display_name": "Anthropic"
+  },
+  "scaleai": {
+    "type": "greenhouse",
+    "slug": "scaleai",
+    "display_name": "Scale AI"
+  },
+  "mercury": {
+    "type": "greenhouse",
+    "slug": "mercury",
+    "display_name": "Mercury"
+  },
+  "gusto": {
+    "type": "greenhouse",
+    "slug": "gusto",
+    "display_name": "Gusto"
+  },
+  "elastic": {
+    "type": "greenhouse",
+    "slug": "elastic",
+    "display_name": "Elastic"
+  },
+  "gitlab": {
+    "type": "greenhouse",
+    "slug": "gitlab",
+    "display_name": "GitLab"
+  },
+  "mozilla": {
+    "type": "greenhouse",
+    "slug": "mozilla",
+    "display_name": "Mozilla"
   }
 }
