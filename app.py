@@ -10,7 +10,20 @@ from job_monitor import (
 
 EXPERIENCE_LEVEL_TERMS = {
     "Internships": ["intern", "internship", "co-op", "coop"],
-    "New grads": ["new grad", "new graduate", "university grad", "entry level", "entry-level", "junior"],
+    "New grads": [
+        "new grad",
+        "new graduate",
+        "university grad",
+        "entry level",
+        "entry-level",
+        "junior",
+        "early career",
+        "associate software engineer",
+        "software engineer i",
+        "software engineer 1",
+        "software developer i",
+        "software developer 1",
+    ],
     "Seniors": ["senior", "staff", "principal", "lead", "distinguished", "architect"],
 }
 
@@ -84,13 +97,12 @@ def split_terms(value):
 
 def get_experience_level(title):
     title = title.lower()
-    matched_levels = {
-        level
-        for level, terms in EXPERIENCE_LEVEL_TERMS.items()
-        if any(term in title for term in terms)
-    }
-    if matched_levels:
-        return matched_levels
+    if any(term in title for term in EXPERIENCE_LEVEL_TERMS["Internships"]):
+        return {"Internships"}
+    if any(term in title for term in EXPERIENCE_LEVEL_TERMS["Seniors"]):
+        return {"Seniors"}
+    if any(term in title for term in EXPERIENCE_LEVEL_TERMS["New grads"]):
+        return {"New grads"}
     return {"Experienced"}
 
 

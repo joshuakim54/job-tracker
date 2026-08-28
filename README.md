@@ -13,4 +13,4 @@ streamlit run app.py
 
 To publish it, push the repository to GitHub and deploy it from [Streamlit Community Cloud](https://share.streamlit.io/). Select `app.py` as the main file and `requirements.txt` will be installed automatically. GitHub Pages cannot run this Python app.
 
-The experience selector maps titles automatically. Senior roles include titles containing `senior`, `staff`, `principal`, `lead`, `distinguished`, or `architect`.
+The experience selector maps titles automatically. New-grad roles include common markers such as `early career`, `associate software engineer`, `software engineer I`, and `software engineer 1`. Senior roles include titles containing `senior`, `staff`, `principal`, `lead`, `distinguished`, or `architect`.
