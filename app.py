@@ -1,3 +1,5 @@
+import re
+
 import streamlit as st
 
 from job_monitor import (
@@ -73,6 +75,11 @@ with st.sidebar:
         value="",
         help="Optional terms that must appear in the title or location.",
     )
+    exclude_terms = st.text_input(
+        "Exclude",
+        value="",
+        help="Optional terms that must not appear in the title or location.",
+    )
     experience_levels = st.multiselect(
         "Experience level",
         options=["Internships", "New grads", "Experienced", "Seniors"],
@@ -96,26 +103,38 @@ def split_terms(value):
     return [term.strip().lower() for term in value.split(",") if term.strip()]
 
 
+def normalize_text(value):
+    return re.sub(r"[^a-z0-9]+", " ", str(value).lower()).strip()
+
+
+def contains_term(text, term):
+    normalized_text = normalize_text(text)
+    normalized_term = normalize_text(term)
+    if not normalized_term:
+        return False
+    return re.search(rf"(?<!\w){re.escape(normalized_term)}(?!\w)", normalized_text) is not None
+
+
 def get_experience_level(title):
-    title = title.lower()
-    if any(term in title for term in EXPERIENCE_LEVEL_TERMS["Internships"]):
+    if any(contains_term(title, term) for term in EXPERIENCE_LEVEL_TERMS["Internships"]):
         return {"Internships"}
-    if any(term in title for term in EXPERIENCE_LEVEL_TERMS["Seniors"]):
+    if any(contains_term(title, term) for term in EXPERIENCE_LEVEL_TERMS["Seniors"]):
         return {"Seniors"}
-    if any(term in title for term in EXPERIENCE_LEVEL_TERMS["New grads"]):
+    if any(contains_term(title, term) for term in EXPERIENCE_LEVEL_TERMS["New grads"]):
         return {"New grads"}
     return {"Experienced"}
 
 
-def matches(job, role_filters, required_filters, selected_levels, location_filters):
-    title = job.get("title", "").lower()
-    location = job.get("location", "").lower()
+def matches(job, role_filters, required_filters, excluded_filters, selected_levels, location_filters):
+    title = job.get("title", "")
+    location = job.get("location", "")
     searchable = f"{title} {location}"
     return (
-        any(term in title for term in role_filters)
-        and (not required_filters or all(term in searchable for term in required_filters))
+        any(contains_term(title, term) for term in role_filters)
+        and (not required_filters or all(contains_term(searchable, term) for term in required_filters))
+        and not any(contains_term(searchable, term) for term in excluded_filters)
         and (not selected_levels or get_experience_level(title) & set(selected_levels))
-        and (not location_filters or any(term in location for term in location_filters))
+        and (not location_filters or any(contains_term(location, term) for term in location_filters))
     )
 
 
@@ -136,6 +155,7 @@ def fetch_jobs(company_key):
 if search_button:
     role_filters = split_terms(role_terms)
     required_filters = split_terms(include_terms)
+    excluded_filters = split_terms(exclude_terms)
     location_filters = split_terms(location_terms)
 
     if not role_filters:
@@ -151,7 +171,14 @@ if search_button:
                 results.extend(
                     job
                     for job in jobs
-                    if matches(job, role_filters, required_filters, experience_levels, location_filters)
+                    if matches(
+                        job,
+                        role_filters,
+                        required_filters,
+                        excluded_filters,
+                        experience_levels,
+                        location_filters,
+                    )
                 )
             except Exception as error:
                 st.warning(f"Could not check {company_key}: {error}")
