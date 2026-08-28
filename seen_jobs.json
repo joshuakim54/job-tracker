@@ -1224,6 +1224,27 @@
     "title": "Sr Software Engineer, Infrastructure",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8493170002"
   },
+  "gh_8501025002": {
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Frontend",
+    "url": "https://www.brex.com/careers/8501025002?gh_jid=8501025002"
+  },
+  "gh_8501051002": {
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Frontend",
+    "url": "https://www.brex.com/careers/8501051002?gh_jid=8501051002"
+  },
+  "gh_8501052002": {
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Frontend",
+    "url": "https://www.brex.com/careers/8501052002?gh_jid=8501052002"
+  },
   "gh_8515648002": {
     "company": "Pendo (Raleigh HQ)",
     "location": "Raleigh, NC",
@@ -1468,6 +1489,13 @@
     "source": "workday",
     "title": "Staff SW Engineer",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Staff-SW-Engineer_REF072113W"
+  },
+  "wd_visa__job_US---Denver-CO_Staff-Software-Engineer--AI-Solutions_REF087977W-1": {
+    "company": "Visa",
+    "location": "US - Denver, CO",
+    "source": "workday",
+    "title": "Staff Software Engineer, AI Solutions",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Denver-CO/Staff-Software-Engineer--AI-Solutions_REF087977W-1"
   },
   "wd_visa__job_US---Foster-City-CA_Lead-Software-Engineer_REF083345W": {
     "company": "Visa",
