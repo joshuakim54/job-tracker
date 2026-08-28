@@ -258,6 +258,13 @@
     "title": "Staff Software Engineer, Product ",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5026097008"
   },
+  "gh_5048461002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Database Engine Internals",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5048461002"
+  },
   "gh_5063007008": {
     "company": "Anthropic",
     "location": "San Francisco, CA",
@@ -825,6 +832,13 @@
     "title": "Staff Software Engineer - Distributed Data Systems",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002"
   },
+  "gh_5646866002": {
+    "company": "Databricks",
+    "location": "San Francisco, California",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Database Engine Internals",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646866002"
+  },
   "gh_5691886004": {
     "company": "Figma",
     "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
@@ -866,6 +880,13 @@
     "source": "greenhouse",
     "title": "Software Engineer - Traffic",
     "url": "https://boards.greenhouse.io/figma/jobs/6102379004?gh_jid=6102379004"
+  },
+  "gh_6131089004": {
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY",
+    "source": "greenhouse",
+    "title": "Software Engineer Intern (Winter 2027)",
+    "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004"
   },
   "gh_6142506004": {
     "company": "Figma",
@@ -1539,6 +1560,13 @@
     "title": "Senior Software Engineer, Backend - Platform (Core AI Automation)",
     "url": "https://www.coinbase.com/careers/positions/8051871?gh_jid=8051871"
   },
+  "gh_8052095": {
+    "company": "Datadog",
+    "location": "Boston, Massachusetts, USA; New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Software Engineering Intern (Winter)",
+    "url": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095"
+  },
   "gh_8053199": {
     "company": "Okta",
     "location": "San Francisco, California",
@@ -2085,6 +2113,20 @@
     "title": "Senior Backend Software Engineer, Payments Platform",
     "url": "https://careers.airbnb.com/positions/8163319?gh_jid=8163319"
   },
+  "gh_8164730": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Software Engineer, CDP - Payment Acceptance ",
+    "url": "https://www.coinbase.com/careers/positions/8164730?gh_jid=8164730"
+  },
+  "gh_8165015": {
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Frontend (Platform - Identity)",
+    "url": "https://www.coinbase.com/careers/positions/8165015?gh_jid=8165015"
+  },
   "gh_8202698002": {
     "company": "Databricks",
     "location": "San Francisco, California",
@@ -2540,6 +2582,13 @@
     "title": "Senior Backend Engineer (Go), Tenant Scale: Gitaly ",
     "url": "https://job-boards.greenhouse.io/gitlab/jobs/8729451002"
   },
+  "gh_8732364002": {
+    "company": "Databricks",
+    "location": "Bellevue, Washington; Mountain View, California; San Francisco, California",
+    "source": "greenhouse",
+    "title": "Software Engineering Intern (2027 Start) - Winter",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002"
+  },
   "gh_8749946002": {
     "company": "GitLab",
     "location": "Remote, Poland",
@@ -2567,6 +2616,27 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer (Typescript), AI Clients: Duo CLI",
     "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749952002"
+  },
+  "icims_sas_42319": {
+    "company": "SAS",
+    "location": "20070459, Research and Development, United States, North Carolina, Cary HQ",
+    "source": "icims",
+    "title": "SDET / C",
+    "url": "https://careers-sas.icims.com/jobs/42319/sdet---c/job?hub=9&in_iframe=1"
+  },
+  "icims_sas_42342": {
+    "company": "SAS",
+    "location": "20070496, Research and Development, United States, North Carolina, Cary HQ",
+    "source": "icims",
+    "title": "SDET (Emerging Careers)",
+    "url": "https://careers-sas.icims.com/jobs/42342/sdet-%28emerging-careers%29/job?hub=9&in_iframe=1"
+  },
+  "icims_sas_42358": {
+    "company": "SAS",
+    "location": "20070548, Research and Development, United States, North Carolina, Cary HQ",
+    "source": "icims",
+    "title": "Software Development Engineer in Test (C)",
+    "url": "https://careers-sas.icims.com/jobs/42358/software-development-engineer-in-test-%28c%29/job?hub=9&in_iframe=1"
   },
   "lever_98b81271-9e15-40b7-8dce-0c62f24702f9": {
     "company": "Palantir",
