@@ -81,7 +81,6 @@ LOCATION_INCLUDE = [
     "united states",
     "usa",
     "us -",
-    "anywhere",
 ]
 
 LOCATION_EXCLUDE = [
@@ -103,10 +102,50 @@ LOCATION_EXCLUDE = [
     "denmark"
 ]
 
+US_LOCATION_MARKERS = [
+    "united states",
+    "usa",
+    "us",
+    "alabama", "alaska", "arizona", "arkansas", "california",
+    "colorado", "connecticut", "delaware", "florida", "georgia",
+    "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas",
+    "kentucky", "louisiana", "maine", "maryland", "massachusetts",
+    "michigan", "minnesota", "mississippi", "missouri", "montana",
+    "nebraska", "nevada", "new hampshire", "new jersey", "new mexico",
+    "new york", "north carolina", "north dakota", "ohio", "oklahoma",
+    "oregon", "pennsylvania", "rhode island", "south carolina",
+    "south dakota", "tennessee", "texas", "utah", "vermont", "virginia",
+    "washington", "west virginia", "wisconsin", "wyoming",
+    "al", "ak", "az", "ar", "ca", "co", "ct", "de", "fl", "ga",
+    "hi", "id", "il", "in", "ia", "ks", "ky", "la", "me", "md",
+    "ma", "mi", "mn", "ms", "mo", "mt", "ne", "nv", "nh", "nj",
+    "nm", "ny", "nc", "nd", "oh", "ok", "or", "pa", "ri", "sc",
+    "sd", "tn", "tx", "ut", "vt", "va", "wa", "wv", "wi", "wy",
+]
+
 
 # ==========================================
 # MATCHING LOGIC
 # ==========================================
+def is_us_location(location):
+    normalized_location = re.sub(r"[^a-z0-9]+", " ", str(location).lower()).strip()
+    if not normalized_location:
+        return False
+
+    if any(
+        re.search(rf"(?<!\w){re.escape(term)}(?!\w)", normalized_location)
+        for term in LOCATION_EXCLUDE
+    ):
+        return False
+
+    is_remote = re.search(r"(?<!\w)(remote|anywhere|worldwide|global)(?!\w)", normalized_location)
+    has_us_marker = any(
+        re.search(rf"(?<!\w){re.escape(term)}(?!\w)", normalized_location)
+        for term in US_LOCATION_MARKERS
+    )
+    return bool(has_us_marker and (not is_remote or has_us_marker))
+
+
 def is_matching_job(job):
     title = job["title"].lower()
     location = job["location"].lower()
@@ -119,10 +158,7 @@ def is_matching_job(job):
         return False
 
     # Location check
-    if not any(loc in location for loc in LOCATION_INCLUDE):
-        return False
-
-    if any(loc in location for loc in LOCATION_EXCLUDE):
+    if not is_us_location(location):
         return False
 
     return True

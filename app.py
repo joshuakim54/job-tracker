@@ -4,6 +4,8 @@ import re
 
 import streamlit as st
 
+from job_monitor import is_us_location
+
 EXPERIENCE_LEVEL_TERMS = {
     "Internships": ["intern", "internship", "co-op", "coop"],
     "New grads": [
@@ -121,6 +123,7 @@ def matches(job, role_filters, required_filters, excluded_filters, selected_leve
         and (not required_filters or all(contains_term(searchable, term) for term in required_filters))
         and not any(contains_term(searchable, term) for term in excluded_filters)
         and (not selected_levels or get_experience_level(title) & set(selected_levels))
+        and is_us_location(location)
         and (not location_filters or any(contains_term(location, term) for term in location_filters))
     )
 
