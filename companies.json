@@ -62,20 +62,6 @@
     "career_site": "NVIDIAExternalCareerSite",
     "display_name": "NVIDIA"
   },
-  "salesforce": {
-    "type": "workday",
-    "domain": "salesforce.wd1.myworkdayjobs.com",
-    "tenant": "salesforce",
-    "career_site": "External_Career_Site",
-    "display_name": "Salesforce"
-  },
-  "ibm": {
-    "type": "workday",
-    "domain": "ibm.wd5.myworkdayjobs.com",
-    "tenant": "ibm",
-    "career_site": "External",
-    "display_name": "IBM (RTP Campus)"
-  },
   "figma": {
     "type": "greenhouse",
     "slug": "figma",
