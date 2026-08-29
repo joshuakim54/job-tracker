@@ -165,13 +165,42 @@ if search_button:
 
         results.sort(key=lambda job: (job.get("company", ""), job.get("title", "").lower()))
         st.session_state["results"] = results
-        st.session_state["search_summary"] = f"{len(results)} matching roles across the job database"
+        
+        # Store search criteria for display
+        st.session_state["search_criteria"] = {
+            "roles": role_terms,
+            "include": include_terms,
+            "exclude": exclude_terms,
+            "experience_levels": experience_levels,
+            "locations": location_terms,
+        }
+        
+        # Build a readable search summary
+        experience_label = f" ({', '.join(experience_levels)})" if experience_levels else ""
+        st.session_state["search_summary"] = f"Found {len(results)} roles for {role_terms}{experience_label}"
 
 if "results" in st.session_state:
     st.markdown(
         f'<div class="results-heading">{st.session_state["search_summary"]}</div>',
         unsafe_allow_html=True,
     )
+    
+    # Display search criteria
+    if "search_criteria" in st.session_state:
+        criteria = st.session_state["search_criteria"]
+        with st.expander("📋 View search criteria"):
+            col1, col2 = st.columns(2)
+            with col1:
+                st.write(f"**Roles:** {criteria['roles']}")
+                if criteria['experience_levels']:
+                    st.write(f"**Experience Levels:** {', '.join(criteria['experience_levels'])}")
+                if criteria['include']:
+                    st.write(f"**Must Include:** {criteria['include']}")
+            with col2:
+                st.write(f"**Locations:** {criteria['locations']}")
+                if criteria['exclude']:
+                    st.write(f"**Exclude:** {criteria['exclude']}")
+    
     results = st.session_state["results"]
     if not results:
         st.info("No matching roles found. Try broader keywords or locations.")
