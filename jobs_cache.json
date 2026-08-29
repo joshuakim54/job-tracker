@@ -351,6 +351,13 @@
   },
   {
     "company": "Stripe",
+    "id": "gh_8041894",
+    "location": "New York, NY; San Francisco, CA",
+    "title": "Account Executive, Enterprise Platforms, Tier 2 Grower",
+    "url": "https://stripe.com/jobs/search?gh_jid=8041894"
+  },
+  {
+    "company": "Stripe",
     "id": "gh_8075473",
     "location": "San Francisco, CA",
     "title": "Account Executive, Enterprise Platforms, Tier 2 Grower",
@@ -362,13 +369,6 @@
     "location": "New York, NY; San Francisco, CA",
     "title": "Account Executive, Enterprise Platforms, Tier 2 Grower",
     "url": "https://stripe.com/jobs/search?gh_jid=8138042"
-  },
-  {
-    "company": "Stripe",
-    "id": "gh_8041894",
-    "location": "New York, NY; San Francisco, CA",
-    "title": "Account Executive, Enterprise Platforms, Tier 2 Grower",
-    "url": "https://stripe.com/jobs/search?gh_jid=8041894"
   },
   {
     "company": "Stripe",
@@ -764,17 +764,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_7369543",
-    "location": "United Kingdom",
-    "title": "Backend/API Engineer, Money as a Service",
-    "url": "https://stripe.com/jobs/search?gh_jid=7369543"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_6176758",
     "location": "US",
     "title": "Backend/API Engineer, Money as a Service",
     "url": "https://stripe.com/jobs/search?gh_jid=6176758"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_7369543",
+    "location": "United Kingdom",
+    "title": "Backend/API Engineer, Money as a Service",
+    "url": "https://stripe.com/jobs/search?gh_jid=7369543"
   },
   {
     "company": "Stripe",
@@ -792,17 +792,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_6042172",
-    "location": "US-Remote, Chicago, Seattle, San Francisco",
-    "title": "Backend Engineer, Core Technology",
-    "url": "https://stripe.com/jobs/search?gh_jid=6042172"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_6686634",
     "location": "Dublin",
     "title": "Backend Engineer, Core Technology",
     "url": "https://stripe.com/jobs/search?gh_jid=6686634"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_6042172",
+    "location": "US-Remote, Chicago, Seattle, San Francisco",
+    "title": "Backend Engineer, Core Technology",
+    "url": "https://stripe.com/jobs/search?gh_jid=6042172"
   },
   {
     "company": "Stripe",
@@ -824,6 +824,13 @@
     "location": "Toronto, NY, SEA, SF",
     "title": "Backend Engineer, Developer & End-user Experience Platform",
     "url": "https://stripe.com/jobs/search?gh_jid=7557899"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_8131144",
+    "location": "NYC, Sea, SF, Tor",
+    "title": "Backend Engineer, Link",
+    "url": "https://stripe.com/jobs/search?gh_jid=8131144"
   },
   {
     "company": "Stripe",
@@ -1149,17 +1156,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_7978488",
-    "location": "Mexico City",
-    "title": "Data Analyst",
-    "url": "https://stripe.com/jobs/search?gh_jid=7978488"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_5416444",
     "location": "Canada",
     "title": "Data Analyst",
     "url": "https://stripe.com/jobs/search?gh_jid=5416444"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_7978488",
+    "location": "Mexico City",
+    "title": "Data Analyst",
+    "url": "https://stripe.com/jobs/search?gh_jid=7978488"
   },
   {
     "company": "Stripe",
@@ -1541,17 +1548,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_8075570",
-    "location": "Seattle, San Francisco, or New York",
-    "title": "Forward Deployed Engineer, Professional Services",
-    "url": "https://stripe.com/jobs/search?gh_jid=8075570"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_8075577",
     "location": "United States or Canada",
     "title": "Forward Deployed Engineer, Professional Services",
     "url": "https://stripe.com/jobs/search?gh_jid=8075577"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_8075570",
+    "location": "Seattle, San Francisco, or New York",
+    "title": "Forward Deployed Engineer, Professional Services",
+    "url": "https://stripe.com/jobs/search?gh_jid=8075570"
   },
   {
     "company": "Stripe",
@@ -2080,17 +2087,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_8014859",
-    "location": "Toronto",
-    "title": "Machine Learning Engineer",
-    "url": "https://stripe.com/jobs/search?gh_jid=8014859"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_8137997",
     "location": "South San Francisco, CA",
     "title": "Machine Learning Engineer",
     "url": "https://stripe.com/jobs/search?gh_jid=8137997"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_8014859",
+    "location": "Toronto",
+    "title": "Machine Learning Engineer",
+    "url": "https://stripe.com/jobs/search?gh_jid=8014859"
   },
   {
     "company": "Stripe",
@@ -2318,17 +2325,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_8104427",
-    "location": "London",
-    "title": "Partner Development Manager",
-    "url": "https://stripe.com/jobs/search?gh_jid=8104427"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_8096790",
     "location": "Mexico",
     "title": "Partner Development Manager",
     "url": "https://stripe.com/jobs/search?gh_jid=8096790"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_8104427",
+    "location": "London",
+    "title": "Partner Development Manager",
+    "url": "https://stripe.com/jobs/search?gh_jid=8104427"
   },
   {
     "company": "Stripe",
@@ -2374,17 +2381,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_7973002",
-    "location": "US-San Francisco; US-New York City; US-Seattle; US-Remote; US-Chicago; CA-Toronto; CA-Remote",
-    "title": "Partner Development Manager, Strategic Partnerships",
-    "url": "https://stripe.com/jobs/search?gh_jid=7973002"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_8094869",
     "location": "US-NYC; US-San Francisco; US-Seattle; US-Remote; US- Chicago; US-Atlanta; Canada-Toronto; Canada-Remote",
     "title": "Partner Development Manager, Strategic Partnerships",
     "url": "https://stripe.com/jobs/search?gh_jid=8094869"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_7973002",
+    "location": "US-San Francisco; US-New York City; US-Seattle; US-Remote; US-Chicago; CA-Toronto; CA-Remote",
+    "title": "Partner Development Manager, Strategic Partnerships",
+    "url": "https://stripe.com/jobs/search?gh_jid=7973002"
   },
   {
     "company": "Stripe",
@@ -2521,17 +2528,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_8094087",
-    "location": "Dublin, London",
-    "title": "Privacy Operations Program Manager",
-    "url": "https://stripe.com/jobs/search?gh_jid=8094087"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_8053517",
     "location": "US Remote",
     "title": "Privacy Operations Program Manager",
     "url": "https://stripe.com/jobs/search?gh_jid=8053517"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_8094087",
+    "location": "Dublin, London",
+    "title": "Privacy Operations Program Manager",
+    "url": "https://stripe.com/jobs/search?gh_jid=8094087"
   },
   {
     "company": "Stripe",
@@ -2990,17 +2997,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_7974209",
-    "location": "United States",
-    "title": "Risk Operations Analyst, Financial Crimes",
-    "url": "https://stripe.com/jobs/search?gh_jid=7974209"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_7974211",
     "location": "Dublin, Ireland",
     "title": "Risk Operations Analyst, Financial Crimes",
     "url": "https://stripe.com/jobs/search?gh_jid=7974211"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_7974209",
+    "location": "United States",
+    "title": "Risk Operations Analyst, Financial Crimes",
+    "url": "https://stripe.com/jobs/search?gh_jid=7974209"
   },
   {
     "company": "Stripe",
@@ -3347,17 +3354,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_8097801",
-    "location": "Dublin",
-    "title": "Software Engineer, Intern",
-    "url": "https://stripe.com/jobs/search?gh_jid=8097801"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_7543868",
     "location": "Bengaluru, India",
     "title": "Software Engineer, Internal Systems",
     "url": "https://stripe.com/jobs/search?gh_jid=7543868"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_8097801",
+    "location": "Dublin",
+    "title": "Software Engineer, Intern (Summer)",
+    "url": "https://stripe.com/jobs/search?gh_jid=8097801"
   },
   {
     "company": "Stripe",
@@ -3557,6 +3564,13 @@
   },
   {
     "company": "Stripe",
+    "id": "gh_8119970",
+    "location": "Singapore",
+    "title": "Specialist Solutions Architect, Payments (Mandarin Speaking)",
+    "url": "https://stripe.com/jobs/search?gh_jid=8119970"
+  },
+  {
+    "company": "Stripe",
     "id": "gh_7365914",
     "location": "NY or SF",
     "title": "Specialist Solutions Architect, Radar (Fraud/Risk)",
@@ -3711,17 +3725,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_8142649",
-    "location": "London",
-    "title": "Staff Product Manager, Local Payment Methods Growth",
-    "url": "https://stripe.com/jobs/search?gh_jid=8142649"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_7737526",
     "location": "Dublin",
     "title": "Staff Product Manager, Local Payment Methods Growth",
     "url": "https://stripe.com/jobs/search?gh_jid=7737526"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_8142649",
+    "location": "London",
+    "title": "Staff Product Manager, Local Payment Methods Growth",
+    "url": "https://stripe.com/jobs/search?gh_jid=8142649"
   },
   {
     "company": "Stripe",
@@ -3830,17 +3844,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_7939868",
-    "location": "San Francisco, Seattle",
-    "title": "Staff Software Engineer, Machine Learning Platform",
-    "url": "https://stripe.com/jobs/search?gh_jid=7939868"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_7712852",
     "location": "Toronto",
     "title": "Staff Software Engineer, Machine Learning Platform",
     "url": "https://stripe.com/jobs/search?gh_jid=7712852"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_7939868",
+    "location": "San Francisco, Seattle",
+    "title": "Staff Software Engineer, Machine Learning Platform",
+    "url": "https://stripe.com/jobs/search?gh_jid=7939868"
   },
   {
     "company": "Stripe",
@@ -4054,17 +4068,17 @@
   },
   {
     "company": "Stripe",
-    "id": "gh_8154525",
-    "location": "SF, SEA, NYC, CHI, ATL",
-    "title": "Technical Recruiter (Fixed Term Contract)",
-    "url": "https://stripe.com/jobs/search?gh_jid=8154525"
-  },
-  {
-    "company": "Stripe",
     "id": "gh_8142856",
     "location": "Singapore",
     "title": "Technical Recruiter (Fixed Term Contract)",
     "url": "https://stripe.com/jobs/search?gh_jid=8142856"
+  },
+  {
+    "company": "Stripe",
+    "id": "gh_8154525",
+    "location": "SF, SEA, NYC, CHI, ATL",
+    "title": "Technical Recruiter (Fixed Term Contract)",
+    "url": "https://stripe.com/jobs/search?gh_jid=8154525"
   },
   {
     "company": "Stripe",
@@ -4243,10 +4257,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8749859002",
-    "location": "Stockholm, Sweden",
+    "id": "gh_8747605002",
+    "location": "Amsterdam, Netherlands",
     "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8749859002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8747605002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8569392002",
+    "location": "Tokyo, Japan",
+    "title": "AI Engineer - FDE (Forward Deployed Engineer)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569392002"
   },
   {
     "company": "Databricks",
@@ -4257,10 +4278,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8593713002",
-    "location": "Remote - United Kingdom",
+    "id": "gh_8574655002",
+    "location": "Seoul, South Korea",
     "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593713002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8574655002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8749859002",
+    "location": "Stockholm, Sweden",
+    "title": "AI Engineer - FDE (Forward Deployed Engineer)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8749859002"
   },
   {
     "company": "Databricks",
@@ -4271,24 +4299,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8747605002",
-    "location": "Amsterdam, Netherlands",
+    "id": "gh_8593713002",
+    "location": "Remote - United Kingdom",
     "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8747605002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8574655002",
-    "location": "Seoul, South Korea",
-    "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8574655002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8569392002",
-    "location": "Tokyo, Japan",
-    "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569392002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593713002"
   },
   {
     "company": "Databricks",
@@ -4355,17 +4369,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8423165002",
-    "location": "Chicago, Illinois",
-    "title": "Business Development Representative",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8423167002",
     "location": "Washington, D.C.",
     "title": "Business Development Representative",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423167002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8423165002",
+    "location": "Chicago, Illinois",
+    "title": "Business Development Representative",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002"
   },
   {
     "company": "Databricks",
@@ -4397,17 +4411,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8441894002",
-    "location": "Finland; Remote - Denmark; Stockholm, Sweden",
+    "id": "gh_8450551002",
+    "location": "Tokyo, Japan",
     "title": "Delivery Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8441894002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8575046002",
-    "location": "Paris, France",
-    "title": "Delivery Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575046002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8450551002"
   },
   {
     "company": "Databricks",
@@ -4418,10 +4425,31 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8482406002",
+    "location": "Seoul, South Korea",
+    "title": "Delivery Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482406002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8575046002",
+    "location": "Paris, France",
+    "title": "Delivery Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575046002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8549681002",
     "location": "London, United Kingdom",
     "title": "Delivery Solutions Architect",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8549681002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8476496002",
+    "location": "Brisbane, Australia; Melbourne, Australia; Western Australia, Australia",
+    "title": "Delivery Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8476496002"
   },
   {
     "company": "Databricks",
@@ -4432,24 +4460,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8482406002",
-    "location": "Seoul, South Korea",
+    "id": "gh_8441894002",
+    "location": "Finland; Remote - Denmark; Stockholm, Sweden",
     "title": "Delivery Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482406002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8450551002",
-    "location": "Tokyo, Japan",
-    "title": "Delivery Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8450551002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8476496002",
-    "location": "Brisbane, Australia; Melbourne, Australia; Western Australia, Australia",
-    "title": "Delivery Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8476496002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8441894002"
   },
   {
     "company": "Databricks",
@@ -4516,13 +4530,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8463063002",
-    "location": "United States",
-    "title": "Deployment Strategist",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8463063002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8548183002",
     "location": "London, United Kingdom",
     "title": "Deployment Strategist",
@@ -4534,6 +4541,13 @@
     "location": "Remote - India",
     "title": "Deployment Strategist",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637736002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8463063002",
+    "location": "United States",
+    "title": "Deployment Strategist",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8463063002"
   },
   {
     "company": "Databricks",
@@ -4649,13 +4663,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8569624002",
-    "location": "Tokyo, Japan",
-    "title": "Director, Lakebase Sales Specialist",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569624002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8569596002",
     "location": "Toronto, Canada",
     "title": "Director, Lakebase Sales Specialist",
@@ -4663,17 +4670,17 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8569624002",
+    "location": "Tokyo, Japan",
+    "title": "Director, Lakebase Sales Specialist",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569624002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8569608002",
     "location": "New York City, New York",
     "title": "Director, Lakebase Sales Specialist- Financial Services",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569608002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8569602002",
-    "location": "Sao Paulo, Brazil",
-    "title": "Director, Lakebase Sales Specialists",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569602002"
   },
   {
     "company": "Databricks",
@@ -4688,6 +4695,13 @@
     "location": "Melbourne, Australia",
     "title": "Director, Lakebase Sales Specialists",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8585150002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8569602002",
+    "location": "Sao Paulo, Brazil",
+    "title": "Director, Lakebase Sales Specialists",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569602002"
   },
   {
     "company": "Databricks",
@@ -4768,17 +4782,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8403550002",
-    "location": "Hesse, Germany",
-    "title": "Director, Strategic Accounts - Logistics & Tech, m/f/d",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8403550002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8388585002",
     "location": "Munich, Germany",
     "title": "Director, Strategic Accounts - Logistics & Tech, m/f/d",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8388585002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8403550002",
+    "location": "Hesse, Germany",
+    "title": "Director, Strategic Accounts - Logistics & Tech, m/f/d",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8403550002"
   },
   {
     "company": "Databricks",
@@ -4845,17 +4859,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_5313313002",
-    "location": "Amsterdam, Netherlands",
-    "title": "Engineering Manager - Backend",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5313313002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_7439442002",
     "location": "Bengaluru, India",
     "title": "Engineering Manager - Backend",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7439442002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_5313313002",
+    "location": "Amsterdam, Netherlands",
+    "title": "Engineering Manager - Backend",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5313313002"
   },
   {
     "company": "Databricks",
@@ -5160,17 +5174,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8638640002",
-    "location": "Paris, France",
-    "title": "Field Marketing Manager - France, Middle East & Africa",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8638640002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8653573002",
     "location": "London, United Kingdom",
     "title": "Field Marketing Manager - France, Middle East & Africa",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8653573002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8638640002",
+    "location": "Paris, France",
+    "title": "Field Marketing Manager - France, Middle East & Africa",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8638640002"
   },
   {
     "company": "Databricks",
@@ -5181,17 +5195,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8598531002",
-    "location": "Seoul, South Korea",
-    "title": "Field Technical Program Manager",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8598531002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8540665002",
     "location": "Munich, Germany",
     "title": "Field Technical Program Manager",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8540665002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8598531002",
+    "location": "Seoul, South Korea",
+    "title": "Field Technical Program Manager",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8598531002"
   },
   {
     "company": "Databricks",
@@ -5209,6 +5223,13 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8462016002",
+    "location": "Amsterdam, Netherlands",
+    "title": "Forward Deployed Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8462016002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8540455002",
     "location": "Seoul, South Korea",
     "title": "Forward Deployed Engineer",
@@ -5220,13 +5241,6 @@
     "location": "Berlin, Germany; Munich, Germany",
     "title": "Forward Deployed Engineer",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8648494002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8462016002",
-    "location": "Amsterdam, Netherlands",
-    "title": "Forward Deployed Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8462016002"
   },
   {
     "company": "Databricks",
@@ -5405,17 +5419,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8569572002",
-    "location": "Tokyo, Japan",
+    "id": "gh_8569453002",
+    "location": "Sao Paulo, Brazil",
     "title": "Lakebase Sales Specialist",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569572002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569453002"
   },
   {
     "company": "Databricks",
-    "id": "gh_8569410002",
-    "location": "United States",
+    "id": "gh_8569522002",
+    "location": "Stockholm, Sweden",
     "title": "Lakebase Sales Specialist",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569410002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569522002"
   },
   {
     "company": "Databricks",
@@ -5433,6 +5447,13 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8569410002",
+    "location": "United States",
+    "title": "Lakebase Sales Specialist",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569410002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8569403002",
     "location": "Toronto, Canada",
     "title": "Lakebase Sales Specialist",
@@ -5440,17 +5461,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8569522002",
-    "location": "Stockholm, Sweden",
+    "id": "gh_8569572002",
+    "location": "Tokyo, Japan",
     "title": "Lakebase Sales Specialist",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569522002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8569453002",
-    "location": "Sao Paulo, Brazil",
-    "title": "Lakebase Sales Specialist",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569453002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569572002"
   },
   {
     "company": "Databricks",
@@ -5531,17 +5545,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8569564002",
-    "location": "Melbourne, Australia",
-    "title": "Lakebase Specialist Sales",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569564002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8569566002",
     "location": "Sydney, Australia",
     "title": "Lakebase Specialist Sales",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569566002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8569564002",
+    "location": "Melbourne, Australia",
+    "title": "Lakebase Specialist Sales",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569564002"
   },
   {
     "company": "Databricks",
@@ -5699,17 +5713,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8445817002",
-    "location": "Sydney, Australia",
+    "id": "gh_8535419002",
+    "location": "Tokyo, Japan",
     "title": "Manager, Forward Deployed Engineering",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8445817002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8629997002",
-    "location": "Singapore",
-    "title": "Manager, Forward Deployed Engineering",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8629997002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8535419002"
   },
   {
     "company": "Databricks",
@@ -5727,10 +5734,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8535419002",
-    "location": "Tokyo, Japan",
+    "id": "gh_8629997002",
+    "location": "Singapore",
     "title": "Manager, Forward Deployed Engineering",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8535419002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8629997002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8445817002",
+    "location": "Sydney, Australia",
+    "title": "Manager, Forward Deployed Engineering",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8445817002"
   },
   {
     "company": "Databricks",
@@ -5811,17 +5825,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8536432002",
-    "location": "Remote - Denmark",
-    "title": "Named Enterprise Account Executive",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8536432002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8536436002",
     "location": "Stockholm, Sweden",
     "title": "Named Enterprise Account Executive",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8536436002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8536432002",
+    "location": "Remote - Denmark",
+    "title": "Named Enterprise Account Executive",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8536432002"
   },
   {
     "company": "Databricks",
@@ -5944,17 +5958,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8400559002",
-    "location": "Mountain View, California; San Francisco, California",
-    "title": "Principal Engineer, Authentication",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400559002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8400563002",
     "location": "Bellevue, Washington; Seattle, Washington",
     "title": "Principal Engineer, Authentication",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400563002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8400559002",
+    "location": "Mountain View, California; San Francisco, California",
+    "title": "Principal Engineer, Authentication",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400559002"
   },
   {
     "company": "Databricks",
@@ -5965,20 +5979,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8224828002",
-    "location": "Mountain View, California",
-    "title": "Principal Engineer - Privacy",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8224828002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_7274619002",
-    "location": "Seattle, Washington",
-    "title": "Principal Engineer - Privacy",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274619002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_7274875002",
     "location": "Amsterdam, Netherlands",
     "title": "Principal Engineer - Privacy",
@@ -5986,10 +5986,24 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8224828002",
+    "location": "Mountain View, California",
+    "title": "Principal Engineer - Privacy",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8224828002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_7274488002",
     "location": "San Francisco, California",
     "title": "Principal Engineer - Privacy",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274488002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_7274619002",
+    "location": "Seattle, Washington",
+    "title": "Principal Engineer - Privacy",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274619002"
   },
   {
     "company": "Databricks",
@@ -6385,17 +6399,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8210383002",
-    "location": "Bengaluru, India",
-    "title": "Senior Software Engineer (App-Framework)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8210383002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8294304002",
     "location": "Bengaluru, India",
     "title": "Senior Software Engineer (App-Framework)",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8294304002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8210383002",
+    "location": "Bengaluru, India",
+    "title": "Senior Software Engineer (App-Framework)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8210383002"
   },
   {
     "company": "Databricks",
@@ -6406,17 +6420,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8012803002",
-    "location": "Belgrade, Serbia",
-    "title": "Senior Software Engineer - Backend",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_6544435002",
     "location": "Mountain View, California",
     "title": "Senior Software Engineer - Backend",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8012803002",
+    "location": "Belgrade, Serbia",
+    "title": "Senior Software Engineer - Backend",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002"
   },
   {
     "company": "Databricks",
@@ -6434,10 +6448,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_4799387002",
-    "location": "San Francisco, California",
+    "id": "gh_8093295002",
+    "location": "Vancouver, Canada",
     "title": "Senior Software Engineer - Backend",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002"
   },
   {
     "company": "Databricks",
@@ -6448,10 +6462,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8093295002",
-    "location": "Vancouver, Canada",
+    "id": "gh_4799387002",
+    "location": "San Francisco, California",
     "title": "Senior Software Engineer - Backend",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002"
   },
   {
     "company": "Databricks",
@@ -6483,17 +6497,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_5048461002",
-    "location": "San Francisco, California",
-    "title": "Senior Software Engineer - Database Engine Internals",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5048461002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_6544383002",
     "location": "Mountain View, California",
     "title": "Senior Software Engineer - Database Engine Internals",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544383002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_5048461002",
+    "location": "San Francisco, California",
+    "title": "Senior Software Engineer - Database Engine Internals",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5048461002"
   },
   {
     "company": "Databricks",
@@ -6518,6 +6532,13 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8012800002",
+    "location": "Belgrade, Serbia",
+    "title": "Senior Software Engineer - Distributed Data Systems",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012800002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_4513122002",
     "location": "San Francisco, California",
     "title": "Senior Software Engineer - Distributed Data Systems",
@@ -6525,10 +6546,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8012800002",
-    "location": "Belgrade, Serbia",
-    "title": "Senior Software Engineer - Distributed Data Systems",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012800002"
+    "id": "gh_6544403002",
+    "location": "Seattle, Washington",
+    "title": "Senior Software Engineer - Fullstack",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544403002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8099342002",
+    "location": "Vancouver, Canada",
+    "title": "Senior Software Engineer - Fullstack",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8099342002"
   },
   {
     "company": "Databricks",
@@ -6550,20 +6578,6 @@
     "location": "Mountain View, California; San Francisco, California",
     "title": "Senior Software Engineer - Fullstack",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_6544403002",
-    "location": "Seattle, Washington",
-    "title": "Senior Software Engineer - Fullstack",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544403002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8099342002",
-    "location": "Vancouver, Canada",
-    "title": "Senior Software Engineer - Fullstack",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8099342002"
   },
   {
     "company": "Databricks",
@@ -6672,17 +6686,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8567957002",
-    "location": "Central - United States; Northeast - United States; Southeast - United States",
-    "title": "Senior Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567957002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8509683002",
     "location": "Stockholm, Sweden",
     "title": "Senior Solutions Architect",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8509683002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8567957002",
+    "location": "Central - United States; Northeast - United States; Southeast - United States",
+    "title": "Senior Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567957002"
   },
   {
     "company": "Databricks",
@@ -6707,6 +6721,13 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8720251002",
+    "location": "Paris, France",
+    "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720251002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8720252002",
     "location": "Amsterdam, Netherlands",
     "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
@@ -6714,17 +6735,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8704938002",
-    "location": "London, United Kingdom",
+    "id": "gh_8720253002",
+    "location": "Berlin, Germany; Munich, Germany",
     "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8704938002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8720251002",
-    "location": "Paris, France",
-    "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720251002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720253002"
   },
   {
     "company": "Databricks",
@@ -6735,10 +6749,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8720253002",
-    "location": "Berlin, Germany; Munich, Germany",
+    "id": "gh_8704938002",
+    "location": "London, United Kingdom",
     "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720253002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8704938002"
   },
   {
     "company": "Databricks",
@@ -6854,17 +6868,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8303014002",
-    "location": "Aarhus, Denmark",
-    "title": "Senior Staff Software Engineer - Delta",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8303015002",
     "location": "Amsterdam, Netherlands",
     "title": "Senior Staff Software Engineer - Delta",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8303014002",
+    "location": "Aarhus, Denmark",
+    "title": "Senior Staff Software Engineer - Delta",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002"
   },
   {
     "company": "Databricks",
@@ -6924,6 +6938,27 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8422481002",
+    "location": "London, United Kingdom",
+    "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422481002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8422484002",
+    "location": "Aarhus, Denmark",
+    "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422484002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8422483002",
+    "location": "Z\u00fcrich, Switzerland",
+    "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422483002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8422477002",
     "location": "Amsterdam, Netherlands",
     "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement ",
@@ -6935,27 +6970,6 @@
     "location": "Berlin, Germany",
     "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement ",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8407527002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8422484002",
-    "location": "Aarhus, Denmark",
-    "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422484002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8422481002",
-    "location": "London, United Kingdom",
-    "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422481002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8422483002",
-    "location": "Z\u00fcrich, Switzerland",
-    "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422483002"
   },
   {
     "company": "Databricks",
@@ -7008,76 +7022,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8697987002",
-    "location": "Central - United States",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8697987002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_5898477002",
-    "location": "Toronto, Canada",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5898477002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8608603002",
-    "location": "Munich, Germany",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8608603002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8607718002",
-    "location": "Seoul, South Korea",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8607718002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8531153002",
-    "location": "Stockholm, Sweden",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8531153002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8603684002",
-    "location": "Auckland, New Zealand",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8603684002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8595160002",
-    "location": "Sydney, Australia",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8595160002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8605160002",
-    "location": "Arizona; California; Utah",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8605160002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8641892002",
-    "location": "Pune, India",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8641892002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8568031002",
-    "location": "San Francisco, California",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568031002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8437008002",
     "location": "Queensland, Australia",
     "title": "Solutions Architect",
@@ -7085,17 +7029,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8559339002",
-    "location": "Singapore",
+    "id": "gh_8595160002",
+    "location": "Sydney, Australia",
     "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8559339002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8576249002",
-    "location": "Milan, Italy",
-    "title": "Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8576249002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8595160002"
   },
   {
     "company": "Databricks",
@@ -7113,10 +7050,87 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_5898477002",
+    "location": "Toronto, Canada",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5898477002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8531153002",
+    "location": "Stockholm, Sweden",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8531153002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8641892002",
+    "location": "Pune, India",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8641892002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8603684002",
+    "location": "Auckland, New Zealand",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8603684002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8697987002",
+    "location": "Central - United States",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8697987002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8568031002",
+    "location": "San Francisco, California",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568031002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8559339002",
+    "location": "Singapore",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8559339002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8576249002",
+    "location": "Milan, Italy",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8576249002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8608603002",
+    "location": "Munich, Germany",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8608603002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_7896350002",
     "location": "Mexico City",
     "title": "Solutions Architect",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7896350002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8607718002",
+    "location": "Seoul, South Korea",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8607718002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8605160002",
+    "location": "Arizona; California; Utah",
+    "title": "Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8605160002"
   },
   {
     "company": "Databricks",
@@ -7127,10 +7141,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8755474002",
-    "location": "Northeast - United States",
+    "id": "gh_8755476002",
+    "location": "Remote - New York",
     "title": "Solutions Architect - Communications, Media, Entertainment and Games",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755474002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755476002"
   },
   {
     "company": "Databricks",
@@ -7141,17 +7155,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8487768002",
-    "location": "Philadelphia, Pennsylvania",
-    "title": "Solutions Architect - Communications, Media, Entertainment and Games",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8487768002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8755482002",
     "location": "Remote - Pennsylvania",
     "title": "Solutions Architect - Communications, Media, Entertainment and Games",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755482002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8487768002",
+    "location": "Philadelphia, Pennsylvania",
+    "title": "Solutions Architect - Communications, Media, Entertainment and Games",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8487768002"
   },
   {
     "company": "Databricks",
@@ -7162,10 +7176,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8755476002",
-    "location": "Remote - New York",
+    "id": "gh_8755474002",
+    "location": "Northeast - United States",
     "title": "Solutions Architect - Communications, Media, Entertainment and Games",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755476002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755474002"
   },
   {
     "company": "Databricks",
@@ -7173,6 +7187,13 @@
     "location": "Los Angeles, California",
     "title": "Solutions Architect - Communications, Media, Entertainment and Games ",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8737857002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8756203002",
+    "location": "Remote - California",
+    "title": "Solutions Architect - Communications, Media, Entertainment and Games ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8756203002"
   },
   {
     "company": "Databricks",
@@ -7187,13 +7208,6 @@
     "location": "San Francisco, California",
     "title": "Solutions Architect - Communications, Media, Entertainment and Games ",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8756214002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8756203002",
-    "location": "Remote - California",
-    "title": "Solutions Architect - Communications, Media, Entertainment and Games ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8756203002"
   },
   {
     "company": "Databricks",
@@ -7281,13 +7295,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8231231002",
-    "location": "Remote - California",
-    "title": "Solutions Architect - Healthcare/Life Sciences Team (HLS)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8231231002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8085877002",
     "location": "Remote - Illinois",
     "title": "Solutions Architect - Healthcare/Life Sciences Team (HLS)",
@@ -7295,17 +7302,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8567993002",
-    "location": "Sao Paulo, Brazil",
-    "title": "Solutions Architect - Lakebase",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567993002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8568015002",
-    "location": "London, United Kingdom",
-    "title": "Solutions Architect - Lakebase",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568015002"
+    "id": "gh_8231231002",
+    "location": "Remote - California",
+    "title": "Solutions Architect - Healthcare/Life Sciences Team (HLS)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8231231002"
   },
   {
     "company": "Databricks",
@@ -7316,17 +7316,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8567985002",
-    "location": "Singapore",
-    "title": "Solutions Architect (Lakebase)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567985002"
+    "id": "gh_8568015002",
+    "location": "London, United Kingdom",
+    "title": "Solutions Architect - Lakebase",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568015002"
   },
   {
     "company": "Databricks",
-    "id": "gh_8568023002",
-    "location": "Bengaluru, India",
-    "title": "Solutions Architect (Lakebase)",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568023002"
+    "id": "gh_8567993002",
+    "location": "Sao Paulo, Brazil",
+    "title": "Solutions Architect - Lakebase",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567993002"
   },
   {
     "company": "Databricks",
@@ -7337,10 +7337,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8661758002",
-    "location": "Remote - Illinois; Remote - Michigan; Remote - New York",
-    "title": "Solutions Architect - Manufacturing",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8661758002"
+    "id": "gh_8568023002",
+    "location": "Bengaluru, India",
+    "title": "Solutions Architect (Lakebase)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568023002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8567985002",
+    "location": "Singapore",
+    "title": "Solutions Architect (Lakebase)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567985002"
   },
   {
     "company": "Databricks",
@@ -7348,6 +7355,13 @@
     "location": "Chicago, Illinois",
     "title": "Solutions Architect - Manufacturing",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6545547002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8661758002",
+    "location": "Remote - Illinois; Remote - Michigan; Remote - New York",
+    "title": "Solutions Architect - Manufacturing",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8661758002"
   },
   {
     "company": "Databricks",
@@ -7407,17 +7421,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8637758002",
-    "location": "Maryland; Virginia; Washington, D.C.",
-    "title": "Solutions Architect - Public Sector ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637758002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8438777002",
     "location": "Delhi, India",
     "title": "Solutions Architect - Public Sector ",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8438777002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8637758002",
+    "location": "Maryland; Virginia; Washington, D.C.",
+    "title": "Solutions Architect - Public Sector ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637758002"
   },
   {
     "company": "Databricks",
@@ -7449,34 +7463,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8755462002",
-    "location": "Remote - California",
-    "title": "Solutions Architect - Strat Media ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755462002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8755461002",
-    "location": "West Coast - United States",
-    "title": "Solutions Architect - Strat Media ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755461002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8755460002",
-    "location": "San Francisco, California",
-    "title": "Solutions Architect - Strat Media ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755460002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8755463002",
-    "location": "Los Angeles, California",
-    "title": "Solutions Architect - Strat Media ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755463002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8755466002",
     "location": "San Diego, California",
     "title": "Solutions Architect - Strat Media ",
@@ -7491,6 +7477,34 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8755460002",
+    "location": "San Francisco, California",
+    "title": "Solutions Architect - Strat Media ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755460002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8755461002",
+    "location": "West Coast - United States",
+    "title": "Solutions Architect - Strat Media ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755461002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8755462002",
+    "location": "Remote - California",
+    "title": "Solutions Architect - Strat Media ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755462002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8755463002",
+    "location": "Los Angeles, California",
+    "title": "Solutions Architect - Strat Media ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8755463002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8382743002",
     "location": "Seoul, South Korea",
     "title": "Specialist Solutions Architect",
@@ -7498,17 +7512,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_7811355002",
-    "location": "Sao Paulo, Brazil",
-    "title": "Specialist Solutions Architect - AI/ML",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7811355002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8697991002",
     "location": "Central - United States; West Coast - United States",
     "title": "Specialist Solutions Architect - AI/ML",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8697991002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_7811355002",
+    "location": "Sao Paulo, Brazil",
+    "title": "Specialist Solutions Architect - AI/ML",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7811355002"
   },
   {
     "company": "Databricks",
@@ -7666,17 +7680,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8716192002",
-    "location": "San Francisco, California",
-    "title": "Sr. Developer Advocate, AI and Machine Learning",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8716192002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8716720002",
     "location": "Seattle, Washington",
     "title": "Sr. Developer Advocate, AI and Machine Learning",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8716720002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8716192002",
+    "location": "San Francisco, California",
+    "title": "Sr. Developer Advocate, AI and Machine Learning",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8716192002"
   },
   {
     "company": "Databricks",
@@ -7687,17 +7701,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8716187002",
-    "location": "San Francisco, California",
-    "title": "Sr. Developer Advocate, Open Source \u2014 Omnigent",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8716187002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8716730002",
     "location": "Seattle, Washington",
     "title": "Sr. Developer Advocate, Open Source \u2014 Omnigent",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8716730002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8716187002",
+    "location": "San Francisco, California",
+    "title": "Sr. Developer Advocate, Open Source \u2014 Omnigent",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8716187002"
   },
   {
     "company": "Databricks",
@@ -7813,48 +7827,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8568173002",
-    "location": "Tokyo, Japan",
-    "title": "Sr. Forward Deployed Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568173002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8514430002",
-    "location": "Western Australia, Australia",
-    "title": "Sr. Forward Deployed Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8514430002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8645054002",
-    "location": "Stockholm, Sweden",
-    "title": "Sr. Forward Deployed Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8645054002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8739458002",
-    "location": "Chicago, Illinois",
-    "title": "Sr. Forward Deployed Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739458002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8739484002",
-    "location": "United States",
-    "title": "Sr. Forward Deployed Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739484002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8534142002",
-    "location": "Singapore",
-    "title": "Sr. Forward Deployed Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8534142002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8578144002",
     "location": "Sydney, Australia",
     "title": "Sr. Forward Deployed Engineer",
@@ -7876,10 +7848,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8657065002",
-    "location": "Austin, Texas",
+    "id": "gh_8739484002",
+    "location": "United States",
     "title": "Sr. Forward Deployed Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8657065002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739484002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8514430002",
+    "location": "Western Australia, Australia",
+    "title": "Sr. Forward Deployed Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8514430002"
   },
   {
     "company": "Databricks",
@@ -7890,6 +7869,41 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8645054002",
+    "location": "Stockholm, Sweden",
+    "title": "Sr. Forward Deployed Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8645054002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8657065002",
+    "location": "Austin, Texas",
+    "title": "Sr. Forward Deployed Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8657065002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8739458002",
+    "location": "Chicago, Illinois",
+    "title": "Sr. Forward Deployed Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739458002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8534142002",
+    "location": "Singapore",
+    "title": "Sr. Forward Deployed Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8534142002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8568173002",
+    "location": "Tokyo, Japan",
+    "title": "Sr. Forward Deployed Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568173002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8656207002",
     "location": "London, United Kingdom",
     "title": "Sr. Forward Deployed Engineer - Architect - Full Stack",
@@ -7897,31 +7911,24 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8461168002",
-    "location": "Los Angeles, California",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461168002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8461163002",
-    "location": "San Francisco, California",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461163002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8494153002",
-    "location": "Philadelphia, Pennsylvania",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494153002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8461258002",
     "location": "Raleigh, North Carolina",
     "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461258002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8461220002",
+    "location": "Chicago, Illinois",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461220002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8461193002",
+    "location": "Seattle, Washington",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461193002"
   },
   {
     "company": "Databricks",
@@ -7936,6 +7943,13 @@
     "location": "Denver, Colorado",
     "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461243002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8461168002",
+    "location": "Los Angeles, California",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461168002"
   },
   {
     "company": "Databricks",
@@ -7960,6 +7974,13 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8461163002",
+    "location": "San Francisco, California",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461163002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8461222002",
     "location": "Boston, Massachusetts",
     "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
@@ -7967,10 +7988,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8461220002",
-    "location": "Chicago, Illinois",
+    "id": "gh_8494153002",
+    "location": "Philadelphia, Pennsylvania",
     "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461220002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494153002"
   },
   {
     "company": "Databricks",
@@ -7988,13 +8009,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8461193002",
-    "location": "Seattle, Washington",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461193002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8488399002",
     "location": "Mountain View, California; San Francisco, California",
     "title": "Sr. Forward Deployed Engineer (FDE) - Digital Native Business ",
@@ -8006,41 +8020,6 @@
     "location": "Charlotte, North Carolina",
     "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592951002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8592942002",
-    "location": "New York City, New York",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592942002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8592939002",
-    "location": "Philadelphia, Pennsylvania",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592939002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8592952002",
-    "location": "Washington, D.C.",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592952002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8592937002",
-    "location": "Boston, Massachusetts",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592937002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8592928002",
-    "location": "Dallas, Texas",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592928002"
   },
   {
     "company": "Databricks",
@@ -8058,10 +8037,45 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8592928002",
+    "location": "Dallas, Texas",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592928002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8592937002",
+    "location": "Boston, Massachusetts",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592937002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8592938002",
     "location": "Chicago, Illinois",
     "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592938002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8592939002",
+    "location": "Philadelphia, Pennsylvania",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592939002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8592942002",
+    "location": "New York City, New York",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592942002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8592952002",
+    "location": "Washington, D.C.",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592952002"
   },
   {
     "company": "Databricks",
@@ -8072,10 +8086,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8371312002",
-    "location": "New York City, New York",
+    "id": "gh_8494148002",
+    "location": "Philadelphia, Pennsylvania",
     "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8371312002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494148002"
   },
   {
     "company": "Databricks",
@@ -8086,13 +8100,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8494143002",
-    "location": "Chicago, Illinois",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494143002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8494144002",
     "location": "Dallas, Texas",
     "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
@@ -8100,10 +8107,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8494145002",
-    "location": "Austin, Texas",
+    "id": "gh_8371312002",
+    "location": "New York City, New York",
     "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494145002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8371312002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8494143002",
+    "location": "Chicago, Illinois",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494143002"
   },
   {
     "company": "Databricks",
@@ -8114,10 +8128,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8494148002",
-    "location": "Philadelphia, Pennsylvania",
+    "id": "gh_8494145002",
+    "location": "Austin, Texas",
     "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494148002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494145002"
   },
   {
     "company": "Databricks",
@@ -8149,10 +8163,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8494108002",
-    "location": "Maryland",
+    "id": "gh_8494107002",
+    "location": "Virginia",
     "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494108002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494107002"
   },
   {
     "company": "Databricks",
@@ -8163,17 +8177,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8494107002",
-    "location": "Virginia",
+    "id": "gh_8494108002",
+    "location": "Maryland",
     "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494107002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8423310002",
-    "location": "Delaware; Maryland; Remote - Pennsylvania; Remote - Virginia; Remote - Washington D.C.; West Virginia",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423310002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494108002"
   },
   {
     "company": "Databricks",
@@ -8184,10 +8191,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8647677002",
-    "location": "Remote - California",
-    "title": "Sr. Forward Deployed Engineer (FDE) - Retail",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8647677002"
+    "id": "gh_8423310002",
+    "location": "Delaware; Maryland; Remote - Pennsylvania; Remote - Virginia; Remote - Washington D.C.; West Virginia",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423310002"
   },
   {
     "company": "Databricks",
@@ -8226,6 +8233,13 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8647677002",
+    "location": "Remote - California",
+    "title": "Sr. Forward Deployed Engineer (FDE) - Retail",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8647677002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8647675002",
     "location": "Denver, Colorado",
     "title": "Sr. Forward Deployed Engineer (FDE) - Retail",
@@ -8233,17 +8247,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8746374002",
-    "location": "Boston, Massachusetts; Delaware; Maryland; Remote - California; Remote - New York; Remote - Washington D.C.; Virginia; West Virginia",
-    "title": "Sr. Forward Deployed Engineer - National Security",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8746374002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8657468002",
     "location": "United States; USCA",
     "title": "Sr. Forward Deployed Engineer - National Security",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8657468002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8746374002",
+    "location": "Boston, Massachusetts; Delaware; Maryland; Remote - California; Remote - New York; Remote - Washington D.C.; Virginia; West Virginia",
+    "title": "Sr. Forward Deployed Engineer - National Security",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8746374002"
   },
   {
     "company": "Databricks",
@@ -8359,10 +8373,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8736179002",
-    "location": "Seoul, South Korea",
+    "id": "gh_8682223002",
+    "location": "Sydney, Australia",
     "title": "Sr. Manager, Field Engineering",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8736179002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8682223002"
   },
   {
     "company": "Databricks",
@@ -8387,10 +8401,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8682223002",
-    "location": "Sydney, Australia",
+    "id": "gh_8736179002",
+    "location": "Seoul, South Korea",
     "title": "Sr. Manager, Field Engineering",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8682223002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8736179002"
   },
   {
     "company": "Databricks",
@@ -8471,13 +8485,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8638943002",
-    "location": "Sao Paulo, Brazil",
-    "title": "Sr. Partner Sales Director",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8638943002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8407913002",
     "location": "United States",
     "title": "Sr Platform Monitoring Engineer",
@@ -8499,13 +8506,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8200284002",
-    "location": "Seattle, Washington",
-    "title": "Sr. Product Manager, Compute Platform",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8200284002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8200462002",
     "location": "San Francisco, California",
     "title": "Sr. Product Manager, Compute Platform",
@@ -8513,10 +8513,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8136204002",
+    "id": "gh_8200284002",
     "location": "Seattle, Washington",
-    "title": "Sr. Product Manager, Databricks AI",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136204002"
+    "title": "Sr. Product Manager, Compute Platform",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8200284002"
   },
   {
     "company": "Databricks",
@@ -8524,6 +8524,13 @@
     "location": "San Francisco, California",
     "title": "Sr. Product Manager, Databricks AI",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136071002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8136204002",
+    "location": "Seattle, Washington",
+    "title": "Sr. Product Manager, Databricks AI",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136204002"
   },
   {
     "company": "Databricks",
@@ -8562,17 +8569,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_7863522002",
-    "location": "Seattle, Washington",
-    "title": "Sr. Product Manager, Data Governance",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7863522002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_7863365002",
     "location": "San Francisco, California",
     "title": "Sr. Product Manager, Data Governance",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7863365002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_7863522002",
+    "location": "Seattle, Washington",
+    "title": "Sr. Product Manager, Data Governance",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7863522002"
   },
   {
     "company": "Databricks",
@@ -8702,10 +8709,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8682362002",
-    "location": "London, United Kingdom",
+    "id": "gh_8632383002",
+    "location": "Northeast - United States",
     "title": "Sr. Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8682362002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8632383002"
   },
   {
     "company": "Databricks",
@@ -8713,6 +8720,13 @@
     "location": "Queensland, Australia",
     "title": "Sr. Solutions Architect",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8537033002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8417656002",
+    "location": "Remote - Texas",
+    "title": "Sr. Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8417656002"
   },
   {
     "company": "Databricks",
@@ -8737,20 +8751,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8476064002",
-    "location": "Bengaluru, India",
-    "title": "Sr. Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8476064002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8632383002",
-    "location": "Northeast - United States",
-    "title": "Sr. Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8632383002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8620285002",
     "location": "Western Australia, Australia",
     "title": "Sr. Solutions Architect",
@@ -8758,10 +8758,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8417656002",
-    "location": "Remote - Texas",
+    "id": "gh_8682362002",
+    "location": "London, United Kingdom",
     "title": "Sr. Solutions Architect",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8417656002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8682362002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8476064002",
+    "location": "Bengaluru, India",
+    "title": "Sr. Solutions Architect",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8476064002"
   },
   {
     "company": "Databricks",
@@ -8863,17 +8870,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8221491002",
-    "location": "Atlanta, Georgia; Chicago, Illinois; Dallas, Texas; Phoenix, Arizona; Portland, Oregon; Remote - California; Remote - North Carolina; Seattle, Washington",
-    "title": "Sr. Solutions Architect - Retail, Travel & Hospitality",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8221491002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8567987002",
     "location": "Remote - Oregon; Remote - Washington; Seattle, Washington",
     "title": "Sr. Solutions Architect - Retail, Travel & Hospitality",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567987002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8221491002",
+    "location": "Atlanta, Georgia; Chicago, Illinois; Dallas, Texas; Phoenix, Arizona; Portland, Oregon; Remote - California; Remote - North Carolina; Seattle, Washington",
+    "title": "Sr. Solutions Architect - Retail, Travel & Hospitality",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8221491002"
   },
   {
     "company": "Databricks",
@@ -8891,31 +8898,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8721005002",
-    "location": "Munich, Germany",
-    "title": "Sr. Solutions Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8721005002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8609866002",
-    "location": "Stockholm, Sweden",
-    "title": "Sr. Solutions Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8609866002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8622166002",
     "location": "Singapore",
     "title": "Sr. Solutions Engineer",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8622166002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_8368205002",
-    "location": "Finland",
-    "title": "Sr. Solutions Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8368205002"
   },
   {
     "company": "Databricks",
@@ -8926,10 +8912,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8589187002",
-    "location": "Sao Paulo, Brazil",
+    "id": "gh_8609866002",
+    "location": "Stockholm, Sweden",
     "title": "Sr. Solutions Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8589187002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8609866002"
   },
   {
     "company": "Databricks",
@@ -8940,13 +8926,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8593371002",
-    "location": "Toronto, Canada",
-    "title": "Sr. Solutions Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593371002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8606312002",
     "location": "Mexico City",
     "title": "Sr. Solutions Engineer",
@@ -8954,10 +8933,38 @@
   },
   {
     "company": "Databricks",
+    "id": "gh_8368205002",
+    "location": "Finland",
+    "title": "Sr. Solutions Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8368205002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8589187002",
+    "location": "Sao Paulo, Brazil",
+    "title": "Sr. Solutions Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8589187002"
+  },
+  {
+    "company": "Databricks",
     "id": "gh_8675639002",
     "location": "London, United Kingdom",
     "title": "Sr. Solutions Engineer",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8675639002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8721005002",
+    "location": "Munich, Germany",
+    "title": "Sr. Solutions Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8721005002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8593371002",
+    "location": "Toronto, Canada",
+    "title": "Sr. Solutions Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593371002"
   },
   {
     "company": "Databricks",
@@ -9227,10 +9234,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8661524002",
-    "location": "Sydney, Australia",
+    "id": "gh_8554477002",
+    "location": "Japan",
     "title": "Staff Designated Support Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8661524002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554477002"
   },
   {
     "company": "Databricks",
@@ -9241,10 +9248,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8554477002",
-    "location": "Japan",
+    "id": "gh_8661524002",
+    "location": "Sydney, Australia",
     "title": "Staff Designated Support Engineer",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554477002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8661524002"
   },
   {
     "company": "Databricks",
@@ -9332,17 +9339,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_7649409002",
-    "location": "Amsterdam, Netherlands",
-    "title": "Staff Product Manager",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7649409002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_7649411002",
     "location": "Berlin, Germany",
     "title": "Staff Product Manager",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7649411002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_7649409002",
+    "location": "Amsterdam, Netherlands",
+    "title": "Staff Product Manager",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7649409002"
   },
   {
     "company": "Databricks",
@@ -9353,17 +9360,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8420609002",
-    "location": "San Francisco, California",
-    "title": "Staff Product Manager, AI Platform",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8420609002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8427940002",
     "location": "Seattle, Washington",
     "title": "Staff Product Manager, AI Platform",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8427940002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8420609002",
+    "location": "San Francisco, California",
+    "title": "Staff Product Manager, AI Platform",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8420609002"
   },
   {
     "company": "Databricks",
@@ -9374,17 +9381,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_7110499002",
-    "location": "San Francisco, California",
-    "title": "Staff Product Manager, Security",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7110499002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_7110509002",
     "location": "Seattle, Washington",
     "title": "Staff Product Manager, Security",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7110509002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_7110499002",
+    "location": "San Francisco, California",
+    "title": "Staff Product Manager, Security",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7110499002"
   },
   {
     "company": "Databricks",
@@ -9472,17 +9479,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8635188002",
-    "location": "Mountain View, California",
-    "title": "Staff Software Engineer, AI Native Web Platform",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8560783002",
     "location": "Mountain View, California",
     "title": "Staff Software Engineer, AI Native Web Platform",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560783002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8635188002",
+    "location": "Mountain View, California",
+    "title": "Staff Software Engineer, AI Native Web Platform",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002"
   },
   {
     "company": "Databricks",
@@ -9528,13 +9535,6 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8320187002",
-    "location": "Bengaluru, India",
-    "title": "Staff Software Engineer - Backend",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_6544443002",
     "location": "Mountain View, California",
     "title": "Staff Software Engineer - Backend",
@@ -9542,24 +9542,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_6779233002",
-    "location": "Bellevue, Washington",
-    "title": "Staff Software Engineer - Backend",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_6779232002",
     "location": "Seattle, Washington",
     "title": "Staff Software Engineer - Backend",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002"
-  },
-  {
-    "company": "Databricks",
-    "id": "gh_5408888002",
-    "location": "San Francisco, California",
-    "title": "Staff Software Engineer - Backend",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002"
   },
   {
     "company": "Databricks",
@@ -9577,10 +9563,24 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8093293002",
-    "location": "Vancouver, Canada",
-    "title": "Staff Software Engineer - Backend ",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8093293002"
+    "id": "gh_8320187002",
+    "location": "Bengaluru, India",
+    "title": "Staff Software Engineer - Backend",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_5408888002",
+    "location": "San Francisco, California",
+    "title": "Staff Software Engineer - Backend",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_6779233002",
+    "location": "Bellevue, Washington",
+    "title": "Staff Software Engineer - Backend",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002"
   },
   {
     "company": "Databricks",
@@ -9588,6 +9588,13 @@
     "location": "London, United Kingdom",
     "title": "Staff Software Engineer - Backend ",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8374611002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8093293002",
+    "location": "Vancouver, Canada",
+    "title": "Staff Software Engineer - Backend ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8093293002"
   },
   {
     "company": "Databricks",
@@ -9675,10 +9682,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8012831002",
-    "location": "Belgrade, Serbia",
+    "id": "gh_6544364002",
+    "location": "Mountain View, California",
     "title": "Staff Software Engineer - Distributed Data Systems",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002"
   },
   {
     "company": "Databricks",
@@ -9689,10 +9696,10 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_6544364002",
-    "location": "Mountain View, California",
+    "id": "gh_8012831002",
+    "location": "Belgrade, Serbia",
     "title": "Staff Software Engineer - Distributed Data Systems",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002"
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002"
   },
   {
     "company": "Databricks",
@@ -9787,17 +9794,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_8201686002",
-    "location": "Bengaluru, India",
-    "title": "Staff Software Engineer - Ingestion",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8201686002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_8200692002",
     "location": "Bengaluru, India",
     "title": "Staff Software Engineer - Ingestion",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8200692002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_8201686002",
+    "location": "Bengaluru, India",
+    "title": "Staff Software Engineer - Ingestion",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8201686002"
   },
   {
     "company": "Databricks",
@@ -9885,17 +9892,17 @@
   },
   {
     "company": "Databricks",
-    "id": "gh_7994759002",
-    "location": "Bellevue, Washington",
-    "title": "Staff Software Engineer - Security Infrastructure",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994759002"
-  },
-  {
-    "company": "Databricks",
     "id": "gh_7994770002",
     "location": "Mountain View, California",
     "title": "Staff Software Engineer - Security Infrastructure",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994770002"
+  },
+  {
+    "company": "Databricks",
+    "id": "gh_7994759002",
+    "location": "Bellevue, Washington",
+    "title": "Staff Software Engineer - Security Infrastructure",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994759002"
   },
   {
     "company": "Databricks",
@@ -10900,13 +10907,6 @@
   },
   {
     "company": "Cloudflare",
-    "id": "gh_8028310",
-    "location": "Hybrid",
-    "title": "Product Counsel",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8028310?gh_jid=8028310"
-  },
-  {
-    "company": "Cloudflare",
     "id": "gh_8156124",
     "location": "Hybrid",
     "title": "Product Manager, Cloudflare Network Interconnect",
@@ -10949,13 +10949,6 @@
   },
   {
     "company": "Cloudflare",
-    "id": "gh_8089407",
-    "location": "In-Office",
-    "title": "Research Engineer Intern (Fall 2026)",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407"
-  },
-  {
-    "company": "Cloudflare",
     "id": "gh_8089400",
     "location": "In-Office",
     "title": "Research Engineer Intern (Fall 2026)",
@@ -10967,6 +10960,13 @@
     "location": "In-Office",
     "title": "Research Engineer Intern (Fall 2026)",
     "url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379"
+  },
+  {
+    "company": "Cloudflare",
+    "id": "gh_8089407",
+    "location": "In-Office",
+    "title": "Research Engineer Intern (Fall 2026)",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407"
   },
   {
     "company": "Cloudflare",
@@ -11285,17 +11285,17 @@
   },
   {
     "company": "Cloudflare",
-    "id": "gh_8007032",
-    "location": "In-Office",
-    "title": "Senior Data Engineer",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/8007032?gh_jid=8007032"
-  },
-  {
-    "company": "Cloudflare",
     "id": "gh_8055118",
     "location": "In-Office",
     "title": "Senior Data Engineer",
     "url": "https://boards.greenhouse.io/cloudflare/jobs/8055118?gh_jid=8055118"
+  },
+  {
+    "company": "Cloudflare",
+    "id": "gh_8007032",
+    "location": "In-Office",
+    "title": "Senior Data Engineer",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8007032?gh_jid=8007032"
   },
   {
     "company": "Cloudflare",
@@ -14936,6 +14936,13 @@
     "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
     "title": "Executive Recruiter",
     "url": "https://boards.greenhouse.io/figma/jobs/6141591004?gh_jid=6141591004"
+  },
+  {
+    "company": "Figma",
+    "id": "gh_6145639004",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "title": "Federal Compliance Manager",
+    "url": "https://boards.greenhouse.io/figma/jobs/6145639004?gh_jid=6145639004"
   },
   {
     "company": "Figma",
@@ -21666,17 +21673,17 @@
   },
   {
     "company": "Airbnb",
-    "id": "gh_7995199",
-    "location": "Paris, France",
-    "title": "Acquisition Manager",
-    "url": "https://careers.airbnb.com/positions/7995199?gh_jid=7995199"
-  },
-  {
-    "company": "Airbnb",
     "id": "gh_7995153",
     "location": "Berlin, Germany ",
     "title": "Acquisition Manager",
     "url": "https://careers.airbnb.com/positions/7995153?gh_jid=7995153"
+  },
+  {
+    "company": "Airbnb",
+    "id": "gh_7995199",
+    "location": "Paris, France",
+    "title": "Acquisition Manager",
+    "url": "https://careers.airbnb.com/positions/7995199?gh_jid=7995199"
   },
   {
     "company": "Airbnb",
@@ -21729,17 +21736,17 @@
   },
   {
     "company": "Airbnb",
-    "id": "gh_8153094",
-    "location": "United States",
-    "title": "Complex Claims Manager",
-    "url": "https://careers.airbnb.com/positions/8153094?gh_jid=8153094"
-  },
-  {
-    "company": "Airbnb",
     "id": "gh_8152131",
     "location": "Canada",
     "title": "Complex Claims Manager",
     "url": "https://careers.airbnb.com/positions/8152131?gh_jid=8152131"
+  },
+  {
+    "company": "Airbnb",
+    "id": "gh_8153094",
+    "location": "United States",
+    "title": "Complex Claims Manager",
+    "url": "https://careers.airbnb.com/positions/8153094?gh_jid=8153094"
   },
   {
     "company": "Airbnb",
@@ -21925,10 +21932,17 @@
   },
   {
     "company": "Airbnb",
-    "id": "gh_8134685",
-    "location": "San Diego, United States ",
+    "id": "gh_8129515",
+    "location": "Ontario, Canada",
     "title": "Market Manager",
-    "url": "https://careers.airbnb.com/positions/8134685?gh_jid=8134685"
+    "url": "https://careers.airbnb.com/positions/8129515?gh_jid=8129515"
+  },
+  {
+    "company": "Airbnb",
+    "id": "gh_8043473",
+    "location": "Paris, France",
+    "title": "Market Manager",
+    "url": "https://careers.airbnb.com/positions/8043473?gh_jid=8043473"
   },
   {
     "company": "Airbnb",
@@ -21939,10 +21953,10 @@
   },
   {
     "company": "Airbnb",
-    "id": "gh_8129515",
-    "location": "Ontario, Canada",
+    "id": "gh_8134685",
+    "location": "San Diego, United States ",
     "title": "Market Manager",
-    "url": "https://careers.airbnb.com/positions/8129515?gh_jid=8129515"
+    "url": "https://careers.airbnb.com/positions/8134685?gh_jid=8134685"
   },
   {
     "company": "Airbnb",
@@ -21950,13 +21964,6 @@
     "location": "Sao Paulo, Brazil",
     "title": "Market Manager",
     "url": "https://careers.airbnb.com/positions/8131269?gh_jid=8131269"
-  },
-  {
-    "company": "Airbnb",
-    "id": "gh_8043473",
-    "location": "Paris, France",
-    "title": "Market Manager",
-    "url": "https://careers.airbnb.com/positions/8043473?gh_jid=8043473"
   },
   {
     "company": "Airbnb",
@@ -22013,13 +22020,6 @@
     "location": "Tokyo, Japan",
     "title": "Office Manager, Tokyo ",
     "url": "https://careers.airbnb.com/positions/8039271?gh_jid=8039271"
-  },
-  {
-    "company": "Airbnb",
-    "id": "gh_8074955",
-    "location": "Remote- USA",
-    "title": "Operations Engineer, BizTech",
-    "url": "https://careers.airbnb.com/positions/8074955?gh_jid=8074955"
   },
   {
     "company": "Airbnb",
@@ -22142,17 +22142,17 @@
   },
   {
     "company": "Airbnb",
-    "id": "gh_7870802",
-    "location": "Japan",
-    "title": "Safety Specialist",
-    "url": "https://careers.airbnb.com/positions/7870802?gh_jid=7870802"
-  },
-  {
-    "company": "Airbnb",
     "id": "gh_7964996",
     "location": "Korea",
     "title": "Safety Specialist",
     "url": "https://careers.airbnb.com/positions/7964996?gh_jid=7964996"
+  },
+  {
+    "company": "Airbnb",
+    "id": "gh_7870802",
+    "location": "Japan",
+    "title": "Safety Specialist",
+    "url": "https://careers.airbnb.com/positions/7870802?gh_jid=7870802"
   },
   {
     "company": "Airbnb",
@@ -22513,17 +22513,17 @@
   },
   {
     "company": "Airbnb",
-    "id": "gh_7688467",
-    "location": "Remote, USA",
-    "title": "Senior Staff Software Engineer, Payments",
-    "url": "https://careers.airbnb.com/positions/7688467?gh_jid=7688467"
-  },
-  {
-    "company": "Airbnb",
     "id": "gh_7525479",
     "location": "Remote - Bangalore, India",
     "title": "Senior Staff Software Engineer, Payments",
     "url": "https://careers.airbnb.com/positions/7525479?gh_jid=7525479"
+  },
+  {
+    "company": "Airbnb",
+    "id": "gh_7688467",
+    "location": "Remote, USA",
+    "title": "Senior Staff Software Engineer, Payments",
+    "url": "https://careers.airbnb.com/positions/7688467?gh_jid=7688467"
   },
   {
     "company": "Airbnb",
@@ -23045,17 +23045,17 @@
   },
   {
     "company": "Asana",
-    "id": "gh_8027416",
-    "location": "New York City",
-    "title": "Enterprise Solutions Engineer, Service Management",
-    "url": "https://www.asana.com/jobs/apply/8027416?gh_jid=8027416"
-  },
-  {
-    "company": "Asana",
     "id": "gh_8027389",
     "location": "London",
     "title": "Enterprise Solutions Engineer, Service Management",
     "url": "https://www.asana.com/jobs/apply/8027389?gh_jid=8027389"
+  },
+  {
+    "company": "Asana",
+    "id": "gh_8027416",
+    "location": "New York City",
+    "title": "Enterprise Solutions Engineer, Service Management",
+    "url": "https://www.asana.com/jobs/apply/8027416?gh_jid=8027416"
   },
   {
     "company": "Asana",
@@ -23080,17 +23080,17 @@
   },
   {
     "company": "Asana",
-    "id": "gh_8031595",
-    "location": "San Francisco",
-    "title": "Forward Deployed Engineer, Command by Asana",
-    "url": "https://www.asana.com/jobs/apply/8031595?gh_jid=8031595"
-  },
-  {
-    "company": "Asana",
     "id": "gh_8044789",
     "location": "New York City",
     "title": "Forward Deployed Engineer, Command by Asana",
     "url": "https://www.asana.com/jobs/apply/8044789?gh_jid=8044789"
+  },
+  {
+    "company": "Asana",
+    "id": "gh_8031595",
+    "location": "San Francisco",
+    "title": "Forward Deployed Engineer, Command by Asana",
+    "url": "https://www.asana.com/jobs/apply/8031595?gh_jid=8031595"
   },
   {
     "company": "Asana",
@@ -23150,13 +23150,6 @@
   },
   {
     "company": "Asana",
-    "id": "gh_8100442",
-    "location": "San Francisco",
-    "title": "Head of SEO & AEO",
-    "url": "https://www.asana.com/jobs/apply/8100442?gh_jid=8100442"
-  },
-  {
-    "company": "Asana",
     "id": "gh_8163596",
     "location": "Vancouver, BC",
     "title": "Head of SEO & AEO",
@@ -23164,10 +23157,10 @@
   },
   {
     "company": "Asana",
-    "id": "gh_8065754",
-    "location": "Chicago",
-    "title": "Head of Talent Operations & Strategy",
-    "url": "https://www.asana.com/jobs/apply/8065754?gh_jid=8065754"
+    "id": "gh_8100442",
+    "location": "San Francisco",
+    "title": "Head of SEO & AEO",
+    "url": "https://www.asana.com/jobs/apply/8100442?gh_jid=8100442"
   },
   {
     "company": "Asana",
@@ -23175,6 +23168,13 @@
     "location": "Vancouver, BC",
     "title": "Head of Talent Operations & Strategy",
     "url": "https://www.asana.com/jobs/apply/8065753?gh_jid=8065753"
+  },
+  {
+    "company": "Asana",
+    "id": "gh_8065754",
+    "location": "Chicago",
+    "title": "Head of Talent Operations & Strategy",
+    "url": "https://www.asana.com/jobs/apply/8065754?gh_jid=8065754"
   },
   {
     "company": "Asana",
@@ -23262,17 +23262,17 @@
   },
   {
     "company": "Asana",
-    "id": "gh_8024052",
-    "location": "Vancouver, BC",
-    "title": "Product Designer",
-    "url": "https://www.asana.com/jobs/apply/8024052?gh_jid=8024052"
-  },
-  {
-    "company": "Asana",
     "id": "gh_7952123",
     "location": "San Francisco",
     "title": "Product Designer",
     "url": "https://www.asana.com/jobs/apply/7952123?gh_jid=7952123"
+  },
+  {
+    "company": "Asana",
+    "id": "gh_8024052",
+    "location": "Vancouver, BC",
+    "title": "Product Designer",
+    "url": "https://www.asana.com/jobs/apply/8024052?gh_jid=8024052"
   },
   {
     "company": "Asana",
@@ -23311,13 +23311,6 @@
   },
   {
     "company": "Asana",
-    "id": "gh_7920814",
-    "location": "Vancouver, BC",
-    "title": "Product Marketing Director, Asana Service Management",
-    "url": "https://www.asana.com/jobs/apply/7920814?gh_jid=7920814"
-  },
-  {
-    "company": "Asana",
     "id": "gh_8038670",
     "location": "New York City",
     "title": "Product Marketing Director, Asana Service Management",
@@ -23325,10 +23318,17 @@
   },
   {
     "company": "Asana",
-    "id": "gh_7920824",
-    "location": "San Francisco",
+    "id": "gh_7920814",
+    "location": "Vancouver, BC",
+    "title": "Product Marketing Director, Asana Service Management",
+    "url": "https://www.asana.com/jobs/apply/7920814?gh_jid=7920814"
+  },
+  {
+    "company": "Asana",
+    "id": "gh_8038684",
+    "location": "Vancouver, BC",
     "title": "Product Marketing Director, Command by Asana",
-    "url": "https://www.asana.com/jobs/apply/7920824?gh_jid=7920824"
+    "url": "https://www.asana.com/jobs/apply/8038684?gh_jid=8038684"
   },
   {
     "company": "Asana",
@@ -23339,10 +23339,10 @@
   },
   {
     "company": "Asana",
-    "id": "gh_8038684",
-    "location": "Vancouver, BC",
+    "id": "gh_7920824",
+    "location": "San Francisco",
     "title": "Product Marketing Director, Command by Asana",
-    "url": "https://www.asana.com/jobs/apply/8038684?gh_jid=8038684"
+    "url": "https://www.asana.com/jobs/apply/7920824?gh_jid=7920824"
   },
   {
     "company": "Asana",
@@ -23507,17 +23507,17 @@
   },
   {
     "company": "Asana",
-    "id": "gh_7962245",
-    "location": "New York City",
-    "title": "Senior Software Engineer",
-    "url": "https://www.asana.com/jobs/apply/7962245?gh_jid=7962245"
-  },
-  {
-    "company": "Asana",
     "id": "gh_7961508",
     "location": "Warsaw",
     "title": "Senior Software Engineer",
     "url": "https://www.asana.com/jobs/apply/7961508?gh_jid=7961508"
+  },
+  {
+    "company": "Asana",
+    "id": "gh_7962245",
+    "location": "New York City",
+    "title": "Senior Software Engineer",
+    "url": "https://www.asana.com/jobs/apply/7962245?gh_jid=7962245"
   },
   {
     "company": "Asana",
@@ -23679,13 +23679,6 @@
     "location": "London",
     "title": "Solutions Engineer, Command",
     "url": "https://www.asana.com/jobs/apply/8027353?gh_jid=8027353"
-  },
-  {
-    "company": "Asana",
-    "id": "gh_7977197",
-    "location": "New York City",
-    "title": "Staff Product Manager, Enterprise Resource Management ",
-    "url": "https://www.asana.com/jobs/apply/7977197?gh_jid=7977197"
   },
   {
     "company": "Asana",
@@ -25824,6 +25817,13 @@
   },
   {
     "company": "Coinbase",
+    "id": "gh_8164862",
+    "location": "Remote - Abu Dhabi",
+    "title": "Accounting Manager, Tokenized Equities",
+    "url": "https://www.coinbase.com/careers/positions/8164862?gh_jid=8164862"
+  },
+  {
+    "company": "Coinbase",
     "id": "gh_7942306",
     "location": "Remote - Cyprus",
     "title": "AMLCO & Senior Compliance Associate",
@@ -25856,13 +25856,6 @@
     "location": "Hybrid - London, UK",
     "title": "Associate Manager, Premium & Wealth",
     "url": "https://www.coinbase.com/careers/positions/8080028?gh_jid=8080028"
-  },
-  {
-    "company": "Coinbase",
-    "id": "gh_7985269",
-    "location": "Charlotte, NC",
-    "title": "Associate Manager, SAM",
-    "url": "https://www.coinbase.com/careers/positions/7985269?gh_jid=7985269"
   },
   {
     "company": "Coinbase",
@@ -25901,10 +25894,10 @@
   },
   {
     "company": "Coinbase",
-    "id": "gh_8142975",
-    "location": "Remote - USA",
-    "title": "Compliance, Trade Surveillance Associate",
-    "url": "https://www.coinbase.com/careers/positions/8142975?gh_jid=8142975"
+    "id": "gh_8031253",
+    "location": "Hybrid - London, UK",
+    "title": "Concierge Specialist IV",
+    "url": "https://www.coinbase.com/careers/positions/8031253?gh_jid=8031253"
   },
   {
     "company": "Coinbase",
@@ -25915,24 +25908,17 @@
   },
   {
     "company": "Coinbase",
-    "id": "gh_7994498",
-    "location": "Hybrid - Singapore",
-    "title": "Concierge Specialist IV",
-    "url": "https://www.coinbase.com/careers/positions/7994498?gh_jid=7994498"
-  },
-  {
-    "company": "Coinbase",
-    "id": "gh_8031253",
-    "location": "Hybrid - London, UK",
-    "title": "Concierge Specialist IV",
-    "url": "https://www.coinbase.com/careers/positions/8031253?gh_jid=8031253"
-  },
-  {
-    "company": "Coinbase",
     "id": "gh_7994501",
     "location": "Hybrid - Singapore",
     "title": "Concierge Specialist IV",
     "url": "https://www.coinbase.com/careers/positions/7994501?gh_jid=7994501"
+  },
+  {
+    "company": "Coinbase",
+    "id": "gh_7994498",
+    "location": "Hybrid - Singapore",
+    "title": "Concierge Specialist IV",
+    "url": "https://www.coinbase.com/careers/positions/7994498?gh_jid=7994498"
   },
   {
     "company": "Coinbase",
@@ -26223,17 +26209,17 @@
   },
   {
     "company": "Coinbase",
-    "id": "gh_7927054",
-    "location": "Remote - Bermuda",
-    "title": "Operations Manager, Bermuda",
-    "url": "https://www.coinbase.com/careers/positions/7927054?gh_jid=7927054"
-  },
-  {
-    "company": "Coinbase",
     "id": "gh_8022718",
     "location": "Remote - USA",
     "title": "Operations Manager, Bermuda",
     "url": "https://www.coinbase.com/careers/positions/8022718?gh_jid=8022718"
+  },
+  {
+    "company": "Coinbase",
+    "id": "gh_7927054",
+    "location": "Remote - Bermuda",
+    "title": "Operations Manager, Bermuda",
+    "url": "https://www.coinbase.com/careers/positions/7927054?gh_jid=7927054"
   },
   {
     "company": "Coinbase",
@@ -26244,17 +26230,17 @@
   },
   {
     "company": "Coinbase",
-    "id": "gh_7984814",
-    "location": "Remote - USA",
-    "title": "Payments Risk Analyst II",
-    "url": "https://www.coinbase.com/careers/positions/7984814?gh_jid=7984814"
-  },
-  {
-    "company": "Coinbase",
     "id": "gh_8160090",
     "location": "Hyderabad, India",
     "title": "Payments Risk Analyst II",
     "url": "https://www.coinbase.com/careers/positions/8160090?gh_jid=8160090"
+  },
+  {
+    "company": "Coinbase",
+    "id": "gh_7984814",
+    "location": "Remote - USA",
+    "title": "Payments Risk Analyst II",
+    "url": "https://www.coinbase.com/careers/positions/7984814?gh_jid=7984814"
   },
   {
     "company": "Coinbase",
@@ -26314,10 +26300,10 @@
   },
   {
     "company": "Coinbase",
-    "id": "gh_8078239",
-    "location": "Remote - Singapore",
-    "title": "Regional Threat Assessment Manager",
-    "url": "https://www.coinbase.com/careers/positions/8078239?gh_jid=8078239"
+    "id": "gh_8165389",
+    "location": "Remote - Canada",
+    "title": "Product Security Engineer",
+    "url": "https://www.coinbase.com/careers/positions/8165389?gh_jid=8165389"
   },
   {
     "company": "Coinbase",
@@ -26325,6 +26311,13 @@
     "location": "Remote - Australia",
     "title": "Regional Threat Assessment Manager",
     "url": "https://www.coinbase.com/careers/positions/8021644?gh_jid=8021644"
+  },
+  {
+    "company": "Coinbase",
+    "id": "gh_8078239",
+    "location": "Remote - Singapore",
+    "title": "Regional Threat Assessment Manager",
+    "url": "https://www.coinbase.com/careers/positions/8078239?gh_jid=8078239"
   },
   {
     "company": "Coinbase",
@@ -26496,17 +26489,17 @@
   },
   {
     "company": "Coinbase",
-    "id": "gh_8054055",
-    "location": "Remote - India",
-    "title": "Senior IT Automation Engineer",
-    "url": "https://www.coinbase.com/careers/positions/8054055?gh_jid=8054055"
-  },
-  {
-    "company": "Coinbase",
     "id": "gh_8095207",
     "location": "Remote - USA",
     "title": "Senior IT Automation Engineer",
     "url": "https://www.coinbase.com/careers/positions/8095207?gh_jid=8095207"
+  },
+  {
+    "company": "Coinbase",
+    "id": "gh_8054055",
+    "location": "Remote - India",
+    "title": "Senior IT Automation Engineer",
+    "url": "https://www.coinbase.com/careers/positions/8054055?gh_jid=8054055"
   },
   {
     "company": "Coinbase",
@@ -26559,13 +26552,6 @@
   },
   {
     "company": "Coinbase",
-    "id": "gh_8028180",
-    "location": "Remote - USA",
-    "title": "Senior Payroll Specialist",
-    "url": "https://www.coinbase.com/careers/positions/8028180?gh_jid=8028180"
-  },
-  {
-    "company": "Coinbase",
     "id": "gh_8114474",
     "location": "Remote - USA",
     "title": "Senior Product Designer, Coinbase One",
@@ -26601,17 +26587,17 @@
   },
   {
     "company": "Coinbase",
-    "id": "gh_8021647",
-    "location": "Remote - USA",
-    "title": "Senior Software Engineer",
-    "url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647"
-  },
-  {
-    "company": "Coinbase",
     "id": "gh_7961318",
     "location": "Remote - USA",
     "title": "Senior Software Engineer",
     "url": "https://www.coinbase.com/careers/positions/7961318?gh_jid=7961318"
+  },
+  {
+    "company": "Coinbase",
+    "id": "gh_8021647",
+    "location": "Remote - USA",
+    "title": "Senior Software Engineer",
+    "url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647"
   },
   {
     "company": "Coinbase",
@@ -26867,6 +26853,13 @@
   },
   {
     "company": "Coinbase",
+    "id": "gh_8165441",
+    "location": "Remote - India",
+    "title": "Software Engineer, Security Platform",
+    "url": "https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441"
+  },
+  {
+    "company": "Coinbase",
     "id": "gh_8056065",
     "location": "Hybrid - New York, NY",
     "title": "Solutions Architect",
@@ -27102,6 +27095,13 @@
     "location": "Remote - USA",
     "title": "Technical Program Manager, Knowledge Systems",
     "url": "https://www.coinbase.com/careers/positions/8013892?gh_jid=8013892"
+  },
+  {
+    "company": "Coinbase",
+    "id": "gh_8142975",
+    "location": "Remote - USA",
+    "title": "Trade Surveillance Associate, Derivatives",
+    "url": "https://www.coinbase.com/careers/positions/8142975?gh_jid=8142975"
   },
   {
     "company": "Duolingo",
@@ -27770,13 +27770,6 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8145325",
-    "location": "Chicago, Illinois",
-    "title": "Business Analyst ",
-    "url": "https://www.okta.com/company/careers/opportunity/8145325?gh_jid=8145325"
-  },
-  {
-    "company": "Okta",
     "id": "gh_8144827",
     "location": "Chicago, Illinois",
     "title": "Business Analyst ",
@@ -27788,6 +27781,13 @@
     "location": "Chicago, Illinois",
     "title": "Business Analyst ",
     "url": "https://www.okta.com/company/careers/opportunity/8097799?gh_jid=8097799"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_8145325",
+    "location": "Chicago, Illinois",
+    "title": "Business Analyst ",
+    "url": "https://www.okta.com/company/careers/opportunity/8145325?gh_jid=8145325"
   },
   {
     "company": "Okta",
@@ -28302,17 +28302,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8031355",
-    "location": "Toronto, Ontario, Canada",
-    "title": "Principal Applied AI/ML Scientist (Auth0 Lab)",
-    "url": "https://www.okta.com/company/careers/opportunity/8031355?gh_jid=8031355"
-  },
-  {
-    "company": "Okta",
     "id": "gh_8031281",
     "location": "Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC",
     "title": "Principal Applied AI/ML Scientist (Auth0 Lab)",
     "url": "https://www.okta.com/company/careers/opportunity/8031281?gh_jid=8031281"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_8031355",
+    "location": "Toronto, Ontario, Canada",
+    "title": "Principal Applied AI/ML Scientist (Auth0 Lab)",
+    "url": "https://www.okta.com/company/careers/opportunity/8031355?gh_jid=8031355"
   },
   {
     "company": "Okta",
@@ -28351,17 +28351,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8004037",
-    "location": "London, United Kingdom",
-    "title": "Principal Forward Deployed Engineer",
-    "url": "https://www.okta.com/company/careers/opportunity/8004037?gh_jid=8004037"
-  },
-  {
-    "company": "Okta",
     "id": "gh_7980649",
     "location": "Singapore",
     "title": "Principal Forward Deployed Engineer",
     "url": "https://www.okta.com/company/careers/opportunity/7980649?gh_jid=7980649"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_8004037",
+    "location": "London, United Kingdom",
+    "title": "Principal Forward Deployed Engineer",
+    "url": "https://www.okta.com/company/careers/opportunity/8004037?gh_jid=8004037"
   },
   {
     "company": "Okta",
@@ -28400,17 +28400,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_7696955",
-    "location": "Bengaluru, India",
-    "title": "Principal Software Engineer",
-    "url": "https://www.okta.com/company/careers/opportunity/7696955?gh_jid=7696955"
-  },
-  {
-    "company": "Okta",
     "id": "gh_7781674",
     "location": "Bengaluru, India",
     "title": "Principal Software Engineer",
     "url": "https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_7696955",
+    "location": "Bengaluru, India",
+    "title": "Principal Software Engineer",
+    "url": "https://www.okta.com/company/careers/opportunity/7696955?gh_jid=7696955"
   },
   {
     "company": "Okta",
@@ -28533,6 +28533,13 @@
   },
   {
     "company": "Okta",
+    "id": "gh_7466556",
+    "location": "Boston, Massachusetts; New Jersey; New York, New York",
+    "title": "Regional Sales Manager, Enterprise (Auth0)",
+    "url": "https://www.okta.com/company/careers/opportunity/7466556?gh_jid=7466556"
+  },
+  {
+    "company": "Okta",
     "id": "gh_7963925",
     "location": "Chicago, Illinois",
     "title": "Regional Sales Manager, Enterprise (Auth0)",
@@ -28540,10 +28547,10 @@
   },
   {
     "company": "Okta",
-    "id": "gh_7466556",
-    "location": "Boston, Massachusetts; New Jersey; New York, New York",
-    "title": "Regional Sales Manager, Enterprise (Auth0)",
-    "url": "https://www.okta.com/company/careers/opportunity/7466556?gh_jid=7466556"
+    "id": "gh_8095465",
+    "location": "Melbourne, Australia",
+    "title": "Regional Sales Manager - Public Sector",
+    "url": "https://www.okta.com/company/careers/opportunity/8095465?gh_jid=8095465"
   },
   {
     "company": "Okta",
@@ -28558,13 +28565,6 @@
     "location": "Canberra, Australia",
     "title": "Regional Sales Manager - Public Sector",
     "url": "https://www.okta.com/company/careers/opportunity/8081048?gh_jid=8081048"
-  },
-  {
-    "company": "Okta",
-    "id": "gh_8095465",
-    "location": "Melbourne, Australia",
-    "title": "Regional Sales Manager - Public Sector",
-    "url": "https://www.okta.com/company/careers/opportunity/8095465?gh_jid=8095465"
   },
   {
     "company": "Okta",
@@ -28960,17 +28960,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8104905",
-    "location": "Munich, Germany",
-    "title": "Senior Product Marketing Specialist",
-    "url": "https://www.okta.com/company/careers/opportunity/8104905?gh_jid=8104905"
-  },
-  {
-    "company": "Okta",
     "id": "gh_7833584",
     "location": "London, United Kingdom",
     "title": "Senior Product Marketing Specialist",
     "url": "https://www.okta.com/company/careers/opportunity/7833584?gh_jid=7833584"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_8104905",
+    "location": "Munich, Germany",
+    "title": "Senior Product Marketing Specialist",
+    "url": "https://www.okta.com/company/careers/opportunity/8104905?gh_jid=8104905"
   },
   {
     "company": "Okta",
@@ -28995,17 +28995,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8100444",
-    "location": "Bellevue, Washington; San Francisco, California",
-    "title": "Senior Site Reliability Engineer",
-    "url": "https://www.okta.com/company/careers/opportunity/8100444?gh_jid=8100444"
-  },
-  {
-    "company": "Okta",
     "id": "gh_7963271",
     "location": "Bengaluru, India",
     "title": "Senior Site Reliability Engineer",
     "url": "https://www.okta.com/company/careers/opportunity/7963271?gh_jid=7963271"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_8100444",
+    "location": "Bellevue, Washington; San Francisco, California",
+    "title": "Senior Site Reliability Engineer",
+    "url": "https://www.okta.com/company/careers/opportunity/8100444?gh_jid=8100444"
   },
   {
     "company": "Okta",
@@ -29037,17 +29037,10 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8039085",
+    "id": "gh_8053679",
     "location": "Bengaluru, India",
     "title": "Senior Software Engineer",
-    "url": "https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085"
-  },
-  {
-    "company": "Okta",
-    "id": "gh_7599312",
-    "location": "Bengaluru, India",
-    "title": "Senior Software Engineer",
-    "url": "https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312"
+    "url": "https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679"
   },
   {
     "company": "Okta",
@@ -29058,10 +29051,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8053679",
+    "id": "gh_7599312",
     "location": "Bengaluru, India",
     "title": "Senior Software Engineer",
-    "url": "https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679"
+    "url": "https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_8039085",
+    "location": "Bengaluru, India",
+    "title": "Senior Software Engineer",
+    "url": "https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085"
   },
   {
     "company": "Okta",
@@ -29072,17 +29072,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_7305744",
-    "location": "San Francisco, California",
-    "title": "Senior Software Engineer, AI Agentic Experience (Auth0)",
-    "url": "https://www.okta.com/company/careers/opportunity/7305744?gh_jid=7305744"
-  },
-  {
-    "company": "Okta",
     "id": "gh_8092242",
     "location": "Bellevue, Washington; Chicago, Illinois; New York, New York",
     "title": "Senior Software Engineer, AI Agentic Experience (Auth0)",
     "url": "https://www.okta.com/company/careers/opportunity/8092242?gh_jid=8092242"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_7305744",
+    "location": "San Francisco, California",
+    "title": "Senior Software Engineer, AI Agentic Experience (Auth0)",
+    "url": "https://www.okta.com/company/careers/opportunity/7305744?gh_jid=7305744"
   },
   {
     "company": "Okta",
@@ -29485,6 +29485,13 @@
   },
   {
     "company": "Okta",
+    "id": "gh_8165163",
+    "location": "Toronto, Ontario, Canada",
+    "title": "Staff Fullstack Engineer - AI Acceleration",
+    "url": "https://www.okta.com/company/careers/opportunity/8165163?gh_jid=8165163"
+  },
+  {
+    "company": "Okta",
     "id": "gh_8109399",
     "location": "Toronto, Ontario, Canada",
     "title": "Staff Fullstack Engineer, AI Acceleration Team",
@@ -29674,13 +29681,6 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8087945",
-    "location": "Bengaluru, India",
-    "title": "Staff Software Engineer",
-    "url": "https://www.okta.com/company/careers/opportunity/8087945?gh_jid=8087945"
-  },
-  {
-    "company": "Okta",
     "id": "gh_8034884",
     "location": "Bengaluru, India",
     "title": "Staff Software Engineer",
@@ -29688,17 +29688,10 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8018310",
+    "id": "gh_8087945",
     "location": "Bengaluru, India",
-    "title": "Staff Software Engineer ",
-    "url": "https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310"
-  },
-  {
-    "company": "Okta",
-    "id": "gh_8081016",
-    "location": "Bengaluru, India",
-    "title": "Staff Software Engineer ",
-    "url": "https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016"
+    "title": "Staff Software Engineer",
+    "url": "https://www.okta.com/company/careers/opportunity/8087945?gh_jid=8087945"
   },
   {
     "company": "Okta",
@@ -29709,6 +29702,13 @@
   },
   {
     "company": "Okta",
+    "id": "gh_8041857",
+    "location": "Tel Aviv, Israel",
+    "title": "Staff Software Engineer ",
+    "url": "https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857"
+  },
+  {
+    "company": "Okta",
     "id": "gh_7893046",
     "location": "Bengaluru, India",
     "title": "Staff Software Engineer ",
@@ -29716,10 +29716,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8041857",
-    "location": "Tel Aviv, Israel",
+    "id": "gh_8081016",
+    "location": "Bengaluru, India",
     "title": "Staff Software Engineer ",
-    "url": "https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857"
+    "url": "https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_8018310",
+    "location": "Bengaluru, India",
+    "title": "Staff Software Engineer ",
+    "url": "https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310"
   },
   {
     "company": "Okta",
@@ -29772,17 +29779,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_7273087",
-    "location": "Bengaluru, India",
-    "title": "Staff Software Engineer, Core Infrastructure ",
-    "url": "https://www.okta.com/company/careers/opportunity/7273087?gh_jid=7273087"
-  },
-  {
-    "company": "Okta",
     "id": "gh_8081732",
     "location": "San Francisco, California",
     "title": "Staff Software Engineer, Core Infrastructure ",
     "url": "https://www.okta.com/company/careers/opportunity/8081732?gh_jid=8081732"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_7273087",
+    "location": "Bengaluru, India",
+    "title": "Staff Software Engineer, Core Infrastructure ",
+    "url": "https://www.okta.com/company/careers/opportunity/7273087?gh_jid=7273087"
   },
   {
     "company": "Okta",
@@ -29947,17 +29954,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_7839826",
-    "location": "Bengaluru, India",
-    "title": "Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)",
-    "url": "https://www.okta.com/company/careers/opportunity/7839826?gh_jid=7839826"
-  },
-  {
-    "company": "Okta",
     "id": "gh_8102369",
     "location": "Bengaluru, India",
     "title": "Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)",
     "url": "https://www.okta.com/company/careers/opportunity/8102369?gh_jid=8102369"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_7839826",
+    "location": "Bengaluru, India",
+    "title": "Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)",
+    "url": "https://www.okta.com/company/careers/opportunity/7839826?gh_jid=7839826"
   },
   {
     "company": "Okta",
@@ -29996,17 +30003,17 @@
   },
   {
     "company": "Okta",
-    "id": "gh_8104751",
-    "location": "Sydney, Australia",
-    "title": "Strategic Account Executive",
-    "url": "https://www.okta.com/company/careers/opportunity/8104751?gh_jid=8104751"
-  },
-  {
-    "company": "Okta",
     "id": "gh_8088491",
     "location": "Arizona",
     "title": "Strategic Account Executive",
     "url": "https://www.okta.com/company/careers/opportunity/8088491?gh_jid=8088491"
+  },
+  {
+    "company": "Okta",
+    "id": "gh_8104751",
+    "location": "Sydney, Australia",
+    "title": "Strategic Account Executive",
+    "url": "https://www.okta.com/company/careers/opportunity/8104751?gh_jid=8104751"
   },
   {
     "company": "Okta",
@@ -30112,146 +30119,6 @@
     "location": "Chicago, Illinois; New York, New York; San Francisco, California; Seattle, Washington",
     "title": "Vice President, Product Management - Identity Management",
     "url": "https://www.okta.com/company/careers/opportunity/8014691?gh_jid=8014691"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Austin-TX_GenAI-Senior-Software-Engineer_REF083392W",
-    "location": "2 Locations",
-    "title": "GenAI Senior Software Engineer",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/GenAI-Senior-Software-Engineer_REF083392W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_IN---Bengaluru-India_Sr-Consultant-Software-Engineer--Java-or-Net-_REF087728W",
-    "location": "IN - Bengaluru, India",
-    "title": "Sr Consultant Software Engineer (Java or .Net)",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/IN---Bengaluru-India/Sr-Consultant-Software-Engineer--Java-or-Net-_REF087728W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_IN---Bengaluru-India_Sr-Manager--Data-Reliability-Engineering--8--years-_REF087919W",
-    "location": "IN - Bengaluru, India",
-    "title": "Sr. Manager, Data Reliability Engineering (8+ years)",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/IN---Bengaluru-India/Sr-Manager--Data-Reliability-Engineering--8--years-_REF087919W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Denver-CO_Staff-Software-Engineer--AI-Solutions_REF087977W-1",
-    "location": "US - Denver, CO",
-    "title": "Staff Software Engineer, AI Solutions",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Denver-CO/Staff-Software-Engineer--AI-Solutions_REF087977W-1"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_SG---Singapore_Senior-AI-Engineer_REF084669W-1",
-    "location": "SG - Singapore",
-    "title": "Cyber Security Engineer - Sr. Consultant level (AI Engineer)",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/SG---Singapore/Senior-AI-Engineer_REF084669W-1"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_GB---Basingstoke-United-Kingdom_Software-Engineer_REF076350W",
-    "location": "GB - Basingstoke, United Kingdom",
-    "title": "Software Engineer/ SRE (Linux)",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/GB---Basingstoke-United-Kingdom/Software-Engineer_REF076350W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_GB---Basingstoke-United-Kingdom_Associate-Sys-Admin---Compute_REF082656W",
-    "location": "GB - Basingstoke, United Kingdom",
-    "title": "Systems Administrator (Associate)",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/GB---Basingstoke-United-Kingdom/Associate-Sys-Admin---Compute_REF082656W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_IN---Bengaluru-India_Sr-SW-Engineer---Agentic-Developer--Java-Python--3-5-yrs-of-experience-_REF083019W",
-    "location": "IN - Bengaluru, India",
-    "title": "Sr. SW Engineer - (3-5 yrs of experience, QA Automation, SRE/Reliability, AI/Agentic Development, Endpoint Engineering)",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/IN---Bengaluru-India/Sr-SW-Engineer---Agentic-Developer--Java-Python--3-5-yrs-of-experience-_REF083019W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Austin-TX_Senior-Associate--Solutions-Designer_REF081369W",
-    "location": "US - Austin, TX",
-    "title": "Senior Associate Solutions Designer, Automation",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Senior-Associate--Solutions-Designer_REF081369W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Miami-FL_Solution-Architect---AI-Engineer--Visa-Consulting-and-Analytics--VCA----Tech-Practice_REF087905W",
-    "location": "US - Miami, FL",
-    "title": "Solution Architect & AI Engineer, Visa Consulting and Analytics (VCA) \u2014 Tech Practice",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Miami-FL/Solution-Architect---AI-Engineer--Visa-Consulting-and-Analytics--VCA----Tech-Practice_REF087905W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Austin-TX_Cybersecurity-Engineer_REF087764W-1",
-    "location": "US - Austin, TX",
-    "title": "Cybersecurity Engineer",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Cybersecurity-Engineer_REF087764W-1"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_GB---Reading-United-Kingdom_Senior-Software-Engineer_REF078607W",
-    "location": "GB - Reading, United Kingdom",
-    "title": "Software Engineer (Mid-Level)",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/GB---Reading-United-Kingdom/Senior-Software-Engineer_REF078607W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Austin-TX_Senior-Software-Engineer--Power-Platform--Copilot-Studio--Azure_REF087684W",
-    "location": "US - Austin, TX",
-    "title": "Senior Software Engineer, Power Platform, Copilot Studio, Azure",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Senior-Software-Engineer--Power-Platform--Copilot-Studio--Azure_REF087684W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Atlanta-GA_Sr-Manager_REF087756W",
-    "location": "4 Locations",
-    "title": "Sr. Manager",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Atlanta-GA/Sr-Manager_REF087756W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Foster-City-CA_Technical-Program-Manager--Gen-AI-_REF087843W",
-    "location": "US - Foster City, CA",
-    "title": "Technical Program Manager (Gen AI)",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Technical-Program-Manager--Gen-AI-_REF087843W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Foster-City-CA_Lead-Software-Engineer_REF083345W",
-    "location": "US - Foster City, CA",
-    "title": "Lead Software Engineer \u2013 Cloud Native Platforms (GCP)",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Lead-Software-Engineer_REF083345W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_IN---Bengaluru-India_Software-Engineer--Sr-Consultant-Level_REF079515W",
-    "location": "IN - Bengaluru, India",
-    "title": "Software Engineer, Sr. Consultant Level (11-15 years exp, Java-Python-AWS-GenAI)",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/IN---Bengaluru-India/Software-Engineer--Sr-Consultant-Level_REF079515W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Denver-CO_Solutions-Designer_REF085197W",
-    "location": "US - Denver, CO",
-    "title": "Solutions Designer, Automation",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Denver-CO/Solutions-Designer_REF085197W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---San-Francisco-CA_Senior-Manager--Sales-Engineer_REF087559W",
-    "location": "US - San Francisco, CA",
-    "title": "Senior Manager, Sales Engineer",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---San-Francisco-CA/Senior-Manager--Sales-Engineer_REF087559W"
-  },
-  {
-    "company": "Visa",
-    "id": "wd_visa__job_US---Austin-TX_Backend-Senior-Software-Engineer_REF081755W",
-    "location": "2 Locations",
-    "title": "Backend Senior Software Engineer",
-    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Backend-Senior-Software-Engineer_REF081755W"
   },
   {
     "company": "SAS",
@@ -30787,17 +30654,10 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5390735008",
-    "location": "Seoul, South Korea",
+    "id": "gh_5227672008",
+    "location": "Madrid, Spain",
     "title": "Applied AI Architect",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390735008"
-  },
-  {
-    "company": "Anthropic",
-    "id": "gh_5390742008",
-    "location": "Singapore",
-    "title": "Applied AI Architect",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390742008"
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5227672008"
   },
   {
     "company": "Anthropic",
@@ -30808,17 +30668,24 @@
   },
   {
     "company": "Anthropic",
+    "id": "gh_5390742008",
+    "location": "Singapore",
+    "title": "Applied AI Architect",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390742008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5390735008",
+    "location": "Seoul, South Korea",
+    "title": "Applied AI Architect",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390735008"
+  },
+  {
+    "company": "Anthropic",
     "id": "gh_5076109008",
     "location": "Tokyo, Japan",
     "title": "Applied AI Architect",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5076109008"
-  },
-  {
-    "company": "Anthropic",
-    "id": "gh_5227672008",
-    "location": "Madrid, Spain",
-    "title": "Applied AI Architect",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5227672008"
   },
   {
     "company": "Anthropic",
@@ -30878,17 +30745,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5390750008",
-    "location": "Bangalore, India",
-    "title": "Applied AI Architect, Partnerships",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390750008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5390787008",
     "location": "Paris, France",
     "title": "Applied AI Architect, Partnerships",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390787008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5390750008",
+    "location": "Bangalore, India",
+    "title": "Applied AI Architect, Partnerships",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390750008"
   },
   {
     "company": "Anthropic",
@@ -30934,17 +30801,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5390754008",
-    "location": "Paris, France",
-    "title": "Applied AI Engineer, Enterprise",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5390795008",
     "location": "Munich, Germany",
     "title": "Applied AI Engineer, Enterprise",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390795008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5390754008",
+    "location": "Paris, France",
+    "title": "Applied AI Engineer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008"
   },
   {
     "company": "Anthropic",
@@ -30976,17 +30843,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5385590008",
-    "location": "London, UK",
-    "title": "AV Engineer",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385590008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5385588008",
     "location": "San Francisco, CA | New York City, NY",
     "title": "AV Engineer",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385588008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5385590008",
+    "location": "London, UK",
+    "title": "AV Engineer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385590008"
   },
   {
     "company": "Anthropic",
@@ -31053,13 +30920,6 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5398753008",
-    "location": "London, UK",
-    "title": "Business Systems Analyst",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398753008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5394958008",
     "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
     "title": "Business Systems Analyst",
@@ -31067,10 +30927,10 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5366149008",
-    "location": "San Francisco, CA",
-    "title": "Business Systems Analyst, Security Engineering",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5366149008"
+    "id": "gh_5398753008",
+    "location": "London, UK",
+    "title": "Business Systems Analyst",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398753008"
   },
   {
     "company": "Anthropic",
@@ -31113,13 +30973,6 @@
     "location": "San Francisco, CA | New York City, NY | Seattle, WA",
     "title": "Commercial Counsel, GTM",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5074052008"
-  },
-  {
-    "company": "Anthropic",
-    "id": "gh_5208289008",
-    "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
-    "title": "Commercial Counsel, Platform & Marketplace",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5208289008"
   },
   {
     "company": "Anthropic",
@@ -31256,17 +31109,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5387027008",
-    "location": "Tokyo, Japan",
-    "title": "Customer Success Manager",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387027008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5391112008",
     "location": "Seoul, South Korea",
     "title": "Customer Success Manager",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391112008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5387027008",
+    "location": "Tokyo, Japan",
+    "title": "Customer Success Manager",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387027008"
   },
   {
     "company": "Anthropic",
@@ -31795,6 +31648,13 @@
   },
   {
     "company": "Anthropic",
+    "id": "gh_5104756008",
+    "location": "Tokyo, Japan",
+    "title": "Enterprise Account Executive, System Integrators",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5104756008"
+  },
+  {
+    "company": "Anthropic",
     "id": "gh_5207540008",
     "location": "San Francisco, CA | New York City, NY",
     "title": "Enterprise Account Executive, Tech",
@@ -31816,17 +31676,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5383706008",
-    "location": "London, UK",
-    "title": "Environment, Health and Safety Specialist ",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383706008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5383708008",
     "location": "Dublin, IE",
     "title": "Environment, Health and Safety Specialist ",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383708008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5383706008",
+    "location": "London, UK",
+    "title": "Environment, Health and Safety Specialist ",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5383706008"
   },
   {
     "company": "Anthropic",
@@ -31893,17 +31753,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5409108008",
-    "location": "London, UK",
-    "title": "Finance & Strategy GTM, EMEA",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409108008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5393268008",
     "location": "Dublin, IE",
     "title": "Finance & Strategy GTM, EMEA",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5393268008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5409108008",
+    "location": "London, UK",
+    "title": "Finance & Strategy GTM, EMEA",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409108008"
   },
   {
     "company": "Anthropic",
@@ -31949,17 +31809,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5391021008",
-    "location": "Paris, France",
-    "title": "Forward Deployed Engineer",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391021008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5391016008",
     "location": "Munich, Germany",
     "title": "Forward Deployed Engineer",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391016008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5391021008",
+    "location": "Paris, France",
+    "title": "Forward Deployed Engineer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391021008"
   },
   {
     "company": "Anthropic",
@@ -32033,17 +31893,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5391309008",
-    "location": "Dublin, IE",
-    "title": "Growth Account Executive, Startups",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391309008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5079916008",
     "location": "New York City, NY; San Francisco, CA",
     "title": "Growth Account Executive, Startups",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5079916008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5391309008",
+    "location": "Dublin, IE",
+    "title": "Growth Account Executive, Startups",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391309008"
   },
   {
     "company": "Anthropic",
@@ -32285,6 +32145,13 @@
   },
   {
     "company": "Anthropic",
+    "id": "gh_5385764008",
+    "location": "London, UK",
+    "title": "IT Support Engineer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385764008"
+  },
+  {
+    "company": "Anthropic",
     "id": "gh_5396397008",
     "location": "Tokyo, Japan",
     "title": "IT Support Engineer",
@@ -32296,13 +32163,6 @@
     "location": "Dublin, IE",
     "title": "IT Support Engineer",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385762008"
-  },
-  {
-    "company": "Anthropic",
-    "id": "gh_5385764008",
-    "location": "London, UK",
-    "title": "IT Support Engineer",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385764008"
   },
   {
     "company": "Anthropic",
@@ -32775,13 +32635,6 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5392054008",
-    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-    "title": "Product Designer, Core Apps",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392054008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5399162008",
     "location": "Remote-Friendly, United States",
     "title": "Product Engineer - Manufacturing Operations",
@@ -32810,17 +32663,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5397737008",
-    "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
-    "title": "Product Manager, Business Technology",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397737008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5397741008",
     "location": "London, UK",
     "title": "Product Manager, Business Technology",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397741008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5397737008",
+    "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
+    "title": "Product Manager, Business Technology",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397737008"
   },
   {
     "company": "Anthropic",
@@ -32856,6 +32709,13 @@
     "location": "San Francisco, CA",
     "title": "Product Manager, Multi-Cloud Growth - Google",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5153924008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5409934008",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "title": "Product Manager, Multi-Cloud Trust & Safety",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409934008"
   },
   {
     "company": "Anthropic",
@@ -32915,17 +32775,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_4979585008",
-    "location": "New York City, NY; San Francisco, CA; Seattle, WA",
-    "title": "Product Support Specialist",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4979585008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5138042008",
     "location": "Tokyo, Japan",
     "title": "Product Support Specialist",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5138042008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_4979585008",
+    "location": "New York City, NY; San Francisco, CA; Seattle, WA",
+    "title": "Product Support Specialist",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4979585008"
   },
   {
     "company": "Anthropic",
@@ -32985,6 +32845,13 @@
   },
   {
     "company": "Anthropic",
+    "id": "gh_5231200008",
+    "location": "London, UK",
+    "title": "Regional Research Economist, Economic Research",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231200008"
+  },
+  {
+    "company": "Anthropic",
     "id": "gh_5231205008",
     "location": "Singapore",
     "title": "Regional Research Economist, Economic Research",
@@ -32992,10 +32859,10 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5231200008",
-    "location": "London, UK",
-    "title": "Regional Research Economist, Economic Research",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231200008"
+    "id": "gh_5409299008",
+    "location": "San Francisco, CA | New York City, NY",
+    "title": "Regulatory Counsel, AI Regulation, US",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409299008"
   },
   {
     "company": "Anthropic",
@@ -33405,6 +33272,13 @@
   },
   {
     "company": "Anthropic",
+    "id": "gh_5403775008",
+    "location": "Remote-Friendly (Travel-Required) |  Washington, DC; San Francisco, CA | New York City, NY",
+    "title": "Safeguards Enforcement Lead, Cyber Harms",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5403775008"
+  },
+  {
+    "company": "Anthropic",
     "id": "gh_5397711008",
     "location": "San Francisco, CA | Washington, DC",
     "title": "Safeguards Policy Analyst, Cyber Harms",
@@ -33804,17 +33678,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5101169008",
-    "location": "Dublin, IE",
-    "title": "Staff Software Engineer, AI Reliability Engineering",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101169008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5101173008",
     "location": "London, UK",
     "title": "Staff Software Engineer, AI Reliability Engineering",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101173008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5101169008",
+    "location": "Dublin, IE",
+    "title": "Staff Software Engineer, AI Reliability Engineering",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101169008"
   },
   {
     "company": "Anthropic",
@@ -34301,6 +34175,13 @@
   },
   {
     "company": "Anthropic",
+    "id": "gh_5126008008",
+    "location": "Seattle, WA",
+    "title": "Strategic Account Executive, Tech",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5126008008"
+  },
+  {
+    "company": "Anthropic",
     "id": "gh_5109135008",
     "location": "San Francisco, CA",
     "title": "Strategic Account Executive, Tech",
@@ -34413,17 +34294,17 @@
   },
   {
     "company": "Anthropic",
-    "id": "gh_5391108008",
-    "location": "London, UK",
-    "title": "Technical Deployment Lead",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391108008"
-  },
-  {
-    "company": "Anthropic",
     "id": "gh_5017903008",
     "location": "Austin, TX; Boston, MA; New York City, NY; San Francisco, CA; Seattle, WA",
     "title": "Technical Deployment Lead",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5017903008"
+  },
+  {
+    "company": "Anthropic",
+    "id": "gh_5391108008",
+    "location": "London, UK",
+    "title": "Technical Deployment Lead",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391108008"
   },
   {
     "company": "Anthropic",
@@ -34693,17 +34574,17 @@
   },
   {
     "company": "Scale AI",
-    "id": "gh_4716453005",
-    "location": "San Francisco, CA; Seattle, WA; New York, NY",
-    "title": "AI Infrastructure Engineer, Sandbox Platform",
-    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4716453005"
-  },
-  {
-    "company": "Scale AI",
     "id": "gh_4717105005",
     "location": "London, UK",
     "title": "AI Infrastructure Engineer, Sandbox Platform",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717105005"
+  },
+  {
+    "company": "Scale AI",
+    "id": "gh_4716453005",
+    "location": "San Francisco, CA; Seattle, WA; New York, NY",
+    "title": "AI Infrastructure Engineer, Sandbox Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4716453005"
   },
   {
     "company": "Scale AI",
@@ -34784,17 +34665,17 @@
   },
   {
     "company": "Scale AI",
-    "id": "gh_4713532005",
-    "location": "Los Angeles, CA",
-    "title": "Deployment Strategist ",
-    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713532005"
-  },
-  {
-    "company": "Scale AI",
     "id": "gh_4709157005",
     "location": "Washington, DC",
     "title": "Deployment Strategist ",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709157005"
+  },
+  {
+    "company": "Scale AI",
+    "id": "gh_4713532005",
+    "location": "Los Angeles, CA",
+    "title": "Deployment Strategist ",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713532005"
   },
   {
     "company": "Scale AI",
@@ -34826,17 +34707,17 @@
   },
   {
     "company": "Scale AI",
-    "id": "gh_4702890005",
-    "location": "London, UK",
-    "title": "Director of Product Management, Forward Deployed & Strategy",
-    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4702890005"
-  },
-  {
-    "company": "Scale AI",
     "id": "gh_4669229005",
     "location": "New York, NY",
     "title": "Director of Product Management, Forward Deployed & Strategy",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4669229005"
+  },
+  {
+    "company": "Scale AI",
+    "id": "gh_4702890005",
+    "location": "London, UK",
+    "title": "Director of Product Management, Forward Deployed & Strategy",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4702890005"
   },
   {
     "company": "Scale AI",
@@ -34875,17 +34756,17 @@
   },
   {
     "company": "Scale AI",
-    "id": "gh_4687050005",
-    "location": "San Francisco, CA; New York, NY",
-    "title": "Engagement Manager",
-    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687050005"
-  },
-  {
-    "company": "Scale AI",
     "id": "gh_4727252005",
     "location": "Riyadh, Saudi Arabia",
     "title": "Engagement Manager",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727252005"
+  },
+  {
+    "company": "Scale AI",
+    "id": "gh_4687050005",
+    "location": "San Francisco, CA; New York, NY",
+    "title": "Engagement Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687050005"
   },
   {
     "company": "Scale AI",
@@ -35071,17 +34952,17 @@
   },
   {
     "company": "Scale AI",
-    "id": "gh_4673051005",
-    "location": "New York, NY",
-    "title": "Forward Deployed Product Manager, Enterprise",
-    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673051005"
-  },
-  {
-    "company": "Scale AI",
     "id": "gh_4644742005",
     "location": "London, UK",
     "title": "Forward Deployed Product Manager, Enterprise",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4644742005"
+  },
+  {
+    "company": "Scale AI",
+    "id": "gh_4673051005",
+    "location": "New York, NY",
+    "title": "Forward Deployed Product Manager, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673051005"
   },
   {
     "company": "Scale AI",
@@ -35334,6 +35215,13 @@
     "location": "Washington, DC",
     "title": "National Security Policy, Senior Manager ",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4723002005"
+  },
+  {
+    "company": "Scale AI",
+    "id": "gh_4728956005",
+    "location": "Argentina",
+    "title": "Operations Associate",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4728956005"
   },
   {
     "company": "Scale AI",
@@ -35680,17 +35568,17 @@
   },
   {
     "company": "Scale AI",
-    "id": "gh_4711898005",
-    "location": "San Francisco, CA; New York, NY; Washington, DC",
-    "title": "Senior Software Engineer, Identity",
-    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711898005"
-  },
-  {
-    "company": "Scale AI",
     "id": "gh_4715352005",
     "location": "London, UK",
     "title": "Senior Software Engineer, Identity",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4715352005"
+  },
+  {
+    "company": "Scale AI",
+    "id": "gh_4711898005",
+    "location": "San Francisco, CA; New York, NY; Washington, DC",
+    "title": "Senior Software Engineer, Identity",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711898005"
   },
   {
     "company": "Scale AI",
@@ -35841,17 +35729,17 @@
   },
   {
     "company": "Scale AI",
-    "id": "gh_4642876005",
-    "location": "London, UK",
-    "title": "Solutions Engineer, Enterprise",
-    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4642876005"
-  },
-  {
-    "company": "Scale AI",
     "id": "gh_4554440005",
     "location": "San Francisco, CA; New York, NY",
     "title": "Solutions Engineer, Enterprise",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4554440005"
+  },
+  {
+    "company": "Scale AI",
+    "id": "gh_4642876005",
+    "location": "London, UK",
+    "title": "Solutions Engineer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4642876005"
   },
   {
     "company": "Scale AI",
@@ -36577,7 +36465,7 @@
   {
     "company": "Gusto",
     "id": "gh_8143038",
-    "location": "Denver, CO - Hybrid",
+    "location": "Denver, CO - Hybrid; Phoenix, AZ - Remote",
     "title": "Account Coordinator (Retirement Sponsor Support)",
     "url": "https://job-boards.greenhouse.io/gusto/jobs/8143038"
   },
@@ -36853,6 +36741,13 @@
     "location": "Denver, CO - Hybrid; New York, New York, United States; San Francisco, CA - Hybrid",
     "title": "People Process Transformation Lead",
     "url": "https://job-boards.greenhouse.io/gusto/jobs/8148634"
+  },
+  {
+    "company": "Gusto",
+    "id": "gh_8008902",
+    "location": "Atlanta, GA - Remote; Denver, CO - Hybrid; Phoenix, AZ - Remote",
+    "title": "PEO Sales, Account Executive",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8008902"
   },
   {
     "company": "Gusto",
