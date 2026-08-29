@@ -163,7 +163,7 @@ if search_button:
             )
         ]
 
-        results.sort(key=lambda job: (job.get("company", ""), job.get("title", "").lower()))
+        results.sort(key=lambda job: job.get("cached_at", 0), reverse=True)
         st.session_state["results"] = results
         
         # Store search criteria for display

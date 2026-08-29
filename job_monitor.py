@@ -405,6 +405,7 @@ def get_job_metadata(job, source):
         "location": job["location"],
         "url": job["url"],
         "source": source,
+        "cached_at": time.time(),
     }
 
 
@@ -432,6 +433,8 @@ def main():
             continue
 
         print(f"[{display_name}] Fetched {len(jobs)} total jobs.")
+        for job in jobs:
+            job["cached_at"] = time.time()
         cached_jobs.extend(jobs)
 
         for job in jobs:
