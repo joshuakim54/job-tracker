@@ -2380,6 +2380,14 @@
     "title": "Senior Software Engineer, Simple Trade Experience",
     "url": "https://www.coinbase.com/careers/positions/8103569?gh_jid=8103569"
   },
+  "gh_8104213": {
+    "cached_at": 1788211559.7139053,
+    "company": "Gusto",
+    "location": "New York, New York, United States; San Francisco, CA - Hybrid",
+    "source": "greenhouse",
+    "title": "Software Engineer, Payments",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8104213"
+  },
   "gh_8104873": {
     "company": "Coinbase",
     "location": "Remote - USA",
@@ -3774,6 +3782,14 @@
     "title": "Backend Software Engineer - Infrastructure",
     "url": "https://jobs.lever.co/palantir/6fe5515f-f677-4d98-8ac2-1775a425f5e7"
   },
+  "lever_701a9307-0619-45d3-b077-cabe9897cd12": {
+    "cached_at": 1788211557.1470246,
+    "company": "Palantir",
+    "location": "Honolulu, HI",
+    "source": "lever",
+    "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
+    "url": "https://jobs.lever.co/palantir/701a9307-0619-45d3-b077-cabe9897cd12"
+  },
   "lever_7177acab-5c64-4005-9b28-93f33b3e172a": {
     "company": "Palantir",
     "location": "New York, NY",
@@ -4271,6 +4287,14 @@
     "title": "Forward Deployed Software Engineer, New Grad - Intel, US Government",
     "url": "https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382"
   },
+  "wd_visa__job_US---Ashburn-VA_Staff-Software-Engineer--AI-Solutions_REF087949W": {
+    "cached_at": 1788211558.871281,
+    "company": "Visa",
+    "location": "US - Ashburn, VA",
+    "source": "workday",
+    "title": "Staff Software Engineer-AI Solutions",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Ashburn-VA/Staff-Software-Engineer--AI-Solutions_REF087949W"
+  },
   "wd_visa__job_US---Austin-TX_Senior-Software-Engineer--Power-Platform--Copilot-Studio--Azure_REF087684W": {
     "company": "Visa",
     "location": "US - Austin, TX",
@@ -4284,6 +4308,14 @@
     "source": "workday",
     "title": "Software Engineer - Sr. Consultant level-1",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer---Sr-Consultant-level-1_REF083066W"
+  },
+  "wd_visa__job_US---Austin-TX_Software-Engineer---Sr-Consultant-level_REF081503W": {
+    "cached_at": 1788211558.0141196,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Software Engineer - Sr. Consultant level",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer---Sr-Consultant-level_REF081503W"
   },
   "wd_visa__job_US---Austin-TX_Staff-SW-Engineer_REF072113W": {
     "company": "Visa",
