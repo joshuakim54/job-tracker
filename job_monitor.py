@@ -87,6 +87,10 @@ LOCATION_INCLUDE = [
     "cary",
     "nc",
     "north carolina",
+    "boston",
+    "massachusetts",
+    "mass",
+    "ma",
     "remote",
     "united states",
     "usa",
@@ -167,11 +171,24 @@ def is_matching_job(job):
     if any(kw in title for kw in TITLE_EXCLUDE):
         return False
 
-    # Location check
+    # Location check - must be US and in LOCATION_INCLUDE list
     if not is_us_location(location):
+        return False
+    
+    # Must match at least one location in LOCATION_INCLUDE
+    if not any(contains_term(location, term) for term in LOCATION_INCLUDE):
         return False
 
     return True
+
+
+def contains_term(text, term):
+    """Check if term appears as a word boundary match in text."""
+    normalized_text = REGEX_NORMALIZE.sub(" ", str(text).lower()).strip()
+    normalized_term = REGEX_NORMALIZE.sub(" ", str(term).lower()).strip()
+    if not normalized_term:
+        return False
+    return re.search(rf"(?<!\w){re.escape(normalized_term)}(?!\w)", normalized_text) is not None
 
 
 # ==========================================
