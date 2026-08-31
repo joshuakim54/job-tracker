@@ -5,6 +5,7 @@ import re
 from html import unescape
 from urllib.parse import quote_plus
 import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ==========================================
 # CONFIGURATION & SECRETS
@@ -15,6 +16,15 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 HISTORY_FILE = os.getenv("HISTORY_FILE", os.path.join(BASE_DIR, "seen_jobs.local.json"))
 JOBS_CACHE_FILE = os.getenv("JOBS_CACHE_FILE", os.path.join(BASE_DIR, "jobs_cache.json"))
 COMPANIES_FILE = os.path.join(BASE_DIR, "companies.json")
+
+# Pre-compiled regex patterns for performance
+REGEX_WORD_BOUNDARY = r"(?<!\w){}(?!\w)"
+REGEX_NORMALIZE = re.compile(r"[^a-z0-9]+")
+REGEX_TAG_REMOVAL = re.compile(r"<[^>]+>")
+REGEX_ICIMS_CARD = re.compile(r'<li class="iCIMS_JobCardItem">(.*?)</li>', re.S)
+REGEX_ICIMS_TITLE = re.compile(r'<a href="([^"]+/jobs/[^" ]+)"[^>]*>.*?<h3[^>]*>(.*?)</h3>', re.S | re.I)
+REGEX_ICIMS_LOCATION = re.compile(r'<dd class="iCIMS_JobHeaderData"[^>]*>.*?<span[^>]*>\s*(.*?)\s*</span>', re.S | re.I)
+REGEX_ICIMS_JOB_ID = re.compile(r"/jobs/(\d+)")
 
 
 def discord_is_configured():
@@ -124,26 +134,26 @@ US_LOCATION_MARKERS = [
 ]
 
 
+# Pre-compile location regexes
+_LOCATION_EXCLUDE_REGEX = [re.compile(REGEX_WORD_BOUNDARY.format(re.escape(term))) for term in LOCATION_EXCLUDE]
+_US_LOCATION_MARKERS_REGEX = [re.compile(REGEX_WORD_BOUNDARY.format(re.escape(term))) for term in US_LOCATION_MARKERS]
+_REMOTE_REGEX = re.compile(REGEX_WORD_BOUNDARY.format("remote|anywhere|worldwide|global"))
+
 # ==========================================
 # MATCHING LOGIC
 # ==========================================
 def is_us_location(location):
-    normalized_location = re.sub(r"[^a-z0-9]+", " ", str(location).lower()).strip()
+    normalized_location = REGEX_NORMALIZE.sub(" ", str(location).lower()).strip()
     if not normalized_location:
         return False
 
-    if any(
-        re.search(rf"(?<!\w){re.escape(term)}(?!\w)", normalized_location)
-        for term in LOCATION_EXCLUDE
-    ):
+    # Check for excluded locations
+    if any(regex.search(normalized_location) for regex in _LOCATION_EXCLUDE_REGEX):
         return False
 
-    is_remote = re.search(r"(?<!\w)(remote|anywhere|worldwide|global)(?!\w)", normalized_location)
-    has_us_marker = any(
-        re.search(rf"(?<!\w){re.escape(term)}(?!\w)", normalized_location)
-        for term in US_LOCATION_MARKERS
-    )
-    return bool(has_us_marker and (not is_remote or has_us_marker))
+    # Check for US markers
+    has_us_marker = any(regex.search(normalized_location) for regex in _US_LOCATION_MARKERS_REGEX)
+    return has_us_marker
 
 
 def is_matching_job(job):
@@ -236,29 +246,21 @@ def fetch_icims_jobs(company_key, config):
             return []
 
         jobs = []
-        cards = re.findall(r'<li class="iCIMS_JobCardItem">(.*?)</li>', res.text, re.S)
+        cards = REGEX_ICIMS_CARD.findall(res.text)
         for card in cards:
-            title_match = re.search(
-                r'<a href="([^"]+/jobs/[^" ]+)"[^>]*>.*?<h3[^>]*>(.*?)</h3>',
-                card,
-                re.S | re.I,
-            )
+            title_match = REGEX_ICIMS_TITLE.search(card)
             if not title_match:
                 continue
 
-            title = re.sub(r"<[^>]+>", " ", unescape(title_match.group(2)))
+            title = REGEX_TAG_REMOVAL.sub(" ", unescape(title_match.group(2)))
             title = " ".join(title.split())
-            location_values = re.findall(
-                r'<dd class="iCIMS_JobHeaderData"[^>]*>.*?<span[^>]*>\s*(.*?)\s*</span>',
-                card,
-                re.S | re.I,
-            )
+            location_values = REGEX_ICIMS_LOCATION.findall(card)
             location = ", ".join(
-                " ".join(re.sub(r"<[^>]+>", " ", unescape(value)).split())
+                " ".join(REGEX_TAG_REMOVAL.sub(" ", unescape(value)).split())
                 for value in location_values
             )
             job_url = unescape(title_match.group(1)).replace("&amp;", "&")
-            job_id = re.search(r"/jobs/(\d+)", job_url)
+            job_id = REGEX_ICIMS_JOB_ID.search(job_url)
             jobs.append({
                 "id": f"icims_{company_key}_{job_id.group(1) if job_id else job_url}",
                 "company": display_name,
@@ -409,6 +411,28 @@ def get_job_metadata(job, source):
     }
 
 
+def _fetch_company_jobs(company_key, config):
+    """Fetch jobs from a single company. Used for parallel execution."""
+    board_type = config.get("type")
+    display_name = config.get("display_name", company_key)
+
+    if board_type == "greenhouse":
+        jobs = fetch_greenhouse_jobs(company_key, config)
+    elif board_type == "lever":
+        jobs = fetch_lever_jobs(company_key, config)
+    elif board_type == "icims":
+        jobs = fetch_icims_jobs(company_key, config)
+    elif board_type == "workday":
+        jobs = fetch_workday_jobs(company_key, config)
+    else:
+        return company_key, display_name, []
+
+    current_time = time.time()
+    for job in jobs:
+        job["cached_at"] = current_time
+    return company_key, display_name, jobs
+
+
 def main():
     seen_ids = load_seen_jobs()
     print(f"Starting job search... (Loaded {len(seen_ids)} previously seen job IDs)")
@@ -417,47 +441,43 @@ def main():
     pending_ids = set()
     cached_jobs = []
 
-    for company_key, config in TARGET_COMPANIES.items():
-        board_type = config.get("type")
-        display_name = config.get("display_name", company_key)
+    # Fetch jobs from all companies in parallel
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        futures = {
+            executor.submit(_fetch_company_jobs, company_key, config): company_key
+            for company_key, config in TARGET_COMPANIES.items()
+        }
+        
+        for future in as_completed(futures):
+            company_key, display_name, jobs = future.result()
+            print(f"[{display_name}] Fetched {len(jobs)} total jobs.")
+            cached_jobs.extend(jobs)
 
-        if board_type == "greenhouse":
-            jobs = fetch_greenhouse_jobs(company_key, config)
-        elif board_type == "lever":
-            jobs = fetch_lever_jobs(company_key, config)
-        elif board_type == "icims":
-            jobs = fetch_icims_jobs(company_key, config)
-        elif board_type == "workday":
-            jobs = fetch_workday_jobs(company_key, config)
-        else:
-            continue
+            # Process jobs from this company
+            for job in jobs:
+                if job["id"] in seen_ids:
+                    if not seen_ids[job["id"]]:
+                        seen_ids[job["id"]] = get_job_metadata(job, jobs[0].get("source", "unknown") if jobs else "unknown")
+                    continue
 
-        print(f"[{display_name}] Fetched {len(jobs)} total jobs.")
-        for job in jobs:
-            job["cached_at"] = time.time()
-        cached_jobs.extend(jobs)
+                if not is_matching_job(job):
+                    continue
 
-        for job in jobs:
-            if job["id"] in seen_ids:
-                if not seen_ids[job["id"]]:
-                    seen_ids[job["id"]] = get_job_metadata(job, board_type)
-                continue
-
-            if not is_matching_job(job):
-                continue
-
-            if job["id"] not in pending_ids:
-                new_jobs_found.append((job, board_type))
-                pending_ids.add(job["id"])
+                if job["id"] not in pending_ids:
+                    new_jobs_found.append((job, company_key))
+                    pending_ids.add(job["id"])
 
     print(f"\nFound {len(new_jobs_found)} new matching role(s). Processing results...")
 
-    for job, board_type in new_jobs_found:
+    # Process new jobs and send alerts
+    for job, company_key in new_jobs_found:
         alert_sent = not discord_is_configured() or send_discord_alert(job)
         if not discord_is_configured():
             print(f"ℹ️ Discord not configured; recorded [{job['company']}] {job['title']}")
 
         if alert_sent:
+            config = TARGET_COMPANIES.get(company_key, {})
+            board_type = config.get("type", "unknown")
             seen_ids[job["id"]] = get_job_metadata(job, board_type)
             save_seen_jobs(seen_ids)
 

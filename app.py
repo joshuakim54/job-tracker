@@ -4,7 +4,7 @@ import re
 
 import streamlit as st
 
-from job_monitor import is_us_location
+from job_monitor import is_us_location, REGEX_NORMALIZE
 
 EXPERIENCE_LEVEL_TERMS = {
     "Internships": ["intern", "internship", "co-op", "coop"],
@@ -93,7 +93,7 @@ def split_terms(value):
 
 
 def normalize_text(value):
-    return re.sub(r"[^a-z0-9]+", " ", str(value).lower()).strip()
+    return REGEX_NORMALIZE.sub(" ", str(value).lower()).strip()
 
 
 def contains_term(text, term):
@@ -104,12 +104,20 @@ def contains_term(text, term):
     return re.search(rf"(?<!\w){re.escape(normalized_term)}(?!\w)", normalized_text) is not None
 
 
+# Pre-compile regex patterns for experience level matching to improve performance
+_EXPERIENCE_LEVEL_PATTERNS = {
+    level: [re.compile(rf"(?<!\\w){re.escape(term)}(?!\\w)") for term in terms]
+    for level, terms in EXPERIENCE_LEVEL_TERMS.items()
+}
+
+
 def get_experience_level(title):
-    if any(contains_term(title, term) for term in EXPERIENCE_LEVEL_TERMS["Internships"]):
+    normalized_title = normalize_text(title)
+    if any(pattern.search(normalized_title) for pattern in _EXPERIENCE_LEVEL_PATTERNS["Internships"]):
         return {"Internships"}
-    if any(contains_term(title, term) for term in EXPERIENCE_LEVEL_TERMS["Seniors"]):
+    if any(pattern.search(normalized_title) for pattern in _EXPERIENCE_LEVEL_PATTERNS["Seniors"]):
         return {"Seniors"}
-    if any(contains_term(title, term) for term in EXPERIENCE_LEVEL_TERMS["New grads"]):
+    if any(pattern.search(normalized_title) for pattern in _EXPERIENCE_LEVEL_PATTERNS["New grads"]):
         return {"New grads"}
     return {"Experienced"}
 
