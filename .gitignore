@@ -1,1 +1,6 @@
 seen_jobs.local.json
+seen_jobs.json.bak
+seen_jobs.local.json.bak
+*.bak
+__pycache__/
+

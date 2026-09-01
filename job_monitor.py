@@ -2,6 +2,8 @@ import time
 import json
 import os
 import re
+import shutil
+import argparse
 from html import unescape
 from urllib.parse import quote_plus
 import requests
@@ -135,6 +137,17 @@ US_LOCATION_MARKERS = [
     "ma", "mi", "mn", "ms", "mo", "mt", "ne", "nv", "nh", "nj",
     "nm", "ny", "nc", "nd", "oh", "ok", "or", "pa", "ri", "sc",
     "sd", "tn", "tx", "ut", "vt", "va", "wa", "wv", "wi", "wy",
+    # Major US tech hubs, cities, and regions
+    "san francisco", "sf", "bay area", "silicon valley", "san jose", "sunnyvale",
+    "mountain view", "palo alto", "redwood city", "menlo park", "oakland",
+    "seattle", "bellevue", "redmond", "austin", "dallas", "houston", "san antonio",
+    "chicago", "new york city", "nyc", "manhattan", "brooklyn",
+    "boston", "cambridge", "los angeles", "la", "san diego", "denver", "boulder",
+    "atlanta", "philadelphia", "philly", "pittsburgh", "washington dc", "dc",
+    "arlington", "reston", "mclean", "baltimore", "minneapolis", "salt lake city",
+    "slc", "phoenix", "tempe", "portland", "miami", "orlando", "tampa", "nashville",
+    "raleigh", "durham", "chapel hill", "cary", "morrisville", "charlotte",
+    "rtp", "research triangle",
 ]
 
 
@@ -151,13 +164,17 @@ def is_us_location(location):
     if not normalized_location:
         return False
 
-    # Check for excluded locations
-    if any(regex.search(normalized_location) for regex in _LOCATION_EXCLUDE_REGEX):
-        return False
-
     # Check for US markers
     has_us_marker = any(regex.search(normalized_location) for regex in _US_LOCATION_MARKERS_REGEX)
-    return has_us_marker
+    if not has_us_marker:
+        return False
+
+    # Check for excluded international locations (exclude unless a US marker is explicitly present in multi-location list)
+    has_excluded = any(regex.search(normalized_location) for regex in _LOCATION_EXCLUDE_REGEX)
+    if has_excluded and not has_us_marker:
+        return False
+
+    return True
 
 
 def is_matching_job(job):
@@ -392,9 +409,10 @@ def send_discord_alert(job):
 # ==========================================
 # STATE MANAGEMENT & MAIN LOOP
 # ==========================================
-def load_seen_jobs():
-    if os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, "r") as f:
+def load_seen_jobs(file_path=None):
+    target_file = file_path or HISTORY_FILE
+    if os.path.exists(target_file):
+        with open(target_file, "r", encoding="utf-8") as f:
             try:
                 data = json.load(f)
                 if isinstance(data, list):
@@ -407,9 +425,66 @@ def load_seen_jobs():
     return {}
 
 
-def save_seen_jobs(seen_ids):
-    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+def save_seen_jobs(seen_ids, file_path=None):
+    target_file = file_path or HISTORY_FILE
+    with open(target_file, "w", encoding="utf-8") as f:
         json.dump(seen_ids, f, indent=2, sort_keys=True)
+
+
+def clear_seen_jobs(file_path=None, older_than_days=None, backup=True):
+    """
+    Clears or prunes seen jobs history to reset alert tracking.
+    
+    Args:
+        file_path (str, optional): Path to the history file. Defaults to HISTORY_FILE.
+        older_than_days (int, optional): If specified, only removes entries older than N days (based on cached_at).
+                                         If None, completely empties the file.
+        backup (bool): If True, creates a .bak backup copy before clearing or pruning.
+    
+    Returns:
+        dict: Summary containing counts of cleared and remaining records.
+    """
+    target_file = file_path or HISTORY_FILE
+
+    if not os.path.exists(target_file):
+        print(f"[INFO] No history file found at '{target_file}'. Initializing new empty file.")
+        save_seen_jobs({}, target_file)
+        return {"cleared": 0, "remaining": 0}
+
+    # Backup existing file before modifications
+    if backup:
+        backup_file = f"{target_file}.bak"
+        try:
+            shutil.copy2(target_file, backup_file)
+            print(f"[BACKUP] Backup created at '{backup_file}'")
+        except Exception as e:
+            print(f"[WARNING] Could not create backup: {e}")
+
+    seen_jobs = load_seen_jobs(target_file)
+    initial_count = len(seen_jobs)
+
+    if older_than_days is None:
+        save_seen_jobs({}, target_file)
+        print(f"[RESET] Cleared all {initial_count} seen jobs from '{os.path.basename(target_file)}'.")
+        return {"cleared": initial_count, "remaining": 0}
+    else:
+        cutoff_time = time.time() - (older_than_days * 86400)
+        pruned_jobs = {}
+        removed_count = 0
+
+        for job_id, meta in seen_jobs.items():
+            cached_at = meta.get("cached_at") if isinstance(meta, dict) else None
+            if cached_at and cached_at < cutoff_time:
+                removed_count += 1
+            else:
+                pruned_jobs[job_id] = meta
+
+        save_seen_jobs(pruned_jobs, target_file)
+        print(
+            f"[PRUNE] Pruned {removed_count} jobs older than {older_than_days} days. "
+            f"{len(pruned_jobs)} jobs remaining in '{os.path.basename(target_file)}'."
+        )
+        return {"cleared": removed_count, "remaining": len(pruned_jobs)}
 
 
 def save_jobs_cache(jobs):
@@ -503,5 +578,41 @@ def main():
     print("Job check completed successfully!")
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Job board monitor and alert system.")
+    parser.add_argument(
+        "--clear", "--reset",
+        action="store_true",
+        dest="clear",
+        help="Clear all seen jobs history to reset alerts.",
+    )
+    parser.add_argument(
+        "--prune",
+        type=int,
+        metavar="DAYS",
+        help="Prune seen jobs older than the specified number of days.",
+    )
+    parser.add_argument(
+        "--file",
+        type=str,
+        default=None,
+        help=f"Target seen jobs file path (default: {HISTORY_FILE}).",
+    )
+    parser.add_argument(
+        "--no-backup",
+        action="store_true",
+        help="Do not create a .bak backup file when clearing or pruning.",
+    )
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    if args.clear:
+        target_file = args.file or HISTORY_FILE
+        clear_seen_jobs(file_path=target_file, backup=not args.no_backup)
+    elif args.prune is not None:
+        target_file = args.file or HISTORY_FILE
+        clear_seen_jobs(file_path=target_file, older_than_days=args.prune, backup=not args.no_backup)
+    else:
+        main()
