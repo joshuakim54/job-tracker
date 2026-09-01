@@ -2458,6 +2458,14 @@
     "title": "Senior Systems Engineer, Workers Runtime",
     "url": "https://boards.greenhouse.io/cloudflare/jobs/8110157?gh_jid=8110157"
   },
+  "gh_8113286": {
+    "cached_at": 1788290184.542429,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Software Engineer, Data Platform Team",
+    "url": "https://www.coinbase.com/careers/positions/8113286?gh_jid=8113286"
+  },
   "gh_8114877": {
     "company": "Coinbase",
     "location": "Remote - USA",
@@ -2506,6 +2514,14 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Retirement",
     "url": "https://job-boards.greenhouse.io/gusto/jobs/8121732"
+  },
+  "gh_8127182": {
+    "cached_at": 1788290181.086378,
+    "company": "Stripe",
+    "location": "San Francisco, New York City, Seattle, Chicago, US-Remote",
+    "source": "greenhouse",
+    "title": "Software Engineer, Platform Infrastructure",
+    "url": "https://stripe.com/jobs/search?gh_jid=8127182"
   },
   "gh_8128744": {
     "cached_at": 1788215313.4292445,
@@ -2683,6 +2699,22 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer - Vector Search - Elasticsearch",
     "url": "https://jobs.elastic.co/jobs?gh_jid=8161511&gh_jid=8161511"
+  },
+  "gh_8161512": {
+    "cached_at": 1788290181.9154217,
+    "company": "MongoDB",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, SQL Engines",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8161512"
+  },
+  "gh_8162237": {
+    "cached_at": 1788290182.7150702,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Finhub",
+    "url": "https://www.coinbase.com/careers/positions/8162237?gh_jid=8162237"
   },
   "gh_8163319": {
     "company": "Airbnb",
@@ -4339,6 +4371,22 @@
     "source": "workday",
     "title": "Staff SW Engineer",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Staff-SW-Engineer_REF072113W"
+  },
+  "wd_visa__job_US---Bellevue-WA_Full-Stack-Software-Architect--Sr-Consultant---Generative-AI_REF087556W": {
+    "cached_at": 1788290186.9551694,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "Full Stack Software Architect (Sr. Consultant), Generative AI",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Full-Stack-Software-Architect--Sr-Consultant---Generative-AI_REF087556W"
+  },
+  "wd_visa__job_US---Denver-CO_Lead-Software-Engineer---IBM-z-OS---Connex-Advantage-Clearing-and-Settlement_REF082365W": {
+    "cached_at": 1788290187.8005493,
+    "company": "Visa",
+    "location": "US - Denver, CO",
+    "source": "workday",
+    "title": "Lead Software Engineer \u2013 IBM z/OS - Connex Advantage Clearing and Settlement",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Denver-CO/Lead-Software-Engineer---IBM-z-OS---Connex-Advantage-Clearing-and-Settlement_REF082365W"
   },
   "wd_visa__job_US---Denver-CO_Staff-Software-Engineer--AI-Solutions_REF087977W-1": {
     "company": "Visa",
