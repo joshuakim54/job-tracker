@@ -909,6 +909,22 @@
     "title": "Software Engineer - Developer Experience",
     "url": "https://boards.greenhouse.io/figma/jobs/5790627004?gh_jid=5790627004"
   },
+  "gh_5803347004": {
+    "cached_at": 1788302915.976996,
+    "company": "Mercury",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Mercury Command",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/5803347004"
+  },
+  "gh_5847987004": {
+    "cached_at": 1788302918.2134326,
+    "company": "Mercury",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Fraud",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/5847987004"
+  },
   "gh_6042172": {
     "company": "Stripe",
     "location": "US-Remote, Chicago, Seattle, San Francisco",
@@ -923,12 +939,44 @@
     "title": "Software Engineer - Mobile Web",
     "url": "https://boards.greenhouse.io/figma/jobs/6100023004?gh_jid=6100023004"
   },
+  "gh_6101145004": {
+    "cached_at": 1788302917.380125,
+    "company": "Mercury",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Product",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6101145004"
+  },
+  "gh_6101148004": {
+    "cached_at": 1788302913.8179224,
+    "company": "Mercury",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer - Product",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6101148004"
+  },
   "gh_6102379004": {
     "company": "Figma",
     "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
     "source": "greenhouse",
     "title": "Software Engineer - Traffic",
     "url": "https://boards.greenhouse.io/figma/jobs/6102379004?gh_jid=6102379004"
+  },
+  "gh_6110081004": {
+    "cached_at": 1788302914.4772937,
+    "company": "Mercury",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "source": "greenhouse",
+    "title": "Senior Frontend Engineer - Design Systems",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6110081004"
+  },
+  "gh_6116808004": {
+    "cached_at": 1788302915.1490302,
+    "company": "Mercury",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Frontend Developer Experience",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6116808004"
   },
   "gh_6131089004": {
     "company": "Figma",
@@ -943,6 +991,14 @@
     "source": "greenhouse",
     "title": "Software Engineer - Application Platform",
     "url": "https://boards.greenhouse.io/figma/jobs/6142506004?gh_jid=6142506004"
+  },
+  "gh_6150432004": {
+    "cached_at": 1788302916.6957333,
+    "company": "Mercury",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "source": "greenhouse",
+    "title": "Software Engineer - Infrastructure",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6150432004"
   },
   "gh_6176758": {
     "company": "Stripe",
@@ -2745,6 +2801,14 @@
     "title": "Staff Software Engineer, Enterprise Apps",
     "url": "https://www.coinbase.com/careers/positions/8166218?gh_jid=8166218"
   },
+  "gh_8170956": {
+    "cached_at": 1788302913.051466,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Developer Infrastructure ",
+    "url": "https://www.coinbase.com/careers/positions/8170956?gh_jid=8170956"
+  },
   "gh_8183195002": {
     "company": "Databricks",
     "location": "Mountain View, California",
@@ -2934,6 +2998,14 @@
     "title": "Staff Backend Engineer (Ruby on Rails/AI), Verify",
     "url": "https://job-boards.greenhouse.io/gitlab/jobs/8448283002"
   },
+  "gh_8451512002": {
+    "cached_at": 1788302921.8600657,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, US",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer, Analytics Instrumentation (Golang)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8451512002"
+  },
   "gh_8459783002": {
     "company": "Brex",
     "location": "San Francisco, California, United States",
@@ -3003,6 +3075,14 @@
     "source": "greenhouse",
     "title": "Systems PhD - Software Engineer ",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002"
+  },
+  "gh_8490477002": {
+    "cached_at": 1788302926.6886322,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, US",
+    "source": "greenhouse",
+    "title": "Staff Backend Engineer, Developer Experience",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8490477002"
   },
   "gh_8493002002": {
     "company": "Databricks",
@@ -3249,6 +3329,14 @@
     "title": "Staff Software Engineer, Banking",
     "url": "https://www.brex.com/careers/8612473002?gh_jid=8612473002"
   },
+  "gh_8614945002": {
+    "cached_at": 1788302925.3103223,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer (RoR/Go), SSCS: Authentication",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8614945002"
+  },
   "gh_8617113002": {
     "company": "Brex",
     "location": "San Francisco, California, United States",
@@ -3368,6 +3456,46 @@
     "title": "Staff Software Engineer, Foundation Model Inference ",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637143002"
   },
+  "gh_8644569002": {
+    "cached_at": 1788302920.265431,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Intermediate Backend Engineer, Platform Readiness",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8644569002"
+  },
+  "gh_8644572002": {
+    "cached_at": 1788302923.85879,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer, Platform Readiness",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8644572002"
+  },
+  "gh_8646544002": {
+    "cached_at": 1788302926.0298674,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Staff Backend Engineer, Architecture Engineering: Nonlinear Productivity",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646544002"
+  },
+  "gh_8646556002": {
+    "cached_at": 1788302923.0244374,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer, Architecture Engineering: Nonlinear Productivity",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646556002"
+  },
+  "gh_8646573002": {
+    "cached_at": 1788302927.3550026,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Staff Backend Engineer (Ruby), AI Engineering: DAP Repository Flows",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646573002"
+  },
   "gh_8646595002": {
     "company": "GitLab",
     "location": "Remote, United Kingdom",
@@ -3388,6 +3516,14 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer - Streaming",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8663972002"
+  },
+  "gh_8682707002": {
+    "cached_at": 1788302924.5719886,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer (Ruby), Plan: Portfolio Experience",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8682707002"
   },
   "gh_8682860002": {
     "company": "GitLab",
@@ -3417,6 +3553,22 @@
     "title": "Senior Fullstack Engineer, Marketing",
     "url": "https://job-boards.greenhouse.io/gitlab/jobs/8697493002"
   },
+  "gh_8698314002": {
+    "cached_at": 1788302918.8740675,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Backend Engineer, AI Engineering: Duo Chat",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8698314002"
+  },
+  "gh_8698330002": {
+    "cached_at": 1788302919.552816,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Fullstack Engineer (TypeScript), AI Engineering: Duo Client SDK",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8698330002"
+  },
   "gh_8705017002": {
     "company": "GitLab",
     "location": "Remote, United States",
@@ -3430,6 +3582,14 @@
     "source": "greenhouse",
     "title": "Senior Fullstack Software Engineer - Enterprise Configuration & Administration, CustomerLake",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8715639002"
+  },
+  "gh_8715968002": {
+    "cached_at": 1788302921.14607,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Senior Backend Engineer, AMER",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8715968002"
   },
   "gh_8716138002": {
     "company": "GitLab",
@@ -3486,6 +3646,14 @@
     "source": "greenhouse",
     "title": "Software Engineering Intern (2027 Start) - Winter",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002"
+  },
+  "gh_8739391002": {
+    "cached_at": 1788302928.0646367,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Staff Fullstack Engineer (Ruby/Vue.js) Monetization Engineering: Purchase",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8739391002"
   },
   "gh_8749946002": {
     "company": "GitLab",
