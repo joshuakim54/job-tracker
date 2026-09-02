@@ -1420,6 +1420,14 @@
     "title": "Senior Staff Software Engineer, Data Platform",
     "url": "https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287"
   },
+  "gh_7723819": {
+    "cached_at": 1788388017.4125714,
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Query Engine, Database Internals - Elasticsearch",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=7723819&gh_jid=7723819"
+  },
   "gh_7727896": {
     "company": "MongoDB",
     "location": "Austin; New York City; San Francisco; Seattle; United States",
@@ -3711,6 +3719,22 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Data Collection (Tags & SDKs)",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8760176002"
+  },
+  "gh_8773006002": {
+    "cached_at": 1788388020.6388602,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Intermediate Backend Engineer, AMER",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8773006002"
+  },
+  "gh_8773381002": {
+    "cached_at": 1788388021.3534718,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Staff Backend Engineer, AMER",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8773381002"
   },
   "icims_sas_42319": {
     "company": "SAS",
