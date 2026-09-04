@@ -82,7 +82,7 @@ EXPERIENCE_LEVEL_TERMS = {
 }
 
 st.set_page_config(
-    page_title="Career Signal",
+    page_title="Jobby Finda",
     page_icon="🔎",
     layout="wide",
 )
@@ -114,7 +114,7 @@ st.markdown(
 )
 
 st.markdown(
-    '<div class="hero"><div class="eyebrow">Career Signal</div>'
+    '<div class="hero"><div class="eyebrow">Jobby Finda</div>'
     "<h1>Find work worth opening.</h1>"
     "<p>Search company career sites directly, including remote roles and internships.</p></div>",
     unsafe_allow_html=True,

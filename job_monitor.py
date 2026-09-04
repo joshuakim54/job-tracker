@@ -425,7 +425,7 @@ def send_discord_alert(job):
         return False
 
     payload = {
-        "username": "SWE Job Alert Bot",
+        "username": "Jobby Finda Bot",
         "embeds": [
             {
                 "title": f"🚨 New Role: {job['title']}",
@@ -435,7 +435,7 @@ def send_discord_alert(job):
                     {"name": "Company", "value": job["company"], "inline": True},
                     {"name": "Location", "value": job["location"], "inline": True},
                 ],
-                "footer": {"text": "Job Board Monitor"},
+                "footer": {"text": "Jobby Finda"},
             }
         ],
     }
