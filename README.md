@@ -1,12 +1,10 @@
-# Career Signal 🔎
-
-A direct-from-source job monitor and search application that aggregates postings directly from company Applicant Tracking Systems (ATS), filtering out ghost listings and stale aggregator data. It sends automated notifications to Discord and provides an interactive Streamlit web interface for custom searches.
+Hi, I'm Josh! I built this job tracker to solve a common frustration with job hunting: platforms like LinkedIn often have ghost listings and outdated postings. This tool pulls active roles directly from companies' official career pages. While I originally built it for software engineering, I am working on expanding it so friends and family across different career fields can use it too. It sends automated Discord alerts for new postings, but now also includes a clean web interface to make searching and filtering easy for anyone.
 
 ---
 
-## ✨ Features
+## Features
 
-- **Direct ATS Integration:** Scrapes directly from company career portals without third-party aggregator delay. Supports:
+- **Direct ATS Integration:** Scrapes directly from company career portals without third-party aggregator delay. Supports: (working on adding more!)
   - **Greenhouse**
   - **Lever**
   - **Workday**
@@ -23,7 +21,7 @@ A direct-from-source job monitor and search application that aggregates postings
 
 ---
 
-## 🚀 Quick Start (Local Setup)
+## Quick Start (Local Setup)
 
 ### 1. Install Dependencies
 ```bash
@@ -47,23 +45,8 @@ python job_monitor.py
 
 ---
 
-## ☁️ Deployment
 
-### Deploy the Web App on Streamlit Community Cloud
-1. Push your repository to GitHub.
-2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/).
-3. Select your repository, set the main file path to `app.py`, and deploy.
-4. Customize your public URL in app settings (e.g., `https://your-name.streamlit.app`).
-
-### Automated Monitoring via GitHub Actions
-The background scraping and Discord alerting pipeline is pre-configured in `.github/workflows/job_check.yml`:
-1. Go to your GitHub repository **Settings** → **Secrets and variables** → **Actions**.
-2. Add a new repository secret: `DISCORD_WEBHOOK_URL`.
-3. The workflow will automatically run every 4 hours, scrape all configured companies, send alerts, and commit the updated `jobs_cache.json` and `seen_jobs.json`.
-
----
-
-## ⚙️ Adding New Companies
+## Adding New Companies
 
 Target companies are configured in [`companies.json`](./companies.json). You can add new employers by specifying their ATS configuration:
 
@@ -98,5 +81,5 @@ Target companies are configured in [`companies.json`](./companies.json). You can
 
 ---
 
-## 💡 Recommended Applying Tools
-To speed up submitting applications across multiple career portals, we recommend using the [Simplify Copilot Autofill Extension](https://chromewebstore.google.com/detail/simplify-copilot-autofill/pbanhockgagggenencehbnadejlgchfc).
+## Recommended Applying Tools
+To speed up submitting applications across multiple career portals, I recommend using the [Simplify Copilot Autofill Extension](https://chromewebstore.google.com/detail/simplify-copilot-autofill/pbanhockgagggenencehbnadejlgchfc).
