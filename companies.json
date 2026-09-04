@@ -241,5 +241,85 @@
     "base_url": "https://jobs.northropgrumman.com",
     "career_url": "https://jobs.northropgrumman.com",
     "display_name": "Northrop Grumman"
+  },
+  "dropbox": {
+    "type": "greenhouse",
+    "slug": "dropbox",
+    "display_name": "Dropbox"
+  },
+  "reddit": {
+    "type": "greenhouse",
+    "slug": "reddit",
+    "display_name": "Reddit"
+  },
+  "robinhood": {
+    "type": "greenhouse",
+    "slug": "robinhood",
+    "display_name": "Robinhood"
+  },
+  "pinterest": {
+    "type": "greenhouse",
+    "slug": "pinterest",
+    "display_name": "Pinterest"
+  },
+  "instacart": {
+    "type": "greenhouse",
+    "slug": "instacart",
+    "display_name": "Instacart"
+  },
+  "affirm": {
+    "type": "greenhouse",
+    "slug": "affirm",
+    "display_name": "Affirm"
+  },
+  "discord": {
+    "type": "greenhouse",
+    "slug": "discord",
+    "display_name": "Discord"
+  },
+  "airtable": {
+    "type": "greenhouse",
+    "slug": "airtable",
+    "display_name": "Airtable"
+  },
+  "chime": {
+    "type": "greenhouse",
+    "slug": "chime",
+    "display_name": "Chime"
+  },
+  "postman": {
+    "type": "greenhouse",
+    "slug": "postman",
+    "display_name": "Postman"
+  },
+  "cockroachlabs": {
+    "type": "greenhouse",
+    "slug": "cockroachlabs",
+    "display_name": "Cockroach Labs"
+  },
+  "samsara": {
+    "type": "greenhouse",
+    "slug": "samsara",
+    "display_name": "Samsara"
+  },
+  "checkr": {
+    "type": "greenhouse",
+    "slug": "checkr",
+    "display_name": "Checkr"
+  },
+  "pagerduty": {
+    "type": "greenhouse",
+    "slug": "pagerduty",
+    "display_name": "PagerDuty"
+  },
+  "braze": {
+    "type": "greenhouse",
+    "slug": "braze",
+    "display_name": "Braze"
+  },
+  "roblox": {
+    "type": "greenhouse",
+    "slug": "roblox",
+    "display_name": "Roblox"
   }
 }
