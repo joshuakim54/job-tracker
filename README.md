@@ -2,7 +2,7 @@ Hi my name is Josh. I built a job tracker specifically for software engineering 
 
 ## Streamlit GUI
 
-The browser-based search interface is in `app.py`. It lets you search selected company career sites with custom role, location, and required terms, plus selectable experience levels: internships, new grads, experienced, and seniors. It supports Greenhouse, Lever, Workday, and iCIMS career sites.
+The browser-based search interface is in `app.py`. It lets you search selected company career sites with custom role, location, and required terms, plus selectable experience levels: internships, new grads, experienced, and seniors. It supports Greenhouse, Lever, Workday, iCIMS, and Eightfold.ai career sites.
 
 Run it locally with:
 

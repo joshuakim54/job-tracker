@@ -16,6 +16,8 @@ When the user asks to add companies or expand the job search:
    - Greenhouse: `type`, `slug`, `display_name`
    - Lever: `type`, `slug`, `display_name`
    - Workday: `type`, `domain`, `tenant`, `career_site`, `display_name`
+   - iCIMS: `type`, `base_url`, `search_text` (optional), `display_name`
+   - Eightfold: `type`, `domain`, `subdomain` (optional), `base_url` (optional), `career_url` (optional), `display_name`
 5. Verify public ATS details before adding a company. If the ATS or required fields cannot be verified, ask for clarification instead of guessing.
 6. Keep remote or location notes in `display_name` only when useful; the monitor's matching rules determine listing eligibility.
 7. Validate `companies.json` as JSON after editing.

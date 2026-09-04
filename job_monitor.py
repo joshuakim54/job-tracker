@@ -353,6 +353,68 @@ def fetch_workday_jobs(company_key, config):
         return []
 
 
+def fetch_eightfold_jobs(company_key, config):
+    """Fetch public jobs from Eightfold.ai ATS."""
+    domain = config["domain"]
+    subdomain = config.get("subdomain", company_key)
+    display_name = config.get("display_name", company_key.capitalize())
+    search_text = config.get("search_text", "")
+    limit = config.get("limit", 50)
+
+    base_url = config.get("base_url", f"https://{subdomain}.eightfold.ai").rstrip("/")
+    url = f"{base_url}/api/apply/v2/jobs"
+
+    params = {
+        "domain": domain,
+        "start": 0,
+        "num": limit,
+    }
+    if search_text:
+        params["query"] = search_text
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "application/json",
+    }
+
+    try:
+        res = requests.get(url, params=params, headers=headers, timeout=10)
+        if res.status_code != 200:
+            print(f"[{display_name}] Eightfold error: status {res.status_code}")
+            return []
+        data = res.json()
+        jobs = []
+        for item in data.get("positions", []):
+            job_id = str(item.get("id") or item.get("display_job_id") or "")
+            if not job_id:
+                continue
+
+            title = item.get("name", "Unknown Title")
+
+            location = item.get("location")
+            if not location and isinstance(item.get("locations"), list):
+                location = ", ".join(loc for loc in item["locations"] if isinstance(loc, str))
+            if not location:
+                location = "Remote/Unspecified"
+
+            job_url = item.get("canonical_url") or item.get("canonicalUrl") or item.get("url")
+            if not job_url:
+                career_portal = config.get("career_url", base_url)
+                job_url = f"{career_portal.rstrip('/')}/careers/job/{job_id}?domain={domain}"
+
+            jobs.append({
+                "id": f"ef_{subdomain}_{job_id}",
+                "company": display_name,
+                "title": title,
+                "location": location,
+                "url": job_url,
+            })
+        return jobs
+    except Exception as e:
+        print(f"[{display_name}] Eightfold exception: {e}")
+        return []
+
+
 # ==========================================
 # DISCORD NOTIFIER
 # ==========================================
@@ -516,6 +578,8 @@ def _fetch_company_jobs(company_key, config):
         jobs = fetch_icims_jobs(company_key, config)
     elif board_type == "workday":
         jobs = fetch_workday_jobs(company_key, config)
+    elif board_type == "eightfold":
+        jobs = fetch_eightfold_jobs(company_key, config)
     else:
         return company_key, display_name, []
 

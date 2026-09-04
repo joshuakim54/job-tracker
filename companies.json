@@ -228,5 +228,18 @@
     "type": "greenhouse",
     "slug": "mozilla",
     "display_name": "Mozilla"
+  },
+  "spotify": {
+    "type": "lever",
+    "slug": "spotify",
+    "display_name": "Spotify"
+  },
+  "northropgrumman": {
+    "type": "eightfold",
+    "domain": "ngc.com",
+    "subdomain": "ngc",
+    "base_url": "https://jobs.northropgrumman.com",
+    "career_url": "https://jobs.northropgrumman.com",
+    "display_name": "Northrop Grumman"
   }
 }
