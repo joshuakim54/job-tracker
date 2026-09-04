@@ -1,20 +1,102 @@
-Hi my name is Josh. I built a job tracker specifically for software engineering but am tweaking it so my girlfriend and other friends can use it for various fields. I also recommend using https://chromewebstore.google.com/detail/simplify-copilot-autofill/pbanhockgagggenencehbnadejlgchfc just to make applying to jobs a bit easier. I built this because I felt like LinkedIn had a lot of ghost listings and old job listings. This pulls directly from a companies career website. I still pings to discord but added a gui to make it look nicer and other people can use it later.
+# Career Signal 🔎
 
-## Streamlit GUI
+A direct-from-source job monitor and search application that aggregates postings directly from company Applicant Tracking Systems (ATS), filtering out ghost listings and stale aggregator data. It sends automated notifications to Discord and provides an interactive Streamlit web interface for custom searches.
 
-The browser-based search interface is in `app.py`. It lets you search selected company career sites with custom role, location, and required terms, plus selectable experience levels: internships, new grads, experienced, and seniors. It supports Greenhouse, Lever, Workday, iCIMS, and Eightfold.ai career sites.
+---
 
-Run it locally with:
+## ✨ Features
 
+- **Direct ATS Integration:** Scrapes directly from company career portals without third-party aggregator delay. Supports:
+  - **Greenhouse**
+  - **Lever**
+  - **Workday**
+  - **iCIMS**
+  - **Eightfold.ai**
+- **Streamlit Web GUI:** Interactive search interface with filters for keywords, must-include/exclude terms, locations, and experience tiers.
+- **Smart Experience Categorization:** Automatically maps job titles into:
+  - **Internships / Co-ops**
+  - **New Grads & Early Career** (`associate`, `software engineer 1`, `junior`, `entry-level`)
+  - **Experienced**
+  - **Seniors & Leads** (`senior`, `staff`, `principal`, `lead`, `architect`)
+- **Automated Discord Alerts:** Sends rich embeds to a Discord channel whenever new matching roles are posted.
+- **Automated GitHub Actions Pipeline:** Scrapes jobs and updates the persistent cache every 4 hours.
+
+---
+
+## 🚀 Quick Start (Local Setup)
+
+### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
 ```
 
-To publish it, push the repository to GitHub and deploy it from [Streamlit Community Cloud](https://share.streamlit.io/). Select `app.py` as the main file and `requirements.txt` will be installed automatically. GitHub Pages cannot run this Python app.
+### 2. Run the Streamlit Search Web App
+```bash
+streamlit run app.py
+```
+Open your browser at `http://localhost:8501` to use the search interface.
 
-The experience selector maps titles automatically. New-grad roles include common markers such as `early career`, `associate software engineer`, `software engineer I`, and `software engineer 1`. Senior roles include titles containing `senior`, `staff`, `principal`, `lead`, `distinguished`, or `architect`.
+### 3. Run the Job Monitor Manually (Optional)
+To fetch fresh postings and check for new alerts locally:
+```bash
+# Optional: Set your Discord webhook for notifications
+export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."
 
-The app searches `jobs_cache.json` rather than contacting career sites during a search. The GitHub Actions workflow refreshes that cache every four hours and commits the updated file. Remote listings must explicitly identify the United States (`US`, `USA`, or `United States`); foreign and worldwide remote listings are excluded. Run the workflow manually once after deployment to populate the cache immediately.
+python job_monitor.py
+```
 
-> TODO: Restore IBM and Salesforce after their current career-site API paths are verified.
+---
+
+## ☁️ Deployment
+
+### Deploy the Web App on Streamlit Community Cloud
+1. Push your repository to GitHub.
+2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/).
+3. Select your repository, set the main file path to `app.py`, and deploy.
+4. Customize your public URL in app settings (e.g., `https://your-name.streamlit.app`).
+
+### Automated Monitoring via GitHub Actions
+The background scraping and Discord alerting pipeline is pre-configured in `.github/workflows/job_check.yml`:
+1. Go to your GitHub repository **Settings** → **Secrets and variables** → **Actions**.
+2. Add a new repository secret: `DISCORD_WEBHOOK_URL`.
+3. The workflow will automatically run every 4 hours, scrape all configured companies, send alerts, and commit the updated `jobs_cache.json` and `seen_jobs.json`.
+
+---
+
+## ⚙️ Adding New Companies
+
+Target companies are configured in [`companies.json`](./companies.json). You can add new employers by specifying their ATS configuration:
+
+```json
+{
+  "dropbox": {
+    "type": "greenhouse",
+    "slug": "dropbox",
+    "display_name": "Dropbox"
+  },
+  "spotify": {
+    "type": "lever",
+    "slug": "spotify",
+    "display_name": "Spotify"
+  },
+  "nvidia": {
+    "type": "workday",
+    "domain": "nvidia.wd5.myworkdayjobs.com",
+    "tenant": "nvidia",
+    "career_site": "NVIDIAExternalCareerSite",
+    "display_name": "NVIDIA"
+  },
+  "northropgrumman": {
+    "type": "eightfold",
+    "domain": "ngc.com",
+    "subdomain": "ngc",
+    "base_url": "https://jobs.northropgrumman.com",
+    "display_name": "Northrop Grumman"
+  }
+}
+```
+
+---
+
+## 💡 Recommended Applying Tools
+To speed up submitting applications across multiple career portals, we recommend using the [Simplify Copilot Autofill Extension](https://chromewebstore.google.com/detail/simplify-copilot-autofill/pbanhockgagggenencehbnadejlgchfc).
