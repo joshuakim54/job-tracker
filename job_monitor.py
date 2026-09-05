@@ -263,6 +263,45 @@ def fetch_lever_jobs(company_key, config):
         return []
 
 
+def fetch_ashby_jobs(company_key, config):
+    """Fetch public jobs from Ashby ATS."""
+    slug = config["slug"]
+    display_name = config.get("display_name", company_key.capitalize())
+    url = f"https://api.ashbyhq.com/posting-api/job-board/{slug}"
+    headers = {"User-Agent": "Mozilla/5.0"}
+    try:
+        res = requests.get(url, headers=headers, timeout=10)
+        if res.status_code != 200:
+            print(f"[{display_name}] Ashby error: status {res.status_code}")
+            return []
+        data = res.json()
+        jobs = []
+        for item in data.get("jobs", []):
+            if not item.get("isListed", True):
+                continue
+            location = item.get("location")
+            if not location and isinstance(item.get("address"), dict):
+                postal = item["address"].get("postalAddress", {})
+                loc_parts = [postal.get("addressLocality"), postal.get("addressRegion"), postal.get("addressCountry")]
+                location = ", ".join(p for p in loc_parts if p)
+            if not location:
+                location = "Remote/Unspecified"
+            
+            job_url = item.get("jobUrl") or item.get("applyUrl") or f"https://jobs.ashbyhq.com/{slug}/{item.get('id', '')}"
+            jobs.append({
+                "id": f"ashby_{item['id']}",
+                "company": display_name,
+                "title": item.get("title", "Unknown Title"),
+                "location": location,
+                "url": job_url,
+            })
+        return jobs
+    except Exception as e:
+        print(f"[{display_name}] Ashby exception: {e}")
+        return []
+
+
+
 def fetch_icims_jobs(company_key, config):
     """Fetch public jobs from an iCIMS search page."""
     display_name = config.get("display_name", company_key.capitalize())
@@ -574,6 +613,8 @@ def _fetch_company_jobs(company_key, config):
         jobs = fetch_greenhouse_jobs(company_key, config)
     elif board_type == "lever":
         jobs = fetch_lever_jobs(company_key, config)
+    elif board_type == "ashby":
+        jobs = fetch_ashby_jobs(company_key, config)
     elif board_type == "icims":
         jobs = fetch_icims_jobs(company_key, config)
     elif board_type == "workday":

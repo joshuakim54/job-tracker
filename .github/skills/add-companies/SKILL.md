@@ -15,6 +15,7 @@ When the user asks to add companies or expand the job search:
 4. Use only supported ATS configurations:
    - Greenhouse: `type`, `slug`, `display_name`
    - Lever: `type`, `slug`, `display_name`
+   - Ashby: `type`, `slug`, `display_name`
    - Workday: `type`, `domain`, `tenant`, `career_site`, `display_name`
    - iCIMS: `type`, `base_url`, `search_text` (optional), `display_name`
    - Eightfold: `type`, `domain`, `subdomain` (optional), `base_url` (optional), `career_url` (optional), `display_name`

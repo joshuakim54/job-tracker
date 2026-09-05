@@ -321,5 +321,10 @@
     "type": "greenhouse",
     "slug": "roblox",
     "display_name": "Roblox"
+  },
+  "whoop": {
+    "type": "ashby",
+    "slug": "whoop",
+    "display_name": "WHOOP"
   }
 }

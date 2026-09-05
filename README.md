@@ -17,6 +17,7 @@ While I originally built it for software engineering, I'm expanding it so friend
 - **Direct ATS Integration:** Scrapes directly from company career portals without third-party aggregator delay. Supports:
   - Greenhouse
   - Lever
+  - Ashby
   - Workday
   - iCIMS
   - Eightfold.ai
