@@ -3142,6 +3142,14 @@
     "title": "Senior Security Software Engineer, IAM",
     "url": "https://careers.roblox.com/jobs/8016408?gh_jid=8016408"
   },
+  "gh_8017277": {
+    "cached_at": 1788992472.5915613,
+    "company": "Airbnb",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Guest & Host",
+    "url": "https://careers.airbnb.com/positions/8017277?gh_jid=8017277"
+  },
   "gh_8017352": {
     "cached_at": 1788548630.903572,
     "company": "Roblox",
@@ -3529,6 +3537,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer II - Web Experience",
     "url": "https://www.samsara.com/company/careers/roles/8055217?gh_jid=8055217"
+  },
+  "gh_8055266": {
+    "cached_at": 1788992477.4966044,
+    "company": "Pinterest",
+    "location": "Palo Alto, CA, US; San Francisco, CA, US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Ads & Core Serving Platform",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8055266"
   },
   "gh_8055353": {
     "company": "Mozilla",
@@ -4027,6 +4043,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer - Incident Insights & Readiness",
     "url": "https://careers.datadoghq.com/detail/8094111/?gh_jid=8094111"
+  },
+  "gh_8094196": {
+    "cached_at": 1788992474.336379,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer- Blockchain Network",
+    "url": "https://www.coinbase.com/careers/positions/8094196?gh_jid=8094196"
   },
   "gh_8094470": {
     "cached_at": 1788548567.954105,
@@ -4651,6 +4675,14 @@
     "title": "Staff Software Engineer, Maps Services",
     "url": "https://www.samsara.com/company/careers/roles/8153269?gh_jid=8153269"
   },
+  "gh_8154705": {
+    "cached_at": 1788992473.441881,
+    "company": "Airbnb",
+    "location": "USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Data Catalog",
+    "url": "https://careers.airbnb.com/positions/8154705?gh_jid=8154705"
+  },
   "gh_8154739": {
     "company": "Airbnb",
     "location": "USA",
@@ -4695,6 +4727,14 @@
     "source": "greenhouse",
     "title": "Senior Staff Machine Learning Systems Engineer, Ads ML Platform",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/8157275"
+  },
+  "gh_8157900": {
+    "cached_at": 1788992478.249174,
+    "company": "Pinterest",
+    "location": "Palo Alto, CA, US; Remote, US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Workflow Platform",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8157900"
   },
   "gh_8159576": {
     "company": "Bandwidth (Raleigh)",
@@ -4809,6 +4849,22 @@
     "title": "Staff Software Engineer, Developer Infrastructure ",
     "url": "https://www.coinbase.com/careers/positions/8170956?gh_jid=8170956"
   },
+  "gh_8171506": {
+    "cached_at": 1788992480.6889417,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Engine Infrastructure",
+    "url": "https://careers.roblox.com/jobs/8171506?gh_jid=8171506"
+  },
+  "gh_8172100": {
+    "cached_at": 1788992475.1873085,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Core Infra Systems",
+    "url": "https://www.coinbase.com/careers/positions/8172100?gh_jid=8172100"
+  },
   "gh_8174475": {
     "cached_at": 1788548582.3935707,
     "company": "Roblox",
@@ -4816,6 +4872,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer, Data Engineering (Short Term) ",
     "url": "https://careers.roblox.com/jobs/8174475?gh_jid=8174475"
+  },
+  "gh_8174643": {
+    "cached_at": 1788992479.8968081,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer- User Behavior",
+    "url": "https://careers.roblox.com/jobs/8174643?gh_jid=8174643"
   },
   "gh_8174949": {
     "cached_at": 1788474250.1034594,
@@ -4927,6 +4991,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer",
     "url": "https://www.samsara.com/company/careers/roles/8186992?gh_jid=8186992"
+  },
+  "gh_8188987": {
+    "cached_at": 1788992479.0734835,
+    "company": "Instacart",
+    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+    "source": "greenhouse",
+    "title": "Software Engineer II, - Ads",
+    "url": "https://instacart.careers/job/?gh_jid=8188987"
   },
   "gh_8202698002": {
     "company": "Databricks",
@@ -5951,6 +6023,14 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Data Collection (Tags & SDKs)",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8760176002"
+  },
+  "gh_8770702002": {
+    "cached_at": 1788992475.9780116,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Staff Backend Engineer, Database Automation (Go)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8770702002"
   },
   "gh_8773006002": {
     "cached_at": 1788388020.6388602,
