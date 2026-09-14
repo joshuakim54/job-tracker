@@ -1,4 +1,5 @@
 seen_jobs.local.json
+job_pipeline.json
 seen_jobs.json.bak
 seen_jobs.local.json.bak
 *.bak

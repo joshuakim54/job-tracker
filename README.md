@@ -29,6 +29,7 @@ While I originally built it for software engineering, I'm expanding it so friend
   - Seniors & Leads (`senior`, `staff`, `principal`, `lead`, `architect`)
 - **Automated Discord Alerts:** Sends rich embeds to a Discord channel whenever new matching roles are posted.
 - **Automated GitHub Actions Pipeline:** Scrapes jobs and updates the persistent cache every 4 hours.
+- **Application Pipeline:** Mark jobs as new, saved, applied, interview, or rejected, add notes, filter by status, and see today's new-job count. Local pipeline data is stored in `job_pipeline.json` and can be relocated with `JOB_PIPELINE_FILE`.
 
 ---
 

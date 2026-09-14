@@ -1,10 +1,15 @@
 import json
 import os
 import re
+import time
+from datetime import datetime, timezone
 
 import streamlit as st
 
 from job_monitor import is_us_location
+
+PIPELINE_STATUSES = ["New", "Saved", "Applied", "Interview", "Rejected"]
+PIPELINE_FILE = os.getenv("JOB_PIPELINE_FILE", os.path.join(os.path.dirname(__file__), "job_pipeline.json"))
 
 EXPERIENCE_LEVEL_TERMS = {
     "Internships": [
@@ -108,6 +113,7 @@ st.markdown(
     .badge-grad { background: #1e3d36; color: #7fe3c5; }
     .badge-senior { background: #48301f; color: #f9ba8b; }
     .badge-mid { background: #223746; color: #9bc6f2; }
+    .digest { background: #1d3532; border: 1px solid #2b5b51; border-radius: 4px; padding: 0.85rem 1rem; margin: 1rem 0; color: #c7e8de; }
     </style>
     """,
     unsafe_allow_html=True,
@@ -175,6 +181,46 @@ def load_jobs_cache():
         return []
 
 
+def load_pipeline():
+    try:
+        with open(PIPELINE_FILE, "r", encoding="utf-8") as file:
+            data = json.load(file)
+        return data if isinstance(data, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_pipeline(pipeline):
+    with open(PIPELINE_FILE, "w", encoding="utf-8") as file:
+        json.dump(pipeline, file, indent=2)
+
+
+def get_job_status(pipeline, job):
+    return pipeline.get(str(job.get("id", job.get("url", ""))), {}).get("status", "New")
+
+
+def update_job_status(pipeline, job, status):
+    job_key = str(job.get("id", job.get("url", "")))
+    record = pipeline.setdefault(job_key, {})
+    record.update({
+        "status": status,
+        "company": job.get("company", ""),
+        "title": job.get("title", ""),
+        "url": job.get("url", ""),
+        "updated_at": time.time(),
+    })
+    save_pipeline(pipeline)
+
+
+def get_new_jobs_today(jobs):
+    today = datetime.now(timezone.utc).date()
+    return [
+        job for job in jobs
+        if isinstance(job.get("cached_at"), (int, float))
+        and datetime.fromtimestamp(job["cached_at"], timezone.utc).date() == today
+    ]
+
+
 def matches(job, role_filters, company_filters, required_filters, excluded_filters, selected_levels, location_filters, us_only=False):
     title = job.get("title", "")
     company = job.get("company", "")
@@ -214,6 +260,8 @@ def matches(job, role_filters, company_filters, required_filters, excluded_filte
 
 all_jobs = load_jobs_cache()
 available_companies = sorted(list(set(j.get("company", "") for j in all_jobs if j.get("company"))))
+pipeline = load_pipeline()
+new_jobs_today = get_new_jobs_today(all_jobs)
 
 with st.sidebar:
     st.header("Search filters")
@@ -255,6 +303,7 @@ with st.sidebar:
         value="",
         help="Optional terms that must not appear in company, title, or location.",
     )
+    pipeline_filter = st.selectbox("Pipeline status", ["All statuses"] + PIPELINE_STATUSES)
     search_button = st.button("Search jobs", type="primary", use_container_width=True)
 
 
@@ -297,6 +346,13 @@ if search_button or "results" not in st.session_state:
     st.session_state["search_summary"] = f"Found {len(results):,} role(s) matching your criteria"
 
 if "results" in st.session_state:
+    status_counts = {status: sum(get_job_status(pipeline, job) == status for job in all_jobs) for status in PIPELINE_STATUSES}
+    st.markdown(
+        f'<div class="digest"><strong>{len(new_jobs_today):,} new jobs today</strong> · '
+        f'{status_counts["Saved"]:,} saved · {status_counts["Applied"]:,} applied · '
+        f'{status_counts["Interview"]:,} interviews</div>',
+        unsafe_allow_html=True,
+    )
     st.markdown(
         f'<div class="results-heading">{st.session_state["search_summary"]}</div>',
         unsafe_allow_html=True,
@@ -324,6 +380,10 @@ if "results" in st.session_state:
         st.info("No matching roles found. Try broadening keywords, selecting more experience levels, or clearing specific location filters.")
     else:
         for job in results:
+            current_status = get_job_status(pipeline, job)
+            if pipeline_filter != "All statuses" and current_status != pipeline_filter:
+                continue
+
             exp_level = list(get_experience_level(job.get("title", "")))[0]
             badge_class = {
                 "Internships": "badge-intern",
@@ -342,3 +402,28 @@ if "results" in st.session_state:
                 f'</div>',
                 unsafe_allow_html=True,
             )
+            status_col, notes_col = st.columns([1, 3])
+            with status_col:
+                selected_status = st.selectbox(
+                    "Pipeline status",
+                    PIPELINE_STATUSES,
+                    index=PIPELINE_STATUSES.index(current_status),
+                    key=f"status_{job.get('id', job.get('url', ''))}",
+                    label_visibility="collapsed",
+                )
+                if selected_status != current_status:
+                    update_job_status(pipeline, job, selected_status)
+                    st.rerun()
+            with notes_col:
+                job_key = str(job.get("id", job.get("url", "")))
+                current_note = pipeline.get(job_key, {}).get("note", "")
+                note = st.text_input(
+                    "Notes",
+                    value=current_note,
+                    placeholder="Add a note",
+                    key=f"note_{job_key}",
+                    label_visibility="collapsed",
+                )
+                if note != current_note:
+                    pipeline.setdefault(job_key, {}).update({"note": note, "updated_at": time.time()})
+                    save_pipeline(pipeline)
