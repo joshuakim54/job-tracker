@@ -1801,6 +1801,14 @@
     "title": "Staff Software Engineer",
     "url": "https://www.samsara.com/company/careers/roles/7588828?gh_jid=7588828"
   },
+  "gh_7607271003": {
+    "cached_at": 1789500872.550913,
+    "company": "Postman",
+    "location": "Austin, Texas, United States",
+    "source": "greenhouse",
+    "title": "Senior Fullstack Engineer - Codegen ",
+    "url": "https://job-boards.greenhouse.io/postman/jobs/7607271003"
+  },
   "gh_7629141": {
     "company": "Coinbase",
     "location": "Remote - USA",
@@ -4641,6 +4649,14 @@
     "title": "Senior Software Engineer, Identity & Access Management",
     "url": "https://www.mongodb.com/careers/job/?gh_jid=8140617"
   },
+  "gh_8140620": {
+    "cached_at": 1789500865.2051003,
+    "company": "MongoDB",
+    "location": "Austin; Boston; Chicago; New York City; Palo Alto; Philadelphia; San Francisco",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Identity & Access Management (FedRamp)",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8140620"
+  },
   "gh_8141533": {
     "cached_at": 1788548340.3993933,
     "company": "Instacart",
@@ -5160,6 +5176,14 @@
     "title": "Staff Software Engineer, Data Warehouse",
     "url": "https://careers.airbnb.com/positions/8197715?gh_jid=8197715"
   },
+  "gh_8197816": {
+    "cached_at": 1789500868.3814979,
+    "company": "Airbnb",
+    "location": "USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Tech Foundations",
+    "url": "https://careers.airbnb.com/positions/8197816?gh_jid=8197816"
+  },
   "gh_8197831": {
     "cached_at": 1789416704.2561958,
     "company": "Coinbase",
@@ -5183,6 +5207,14 @@
     "source": "greenhouse",
     "title": "Senior Frontend Engineer, Home Experience",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/8198130"
+  },
+  "gh_8198167": {
+    "cached_at": 1789500873.514041,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Security Software Engineer, Sandbox Platforms",
+    "url": "https://careers.roblox.com/jobs/8198167?gh_jid=8198167"
   },
   "gh_8202247": {
     "cached_at": 1789444873.793943,
@@ -5213,6 +5245,30 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer - GenAI Performance and Kernel",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8202700002"
+  },
+  "gh_8204016": {
+    "cached_at": 1789500871.72038,
+    "company": "Instacart",
+    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer II, Developer Experience",
+    "url": "https://instacart.careers/job/?gh_jid=8204016"
+  },
+  "gh_8204799": {
+    "cached_at": 1789500875.1719768,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Game Engine",
+    "url": "https://careers.roblox.com/jobs/8204799?gh_jid=8204799"
+  },
+  "gh_8204801": {
+    "cached_at": 1789500874.2754366,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, 3D Systems",
+    "url": "https://careers.roblox.com/jobs/8204801?gh_jid=8204801"
   },
   "gh_8211450002": {
     "company": "Databricks",
@@ -7140,6 +7196,14 @@
     "title": "Full Stack Software Architect (Sr. Consultant), Generative AI",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Full-Stack-Software-Architect--Sr-Consultant---Generative-AI_REF087556W"
   },
+  "wd_visa__job_US---Bellevue-WA_Sr-SW-Engineer_REF084844W-2": {
+    "cached_at": 1789500869.1527054,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "Sr. SW Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Sr-SW-Engineer_REF084844W-2"
+  },
   "wd_visa__job_US---Bellevue-WA_Staff-SW-Engineer_REF087911W": {
     "cached_at": 1788301657.4761567,
     "company": "Visa",
@@ -7147,6 +7211,14 @@
     "source": "workday",
     "title": "Staff SW Engineer",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Staff-SW-Engineer_REF087911W"
+  },
+  "wd_visa__job_US---Bellevue-WA_Staff-Software-Engineer_REF084832W-1": {
+    "cached_at": 1789500870.0904975,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "Staff Software Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Staff-Software-Engineer_REF084832W-1"
   },
   "wd_visa__job_US---Denver-CO_Lead-Software-Engineer---IBM-z-OS---Connex-Advantage-Clearing-and-Settlement_REF082365W": {
     "cached_at": 1788290187.8005493,
@@ -7201,5 +7273,13 @@
     "source": "workday",
     "title": "Software Engineer",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Software-Engineer_REF069691W-1"
+  },
+  "wd_visa__job_US---Foster-City-CA_Sr-SW-Engineer_REF084842W-2": {
+    "cached_at": 1789500870.9411874,
+    "company": "Visa",
+    "location": "US - Foster City, CA",
+    "source": "workday",
+    "title": "Sr. SW Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Sr-SW-Engineer_REF084842W-2"
   }
 }
