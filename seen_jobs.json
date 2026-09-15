@@ -5199,6 +5199,14 @@
     "title": "Staff Software Engineer - GenAI inference",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8202698002"
   },
+  "gh_8202699": {
+    "cached_at": 1789478240.7509,
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Frontend",
+    "url": "https://careers.datadoghq.com/detail/8202699/?gh_jid=8202699"
+  },
   "gh_8202700002": {
     "company": "Databricks",
     "location": "San Francisco, California",
@@ -7070,6 +7078,14 @@
     "source": "lever",
     "title": "Forward Deployed Software Engineer, New Grad - Intel, US Government",
     "url": "https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382"
+  },
+  "wd_visa__job_IN---Remote---IND_Staff-SW-Engineer--6---Golang-_REF088241W": {
+    "cached_at": 1789478241.6903102,
+    "company": "Visa",
+    "location": "IN - Remote - IND",
+    "source": "workday",
+    "title": "Staff SW Engineer (6+, Golang)",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/IN---Remote---IND/Staff-SW-Engineer--6---Golang-_REF088241W"
   },
   "wd_visa__job_US---Ashburn-VA_Staff-Software-Engineer--AI-Solutions_REF087949W": {
     "cached_at": 1788211558.871281,
