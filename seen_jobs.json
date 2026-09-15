@@ -5246,6 +5246,14 @@
     "title": "Staff Software Engineer - GenAI Performance and Kernel",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8202700002"
   },
+  "gh_8203429": {
+    "cached_at": 1789512352.352778,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend (Institutional - Exchange)",
+    "url": "https://www.coinbase.com/careers/positions/8203429?gh_jid=8203429"
+  },
   "gh_8204016": {
     "cached_at": 1789500871.72038,
     "company": "Instacart",
@@ -5269,6 +5277,22 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer, 3D Systems",
     "url": "https://careers.roblox.com/jobs/8204801?gh_jid=8204801"
+  },
+  "gh_8205219": {
+    "cached_at": 1789512353.9481094,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Geometry Systems",
+    "url": "https://careers.roblox.com/jobs/8205219?gh_jid=8205219"
+  },
+  "gh_8205402": {
+    "cached_at": 1789512353.1338682,
+    "company": "Reddit",
+    "location": "Remote - United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Ingestion Platform ",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8205402"
   },
   "gh_8211450002": {
     "company": "Databricks",
@@ -6327,6 +6351,14 @@
     "source": "greenhouse",
     "title": "Software Engineer, Growth",
     "url": "https://boards.greenhouse.io/chime/jobs/8782503002?gh_jid=8782503002"
+  },
+  "gh_8788272002": {
+    "cached_at": 1789512354.6947417,
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, AI Enablement ",
+    "url": "https://boards.greenhouse.io/chime/jobs/8788272002?gh_jid=8788272002"
   },
   "icims_sas_42319": {
     "company": "SAS",
