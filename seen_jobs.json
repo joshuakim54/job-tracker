@@ -5120,6 +5120,14 @@
     "title": "Senior Software Engineer",
     "url": "https://www.samsara.com/company/careers/roles/8186992?gh_jid=8186992"
   },
+  "gh_8187247": {
+    "cached_at": 1789575940.7379792,
+    "company": "Reddit",
+    "location": "Remote - United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Consumer Engineering",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8187247"
+  },
   "gh_8188987": {
     "cached_at": 1788992479.0734835,
     "company": "Instacart",
@@ -7206,6 +7214,14 @@
     "title": "Senior Software Engineer, Power Platform, Copilot Studio, Azure",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Senior-Software-Engineer--Power-Platform--Copilot-Studio--Azure_REF087684W"
   },
+  "wd_visa__job_US---Austin-TX_Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088538W": {
+    "cached_at": 1789575938.2447665,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Senior Software Engineer Pipeline (GenAI, Backend, or Fullstack)",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088538W"
+  },
   "wd_visa__job_US---Austin-TX_Software-Engineer---Sr-Consultant-level-1_REF083066W": {
     "company": "Visa",
     "location": "US - Austin, TX",
@@ -7243,6 +7259,14 @@
     "source": "workday",
     "title": "Full Stack Software Architect (Sr. Consultant), Generative AI",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Full-Stack-Software-Architect--Sr-Consultant---Generative-AI_REF087556W"
+  },
+  "wd_visa__job_US---Bellevue-WA_Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088539W": {
+    "cached_at": 1789575938.9813797,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "Senior Software Engineer Pipeline (GenAI, Backend, or Fullstack)",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088539W"
   },
   "wd_visa__job_US---Bellevue-WA_Sr-SW-Engineer_REF084844W-2": {
     "cached_at": 1789500869.1527054,
@@ -7307,12 +7331,28 @@
     "title": "Lead SW Engineer",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Lead-SW-Engineer_REF084993W"
   },
+  "wd_visa__job_US---Foster-City-CA_Lead-Software-Engineer_REF077435W": {
+    "cached_at": 1789575937.3948286,
+    "company": "Visa",
+    "location": "US - Foster City, CA",
+    "source": "workday",
+    "title": "Lead Software Engineer Java,  Platform Engineering",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Lead-Software-Engineer_REF077435W"
+  },
   "wd_visa__job_US---Foster-City-CA_Lead-Software-Engineer_REF083345W": {
     "company": "Visa",
     "location": "US - Foster City, CA",
     "source": "workday",
     "title": "Lead Software Engineer \u2013 Cloud Native Platforms (GCP)",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Lead-Software-Engineer_REF083345W"
+  },
+  "wd_visa__job_US---Foster-City-CA_Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088540W": {
+    "cached_at": 1789575939.786518,
+    "company": "Visa",
+    "location": "US - Foster City, CA",
+    "source": "workday",
+    "title": "Senior Software Engineer Pipeline (GenAI, Backend, or Fullstack)",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088540W"
   },
   "wd_visa__job_US---Foster-City-CA_Software-Engineer_REF069691W-1": {
     "cached_at": 1788301658.2197237,
