@@ -2337,6 +2337,14 @@
     "title": "Senior OIC and OPA Developer",
     "url": "https://boards.greenhouse.io/cloudflare/jobs/7817755?gh_jid=7817755"
   },
+  "gh_7818982": {
+    "cached_at": 1789598633.0856657,
+    "company": "Airbnb",
+    "location": "Remote - US",
+    "source": "greenhouse",
+    "title": "Senior Staff Software Engineer, Trust",
+    "url": "https://careers.airbnb.com/positions/7818982?gh_jid=7818982"
+  },
   "gh_7819445003": {
     "cached_at": 1788548396.41715,
     "company": "Affirm",
@@ -3880,6 +3888,14 @@
     "title": "Staff Backend Engineer, Host Pricing & Availability",
     "url": "https://careers.airbnb.com/positions/8078019?gh_jid=8078019"
   },
+  "gh_8078265": {
+    "cached_at": 1789598643.036571,
+    "company": "Checkr",
+    "location": "Denver, Colorado, United States; San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Data",
+    "url": "https://job-boards.greenhouse.io/checkr/jobs/8078265"
+  },
   "gh_8079795": {
     "cached_at": 1788548638.4115386,
     "company": "Roblox",
@@ -4953,6 +4969,30 @@
     "title": "Staff Software Engineer, Enterprise Apps",
     "url": "https://www.coinbase.com/careers/positions/8166218?gh_jid=8166218"
   },
+  "gh_8168383": {
+    "cached_at": 1789598645.3557339,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Discovery UX",
+    "url": "https://careers.roblox.com/jobs/8168383?gh_jid=8168383"
+  },
+  "gh_8168916": {
+    "cached_at": 1789598644.5927362,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Systems",
+    "url": "https://careers.roblox.com/jobs/8168916?gh_jid=8168916"
+  },
+  "gh_8168917": {
+    "cached_at": 1789598643.8068402,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Productivity",
+    "url": "https://careers.roblox.com/jobs/8168917?gh_jid=8168917"
+  },
   "gh_8170956": {
     "cached_at": 1788302913.051466,
     "company": "Coinbase",
@@ -4976,6 +5016,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer, Core Infra Systems",
     "url": "https://www.coinbase.com/careers/positions/8172100?gh_jid=8172100"
+  },
+  "gh_8172457": {
+    "cached_at": 1789598642.2859383,
+    "company": "Reddit",
+    "location": "Remote - United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Consumer Engineering",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8172457"
   },
   "gh_8174475": {
     "cached_at": 1788548582.3935707,
@@ -5317,6 +5365,14 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Consumer Engineering",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/8205702"
+  },
+  "gh_8209061": {
+    "cached_at": 1789598632.0852606,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Tech Foundations",
+    "url": "https://careers.airbnb.com/positions/8209061?gh_jid=8209061"
   },
   "gh_8211450002": {
     "company": "Databricks",
@@ -6384,6 +6440,70 @@
     "title": "Senior Software Engineer, AI Enablement ",
     "url": "https://boards.greenhouse.io/chime/jobs/8788272002?gh_jid=8788272002"
   },
+  "gh_8815438002": {
+    "cached_at": 1789598639.7608387,
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Backend",
+    "url": "https://www.brex.com/careers/8815438002?gh_jid=8815438002"
+  },
+  "gh_8815443002": {
+    "cached_at": 1789598639.00186,
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Backend",
+    "url": "https://www.brex.com/careers/8815443002?gh_jid=8815443002"
+  },
+  "gh_8815457002": {
+    "cached_at": 1789598638.195757,
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Frontend",
+    "url": "https://www.brex.com/careers/8815457002?gh_jid=8815457002"
+  },
+  "gh_8815462002": {
+    "cached_at": 1789598636.5268993,
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Frontend",
+    "url": "https://www.brex.com/careers/8815462002?gh_jid=8815462002"
+  },
+  "gh_8815463002": {
+    "cached_at": 1789598637.356464,
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Frontend",
+    "url": "https://www.brex.com/careers/8815463002?gh_jid=8815463002"
+  },
+  "gh_8815476002": {
+    "cached_at": 1789598634.8990571,
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend (Product Engineering)",
+    "url": "https://www.brex.com/careers/8815476002?gh_jid=8815476002"
+  },
+  "gh_8815490002": {
+    "cached_at": 1789598633.9668515,
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend (Product Engineering)",
+    "url": "https://www.brex.com/careers/8815490002?gh_jid=8815490002"
+  },
+  "gh_8815495002": {
+    "cached_at": 1789598635.6490936,
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend (Product Engineering)",
+    "url": "https://www.brex.com/careers/8815495002?gh_jid=8815495002"
+  },
   "icims_sas_42319": {
     "company": "SAS",
     "location": "20070459, Research and Development, United States, North Carolina, Cary HQ",
@@ -7206,6 +7326,22 @@
     "source": "workday",
     "title": "Staff Software Engineer-AI Solutions",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Ashburn-VA/Staff-Software-Engineer--AI-Solutions_REF087949W"
+  },
+  "wd_visa__job_US---Austin-TX_Senior-Software-Engineer---Corporate-GenAI_REF088314W": {
+    "cached_at": 1789598641.3426375,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Senior Software Engineer - Corporate GenAI",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Senior-Software-Engineer---Corporate-GenAI_REF088314W"
+  },
+  "wd_visa__job_US---Austin-TX_Senior-Software-Engineer--PaaS-Engineering_REF087909W-1": {
+    "cached_at": 1789598640.5312164,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Senior Software Engineer- PaaS Engineering",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Senior-Software-Engineer--PaaS-Engineering_REF087909W-1"
   },
   "wd_visa__job_US---Austin-TX_Senior-Software-Engineer--Power-Platform--Copilot-Studio--Azure_REF087684W": {
     "company": "Visa",
