@@ -4539,6 +4539,14 @@
     "title": "Senior Software Engineer, Observability",
     "url": "https://careers.roblox.com/jobs/8129395?gh_jid=8129395"
   },
+  "gh_8129408": {
+    "cached_at": 1789673819.5828218,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Roblox Database",
+    "url": "https://careers.roblox.com/jobs/8129408?gh_jid=8129408"
+  },
   "gh_8130034": {
     "cached_at": 1788548328.6805086,
     "company": "Instacart",
@@ -4739,6 +4747,22 @@
     "source": "greenhouse",
     "title": "Software Engineer, Payments",
     "url": "https://careers.airbnb.com/positions/8146265?gh_jid=8146265"
+  },
+  "gh_8147559": {
+    "cached_at": 1789673816.6563451,
+    "company": "Reddit",
+    "location": "Remote - United States",
+    "source": "greenhouse",
+    "title": "Front End Software Engineer, Consumer Engineering",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8147559"
+  },
+  "gh_8147617": {
+    "cached_at": 1789673817.3686013,
+    "company": "Reddit",
+    "location": "Remote - United States",
+    "source": "greenhouse",
+    "title": "Senior Frontend Software Engineer, Consumer Engineering",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8147617"
   },
   "gh_8148069": {
     "company": "Bandwidth (Raleigh)",
@@ -5387,6 +5411,14 @@
     "source": "greenhouse",
     "title": "Sr Software Engineer-Networking",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211452002"
+  },
+  "gh_8211490": {
+    "cached_at": 1789673815.7746131,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Machine Learning Platform Engineer",
+    "url": "https://www.coinbase.com/careers/positions/8211490?gh_jid=8211490"
   },
   "gh_8211647002": {
     "company": "Databricks",
@@ -7452,6 +7484,14 @@
     "title": "Senior Software Engineer Pipeline (GenAI, Backend, or Fullstack)",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088539W"
   },
+  "wd_visa__job_US---Bellevue-WA_Software-Engineer--Intern--Bellevue---2027_REF088585W-2": {
+    "cached_at": 1789673818.8267224,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "Software Engineer, Intern, Bellevue - 2027",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2"
+  },
   "wd_visa__job_US---Bellevue-WA_Software-Engineer--New-College-Grad--Bellevue---2027_REF088530W-3": {
     "cached_at": 1789650658.3865461,
     "company": "Visa",
@@ -7561,6 +7601,14 @@
     "source": "workday",
     "title": "Lead Software Engineer \u2013 Cloud Native Platforms (GCP)",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Lead-Software-Engineer_REF083345W"
+  },
+  "wd_visa__job_US---Foster-City-CA_Senior-Software-Engineer---Full-Stack_REF082660W-2": {
+    "cached_at": 1789673818.093386,
+    "company": "Visa",
+    "location": "US - Foster City, CA",
+    "source": "workday",
+    "title": "Senior Software Engineer - Full Stack",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Senior-Software-Engineer---Full-Stack_REF082660W-2"
   },
   "wd_visa__job_US---Foster-City-CA_Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088540W": {
     "cached_at": 1789575939.786518,
