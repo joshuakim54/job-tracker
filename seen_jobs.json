@@ -5554,6 +5554,14 @@
     "title": "Sr. Software Engineer (Accounts)",
     "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8214749"
   },
+  "gh_8214753": {
+    "cached_at": 1790203734.1275194,
+    "company": "Bandwidth (Raleigh)",
+    "location": "Raleigh, NC",
+    "source": "greenhouse",
+    "title": "Sr. Software Engineer (Numbers)",
+    "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8214753"
+  },
   "gh_8214910": {
     "cached_at": 1789789679.0937166,
     "company": "Reddit",
@@ -5606,12 +5614,36 @@
     "title": "Senior Software Engineer - Source Security",
     "url": "https://careers.datadoghq.com/detail/8223819/?gh_jid=8223819"
   },
+  "gh_8224452": {
+    "cached_at": 1790203735.6278927,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, ML Infra - Asset Safety",
+    "url": "https://careers.roblox.com/jobs/8224452?gh_jid=8224452"
+  },
   "gh_8224683002": {
     "company": "Databricks",
     "location": "San Francisco, California",
     "source": "greenhouse",
     "title": "Staff Software Engineer, Foundational Model Serving",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8224683002"
+  },
+  "gh_8226802": {
+    "cached_at": 1790203734.874802,
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Remote, US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Programmatic Ads ",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8226802"
+  },
+  "gh_8227620": {
+    "cached_at": 1790203729.7009602,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Application Platform",
+    "url": "https://careers.airbnb.com/positions/8227620?gh_jid=8227620"
   },
   "gh_8233899002": {
     "company": "Databricks",
@@ -6728,6 +6760,14 @@
     "title": "Software Engineer, Safety Processing",
     "url": "https://job-boards.greenhouse.io/discord/jobs/8823881002"
   },
+  "gh_8838202002": {
+    "cached_at": 1790203733.3866806,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Senior Developer Advocate",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8838202002"
+  },
   "icims_sas_42319": {
     "company": "SAS",
     "location": "20070459, Research and Development, United States, North Carolina, Cary HQ",
@@ -7613,6 +7653,14 @@
     "title": "Software Engineer - Sr. Consultant level",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer---Sr-Consultant-level_REF081503W"
   },
+  "wd_visa__job_US---Austin-TX_Software-Engineer--Android---iOS-_REF088446W": {
+    "cached_at": 1790203731.1187341,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Software Engineer (Android / iOS)",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer--Android---iOS-_REF088446W"
+  },
   "wd_visa__job_US---Austin-TX_Software-Engineer--Intern---2027-Austin--TX_REF088544W-1": {
     "cached_at": 1789650655.2329526,
     "company": "Visa",
@@ -7635,6 +7683,14 @@
     "source": "workday",
     "title": "Staff SW Engineer",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Staff-SW-Engineer_REF072113W"
+  },
+  "wd_visa__job_US---Austin-TX_Staff-Software-Engineer--Android---iOS-_REF088445W": {
+    "cached_at": 1790203731.8326862,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Staff Software Engineer (Android / iOS)",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Staff-Software-Engineer--Android---iOS-_REF088445W"
   },
   "wd_visa__job_US---Austin-TX_Staff-Software-Engineer_REF081500W-1": {
     "cached_at": 1789416705.8376813,
@@ -7660,6 +7716,14 @@
     "title": "2027 Sophomore Internship Program - Software Engineer Intern, Austin",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1"
   },
+  "wd_visa__job_US---Bellevue-WA_Full-Stack-Senior-Consultant--Software-Engineer--Generative-AI_REF088661W": {
+    "cached_at": 1790203732.6344264,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "Full Stack Senior Consultant/ Software Engineer, Generative AI",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Full-Stack-Senior-Consultant--Software-Engineer--Generative-AI_REF088661W"
+  },
   "wd_visa__job_US---Bellevue-WA_Full-Stack-Software-Architect--Sr-Consultant---Generative-AI_REF087556W": {
     "cached_at": 1788290186.9551694,
     "company": "Visa",
@@ -7675,6 +7739,14 @@
     "source": "workday",
     "title": "Senior Software Engineer Pipeline (GenAI, Backend, or Fullstack)",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088539W"
+  },
+  "wd_visa__job_US---Bellevue-WA_Software-Engineer---Sr-Consultant-level_REF085157W": {
+    "cached_at": 1790203730.402023,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "Software Engineer - Sr. Consultant level",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Software-Engineer---Sr-Consultant-level_REF085157W"
   },
   "wd_visa__job_US---Bellevue-WA_Software-Engineer--Intern--Bellevue---2027_REF088585W-2": {
     "cached_at": 1789673818.8267224,
