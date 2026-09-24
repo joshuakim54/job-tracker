@@ -1043,6 +1043,14 @@
     "title": "Staff Software Engineer - Backend",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002"
   },
+  "gh_5412514": {
+    "cached_at": 1790291137.571684,
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Remote, US",
+    "source": "greenhouse",
+    "title": "Sr. Software Engineer, Web",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5412514"
+  },
   "gh_5432095": {
     "cached_at": 1788548282.8288443,
     "company": "Pinterest",
@@ -5248,6 +5256,14 @@
     "title": "Senior Software Engineer (Backend), Co-Experience",
     "url": "https://careers.roblox.com/jobs/8186640?gh_jid=8186640"
   },
+  "gh_8186910": {
+    "cached_at": 1790291138.3063464,
+    "company": "Samsara",
+    "location": "Remote - SF Bay Area",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer II",
+    "url": "https://www.samsara.com/company/careers/roles/8186910?gh_jid=8186910"
+  },
   "gh_8186992": {
     "cached_at": 1788970275.8475652,
     "company": "Samsara",
@@ -5518,6 +5534,14 @@
     "title": "Senior Software Engineer, Tech Foundations",
     "url": "https://careers.airbnb.com/positions/8209061?gh_jid=8209061"
   },
+  "gh_8209734": {
+    "cached_at": 1790291136.263532,
+    "company": "Mozilla",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8209734"
+  },
   "gh_8211271": {
     "cached_at": 1790117300.9210935,
     "company": "Roblox",
@@ -5629,6 +5653,14 @@
     "source": "greenhouse",
     "title": "Sr. Staff Fullstack Engineer, Agentic Applications",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8220902002"
+  },
+  "gh_8221182": {
+    "cached_at": 1790291134.777537,
+    "company": "MongoDB",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Cluster Scalability",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8221182"
   },
   "gh_8223367": {
     "cached_at": 1790180640.791014,
@@ -6420,6 +6452,14 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer - Streaming",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8663972002"
+  },
+  "gh_8675727002": {
+    "cached_at": 1790291134.0129282,
+    "company": "Pendo (Raleigh HQ)",
+    "location": "Raleigh, NC",
+    "source": "greenhouse",
+    "title": "Software Engineer, Full Stack",
+    "url": "https://job-boards.greenhouse.io/pendo/jobs/8675727002"
   },
   "gh_8681191002": {
     "cached_at": 1788548434.673407,
@@ -7622,6 +7662,14 @@
     "source": "workday",
     "title": "Software Engineer, Intern - 2027 Ashburn, VA",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF088577W-1"
+  },
+  "wd_visa__job_US---Ashburn-VA_Sr-Software-Engineer---Core-Automation-Platform_REF085123W": {
+    "cached_at": 1790291135.5356135,
+    "company": "Visa",
+    "location": "US - Ashburn, VA",
+    "source": "workday",
+    "title": "Sr. Software Engineer - Core Automation Platform",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Ashburn-VA/Sr-Software-Engineer---Core-Automation-Platform_REF085123W"
   },
   "wd_visa__job_US---Ashburn-VA_Staff-Software-Engineer--AI-Solutions_REF087949W": {
     "cached_at": 1788211558.871281,
