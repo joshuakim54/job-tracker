@@ -234,6 +234,14 @@
     "title": "Software Engineer, Frontier AI Infrastructure",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4363623005"
   },
+  "gh_4452918": {
+    "cached_at": 1790268355.252801,
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Software Engineer with Systems Depth",
+    "url": "https://careers.datadoghq.com/detail/4452918/?gh_jid=4452918"
+  },
   "gh_4481921005": {
     "company": "Scale AI",
     "location": "Austin, TX; Colorado Springs, CO; Honolulu, HI; St. Louis, MO; Washington, DC",
@@ -2960,6 +2968,14 @@
     "title": "Senior Developer Advocate - Modern App Development",
     "url": "https://careers.datadoghq.com/detail/7985840/?gh_jid=7985840"
   },
+  "gh_7985860003": {
+    "cached_at": 1790268358.1753545,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Backend (Identity Decisioning)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7985860003"
+  },
   "gh_7985997": {
     "cached_at": 1788548630.0141714,
     "company": "Roblox",
@@ -5438,6 +5454,14 @@
     "title": "Senior Software Engineer II, Developer Experience",
     "url": "https://instacart.careers/job/?gh_jid=8204016"
   },
+  "gh_8204215": {
+    "cached_at": 1790268355.97079,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer- Blockchain Platform (Wallets, Liquidity & Bridging)",
+    "url": "https://www.coinbase.com/careers/positions/8204215?gh_jid=8204215"
+  },
   "gh_8204799": {
     "cached_at": 1789500875.1719768,
     "company": "Roblox",
@@ -7897,6 +7921,22 @@
     "source": "workday",
     "title": "Senior Software Engineer Pipeline (GenAI, Backend, or Fullstack)",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088540W"
+  },
+  "wd_visa__job_US---Foster-City-CA_Software-Engineer---Sr-Consultant-level-1_REF080662W": {
+    "cached_at": 1790268356.6146765,
+    "company": "Visa",
+    "location": "US - Foster City, CA",
+    "source": "workday",
+    "title": "Staff Software Engineer, Sr. Consultant (Agentic AI, Cloud, LLM, API)",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Software-Engineer---Sr-Consultant-level-1_REF080662W"
+  },
+  "wd_visa__job_US---Foster-City-CA_Software-Engineer---Sr-Consultant-level-2_REF080663W": {
+    "cached_at": 1790268357.3662915,
+    "company": "Visa",
+    "location": "US - Foster City, CA",
+    "source": "workday",
+    "title": "Software Engineer - Sr Consultant level-2",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Software-Engineer---Sr-Consultant-level-2_REF080663W"
   },
   "wd_visa__job_US---Foster-City-CA_Software-Engineer--Intern---Foster-City-2027_REF088587W-1": {
     "cached_at": 1789650653.3384438,
