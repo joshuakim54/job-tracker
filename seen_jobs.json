@@ -3148,6 +3148,14 @@
     "title": "Software Engineer",
     "url": "https://www.coinbase.com/careers/positions/8003605?gh_jid=8003605"
   },
+  "gh_8003799003": {
+    "cached_at": 1790640948.3188908,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Backend (Identity Decisioning)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8003799003"
+  },
   "gh_8007589": {
     "company": "Datadog",
     "location": "Paris, France",
@@ -5788,6 +5796,14 @@
     "title": "Senior Software Engineer II - Ads Quality ",
     "url": "https://instacart.careers/job/?gh_jid=8234282"
   },
+  "gh_8238630": {
+    "cached_at": 1790640943.4533691,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend - Overseer (Platform)",
+    "url": "https://www.coinbase.com/careers/positions/8238630?gh_jid=8238630"
+  },
   "gh_8285949002": {
     "company": "Databricks",
     "location": "Bellevue, Washington",
@@ -6502,6 +6518,14 @@
     "title": "Staff Software Engineer- Foundation Model Inference",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8649279002"
   },
+  "gh_8656854002": {
+    "cached_at": 1790640949.0363078,
+    "company": "Discord",
+    "location": "San Francisco Bay Area or Remote",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Application Security",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8656854002"
+  },
   "gh_8656937002": {
     "cached_at": 1788548430.4887905,
     "company": "Chime",
@@ -6912,6 +6936,14 @@
     "title": "Software Engineer, Safety Processing",
     "url": "https://job-boards.greenhouse.io/discord/jobs/8823881002"
   },
+  "gh_8829325002": {
+    "cached_at": 1790640944.9733045,
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Acquisition",
+    "url": "https://www.brex.com/careers/8829325002?gh_jid=8829325002"
+  },
   "gh_8838202002": {
     "cached_at": 1790203733.3866806,
     "company": "GitLab",
@@ -6919,6 +6951,22 @@
     "source": "greenhouse",
     "title": "Senior Developer Advocate",
     "url": "https://job-boards.greenhouse.io/gitlab/jobs/8838202002"
+  },
+  "gh_8854165002": {
+    "cached_at": 1790640945.975384,
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Acquisition",
+    "url": "https://www.brex.com/careers/8854165002?gh_jid=8854165002"
+  },
+  "gh_8854182002": {
+    "cached_at": 1790640944.1729946,
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Acquisition",
+    "url": "https://www.brex.com/careers/8854182002?gh_jid=8854182002"
   },
   "icims_sas_42319": {
     "company": "SAS",
@@ -7767,6 +7815,14 @@
     "title": "2027 Sophomore Internship Program - Software Engineer Intern, Ashburn",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1"
   },
+  "wd_visa__job_US---Austin-TX_SW-Engineer--Software-Engineering---Specialist---Associate_REF088773W": {
+    "cached_at": 1790640946.7134008,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Software Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/SW-Engineer--Software-Engineering---Specialist---Associate_REF088773W"
+  },
   "wd_visa__job_US---Austin-TX_SW-Engineer_REF088588W": {
     "cached_at": 1790613270.2541387,
     "company": "Visa",
@@ -7844,6 +7900,14 @@
     "source": "workday",
     "title": "Software Engineer, New College Grad - 2027, Austin, TX",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer--New-College-Grad---2027--Austin--TX_REF088586W"
+  },
+  "wd_visa__job_US---Austin-TX_Sr-SW-Engineer--Software-Engineering---Analyst---Team-Lead_REF088770W": {
+    "cached_at": 1790640947.5992582,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Senior Software Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Sr-SW-Engineer--Software-Engineering---Analyst---Team-Lead_REF088770W"
   },
   "wd_visa__job_US---Austin-TX_Staff-SW-Engineer_REF072113W": {
     "company": "Visa",
