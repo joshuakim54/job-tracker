@@ -5812,6 +5812,14 @@
     "title": "Senior Software Engineer, Backend - Overseer (Platform)",
     "url": "https://www.coinbase.com/careers/positions/8238630?gh_jid=8238630"
   },
+  "gh_8239950": {
+    "cached_at": 1790704295.118121,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Systems Engineer Tech Foundations",
+    "url": "https://careers.airbnb.com/positions/8239950?gh_jid=8239950"
+  },
   "gh_8285949002": {
     "company": "Databricks",
     "location": "Bellevue, Washington",
@@ -7822,6 +7830,14 @@
     "source": "workday",
     "title": "2027 Sophomore Internship Program - Software Engineer Intern, Ashburn",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1"
+  },
+  "wd_visa__job_US---Austin-TX_Chief-SW-Engineer_REF087202W": {
+    "cached_at": 1790704295.8173144,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Chief Software Engineer (Hands-On AI Engineering Leader)",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Chief-SW-Engineer_REF087202W"
   },
   "wd_visa__job_US---Austin-TX_SW-Engineer--Software-Engineering---Specialist---Associate_REF088773W": {
     "cached_at": 1790640946.7134008,
