@@ -1775,6 +1775,14 @@
     "title": "Senior Software Engineer, Storage",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/7511679"
   },
+  "gh_7520397": {
+    "cached_at": 1790779451.0399127,
+    "company": "Samsara",
+    "location": "Remote - US",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer II, Route Planning",
+    "url": "https://www.samsara.com/company/careers/roles/7520397?gh_jid=7520397"
+  },
   "gh_7523911": {
     "company": "MongoDB",
     "location": "San Francisco",
@@ -8043,6 +8051,14 @@
     "source": "workday",
     "title": "Staff SW Engineer",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Staff-SW-Engineer_REF072113W"
+  },
+  "wd_visa__job_US---Austin-TX_Staff-SW-Engineer_REF088495W": {
+    "cached_at": 1790779450.2310212,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Staff SW Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Staff-SW-Engineer_REF088495W"
   },
   "wd_visa__job_US---Austin-TX_Staff-Software-Engineer--Android---iOS-_REF088445W": {
     "cached_at": 1790203731.8326862,
