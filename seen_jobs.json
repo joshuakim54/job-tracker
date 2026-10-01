@@ -2496,6 +2496,22 @@
     "title": "Staff Software Engineer, Backend (Online Storage) ",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7833950003"
   },
+  "gh_7838577": {
+    "cached_at": 1790887962.8120801,
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Remote, US",
+    "source": "greenhouse",
+    "title": "Software Engineer Intern 2027 (USA)",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7838577"
+  },
+  "gh_7838591": {
+    "cached_at": 1790887964.9314308,
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Remote, US",
+    "source": "greenhouse",
+    "title": "University Grad Software Engineer 2027 (USA)",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7838591"
+  },
   "gh_7839280": {
     "company": "Asana",
     "location": "Vancouver, BC",
@@ -4810,6 +4826,14 @@
     "title": "Software Engineer, Content Platform",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/8139781"
   },
+  "gh_8140210": {
+    "cached_at": 1790887965.693344,
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US",
+    "source": "greenhouse",
+    "title": "UX Engineering Intern (San Francisco)",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8140210"
+  },
   "gh_8140563": {
     "cached_at": 1788548607.243012,
     "company": "Roblox",
@@ -5806,6 +5830,14 @@
     "title": "Senior Platform Engineer, Growth Product Engineering",
     "url": "https://www.samsara.com/company/careers/roles/8223367?gh_jid=8223367"
   },
+  "gh_8223523": {
+    "cached_at": 1790887966.4234197,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Creator Collaboration",
+    "url": "https://careers.roblox.com/jobs/8223523?gh_jid=8223523"
+  },
   "gh_8223819": {
     "cached_at": 1790117299.421451,
     "company": "Datadog",
@@ -5861,6 +5893,14 @@
     "title": "Senior Software Engineer, Reliability",
     "url": "https://careers.roblox.com/jobs/8227776?gh_jid=8227776"
   },
+  "gh_8230778": {
+    "cached_at": 1790887964.1703339,
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Remote, US",
+    "source": "greenhouse",
+    "title": "Sr. Security Software Engineer, Security Operations   ",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8230778"
+  },
   "gh_8231343": {
     "cached_at": 1790377829.9018285,
     "company": "Roblox",
@@ -5891,6 +5931,14 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Web Application Services",
     "url": "https://job-boards.greenhouse.io/mozilla/jobs/8234141"
+  },
+  "gh_8234278": {
+    "cached_at": 1790887958.6020284,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Software Engineer, CDP - Stablecoin",
+    "url": "https://www.coinbase.com/careers/positions/8234278?gh_jid=8234278"
   },
   "gh_8234282": {
     "cached_at": 1790377829.1010075,
@@ -5995,6 +6043,54 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Mobile QA",
     "url": "https://www.coinbase.com/careers/positions/8241752?gh_jid=8241752"
+  },
+  "gh_8241882": {
+    "cached_at": 1790887956.2946882,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Fullstack Engineer, Tech Foundations",
+    "url": "https://careers.airbnb.com/positions/8241882?gh_jid=8241882"
+  },
+  "gh_8244914": {
+    "cached_at": 1790887961.817901,
+    "company": "Instacart",
+    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+    "source": "greenhouse",
+    "title": "Software Engineer II, CRM & SEO",
+    "url": "https://instacart.careers/job/?gh_jid=8244914"
+  },
+  "gh_8246054": {
+    "cached_at": 1790887960.9767272,
+    "company": "Instacart",
+    "location": "United States - Remote",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer II, Ads Data Solutions Engineering",
+    "url": "https://instacart.careers/job/?gh_jid=8246054"
+  },
+  "gh_8247397": {
+    "cached_at": 1790887957.85837,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Software Engineer, Backend - Payments Platform",
+    "url": "https://www.coinbase.com/careers/positions/8247397?gh_jid=8247397"
+  },
+  "gh_8247401": {
+    "cached_at": 1790887957.1153045,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend - Payments Platform",
+    "url": "https://www.coinbase.com/careers/positions/8247401?gh_jid=8247401"
+  },
+  "gh_8247566": {
+    "cached_at": 1790887955.5462196,
+    "company": "Datadog",
+    "location": "Boston, Massachusetts, USA; New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Incident Insights & Readiness",
+    "url": "https://careers.datadoghq.com/detail/8247566/?gh_jid=8247566"
   },
   "gh_8285949002": {
     "company": "Databricks",
@@ -7120,6 +7216,14 @@
     "title": "Senior Software Engineer, Backend (Product Engineering)",
     "url": "https://www.brex.com/careers/8815495002?gh_jid=8815495002"
   },
+  "gh_8816800002": {
+    "cached_at": 1790887954.7524803,
+    "company": "Pendo (Raleigh HQ)",
+    "location": "Raleigh, NC or New York, NY",
+    "source": "greenhouse",
+    "title": "Workday Systems Engineer",
+    "url": "https://job-boards.greenhouse.io/pendo/jobs/8816800002"
+  },
   "gh_8817776002": {
     "cached_at": 1789770199.0950463,
     "company": "Discord",
@@ -8133,6 +8237,14 @@
     "title": "Software Engineer, New College Grad - 2027, Austin, TX",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer--New-College-Grad---2027--Austin--TX_REF088586W"
   },
+  "wd_visa__job_US---Austin-TX_Software-Engineer_REF088720W": {
+    "cached_at": 1790887960.1942303,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Software Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer_REF088720W"
+  },
   "wd_visa__job_US---Austin-TX_Sr-SW-Engineer--Software-Engineering---Analyst---Team-Lead_REF088770W": {
     "cached_at": 1790640947.5992582,
     "company": "Visa",
@@ -8140,6 +8252,14 @@
     "source": "workday",
     "title": "Senior Software Engineer",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Sr-SW-Engineer--Software-Engineering---Analyst---Team-Lead_REF088770W"
+  },
+  "wd_visa__job_US---Austin-TX_Staff-SW-Engineer--Software-Engineering--Consultant---Manager_REF088719W": {
+    "cached_at": 1790887959.3786397,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Staff Software Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Staff-SW-Engineer--Software-Engineering--Consultant---Manager_REF088719W"
   },
   "wd_visa__job_US---Austin-TX_Staff-SW-Engineer_REF072113W": {
     "company": "Visa",
