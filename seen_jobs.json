@@ -3166,6 +3166,14 @@
     "title": "Sr. Staff Software Engineer, iOS Search and Shopping Journeys",
     "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8001913"
   },
+  "gh_8003020003": {
+    "cached_at": 1790830448.2711937,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Backend (Streaming)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8003020003"
+  },
   "gh_8003347": {
     "cached_at": 1788548576.3927763,
     "company": "Roblox",
@@ -3196,6 +3204,14 @@
     "title": "Staff Software Engineer, Backend (Identity Decisioning)",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/8003799003"
   },
+  "gh_8005406003": {
+    "cached_at": 1790830448.989369,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Backend (Search)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8005406003"
+  },
   "gh_8007589": {
     "company": "Datadog",
     "location": "Paris, France",
@@ -3224,6 +3240,14 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Core Products",
     "url": "https://job-boards.greenhouse.io/gusto/jobs/8008696"
+  },
+  "gh_8009366003": {
+    "cached_at": 1790830447.542108,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend (Online Storage)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8009366003"
   },
   "gh_8011015": {
     "cached_at": 1788548514.384891,
@@ -5598,6 +5622,14 @@
     "title": "Staff Software Engineer - Ingestion Platform ",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/8205402"
   },
+  "gh_8205624": {
+    "cached_at": 1790830446.4823494,
+    "company": "Gusto",
+    "location": "Austin, TX - Remote; Burlingame, CA - Hybrid; Chicago, IL - Remote; Denver, CO - Hybrid; Los Angeles, CA - Remote; Miami, FL - Remote; New York, NY - Hybrid; San Francisco, CA - Hybrid; Seattle, WA - Remote",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Financial Platform",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8205624"
+  },
   "gh_8205702": {
     "cached_at": 1789531109.175213,
     "company": "Reddit",
@@ -5796,6 +5828,14 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Programmatic Ads ",
     "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8226802"
+  },
+  "gh_8226958": {
+    "cached_at": 1790830450.649281,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Engine Scalability",
+    "url": "https://careers.roblox.com/jobs/8226958?gh_jid=8226958"
   },
   "gh_8227620": {
     "cached_at": 1790203729.7009602,
@@ -7104,6 +7144,30 @@
     "title": "Staff Software Engineer, Acquisition",
     "url": "https://www.brex.com/careers/8854182002?gh_jid=8854182002"
   },
+  "gh_8859337002": {
+    "cached_at": 1790830444.5533671,
+    "company": "Brex",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Identity & Access Management",
+    "url": "https://www.brex.com/careers/8859337002?gh_jid=8859337002"
+  },
+  "gh_8859393002": {
+    "cached_at": 1790830443.8334239,
+    "company": "Brex",
+    "location": "Seattle, Washington, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Identity & Access Management",
+    "url": "https://www.brex.com/careers/8859393002?gh_jid=8859393002"
+  },
+  "gh_8859394002": {
+    "cached_at": 1790830445.760014,
+    "company": "Brex",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Identity & Access Management",
+    "url": "https://www.brex.com/careers/8859394002?gh_jid=8859394002"
+  },
   "icims_sas_42319": {
     "company": "SAS",
     "location": "20070459, Research and Development, United States, North Carolina, Cary HQ",
@@ -8123,6 +8187,14 @@
     "source": "workday",
     "title": "Senior Software Engineer Pipeline (GenAI, Backend, or Fullstack)",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088539W"
+  },
+  "wd_visa__job_US---Bellevue-WA_Senior-Software-Engineer_REF082667W-1": {
+    "cached_at": 1790830449.8656404,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "Senior Software Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Senior-Software-Engineer_REF082667W-1"
   },
   "wd_visa__job_US---Bellevue-WA_Software-Engineer---Sr-Consultant-level_REF085157W": {
     "cached_at": 1790203730.402023,
