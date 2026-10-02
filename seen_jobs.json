@@ -5686,6 +5686,14 @@
     "title": "Staff Software Engineer, Consumer Engineering",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/8205702"
   },
+  "gh_8208048": {
+    "cached_at": 1790951628.551458,
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Security Integrations - Prompt Engineering",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8208048&gh_jid=8208048"
+  },
   "gh_8209010": {
     "cached_at": 1789770200.0453422,
     "company": "Roblox",
@@ -7296,6 +7304,14 @@
     "title": "Senior Developer Advocate",
     "url": "https://job-boards.greenhouse.io/gitlab/jobs/8838202002"
   },
+  "gh_8845277002": {
+    "cached_at": 1790951625.5617938,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Staff Fullstack Engineer, Data Products (Golang / Node)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8845277002"
+  },
   "gh_8854165002": {
     "cached_at": 1790640945.975384,
     "company": "Brex",
@@ -8490,6 +8506,14 @@
     "source": "workday",
     "title": "2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1"
+  },
+  "wd_visa__job_US---Foster-City-CA_Chief-SW-Engineer_REF088811W": {
+    "cached_at": 1790951629.2891495,
+    "company": "Visa",
+    "location": "US - Foster City, CA",
+    "source": "workday",
+    "title": "Chief SW Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Chief-SW-Engineer_REF088811W"
   },
   "wd_visa__job_US---Foster-City-CA_Lead-SW-Engineer_REF084993W": {
     "cached_at": 1789142823.5913308,
