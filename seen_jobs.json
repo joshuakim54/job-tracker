@@ -1874,6 +1874,14 @@
     "title": "Staff Software Engineer - Federal",
     "url": "https://www.okta.com/company/careers/opportunity/7571064?gh_jid=7571064"
   },
+  "gh_7577227": {
+    "cached_at": 1791329956.0426269,
+    "company": "Pinterest",
+    "location": "Palo Alto, CA, US; Remote, US",
+    "source": "greenhouse",
+    "title": "Sr. Staff Software Engineer, AI Platform",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7577227"
+  },
   "gh_7578716003": {
     "cached_at": 1788548470.3953974,
     "company": "Postman",
@@ -2758,6 +2766,14 @@
     "title": "Senior Software Engineer - Release ",
     "url": "https://careers.roblox.com/jobs/7923586?gh_jid=7923586"
   },
+  "gh_7932280002": {
+    "cached_at": 1791329953.2205594,
+    "company": "Databricks",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Staff Security Software Engineer - Agentic Security Engineering ",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7932280002"
+  },
   "gh_7934466002": {
     "company": "Databricks",
     "location": "Mountain View, California",
@@ -3306,6 +3322,14 @@
     "title": "Software Engineer (Machine Learning) Intern (Summer 2027)",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/8008645003"
   },
+  "gh_8008649003": {
+    "cached_at": 1791329957.4288707,
+    "company": "Affirm",
+    "location": "New York, New York, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Early Career (NYC)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8008649003"
+  },
   "gh_8008696": {
     "company": "Gusto",
     "location": "New York, New York, United States; San Francisco, CA - Hybrid",
@@ -3320,6 +3344,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer, Backend (Online Storage)",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/8009366003"
+  },
+  "gh_8010617003": {
+    "cached_at": 1791329958.1497622,
+    "company": "Affirm",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Early Career (SF)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8010617003"
   },
   "gh_8011015": {
     "cached_at": 1788548514.384891,
@@ -4848,6 +4880,14 @@
     "title": "Software Engineer, Creator Studio",
     "url": "https://careers.roblox.com/jobs/8131689?gh_jid=8131689"
   },
+  "gh_8131793": {
+    "cached_at": 1791329956.779687,
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Seattle, WA, US; Remote, CA, WA, US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, App Promotion ",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8131793"
+  },
   "gh_8137972": {
     "company": "Stripe",
     "location": "Chicago, IL",
@@ -6069,6 +6109,14 @@
     "title": "Software Engineer II, Advertiser Optimization",
     "url": "https://instacart.careers/job/?gh_jid=8233716"
   },
+  "gh_8233720": {
+    "cached_at": 1791329958.928687,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Machine Learning Platform Engineer, Foundation AI",
+    "url": "https://careers.roblox.com/jobs/8233720?gh_jid=8233720"
+  },
   "gh_8233899002": {
     "company": "Databricks",
     "location": "Mountain View, California",
@@ -6331,6 +6379,22 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Cloud Infrastructure ",
     "url": "https://careers.airbnb.com/positions/8257909?gh_jid=8257909"
+  },
+  "gh_8259517": {
+    "cached_at": 1791329955.3919978,
+    "company": "Pinterest",
+    "location": "San Francisco, CA, Seattle, WA, US; New York, NY,US; Remote;US",
+    "source": "greenhouse",
+    "title": "Sr. Software Engineer, Data Analytics Engineering",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8259517"
+  },
+  "gh_8259526": {
+    "cached_at": 1791329953.9144228,
+    "company": "Airbnb",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Payments (AirCover Insurance Platform)",
+    "url": "https://careers.airbnb.com/positions/8259526?gh_jid=8259526"
   },
   "gh_8285949002": {
     "company": "Databricks",
@@ -8667,6 +8731,14 @@
     "source": "workday",
     "title": "Software Engineer, New College Grad, Bellevue - 2027",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Software-Engineer--New-College-Grad--Bellevue---2027_REF088530W-3"
+  },
+  "wd_visa__job_US---Bellevue-WA_Software-Engineer--Sr-Consultant-Level_REF089125W": {
+    "cached_at": 1791329954.5524473,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "Software Engineer, Sr. Consultant Level",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Software-Engineer--Sr-Consultant-Level_REF089125W"
   },
   "wd_visa__job_US---Bellevue-WA_Sr-SW-Engineer_REF084844W-2": {
     "cached_at": 1789500869.1527054,
