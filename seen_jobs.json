@@ -103,6 +103,14 @@
     "title": "Software Engineer II (Backend, AI Experiences & AI Platform)",
     "url": "https://jobs.ashbyhq.com/whoop/a7a80da5-5fa5-44fb-8a7c-2ea141cabda8"
   },
+  "ashby_ae351985-e5cf-4bd8-b8a1-6f8c2d5b5de3": {
+    "cached_at": 1791309933.270011,
+    "company": "WHOOP",
+    "location": "Boston, MA",
+    "source": "ashby",
+    "title": "Software Engineer I (Frontend, AI Platform)",
+    "url": "https://jobs.ashbyhq.com/whoop/ae351985-e5cf-4bd8-b8a1-6f8c2d5b5de3"
+  },
   "ashby_afc36da4-b595-43b5-9d7f-832a705975fe": {
     "cached_at": 1788645509.428453,
     "company": "WHOOP",
@@ -1813,6 +1821,14 @@
     "title": "Senior Mobile Systems Engineer, Audio Team (Android & C++)",
     "url": "https://careers.roblox.com/jobs/7528070?gh_jid=7528070"
   },
+  "gh_7528577": {
+    "cached_at": 1791309928.3952184,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Marketplaces & Intelligence Data and AI",
+    "url": "https://careers.airbnb.com/positions/7528577?gh_jid=7528577"
+  },
   "gh_7540219": {
     "cached_at": 1788548550.405757,
     "company": "Roblox",
@@ -3197,6 +3213,14 @@
     "source": "greenhouse",
     "title": "Sr. Staff Software Engineer, iOS Search and Shopping Journeys",
     "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8001913"
+  },
+  "gh_8003016003": {
+    "cached_at": 1791309931.1127348,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Backend (Decisions Orchestration)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8003016003"
   },
   "gh_8003020003": {
     "cached_at": 1790830448.2711937,
@@ -5997,6 +6021,14 @@
     "title": "Senior Software Engineer, Reliability",
     "url": "https://careers.roblox.com/jobs/8227776?gh_jid=8227776"
   },
+  "gh_8229705": {
+    "cached_at": 1791309932.531665,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Test Frameworks & Tooling",
+    "url": "https://careers.roblox.com/jobs/8229705?gh_jid=8229705"
+  },
   "gh_8229707": {
     "cached_at": 1791249134.7199829,
     "company": "Roblox",
@@ -8446,6 +8478,14 @@
     "title": "Senior Software Engineer Pipeline (GenAI, Backend, or Fullstack)",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088538W"
   },
+  "wd_visa__job_US---Austin-TX_Software-Development-Engineer--Product-Reliability-Engineering_REF081637W": {
+    "cached_at": 1791309929.4157407,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Software Development Engineer- Product Reliability Engineering",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Development-Engineer--Product-Reliability-Engineering_REF081637W"
+  },
   "wd_visa__job_US---Austin-TX_Software-Engineer---Sr-Consultant-level-1_REF083066W": {
     "company": "Visa",
     "location": "US - Austin, TX",
@@ -8579,6 +8619,14 @@
     "source": "workday",
     "title": "Full Stack Software Architect (Sr. Consultant), Generative AI",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Full-Stack-Software-Architect--Sr-Consultant---Generative-AI_REF087556W"
+  },
+  "wd_visa__job_US---Bellevue-WA_SW-Engineer_REF088996W": {
+    "cached_at": 1791309930.2894132,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "SW Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/SW-Engineer_REF088996W"
   },
   "wd_visa__job_US---Bellevue-WA_Senior-Software-Engineer-Pipeline--GenAI--Backend--or-Fullstack-_REF088539W": {
     "cached_at": 1789575938.9813797,
