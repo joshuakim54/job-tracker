@@ -1,3 +1,4 @@
+from functools import lru_cache
 import json
 import os
 import re
@@ -114,6 +115,8 @@ st.markdown(
     .badge-senior { background: #48301f; color: #f9ba8b; }
     .badge-mid { background: #223746; color: #9bc6f2; }
     .digest { background: #1d3532; border: 1px solid #2b5b51; border-radius: 4px; padding: 0.85rem 1rem; margin: 1rem 0; color: #c7e8de; }
+    .page-info { color: #b5c7c1; font-size: 0.95rem; display: flex; align-items: center; height: 100%; }
+    .page-indicator { text-align: center; color: #e8f1ed; font-size: 0.95rem; font-weight: 600; padding-top: 6px; }
     </style>
     """,
     unsafe_allow_html=True,
@@ -138,15 +141,19 @@ _EXPERIENCE_LEVEL_PATTERNS = {
 }
 
 
+@lru_cache(maxsize=8192)
 def get_experience_level(title):
     normalized_title = normalize_text(title)
     if any(pattern.search(normalized_title) for pattern in _EXPERIENCE_LEVEL_PATTERNS["Internships"]):
-        return {"Internships"}
+        return "Internships"
     if any(pattern.search(normalized_title) for pattern in _EXPERIENCE_LEVEL_PATTERNS["Seniors"]):
-        return {"Seniors"}
+        return "Seniors"
     if any(pattern.search(normalized_title) for pattern in _EXPERIENCE_LEVEL_PATTERNS["New grads"]):
-        return {"New grads"}
-    return {"Experienced"}
+        return "New grads"
+    return "Experienced"
+
+
+cached_is_us_location = lru_cache(maxsize=4096)(is_us_location)
 
 
 def split_terms(value):
@@ -156,18 +163,20 @@ def split_terms(value):
 def contains_term(searchable_text, term):
     normalized_text = normalize_text(searchable_text)
     normalized_term = normalize_text(term)
-    if not normalized_term:
+    if not normalized_term or not normalized_text:
         return False
-    # Direct match
-    if re.search(rf"(?<!\w){re.escape(normalized_term)}(?!\w)", normalized_text):
-        return True
+    # Fast path: Substring check in C avoids compiling/running regex for negative matches
+    if normalized_term in normalized_text:
+        if re.search(rf"(?<!\w){re.escape(normalized_term)}(?!\w)", normalized_text):
+            return True
     # Word-by-word token matching for multi-word queries
     term_words = normalized_term.split()
     if len(term_words) > 1:
-        return all(bool(re.search(rf"(?<!\w){re.escape(w)}", normalized_text)) for w in term_words)
+        return all(w in normalized_text and bool(re.search(rf"(?<!\w){re.escape(w)}(?!\w)", normalized_text)) for w in term_words)
     return False
 
 
+@st.cache_data(show_spinner=False)
 def load_jobs_cache():
     cache_file = os.getenv("JOBS_CACHE_FILE", os.path.join(os.path.dirname(__file__), "jobs_cache.json"))
     try:
@@ -179,6 +188,11 @@ def load_jobs_cache():
     except (json.JSONDecodeError, AttributeError):
         st.error("The job cache is unavailable. Please wait for the next scheduled update.")
         return []
+
+
+@st.cache_data(show_spinner=False)
+def get_available_companies(jobs):
+    return sorted(list(set(j.get("company", "") for j in jobs if j.get("company"))))
 
 
 def load_pipeline():
@@ -212,12 +226,23 @@ def update_job_status(pipeline, job, status):
     save_pipeline(pipeline)
 
 
+def get_pipeline_counts(pipeline, total_jobs):
+    """Calculates status counts in O(K) where K is number of tracked pipeline entries."""
+    counts = {status: 0 for status in PIPELINE_STATUSES}
+    for item in pipeline.values():
+        st_val = item.get("status")
+        if st_val in counts:
+            counts[st_val] += 1
+    tracked_non_new = sum(counts[s] for s in PIPELINE_STATUSES if s != "New")
+    counts["New"] = max(0, total_jobs - tracked_non_new)
+    return counts
+
+
 def get_new_jobs_today(jobs):
-    today = datetime.now(timezone.utc).date()
+    today_start = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
     return [
         job for job in jobs
-        if isinstance(job.get("cached_at"), (int, float))
-        and datetime.fromtimestamp(job["cached_at"], timezone.utc).date() == today
+        if isinstance(job.get("cached_at"), (int, float)) and job["cached_at"] >= today_start
     ]
 
 
@@ -231,24 +256,25 @@ def matches(job, role_filters, company_filters, required_filters, excluded_filte
     if company_filters and company not in company_filters:
         return False
 
-    # Role filter (comma-separated alternatives: matches if any term matches title)
+    # Role filter (matches if any term matches title)
     if role_filters and not any(contains_term(title, term) for term in role_filters):
         return False
 
-    # Must include (matches if all terms appear anywhere in searchable)
+    # Must include (matches if all terms appear in searchable text)
     if required_filters and not all(contains_term(searchable, term) for term in required_filters):
         return False
 
-    # Exclude (rejects if any term appears anywhere in searchable)
+    # Exclude (rejects if any term appears anywhere in searchable text)
     if excluded_filters and any(contains_term(searchable, term) for term in excluded_filters):
         return False
 
-    # Experience level
-    if selected_levels and not (get_experience_level(title) & set(selected_levels)):
-        return False
+    # Experience level: skip if all 4 categories are selected
+    if selected_levels and len(selected_levels) < 4:
+        if get_experience_level(title) not in selected_levels:
+            return False
 
     # US Only checkbox filter
-    if us_only and not is_us_location(location):
+    if us_only and not cached_is_us_location(location):
         return False
 
     # Location keyword filters (matches if any location term is present)
@@ -258,10 +284,16 @@ def matches(job, role_filters, company_filters, required_filters, excluded_filte
     return True
 
 
+# Load data efficiently (cached)
 all_jobs = load_jobs_cache()
-available_companies = sorted(list(set(j.get("company", "") for j in all_jobs if j.get("company"))))
+available_companies = get_available_companies(all_jobs)
 pipeline = load_pipeline()
 new_jobs_today = get_new_jobs_today(all_jobs)
+status_counts = get_pipeline_counts(pipeline, len(all_jobs))
+
+# Initialize session state for pagination
+if "current_page" not in st.session_state:
+    st.session_state.current_page = 1
 
 with st.sidebar:
     st.header("Search filters")
@@ -304,11 +336,13 @@ with st.sidebar:
         help="Optional terms that must not appear in company, title, or location.",
     )
     pipeline_filter = st.selectbox("Pipeline status", ["All statuses"] + PIPELINE_STATUSES)
+    jobs_per_page = st.selectbox("Jobs per page", [25, 50, 100], index=0, help="Fewer jobs per page renders significantly faster.")
     search_button = st.button("Search jobs", type="primary", use_container_width=True)
 
 
-# Execute search either on button press or initial load if not yet stored
+# Execute search either on button press or initial load
 if search_button or "results" not in st.session_state:
+    st.session_state.current_page = 1  # Reset to first page on new search
     role_filters = split_terms(role_terms)
     required_filters = split_terms(include_terms)
     excluded_filters = split_terms(exclude_terms)
@@ -342,19 +376,28 @@ if search_button or "results" not in st.session_state:
         "exclude": exclude_terms,
     }
 
-    # Build readable search summary
-    st.session_state["search_summary"] = f"Found {len(results):,} role(s) matching your criteria"
 
 if "results" in st.session_state:
-    status_counts = {status: sum(get_job_status(pipeline, job) == status for job in all_jobs) for status in PIPELINE_STATUSES}
+    base_results = st.session_state["results"]
+
+    # Apply pipeline status filter if active
+    if pipeline_filter != "All statuses":
+        active_results = [job for job in base_results if get_job_status(pipeline, job) == pipeline_filter]
+    else:
+        active_results = base_results
+
     st.markdown(
         f'<div class="digest"><strong>{len(new_jobs_today):,} new jobs today</strong> · '
         f'{status_counts["Saved"]:,} saved · {status_counts["Applied"]:,} applied · '
         f'{status_counts["Interview"]:,} interviews</div>',
         unsafe_allow_html=True,
     )
+
+    search_summary = f"Found {len(active_results):,} role(s) matching your criteria"
+    if pipeline_filter != "All statuses":
+        search_summary += f" with status '{pipeline_filter}'"
     st.markdown(
-        f'<div class="results-heading">{st.session_state["search_summary"]}</div>',
+        f'<div class="results-heading">{search_summary}</div>',
         unsafe_allow_html=True,
     )
 
@@ -375,16 +418,50 @@ if "results" in st.session_state:
                 if criteria["exclude"]:
                     st.write(f"**Exclude:** {criteria['exclude']}")
 
-    results = st.session_state["results"]
-    if not results:
+    if not active_results:
         st.info("No matching roles found. Try broadening keywords, selecting more experience levels, or clearing specific location filters.")
     else:
-        for job in results:
-            current_status = get_job_status(pipeline, job)
-            if pipeline_filter != "All statuses" and current_status != pipeline_filter:
-                continue
+        # Pagination calculations
+        total_items = len(active_results)
+        total_pages = max(1, (total_items + jobs_per_page - 1) // jobs_per_page)
+        st.session_state.current_page = min(max(1, st.session_state.current_page), total_pages)
+        current_page = st.session_state.current_page
 
-            exp_level = list(get_experience_level(job.get("title", "")))[0]
+        start_idx = (current_page - 1) * jobs_per_page
+        end_idx = min(start_idx + jobs_per_page, total_items)
+        page_results = active_results[start_idx:end_idx]
+
+        # Top Pagination Toolbar
+        if total_pages > 1:
+            p_info, p_prev, p_num, p_next = st.columns([3, 1, 2, 1])
+            with p_info:
+                st.markdown(
+                    f'<div class="page-info">Showing <strong>{start_idx + 1}–{end_idx}</strong> of <strong>{total_items:,}</strong> roles</div>',
+                    unsafe_allow_html=True,
+                )
+            with p_prev:
+                if st.button("◀ Prev", disabled=(current_page <= 1), use_container_width=True, key="top_prev"):
+                    st.session_state.current_page -= 1
+                    st.rerun()
+            with p_num:
+                st.markdown(
+                    f'<div class="page-indicator">Page {current_page} of {total_pages}</div>',
+                    unsafe_allow_html=True,
+                )
+            with p_next:
+                if st.button("Next ▶", disabled=(current_page >= total_pages), use_container_width=True, key="top_next"):
+                    st.session_state.current_page += 1
+                    st.rerun()
+        else:
+            st.markdown(
+                f'<div class="page-info" style="margin-bottom: 0.8rem;">Showing all <strong>{total_items:,}</strong> roles</div>',
+                unsafe_allow_html=True,
+            )
+
+        # Render only jobs on the current page (Fast DOM rendering!)
+        for job in page_results:
+            current_status = get_job_status(pipeline, job)
+            exp_level = get_experience_level(job.get("title", ""))
             badge_class = {
                 "Internships": "badge-intern",
                 "New grads": "badge-grad",
@@ -427,3 +504,26 @@ if "results" in st.session_state:
                 if note != current_note:
                     pipeline.setdefault(job_key, {}).update({"note": note, "updated_at": time.time()})
                     save_pipeline(pipeline)
+
+        # Bottom Pagination Toolbar
+        if total_pages > 1:
+            st.markdown("<hr style='border-color: #172929; margin: 1.5rem 0 1rem;' />", unsafe_allow_html=True)
+            bp_info, bp_prev, bp_num, bp_next = st.columns([3, 1, 2, 1])
+            with bp_info:
+                st.markdown(
+                    f'<div class="page-info">Page <strong>{current_page}</strong> of <strong>{total_pages}</strong> ({total_items:,} total roles)</div>',
+                    unsafe_allow_html=True,
+                )
+            with bp_prev:
+                if st.button("◀ Prev", disabled=(current_page <= 1), use_container_width=True, key="bot_prev"):
+                    st.session_state.current_page -= 1
+                    st.rerun()
+            with bp_num:
+                st.markdown(
+                    f'<div class="page-indicator">Page {current_page} of {total_pages}</div>',
+                    unsafe_allow_html=True,
+                )
+            with bp_next:
+                if st.button("Next ▶", disabled=(current_page >= total_pages), use_container_width=True, key="bot_next"):
+                    st.session_state.current_page += 1
+                    st.rerun()
