@@ -1106,6 +1106,14 @@
     "title": "Senior Software Engineer - Fullstack",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002"
   },
+  "gh_5447118008": {
+    "cached_at": 1791407134.5896716,
+    "company": "Anthropic",
+    "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
+    "source": "greenhouse",
+    "title": "Staff+ Software Engineer, Research Systems Engineering",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5447118008"
+  },
   "gh_5551532004": {
     "company": "Figma",
     "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
@@ -1577,6 +1585,14 @@
     "source": "greenhouse",
     "title": "Software Engineer, Bridge",
     "url": "https://stripe.com/jobs/search?gh_jid=7277110"
+  },
+  "gh_7292520": {
+    "cached_at": 1791407137.7377737,
+    "company": "Stripe",
+    "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
+    "source": "greenhouse",
+    "title": "Backend Engineer, Developer & End-user Experience Platform",
+    "url": "https://stripe.com/jobs/search?gh_jid=7292520"
   },
   "gh_7305744": {
     "company": "Okta",
@@ -7632,6 +7648,30 @@
     "title": "Senior Software Engineer - Identity & Access Management",
     "url": "https://www.brex.com/careers/8859394002?gh_jid=8859394002"
   },
+  "gh_8875663002": {
+    "cached_at": 1791407137.0049307,
+    "company": "Chime",
+    "location": "Chicago, IL, USA; San Francisco, CA, USA",
+    "source": "greenhouse",
+    "title": "Software Engineer, Trust & Safety",
+    "url": "https://boards.greenhouse.io/chime/jobs/8875663002?gh_jid=8875663002"
+  },
+  "gh_8875820002": {
+    "cached_at": 1791407135.5114486,
+    "company": "Chime",
+    "location": "Chicago, IL, USA; San Francisco, CA, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Trust & Safety",
+    "url": "https://boards.greenhouse.io/chime/jobs/8875820002?gh_jid=8875820002"
+  },
+  "gh_8875914002": {
+    "cached_at": 1791407136.2461073,
+    "company": "Chime",
+    "location": "Chicago, IL, USA; San Francisco, CA, USA",
+    "source": "greenhouse",
+    "title": "Senior Staff / Staff Software Engineer, Trust & Safety",
+    "url": "https://boards.greenhouse.io/chime/jobs/8875914002?gh_jid=8875914002"
+  },
   "icims_sas_42319": {
     "company": "SAS",
     "location": "20070459, Research and Development, United States, North Carolina, Cary HQ",
@@ -8707,6 +8747,14 @@
     "source": "workday",
     "title": "Full Stack Software Architect (Sr. Consultant), Generative AI",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Full-Stack-Software-Architect--Sr-Consultant---Generative-AI_REF087556W"
+  },
+  "wd_visa__job_US---Bellevue-WA_Lead-Software-Engineer_REF084840W": {
+    "cached_at": 1791407133.8436725,
+    "company": "Visa",
+    "location": "US - Bellevue, WA",
+    "source": "workday",
+    "title": "Lead Software Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Lead-Software-Engineer_REF084840W"
   },
   "wd_visa__job_US---Bellevue-WA_SW-Engineer_REF088996W": {
     "cached_at": 1791309930.2894132,
