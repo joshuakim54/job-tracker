@@ -1343,6 +1343,14 @@
     "title": "Senior Software Engineer - Treasury",
     "url": "https://job-boards.greenhouse.io/mercury/jobs/6212437004"
   },
+  "gh_6221407004": {
+    "cached_at": 1791578378.2271173,
+    "company": "Mercury",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Services Platform",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6221407004"
+  },
   "gh_6318503002": {
     "company": "Databricks",
     "location": "San Francisco, California",
@@ -3082,6 +3090,14 @@
     "title": "Senior Software Engineer, Agentic Ads Experience",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795"
   },
+  "gh_7981723003": {
+    "cached_at": 1791578379.693634,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Fullstack (App Experience)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7981723003"
+  },
   "gh_7981803003": {
     "cached_at": 1788559979.8847468,
     "company": "Affirm",
@@ -3222,6 +3238,14 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer - IAM",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002"
+  },
+  "gh_7995359003": {
+    "cached_at": 1791578381.0651846,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Backend (Fraud Decisioning) ",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7995359003"
   },
   "gh_7997637": {
     "cached_at": 1788548640.4423857,
@@ -3517,6 +3541,14 @@
     "source": "greenhouse",
     "title": "Senior Security Software Engineer, IAM",
     "url": "https://careers.roblox.com/jobs/8016408?gh_jid=8016408"
+  },
+  "gh_8016866003": {
+    "cached_at": 1791578380.3738005,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8016866003"
   },
   "gh_8017277": {
     "cached_at": 1788992472.5915613,
@@ -6054,6 +6086,14 @@
     "title": "Senior Software Engineer, Cluster Scalability",
     "url": "https://www.mongodb.com/careers/job/?gh_jid=8221182"
   },
+  "gh_8221890": {
+    "cached_at": 1791578382.5480914,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Data Acquisition",
+    "url": "https://careers.roblox.com/jobs/8221890?gh_jid=8221890"
+  },
   "gh_8223367": {
     "cached_at": 1790180640.791014,
     "company": "Samsara",
@@ -6356,6 +6396,14 @@
     "title": "Senior Fullstack Engineer, Tech Foundations",
     "url": "https://careers.airbnb.com/positions/8241882?gh_jid=8241882"
   },
+  "gh_8242248": {
+    "cached_at": 1791578377.4734433,
+    "company": "Airbnb",
+    "location": "USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Data Authoring",
+    "url": "https://careers.airbnb.com/positions/8242248?gh_jid=8242248"
+  },
   "gh_8244474": {
     "cached_at": 1790972898.9825366,
     "company": "Bandwidth (Raleigh)",
@@ -6499,6 +6547,14 @@
     "source": "greenhouse",
     "title": "Sr. Staff Software Engineer, Browser (New Products)",
     "url": "https://job-boards.greenhouse.io/mozilla/jobs/8265116"
+  },
+  "gh_8267637": {
+    "cached_at": 1791578381.7651217,
+    "company": "Samsara",
+    "location": "Remote - US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Maps Services",
+    "url": "https://www.samsara.com/company/careers/roles/8267637?gh_jid=8267637"
   },
   "gh_8285949002": {
     "company": "Databricks",
@@ -8598,6 +8654,14 @@
     "source": "workday",
     "title": "Senior Staff Software Engineer (Sr. Consultant) - GenAI Enablement",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Ashburn-VA/Software-Engineer-Sr-Consultant---Fullstack-GenAI-Engineering_REF080828W-1"
+  },
+  "wd_visa__job_US---Ashburn-VA_Sr-SW-Engineer---AI-Security_REF089230W": {
+    "cached_at": 1791578378.9368691,
+    "company": "Visa",
+    "location": "US - Ashburn, VA",
+    "source": "workday",
+    "title": "Sr. SW Engineer - AI Security",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Ashburn-VA/Sr-SW-Engineer---AI-Security_REF089230W"
   },
   "wd_visa__job_US---Ashburn-VA_Sr-Software-Engineer---Core-Automation-Platform_REF085123W": {
     "cached_at": 1790291135.5356135,
