@@ -1343,6 +1343,14 @@
     "title": "Senior Software Engineer - Treasury",
     "url": "https://job-boards.greenhouse.io/mercury/jobs/6212437004"
   },
+  "gh_6221407004": {
+    "cached_at": 1791578378.2271173,
+    "company": "Mercury",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Services Platform",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6221407004"
+  },
   "gh_6318503002": {
     "company": "Databricks",
     "location": "San Francisco, California",
@@ -3082,6 +3090,14 @@
     "title": "Senior Software Engineer, Agentic Ads Experience",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795"
   },
+  "gh_7981723003": {
+    "cached_at": 1791578379.693634,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Fullstack (App Experience)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7981723003"
+  },
   "gh_7981803003": {
     "cached_at": 1788559979.8847468,
     "company": "Affirm",
@@ -3223,6 +3239,14 @@
     "title": "Staff Software Engineer - IAM",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002"
   },
+  "gh_7995359003": {
+    "cached_at": 1791578381.0651846,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Backend (Fraud Decisioning) ",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7995359003"
+  },
   "gh_7997637": {
     "cached_at": 1788548640.4423857,
     "company": "Roblox",
@@ -3277,6 +3301,14 @@
     "source": "greenhouse",
     "title": "Software Engineer II, Backend (Streaming)",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/8003020003"
+  },
+  "gh_8003028003": {
+    "cached_at": 1791558275.6793385,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Backend (Batch Developer Experience)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8003028003"
   },
   "gh_8003347": {
     "cached_at": 1788548576.3927763,
@@ -3376,6 +3408,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer, Backend (Online Storage)",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/8009366003"
+  },
+  "gh_8010608003": {
+    "cached_at": 1791493701.0994189,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Frontend (Marketing and Privacy)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8010608003"
   },
   "gh_8010617003": {
     "cached_at": 1791329958.1497622,
@@ -3501,6 +3541,14 @@
     "source": "greenhouse",
     "title": "Senior Security Software Engineer, IAM",
     "url": "https://careers.roblox.com/jobs/8016408?gh_jid=8016408"
+  },
+  "gh_8016866003": {
+    "cached_at": 1791578380.3738005,
+    "company": "Affirm",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Software Engineer II, Fullstack (Ads Platform)",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8016866003"
   },
   "gh_8017277": {
     "cached_at": 1788992472.5915613,
@@ -4087,6 +4135,14 @@
     "source": "greenhouse",
     "title": "Senior Staff Software Engineer, Growth Onboarding",
     "url": "https://job-boards.greenhouse.io/gusto/jobs/8068222"
+  },
+  "gh_8069178": {
+    "cached_at": 1791558274.8876934,
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer ",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8069178&gh_jid=8069178"
   },
   "gh_8069707": {
     "company": "Okta",
@@ -5231,6 +5287,22 @@
     "title": "Software Engineer (Voice)",
     "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8159576"
   },
+  "gh_8159854": {
+    "cached_at": 1791493702.0400355,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Engine Systems",
+    "url": "https://careers.roblox.com/jobs/8159854?gh_jid=8159854"
+  },
+  "gh_8159857": {
+    "cached_at": 1791522897.7755792,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Data Model",
+    "url": "https://careers.roblox.com/jobs/8159857?gh_jid=8159857"
+  },
   "gh_8159886": {
     "cached_at": 1788906441.3699815,
     "company": "Roblox",
@@ -5416,6 +5488,14 @@
     "source": "greenhouse",
     "title": "Software Engineer, Consumer Engineering",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/8172457"
+  },
+  "gh_8174232": {
+    "cached_at": 1791522895.5424325,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend/Fullstack (Coinbase Advisor - Agentic Trading)",
+    "url": "https://www.coinbase.com/careers/positions/8174232?gh_jid=8174232"
   },
   "gh_8174475": {
     "cached_at": 1788548582.3935707,
@@ -5854,6 +5934,14 @@
     "title": "Senior Software Engineer - Security Integrations - Prompt Engineering",
     "url": "https://jobs.elastic.co/jobs?gh_jid=8208048&gh_jid=8208048"
   },
+  "gh_8209006": {
+    "cached_at": 1791608383.5837917,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Account Security ",
+    "url": "https://careers.roblox.com/jobs/8209006?gh_jid=8209006"
+  },
   "gh_8209010": {
     "cached_at": 1789770200.0453422,
     "company": "Roblox",
@@ -6005,6 +6093,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer, Cluster Scalability",
     "url": "https://www.mongodb.com/careers/job/?gh_jid=8221182"
+  },
+  "gh_8221890": {
+    "cached_at": 1791578382.5480914,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Data Acquisition",
+    "url": "https://careers.roblox.com/jobs/8221890?gh_jid=8221890"
   },
   "gh_8223367": {
     "cached_at": 1790180640.791014,
@@ -6308,6 +6404,14 @@
     "title": "Senior Fullstack Engineer, Tech Foundations",
     "url": "https://careers.airbnb.com/positions/8241882?gh_jid=8241882"
   },
+  "gh_8242248": {
+    "cached_at": 1791578377.4734433,
+    "company": "Airbnb",
+    "location": "USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Data Authoring",
+    "url": "https://careers.airbnb.com/positions/8242248?gh_jid=8242248"
+  },
   "gh_8244474": {
     "cached_at": 1790972898.9825366,
     "company": "Bandwidth (Raleigh)",
@@ -6427,6 +6531,54 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Payments (AirCover Insurance Platform)",
     "url": "https://careers.airbnb.com/positions/8259526?gh_jid=8259526"
+  },
+  "gh_8262223": {
+    "cached_at": 1791608384.3661792,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, ROS",
+    "url": "https://careers.roblox.com/jobs/8262223?gh_jid=8262223"
+  },
+  "gh_8262769": {
+    "cached_at": 1791522894.7146974,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, iOS Platform",
+    "url": "https://careers.airbnb.com/positions/8262769?gh_jid=8262769"
+  },
+  "gh_8262812": {
+    "cached_at": 1791522893.9077015,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, iOS Platform",
+    "url": "https://careers.airbnb.com/positions/8262812?gh_jid=8262812"
+  },
+  "gh_8265116": {
+    "cached_at": 1791522896.2804792,
+    "company": "Mozilla",
+    "location": "Remote US",
+    "source": "greenhouse",
+    "title": "Sr. Staff Software Engineer, Browser (New Products)",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8265116"
+  },
+  "gh_8267637": {
+    "cached_at": 1791578381.7651217,
+    "company": "Samsara",
+    "location": "Remote - US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Maps Services",
+    "url": "https://www.samsara.com/company/careers/roles/8267637?gh_jid=8267637"
+  },
+  "gh_8269081": {
+    "cached_at": 1791608381.2757518,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Certificate Management",
+    "url": "https://www.coinbase.com/careers/positions/8269081?gh_jid=8269081"
   },
   "gh_8285949002": {
     "company": "Databricks",
@@ -7181,6 +7333,14 @@
     "title": "Staff Software Engineer - Streaming",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8663972002"
   },
+  "gh_8675185002": {
+    "cached_at": 1791522897.0577753,
+    "company": "Discord",
+    "location": "San Francisco Bay Area or Remote (West Coast)",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Enterprise Platform",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8675185002"
+  },
   "gh_8675727002": {
     "cached_at": 1790291134.0129282,
     "company": "Pendo (Raleigh HQ)",
@@ -7233,6 +7393,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer (Typescript), AI Clients: Duo CLI",
     "url": "https://job-boards.greenhouse.io/gitlab/jobs/8693103002"
+  },
+  "gh_8693563002": {
+    "cached_at": 1791608382.8085022,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Security Factory: Static Analysis",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8693563002"
   },
   "gh_8697493002": {
     "company": "GitLab",
@@ -7334,6 +7502,14 @@
     "source": "greenhouse",
     "title": "Software Engineering Intern (2027 Start) - Winter",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002"
+  },
+  "gh_8738179002": {
+    "cached_at": 1791608382.0396369,
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Security Factory: Code Security",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8738179002"
   },
   "gh_8738225002": {
     "cached_at": 1788406536.753347,
@@ -8518,6 +8694,14 @@
     "source": "workday",
     "title": "Senior Staff Software Engineer (Sr. Consultant) - GenAI Enablement",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Ashburn-VA/Software-Engineer-Sr-Consultant---Fullstack-GenAI-Engineering_REF080828W-1"
+  },
+  "wd_visa__job_US---Ashburn-VA_Sr-SW-Engineer---AI-Security_REF089230W": {
+    "cached_at": 1791578378.9368691,
+    "company": "Visa",
+    "location": "US - Ashburn, VA",
+    "source": "workday",
+    "title": "Sr. SW Engineer - AI Security",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Ashburn-VA/Sr-SW-Engineer---AI-Security_REF089230W"
   },
   "wd_visa__job_US---Ashburn-VA_Sr-Software-Engineer---Core-Automation-Platform_REF085123W": {
     "cached_at": 1790291135.5356135,
