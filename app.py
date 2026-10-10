@@ -3,11 +3,10 @@ import json
 import os
 import re
 import time
+import unicodedata
 from datetime import datetime, timezone
 
 import streamlit as st
-
-from job_monitor import is_us_location
 
 PIPELINE_STATUSES = ["New", "Saved", "Applied", "Interview", "Rejected"]
 PIPELINE_FILE = os.getenv("JOB_PIPELINE_FILE", os.path.join(os.path.dirname(__file__), "job_pipeline.json"))
@@ -87,6 +86,132 @@ EXPERIENCE_LEVEL_TERMS = {
     ],
 }
 
+# ==========================================
+# GEOGRAPHIC DEFINITIONS FOR STRICT US FILTER
+# ==========================================
+LOCATION_EXCLUDE = [
+    # Canada
+    "canada", "canadian", "toronto", "vancouver", "montreal", "montréal",
+    "ottawa", "calgary", "edmonton", "quebec", "ontario", "alberta",
+    "british columbia", "manitoba", "saskatchewan", "nova scotia",
+    "new brunswick", "waterloo", "halifax", "victoria", "winnipeg",
+    "mississauga", "brampton", "hamilton", "kitchener", "surrey", "burnaby",
+    # UK & Europe
+    "uk", "united kingdom", "london", "england", "scotland", "wales",
+    "europe", "emea", "germany", "berlin", "munich", "frankfurt",
+    "france", "paris", "ireland", "dublin", "poland", "warsaw",
+    "krakow", "netherlands", "amsterdam", "spain", "madrid", "barcelona",
+    "italy", "milan", "rome", "sweden", "stockholm", "switzerland",
+    "zurich", "geneva", "austria", "vienna", "denmark", "copenhagen",
+    "lithuania", "vilnius", "romania", "bucharest", "czech", "prague",
+    "hungary", "budapest", "portugal", "lisbon", "norway", "oslo",
+    "finland", "helsinki", "belgium", "brussels", "greece", "athens",
+    # Asia & Pacific
+    "india", "bengaluru", "bangalore", "hyderabad", "mumbai", "delhi",
+    "pune", "gurgaon", "noida", "chennai", "apac", "australia", "sydney",
+    "melbourne", "brisbane", "japan", "tokyo", "china", "beijing",
+    "shanghai", "shenzhen", "singapore", "taiwan", "taipei", "korea",
+    "seoul", "new zealand", "auckland", "philippines", "manila",
+    "vietnam", "indonesia", "jakarta", "malaysia",
+    # Middle East & Latin America
+    "israel", "tel aviv", "latam", "mexico", "mexico city", "brazil",
+    "sao paulo", "argentina", "buenos aires", "colombia", "bogota",
+    "chile", "santiago", "costa rica", "dubai", "uae"
+]
+
+US_STATE_NAMES = [
+    "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+    "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho",
+    "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana",
+    "maine", "maryland", "massachusetts", "michigan", "minnesota",
+    "mississippi", "missouri", "montana", "nebraska", "nevada",
+    "new hampshire", "new jersey", "new mexico", "new york",
+    "north carolina", "north dakota", "ohio", "oklahoma", "oregon",
+    "pennsylvania", "rhode island", "south carolina", "south dakota",
+    "tennessee", "texas", "utah", "vermont", "virginia", "washington",
+    "west virginia", "wisconsin", "wyoming", "district of columbia"
+]
+
+US_CITIES_AND_HUBS = [
+    "san francisco", "sf", "bay area", "silicon valley", "san jose", "sunnyvale",
+    "mountain view", "palo alto", "redwood city", "menlo park", "oakland",
+    "seattle", "bellevue", "redmond", "austin", "dallas", "houston",
+    "san antonio", "chicago", "new york city", "nyc", "manhattan",
+    "brooklyn", "boston", "cambridge", "los angeles", "la", "san diego",
+    "denver", "boulder", "atlanta", "philadelphia", "philly", "pittsburgh",
+    "washington dc", "dc", "arlington", "reston", "mclean", "baltimore",
+    "minneapolis", "salt lake city", "slc", "phoenix", "tempe", "portland",
+    "miami", "orlando", "tampa", "nashville", "raleigh", "durham",
+    "chapel hill", "cary", "morrisville", "charlotte", "rtp",
+    "research triangle"
+]
+
+US_STATE_CODES = [
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA",
+    "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD",
+    "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ",
+    "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
+    "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "DC"
+]
+
+# Pre-compile regexes
+REGEX_WORD_BOUNDARY = r"(?<!\w){}(?!\w)"
+_LOCATION_EXCLUDE_REGEX = [re.compile(REGEX_WORD_BOUNDARY.format(re.escape(term)), re.I) for term in LOCATION_EXCLUDE]
+_US_STATE_NAMES_REGEX = [re.compile(REGEX_WORD_BOUNDARY.format(re.escape(term)), re.I) for term in US_STATE_NAMES]
+_US_CITIES_REGEX = [re.compile(REGEX_WORD_BOUNDARY.format(re.escape(term)), re.I) for term in US_CITIES_AND_HUBS]
+
+_STATE_CODE_PATTERN = rf"(?:,\s*|[-/]\s*|\(\s*|;\s*|\bUS\s*[-/]?\s*)({'|'.join(US_STATE_CODES)})(?:\s*[,;)]|\s+[-/]\s*|\s+(?:USA?|United States)\b|\s*$)"
+_STATE_CODE_REGEX = re.compile(_STATE_CODE_PATTERN, re.I)
+
+_US_EXPLICIT_REGEX = re.compile(
+    r"(?<!\w)(?:united states|usa|u\.s\.a\.|u\.s\.|us - remote|remote - us|us remote|remote in us|remote in the us|remote, us|remote, united states)(?!\w)",
+    re.I
+)
+
+_CANADIAN_PROVINCE_CODE_REGEX = re.compile(
+    r"\b(?:on|bc|ab|qc|mb|sk|ns|nb|nl|pe)\b(?:\s*,\s*ca\b|\s+only\b)",
+    re.I
+)
+
+
+def has_genuine_us_indicator(text):
+    if _US_EXPLICIT_REGEX.search(text):
+        return True
+    if any(r.search(text) for r in _US_CITIES_REGEX):
+        return True
+    if any(r.search(text) for r in _US_STATE_NAMES_REGEX):
+        return True
+    match = _STATE_CODE_REGEX.search(text)
+    if match:
+        code = match.group(1).upper()
+        if code == "CA":
+            if not any(can_term in text.lower() for can_term in ["toronto", "vancouver", "ontario", "on,", "ottawa", "canada"]):
+                return True
+        else:
+            return True
+    if re.search(r"(?<!\w)(?:US|USA|United States)(?!\w)", text):
+        return True
+    return False
+
+
+@lru_cache(maxsize=4096)
+def is_us_location(location):
+    raw_loc = str(location).strip()
+    if not raw_loc:
+        return False
+
+    norm_loc = unicodedata.normalize('NFKD', raw_loc).encode('ascii', 'ignore').decode('utf-8')
+
+    # Exclude any location containing foreign countries, cities, or provinces (e.g. Canada, UK, India)
+    if any(r.search(norm_loc) for r in _LOCATION_EXCLUDE_REGEX):
+        return False
+    if _CANADIAN_PROVINCE_CODE_REGEX.search(norm_loc):
+        return False
+
+    # Must contain a verified US location indicator (US city, state name, or contextual state code)
+    return has_genuine_us_indicator(norm_loc)
+
+
 st.set_page_config(
     page_title="Jobby Finda",
     page_icon="🔎",
@@ -151,9 +276,6 @@ def get_experience_level(title):
     if any(pattern.search(normalized_title) for pattern in _EXPERIENCE_LEVEL_PATTERNS["New grads"]):
         return "New grads"
     return "Experienced"
-
-
-cached_is_us_location = lru_cache(maxsize=4096)(is_us_location)
 
 
 def split_terms(value):
@@ -273,8 +395,8 @@ def matches(job, role_filters, company_filters, required_filters, excluded_filte
         if get_experience_level(title) not in selected_levels:
             return False
 
-    # US Only checkbox filter
-    if us_only and not cached_is_us_location(location):
+    # US Only checkbox filter (strictly verified US, excluding Canada and foreign)
+    if us_only and not is_us_location(location):
         return False
 
     # Location keyword filters (matches if any location term is present)
@@ -340,8 +462,24 @@ with st.sidebar:
     search_button = st.button("Search jobs", type="primary", use_container_width=True)
 
 
-# Execute search either on button press or initial load
-if search_button or "results" not in st.session_state:
+# Build a signature of current search parameters to detect live filter changes
+current_search_params = (
+    role_terms,
+    tuple(selected_companies),
+    tuple(experience_levels),
+    location_terms,
+    us_only_checkbox,
+    include_terms,
+    exclude_terms,
+)
+
+# Execute search on button press, initial load, OR when any search filter changes
+if (
+    search_button
+    or "results" not in st.session_state
+    or st.session_state.get("active_params") != current_search_params
+):
+    st.session_state["active_params"] = current_search_params
     st.session_state.current_page = 1  # Reset to first page on new search
     role_filters = split_terms(role_terms)
     required_filters = split_terms(include_terms)
