@@ -7,6 +7,7 @@ import argparse
 from html import unescape
 from urllib.parse import quote_plus
 import requests
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ==========================================
@@ -100,81 +101,129 @@ LOCATION_INCLUDE = [
 ]
 
 LOCATION_EXCLUDE = [
-    "uk",
-    "london",
-    "europe",
-    "emea",
-    "apac",
-    "canada",
-    "india",
-    "latam",
-    "germany",
-    "japan",
-    "australia",
-    "paris",
-    "france",
-    "lithuania",
-    "china",
-    "denmark"
+    # Canada
+    "canada", "canadian", "toronto", "vancouver", "montreal", "montréal",
+    "ottawa", "calgary", "edmonton", "quebec", "ontario", "alberta",
+    "british columbia", "manitoba", "saskatchewan", "nova scotia",
+    "new brunswick", "waterloo", "halifax", "victoria", "winnipeg",
+    "mississauga", "brampton", "hamilton", "kitchener", "surrey", "burnaby",
+    # UK & Europe
+    "uk", "united kingdom", "london", "england", "scotland", "wales",
+    "europe", "emea", "germany", "berlin", "munich", "frankfurt",
+    "france", "paris", "ireland", "dublin", "poland", "warsaw",
+    "krakow", "netherlands", "amsterdam", "spain", "madrid", "barcelona",
+    "italy", "milan", "rome", "sweden", "stockholm", "switzerland",
+    "zurich", "geneva", "austria", "vienna", "denmark", "copenhagen",
+    "lithuania", "vilnius", "romania", "bucharest", "czech", "prague",
+    "hungary", "budapest", "portugal", "lisbon", "norway", "oslo",
+    "finland", "helsinki", "belgium", "brussels", "greece", "athens",
+    # Asia & Pacific
+    "india", "bengaluru", "bangalore", "hyderabad", "mumbai", "delhi",
+    "pune", "gurgaon", "noida", "chennai", "apac", "australia", "sydney",
+    "melbourne", "brisbane", "japan", "tokyo", "china", "beijing",
+    "shanghai", "shenzhen", "singapore", "taiwan", "taipei", "korea",
+    "seoul", "new zealand", "auckland", "philippines", "manila",
+    "vietnam", "indonesia", "jakarta", "malaysia",
+    # Middle East & Latin America
+    "israel", "tel aviv", "latam", "mexico", "mexico city", "brazil",
+    "sao paulo", "argentina", "buenos aires", "colombia", "bogota",
+    "chile", "santiago", "costa rica", "dubai", "uae"
 ]
 
-US_LOCATION_MARKERS = [
-    "united states",
-    "usa",
-    "us",
-    "alabama", "alaska", "arizona", "arkansas", "california",
-    "colorado", "connecticut", "delaware", "florida", "georgia",
-    "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas",
-    "kentucky", "louisiana", "maine", "maryland", "massachusetts",
-    "michigan", "minnesota", "mississippi", "missouri", "montana",
-    "nebraska", "nevada", "new hampshire", "new jersey", "new mexico",
-    "new york", "north carolina", "north dakota", "ohio", "oklahoma",
-    "oregon", "pennsylvania", "rhode island", "south carolina",
-    "south dakota", "tennessee", "texas", "utah", "vermont", "virginia",
-    "washington", "west virginia", "wisconsin", "wyoming",
-    "al", "ak", "az", "ar", "ca", "co", "ct", "de", "fl", "ga",
-    "hi", "id", "il", "in", "ia", "ks", "ky", "la", "me", "md",
-    "ma", "mi", "mn", "ms", "mo", "mt", "ne", "nv", "nh", "nj",
-    "nm", "ny", "nc", "nd", "oh", "ok", "or", "pa", "ri", "sc",
-    "sd", "tn", "tx", "ut", "vt", "va", "wa", "wv", "wi", "wy",
-    # Major US tech hubs, cities, and regions
+US_STATE_NAMES = [
+    "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+    "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho",
+    "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana",
+    "maine", "maryland", "massachusetts", "michigan", "minnesota",
+    "mississippi", "missouri", "montana", "nebraska", "nevada",
+    "new hampshire", "new jersey", "new mexico", "new york",
+    "north carolina", "north dakota", "ohio", "oklahoma", "oregon",
+    "pennsylvania", "rhode island", "south carolina", "south dakota",
+    "tennessee", "texas", "utah", "vermont", "virginia", "washington",
+    "west virginia", "wisconsin", "wyoming", "district of columbia"
+]
+
+US_CITIES_AND_HUBS = [
     "san francisco", "sf", "bay area", "silicon valley", "san jose", "sunnyvale",
     "mountain view", "palo alto", "redwood city", "menlo park", "oakland",
-    "seattle", "bellevue", "redmond", "austin", "dallas", "houston", "san antonio",
-    "chicago", "new york city", "nyc", "manhattan", "brooklyn",
-    "boston", "cambridge", "los angeles", "la", "san diego", "denver", "boulder",
-    "atlanta", "philadelphia", "philly", "pittsburgh", "washington dc", "dc",
-    "arlington", "reston", "mclean", "baltimore", "minneapolis", "salt lake city",
-    "slc", "phoenix", "tempe", "portland", "miami", "orlando", "tampa", "nashville",
-    "raleigh", "durham", "chapel hill", "cary", "morrisville", "charlotte",
-    "rtp", "research triangle",
+    "seattle", "bellevue", "redmond", "austin", "dallas", "houston",
+    "san antonio", "chicago", "new york city", "nyc", "manhattan",
+    "brooklyn", "boston", "cambridge", "los angeles", "la", "san diego",
+    "denver", "boulder", "atlanta", "philadelphia", "philly", "pittsburgh",
+    "washington dc", "dc", "arlington", "reston", "mclean", "baltimore",
+    "minneapolis", "salt lake city", "slc", "phoenix", "tempe", "portland",
+    "miami", "orlando", "tampa", "nashville", "raleigh", "durham",
+    "chapel hill", "cary", "morrisville", "charlotte", "rtp",
+    "research triangle"
+]
+
+US_STATE_CODES = [
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA",
+    "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD",
+    "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ",
+    "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
+    "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "DC"
 ]
 
 
 # Pre-compile location regexes
-_LOCATION_EXCLUDE_REGEX = [re.compile(REGEX_WORD_BOUNDARY.format(re.escape(term))) for term in LOCATION_EXCLUDE]
-_US_LOCATION_MARKERS_REGEX = [re.compile(REGEX_WORD_BOUNDARY.format(re.escape(term))) for term in US_LOCATION_MARKERS]
-_REMOTE_REGEX = re.compile(REGEX_WORD_BOUNDARY.format("remote|anywhere|worldwide|global"))
+_LOCATION_EXCLUDE_REGEX = [re.compile(REGEX_WORD_BOUNDARY.format(re.escape(term)), re.I) for term in LOCATION_EXCLUDE]
+_US_STATE_NAMES_REGEX = [re.compile(REGEX_WORD_BOUNDARY.format(re.escape(term)), re.I) for term in US_STATE_NAMES]
+_US_CITIES_REGEX = [re.compile(REGEX_WORD_BOUNDARY.format(re.escape(term)), re.I) for term in US_CITIES_AND_HUBS]
+
+_STATE_CODE_PATTERN = rf"(?:,\s*|[-/]\s*|\(\s*|;\s*|\bUS\s*[-/]?\s*)({'|'.join(US_STATE_CODES)})(?:\s*[,;)]|\s+[-/]\s*|\s+(?:USA?|United States)\b|\s*$)"
+_STATE_CODE_REGEX = re.compile(_STATE_CODE_PATTERN, re.I)
+
+_US_EXPLICIT_REGEX = re.compile(
+    r"(?<!\w)(?:united states|usa|u\.s\.a\.|u\.s\.|us - remote|remote - us|us remote|remote in us|remote in the us|remote, us|remote, united states)(?!\w)",
+    re.I
+)
+
+_CANADIAN_PROVINCE_CODE_REGEX = re.compile(
+    r"\b(?:on|bc|ab|qc|mb|sk|ns|nb|nl|pe)\b(?:\s*,\s*ca\b|\s+only\b)",
+    re.I
+)
+
+
+def has_genuine_us_indicator(text):
+    if _US_EXPLICIT_REGEX.search(text):
+        return True
+    if any(r.search(text) for r in _US_CITIES_REGEX):
+        return True
+    if any(r.search(text) for r in _US_STATE_NAMES_REGEX):
+        return True
+    match = _STATE_CODE_REGEX.search(text)
+    if match:
+        code = match.group(1).upper()
+        if code == "CA":
+            if not any(can_term in text.lower() for can_term in ["toronto", "vancouver", "ontario", "on,", "ottawa", "canada"]):
+                return True
+        else:
+            return True
+    if re.search(r"(?<!\w)(?:US|USA|United States)(?!\w)", text):
+        return True
+    return False
+
 
 # ==========================================
 # MATCHING LOGIC
 # ==========================================
 def is_us_location(location):
-    normalized_location = REGEX_NORMALIZE.sub(" ", str(location).lower()).strip()
-    if not normalized_location:
+    raw_loc = str(location).strip()
+    if not raw_loc:
         return False
 
-    # Check for US markers
-    has_us_marker = any(regex.search(normalized_location) for regex in _US_LOCATION_MARKERS_REGEX)
-    if not has_us_marker:
+    norm_loc = unicodedata.normalize('NFKD', raw_loc).encode('ascii', 'ignore').decode('utf-8')
+
+    # Exclude any location containing foreign countries, cities, or provinces (e.g. Canada, UK, India)
+    if any(r.search(norm_loc) for r in _LOCATION_EXCLUDE_REGEX):
+        return False
+    if _CANADIAN_PROVINCE_CODE_REGEX.search(norm_loc):
         return False
 
-    # Check for excluded international locations (exclude unless a US marker is explicitly present in multi-location list)
-    has_excluded = any(regex.search(normalized_location) for regex in _LOCATION_EXCLUDE_REGEX)
-    if has_excluded and not has_us_marker:
-        return False
+    # Must contain a verified US location indicator (US city, state name, or contextual state code)
+    return has_genuine_us_indicator(norm_loc)
 
-    return True
 
 
 def is_matching_job(job):
