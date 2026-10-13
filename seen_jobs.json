@@ -1114,6 +1114,14 @@
     "title": "Staff+ Software Engineer, Research Systems Engineering",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5447118008"
   },
+  "gh_5450479008": {
+    "cached_at": 1791918139.9083257,
+    "company": "Anthropic",
+    "location": "Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC",
+    "source": "greenhouse",
+    "title": "IT Systems Engineer, M&A",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5450479008"
+  },
   "gh_5551532004": {
     "company": "Figma",
     "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
@@ -6412,6 +6420,14 @@
     "title": "Staff Software Engineer, Data Authoring",
     "url": "https://careers.airbnb.com/positions/8242248?gh_jid=8242248"
   },
+  "gh_8243520": {
+    "cached_at": 1791918138.3876362,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Backend (Retail DEX)",
+    "url": "https://www.coinbase.com/careers/positions/8243520?gh_jid=8243520"
+  },
   "gh_8244474": {
     "cached_at": 1790972898.9825366,
     "company": "Bandwidth (Raleigh)",
@@ -6564,6 +6580,14 @@
     "title": "Senior Software Engineer, iOS Platform",
     "url": "https://careers.airbnb.com/positions/8262812?gh_jid=8262812"
   },
+  "gh_8264682": {
+    "cached_at": 1791918139.1321647,
+    "company": "Bandwidth (Raleigh)",
+    "location": "Raleigh, NC",
+    "source": "greenhouse",
+    "title": "Sr. Netsuite Developer",
+    "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8264682"
+  },
   "gh_8265116": {
     "cached_at": 1791522896.2804792,
     "company": "Mozilla",
@@ -6603,6 +6627,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer, Payments",
     "url": "https://careers.airbnb.com/positions/8275273?gh_jid=8275273"
+  },
+  "gh_8278276": {
+    "cached_at": 1791918137.6815257,
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Distributed Systems (Continuous Profiler)",
+    "url": "https://careers.datadoghq.com/detail/8278276/?gh_jid=8278276"
   },
   "gh_8285949002": {
     "company": "Databricks",
@@ -7895,6 +7927,14 @@
     "source": "greenhouse",
     "title": "Senior Staff / Staff Software Engineer, Trust & Safety",
     "url": "https://boards.greenhouse.io/chime/jobs/8875914002?gh_jid=8875914002"
+  },
+  "icims_sas_42184": {
+    "cached_at": 1791918140.6977627,
+    "company": "SAS",
+    "location": "20070146, Information Technology, United States, North Carolina, Cary HQ",
+    "source": "icims",
+    "title": "SaaS Sr Software Developer",
+    "url": "https://careers-sas.icims.com/jobs/42184/saas-sr-software-developer/job?hub=9&in_iframe=1"
   },
   "icims_sas_42319": {
     "company": "SAS",
