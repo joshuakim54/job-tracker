@@ -3787,6 +3787,14 @@
     "title": "Senior Software Engineer, Client Systems (C++)",
     "url": "https://careers.roblox.com/jobs/8036535?gh_jid=8036535"
   },
+  "gh_8036690": {
+    "cached_at": 1792008161.0853105,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Safety Foundation",
+    "url": "https://careers.roblox.com/jobs/8036690?gh_jid=8036690"
+  },
   "gh_8036724": {
     "cached_at": 1788548573.0530627,
     "company": "Roblox",
@@ -6660,6 +6668,22 @@
     "title": "Senior Software Engineer - Distributed Systems (Continuous Profiler)",
     "url": "https://careers.datadoghq.com/detail/8278276/?gh_jid=8278276"
   },
+  "gh_8281751": {
+    "cached_at": 1792008158.0438585,
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Distributed Systems (Continuous Profiler)",
+    "url": "https://careers.datadoghq.com/detail/8281751/?gh_jid=8281751"
+  },
+  "gh_8281965": {
+    "cached_at": 1792008160.3791482,
+    "company": "Instacart",
+    "location": "United States - Remote",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer II, Ads Data Solutions Engineering",
+    "url": "https://instacart.careers/job/?gh_jid=8281965"
+  },
   "gh_8285949002": {
     "company": "Databricks",
     "location": "Bellevue, Washington",
@@ -8838,6 +8862,22 @@
     "source": "workday",
     "title": "Chief Software Engineer (Hands-On AI Engineering Leader)",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Chief-SW-Engineer_REF087202W"
+  },
+  "wd_visa__job_US---Austin-TX_Chief-SW-Engineer_REF089194W": {
+    "cached_at": 1792008159.607757,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Chief SW Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Chief-SW-Engineer_REF089194W"
+  },
+  "wd_visa__job_US---Austin-TX_Lead-SW-Engineer_REF089196W": {
+    "cached_at": 1792008158.7896552,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Lead SW Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Lead-SW-Engineer_REF089196W"
   },
   "wd_visa__job_US---Austin-TX_SW-Engineer--Software-Engineering---Specialist---Associate_REF088773W": {
     "cached_at": 1790640946.7134008,
