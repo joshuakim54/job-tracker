@@ -1122,6 +1122,14 @@
     "title": "IT Systems Engineer, M&A",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5450479008"
   },
+  "gh_5456018008": {
+    "cached_at": 1792452383.3799503,
+    "company": "Anthropic",
+    "location": "Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC",
+    "source": "greenhouse",
+    "title": "IT Systems Engineer, Client Platform Engineer, ChromeOS",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456018008"
+  },
   "gh_5456453008": {
     "cached_at": 1792402968.5102813,
     "company": "Anthropic",
@@ -5736,6 +5744,14 @@
     "title": "Contract Senior Software Engineer - WebGPU-Firefox/Gecko (Rust)",
     "url": "https://job-boards.greenhouse.io/mozilla/jobs/8189088"
   },
+  "gh_8189170": {
+    "cached_at": 1792452381.7828789,
+    "company": "MongoDB",
+    "location": "Austin; Chicago; Dallas; Denver; Nashville; Palo Alto; Portland; San Francisco; Seattle; United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Atlas Clusters Security",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8189170"
+  },
   "gh_8189317": {
     "cached_at": 1789078827.0867171,
     "company": "Reddit",
@@ -6849,6 +6865,14 @@
     "source": "greenhouse",
     "title": "Senior Product Designer, Developer Foundations",
     "url": "https://www.coinbase.com/careers/positions/8301285?gh_jid=8301285"
+  },
+  "gh_8302189": {
+    "cached_at": 1792452382.6146266,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Enginer, Backend - Payments Platform",
+    "url": "https://www.coinbase.com/careers/positions/8302189?gh_jid=8302189"
   },
   "gh_8303014002": {
     "company": "Databricks",
