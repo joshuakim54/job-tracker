@@ -5404,6 +5404,14 @@
     "title": "Senior Staff Software Engineer, Finhub",
     "url": "https://www.coinbase.com/careers/positions/8162237?gh_jid=8162237"
   },
+  "gh_8162539": {
+    "cached_at": 1792434621.3421016,
+    "company": "Pinterest",
+    "location": "New York, NY, US; Remote, US",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Infrastructure Data Engineering   ",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8162539"
+  },
   "gh_8163203": {
     "cached_at": 1788548502.778055,
     "company": "Checkr",
@@ -6628,6 +6636,14 @@
     "title": "Senior Software Engineer, Foundation & Luau Platform",
     "url": "https://careers.roblox.com/jobs/8259606?gh_jid=8259606"
   },
+  "gh_8260221": {
+    "cached_at": 1792434623.2390828,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Service Management",
+    "url": "https://careers.roblox.com/jobs/8260221?gh_jid=8260221"
+  },
   "gh_8262223": {
     "cached_at": 1791608384.3661792,
     "company": "Roblox",
@@ -6817,6 +6833,22 @@
     "source": "greenhouse",
     "title": "Staff Software Engineer, Search Quality",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8295792002"
+  },
+  "gh_8301231": {
+    "cached_at": 1792434622.4496806,
+    "company": "Checkr",
+    "location": "San Francisco, California, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer (Ruby/Rails), MVR",
+    "url": "https://job-boards.greenhouse.io/checkr/jobs/8301231"
+  },
+  "gh_8301285": {
+    "cached_at": 1792434620.5097058,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Senior Product Designer, Developer Foundations",
+    "url": "https://www.coinbase.com/careers/positions/8301285?gh_jid=8301285"
   },
   "gh_8303014002": {
     "company": "Databricks",
