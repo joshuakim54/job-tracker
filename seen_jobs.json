@@ -2310,6 +2310,14 @@
     "title": "Staff Software Engineer, Core AI Platforms",
     "url": "https://job-boards.greenhouse.io/gusto/jobs/7760341"
   },
+  "gh_7763610": {
+    "cached_at": 1792526059.153369,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer,  Cloud Experience",
+    "url": "https://careers.airbnb.com/positions/7763610?gh_jid=7763610"
+  },
   "gh_7764827": {
     "company": "Cloudflare",
     "location": "In-Office",
@@ -6309,6 +6317,14 @@
     "title": "Senior Software Engineer (Backend/Product focus, AIaaS)",
     "url": "https://careers.roblox.com/jobs/8231343?gh_jid=8231343"
   },
+  "gh_8233500": {
+    "cached_at": 1792526061.5178034,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Developer Infrastructure",
+    "url": "https://www.coinbase.com/careers/positions/8233500?gh_jid=8233500"
+  },
   "gh_8233716": {
     "cached_at": 1790366065.8962793,
     "company": "Instacart",
@@ -6836,6 +6852,14 @@
     "title": "Senior Frontend Engineer, Portfolio",
     "url": "https://www.coinbase.com/careers/positions/8285182?gh_jid=8285182"
   },
+  "gh_8285465": {
+    "cached_at": 1792526062.313158,
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Tech Lead, Web Development - Full Stack",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8285465&gh_jid=8285465"
+  },
   "gh_8285949002": {
     "company": "Databricks",
     "location": "Bellevue, Washington",
@@ -6896,6 +6920,38 @@
     "source": "greenhouse",
     "title": "Senior Staff Software Engineer - Delta",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002"
+  },
+  "gh_8303798": {
+    "cached_at": 1792526064.0150998,
+    "company": "Reddit",
+    "location": "Remote - United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Web Platform",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8303798"
+  },
+  "gh_8304030": {
+    "cached_at": 1792526059.8715208,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Users Foundation",
+    "url": "https://careers.airbnb.com/positions/8304030?gh_jid=8304030"
+  },
+  "gh_8304038": {
+    "cached_at": 1792526060.6958942,
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "source": "greenhouse",
+    "title": "Software Engineer - Crypto Data Foundations",
+    "url": "https://www.coinbase.com/careers/positions/8304038?gh_jid=8304038"
+  },
+  "gh_8304107": {
+    "cached_at": 1792526058.3968363,
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer - Watchdog Anomaly Detection",
+    "url": "https://careers.datadoghq.com/detail/8304107/?gh_jid=8304107"
   },
   "gh_8367019002": {
     "company": "Databricks",
@@ -9196,6 +9252,14 @@
     "source": "workday",
     "title": "Software Engineer",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer_REF088720W"
+  },
+  "wd_visa__job_US---Austin-TX_Sr-SW-Engineer--Full-Stack-_REF089040W": {
+    "cached_at": 1792526063.0953007,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Sr. SW Engineer (Full Stack)",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Sr-SW-Engineer--Full-Stack-_REF089040W"
   },
   "wd_visa__job_US---Austin-TX_Sr-SW-Engineer--Software-Engineering---Analyst---Team-Lead_REF088770W": {
     "cached_at": 1790640947.5992582,
