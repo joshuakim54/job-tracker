@@ -6780,6 +6780,14 @@
     "title": "Senior Software Engineer, iOS Platform",
     "url": "https://careers.airbnb.com/positions/8262812?gh_jid=8262812"
   },
+  "gh_8263247": {
+    "cached_at": 1792710170.0433164,
+    "company": "MongoDB",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Replication",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8263247"
+  },
   "gh_8263407": {
     "cached_at": 1792104994.7820933,
     "company": "Reddit",
@@ -6787,6 +6795,14 @@
     "source": "greenhouse",
     "title": "Senior Android Software Engineer, Consumer Engineering",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/8263407"
+  },
+  "gh_8263467": {
+    "cached_at": 1792710171.0253327,
+    "company": "MongoDB",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Workload Resilience",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8263467"
   },
   "gh_8264682": {
     "cached_at": 1791918139.1321647,
@@ -9262,6 +9278,14 @@
     "source": "workday",
     "title": "Lead SW Engineer",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Lead-SW-Engineer_REF089196W"
+  },
+  "wd_visa__job_US---Austin-TX_SW-Engineer--Oracle-ERP_REF089448W": {
+    "cached_at": 1792710171.9720118,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "SW Engineer, Oracle ERP",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/SW-Engineer--Oracle-ERP_REF089448W"
   },
   "wd_visa__job_US---Austin-TX_SW-Engineer--Software-Engineering---Specialist---Associate_REF088773W": {
     "cached_at": 1790640946.7134008,
