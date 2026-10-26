@@ -6428,6 +6428,14 @@
     "title": "Senior Developer Advocate",
     "url": "https://jobs.elastic.co/jobs?gh_jid=8237783&gh_jid=8237783"
   },
+  "gh_8238465": {
+    "cached_at": 1793057900.4228988,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Runtime",
+    "url": "https://careers.roblox.com/jobs/8238465?gh_jid=8238465"
+  },
   "gh_8238467": {
     "cached_at": 1792623855.5047033,
     "company": "Roblox",
@@ -7144,6 +7152,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer (Ruby/Rails), MVR",
     "url": "https://job-boards.greenhouse.io/checkr/jobs/8324959"
+  },
+  "gh_8325753": {
+    "cached_at": 1793057898.7567074,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, UI Tooling",
+    "url": "https://careers.airbnb.com/positions/8325753?gh_jid=8325753"
   },
   "gh_8367019002": {
     "company": "Databricks",
@@ -9785,6 +9801,14 @@
     "source": "workday",
     "title": "SW Engineer - Cyber (does not qualify for immigration support)",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/SW-Engineer---Cyber--does-not-qualify-for-immigration-support-_REF088621W"
+  },
+  "wd_visa__job_US---Foster-City-CA_SW-Engineer_REF089459W": {
+    "cached_at": 1793057899.4660242,
+    "company": "Visa",
+    "location": "US - Foster City, CA",
+    "source": "workday",
+    "title": "SW Engineer",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/SW-Engineer_REF089459W"
   },
   "wd_visa__job_US---Foster-City-CA_Senior-Software-Engineer---Full-Stack_REF082660W-2": {
     "cached_at": 1789673818.093386,
