@@ -1399,6 +1399,14 @@
     "title": "Staff Software Engineer - Services Platform",
     "url": "https://job-boards.greenhouse.io/mercury/jobs/6221407004"
   },
+  "gh_6231582004": {
+    "cached_at": 1793671467.8902733,
+    "company": "Figma",
+    "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+    "source": "greenhouse",
+    "title": "Developer Advocate, Payload",
+    "url": "https://boards.greenhouse.io/figma/jobs/6231582004?gh_jid=6231582004"
+  },
   "gh_6318503002": {
     "company": "Databricks",
     "location": "San Francisco, California",
@@ -6964,6 +6972,14 @@
     "title": "Senior Software Engineer, Payments",
     "url": "https://careers.airbnb.com/positions/8275273?gh_jid=8275273"
   },
+  "gh_8275414": {
+    "cached_at": 1793671473.1030738,
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer (Machine Learning) - Economy ML",
+    "url": "https://careers.roblox.com/jobs/8275414?gh_jid=8275414"
+  },
   "gh_8275745": {
     "cached_at": 1792381852.9697561,
     "company": "Reddit",
@@ -7281,6 +7297,14 @@
     "title": "Software Engineer, Payments",
     "url": "https://careers.airbnb.com/positions/8332157?gh_jid=8332157"
   },
+  "gh_8334372": {
+    "cached_at": 1793671469.495444,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer, Tech Foundations",
+    "url": "https://careers.airbnb.com/positions/8334372?gh_jid=8334372"
+  },
   "gh_8334926": {
     "cached_at": 1793307368.9510846,
     "company": "Airbnb",
@@ -7296,6 +7320,22 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer, Backend (Coinbase One)",
     "url": "https://www.coinbase.com/careers/positions/8335547?gh_jid=8335547"
+  },
+  "gh_8337444": {
+    "cached_at": 1793671471.9373755,
+    "company": "Reddit",
+    "location": "Remote - United States",
+    "source": "greenhouse",
+    "title": "Software Engineer, Infrastructure Engineering",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8337444"
+  },
+  "gh_8348197": {
+    "cached_at": 1793671468.630766,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Systems Engineer, BizTech",
+    "url": "https://careers.airbnb.com/positions/8348197?gh_jid=8348197"
   },
   "gh_8367019002": {
     "company": "Databricks",
@@ -8669,6 +8709,14 @@
     "title": "Systems Engineer (Remote/Hybrid Eastern time zone)",
     "url": "https://jmp-sas.icims.com/jobs/45123/systems-engineer-%28remote-hybrid-eastern-time-zone%29/job?hub=9&in_iframe=1"
   },
+  "icims_sas_45979": {
+    "cached_at": 1793671470.2778764,
+    "company": "SAS",
+    "location": "2026-45979, Information Technology, United States, North Carolina, Cary HQ",
+    "source": "icims",
+    "title": "Senior Associate Software Developer, Risk Engine",
+    "url": "https://careers-sas.icims.com/jobs/45979/senior-associate-software-developer%2c-risk-engine/job?hub=9&in_iframe=1"
+  },
   "lever_09846827-b931-4a9f-bd64-c3bb8860187b": {
     "company": "Palantir",
     "location": "New York, NY",
@@ -9708,6 +9756,14 @@
     "source": "workday",
     "title": "Sr. SW Engineer - SDET",
     "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Sr-SW-Engineer--Software-Engineering---Analyst---Team-Lead_REF088944W"
+  },
+  "wd_visa__job_US---Austin-TX_Staff-SW-Engineer---Performance-Engineering_REF089838W": {
+    "cached_at": 1793671471.15247,
+    "company": "Visa",
+    "location": "US - Austin, TX",
+    "source": "workday",
+    "title": "Staff SW Engineer - Performance Engineering",
+    "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Staff-SW-Engineer---Performance-Engineering_REF089838W"
   },
   "wd_visa__job_US---Austin-TX_Staff-SW-Engineer--Software-Engineering--Consultant---Manager_REF088719W": {
     "cached_at": 1790887959.3786397,
