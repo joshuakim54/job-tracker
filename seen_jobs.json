@@ -39,6 +39,14 @@
     "title": "Software Engineer II (Fullstack, Business Systems)",
     "url": "https://jobs.ashbyhq.com/whoop/29931bc1-508f-4b41-ad6a-aab97e4d8958"
   },
+  "ashby_30c77fd3-616b-428a-8d8d-b3168285c4f8": {
+    "cached_at": 1793966092.2961287,
+    "company": "WHOOP",
+    "location": "Boston, MA",
+    "source": "ashby",
+    "title": "Senior Software Engineer (Quality, Health Records)",
+    "url": "https://jobs.ashbyhq.com/whoop/30c77fd3-616b-428a-8d8d-b3168285c4f8"
+  },
   "ashby_352e9ee9-b52a-4965-b00f-63aff54c2cbd": {
     "cached_at": 1788645497.1083856,
     "company": "WHOOP",
@@ -7456,6 +7464,14 @@
     "source": "greenhouse",
     "title": "Senior Software Engineer, Database Integration & Observability",
     "url": "https://www.mongodb.com/careers/job/?gh_jid=8352433"
+  },
+  "gh_8354253": {
+    "cached_at": 1793966091.5700274,
+    "company": "Samsara",
+    "location": "Remote - US",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer II",
+    "url": "https://www.samsara.com/company/careers/roles/8354253?gh_jid=8354253"
   },
   "gh_8367019002": {
     "company": "Databricks",
