@@ -7322,6 +7322,14 @@
     "title": "Staff Software Engineer, Search Quality",
     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8295792002"
   },
+  "gh_8300926": {
+    "cached_at": 1795223435.876947,
+    "company": "Airbnb",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Data Software Engineer",
+    "url": "https://careers.airbnb.com/positions/8300926?gh_jid=8300926"
+  },
   "gh_8301231": {
     "cached_at": 1792434622.4496806,
     "company": "Checkr",
@@ -7918,6 +7926,14 @@
     "title": "Staff Software Engineer - Okta Identity Governance",
     "url": "https://www.okta.com/company/careers/opportunity/8396676?gh_jid=8396676"
   },
+  "gh_8396710": {
+    "cached_at": 1795223439.465079,
+    "company": "Okta",
+    "location": "San Francisco, CA, United States",
+    "source": "greenhouse",
+    "title": "Staff Software Engineer in Test",
+    "url": "https://www.okta.com/company/careers/opportunity/8396710?gh_jid=8396710"
+  },
   "gh_8397699": {
     "cached_at": 1795052783.553832,
     "company": "MongoDB",
@@ -7956,6 +7972,30 @@
     "source": "greenhouse",
     "title": "Software Engineer",
     "url": "https://www.coinbase.com/careers/positions/8400323?gh_jid=8400323"
+  },
+  "gh_8406163": {
+    "cached_at": 1795223440.1918626,
+    "company": "Elastic",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer - Vector Search - Elasticsearch",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8406163&gh_jid=8406163"
+  },
+  "gh_8406371": {
+    "cached_at": 1795223438.724009,
+    "company": "Airbnb",
+    "location": "Remote, USA ",
+    "source": "greenhouse",
+    "title": "Senior Software Engineer, Partner Integrations ",
+    "url": "https://careers.airbnb.com/positions/8406371?gh_jid=8406371"
+  },
+  "gh_8406812": {
+    "cached_at": 1795223435.1156704,
+    "company": "MongoDB",
+    "location": "United States",
+    "source": "greenhouse",
+    "title": "Software Engineer 3",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8406812"
   },
   "gh_8416951002": {
     "company": "Databricks",
@@ -9199,6 +9239,14 @@
     "source": "greenhouse",
     "title": "Software Engineer, Jade - AI Financial Partner",
     "url": "https://boards.greenhouse.io/chime/jobs/8868948002?gh_jid=8868948002"
+  },
+  "gh_8871406002": {
+    "cached_at": 1795223440.9505796,
+    "company": "GitLab",
+    "location": "Remote, United States",
+    "source": "greenhouse",
+    "title": "Senior CX Platform Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8871406002"
   },
   "gh_8875663002": {
     "cached_at": 1791407137.0049307,
