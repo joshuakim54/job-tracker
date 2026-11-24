@@ -11,6 +11,8 @@ import streamlit as st
 PIPELINE_STATUSES = ["New", "Saved", "Applied", "Interview", "Rejected"]
 PIPELINE_FILE = os.getenv("JOB_PIPELINE_FILE", os.path.join(os.path.dirname(__file__), "job_pipeline.json"))
 
+from job_categories import RESUME_CATEGORY_OPTIONS, get_resume_category
+
 EXPERIENCE_LEVEL_TERMS = {
     "Internships": [
         "intern",
@@ -368,7 +370,17 @@ def get_new_jobs_today(jobs):
     ]
 
 
-def matches(job, role_filters, company_filters, required_filters, excluded_filters, selected_levels, location_filters, us_only=False):
+def matches(
+    job,
+    role_filters,
+    company_filters,
+    required_filters,
+    excluded_filters,
+    selected_levels,
+    location_filters,
+    us_only=False,
+    selected_resume_categories=None,
+):
     title = job.get("title", "")
     company = job.get("company", "")
     location = job.get("location", "")
@@ -394,6 +406,10 @@ def matches(job, role_filters, company_filters, required_filters, excluded_filte
     if selected_levels and len(selected_levels) < 4:
         if get_experience_level(title) not in selected_levels:
             return False
+
+    resume_category = get_resume_category(title) or "Uncategorized"
+    if selected_resume_categories and resume_category not in selected_resume_categories:
+        return False
 
     # US Only checkbox filter (strictly verified US, excluding Canada and foreign)
     if us_only and not is_us_location(location):
@@ -421,8 +437,12 @@ with st.sidebar:
     st.header("Search filters")
     role_terms = st.text_input(
         "Role keywords",
-        value="software engineer",
-        help="Separate alternatives with commas, such as software engineer, backend, python, or data.",
+        value=(
+            "embedded software engineer, firmware engineer, networking engineer, "
+            "software engineer, software engineering, backend software engineer, python developer, "
+            "machine learning intern, ai engineering intern, ai/ml, mlops intern, data engineering intern"
+        ),
+        help="Separate alternatives with commas. These defaults cover the roles in your resume categories.",
     )
     selected_companies = st.multiselect(
         "Companies",
@@ -435,6 +455,12 @@ with st.sidebar:
         options=["Internships", "New grads", "Experienced", "Seniors"],
         default=["Internships", "New grads", "Experienced", "Seniors"],
         help="Filter by role seniority level.",
+    )
+    resume_categories = st.multiselect(
+        "Resume category",
+        options=RESUME_CATEGORY_OPTIONS,
+        default=list(RESUME_CATEGORY_OPTIONS),
+        help="Group jobs by the resume that best fits. Unmatched titles stay visible as Uncategorized.",
     )
     location_terms = st.text_input(
         "Locations",
@@ -467,6 +493,7 @@ current_search_params = (
     role_terms,
     tuple(selected_companies),
     tuple(experience_levels),
+    tuple(resume_categories),
     location_terms,
     us_only_checkbox,
     include_terms,
@@ -498,6 +525,7 @@ if (
             experience_levels,
             location_filters,
             us_only=us_only_checkbox,
+            selected_resume_categories=resume_categories,
         )
     ]
 
@@ -509,6 +537,7 @@ if (
         "roles": role_terms or "All Roles",
         "companies": selected_companies or ["All Companies"],
         "experience_levels": experience_levels,
+        "resume_categories": resume_categories,
         "locations": location_terms or ("US Only" if us_only_checkbox else "All Locations"),
         "include": include_terms,
         "exclude": exclude_terms,
@@ -550,6 +579,8 @@ if "results" in st.session_state:
                 if criteria["experience_levels"]:
                     st.write(f"**Experience Levels:** {', '.join(criteria['experience_levels'])}")
             with col2:
+                if criteria.get("resume_categories"):
+                    st.write(f"**Resume Categories:** {', '.join(criteria['resume_categories'])}")
                 st.write(f"**Locations:** {criteria['locations']}")
                 if criteria["include"]:
                     st.write(f"**Must Include:** {criteria['include']}")
@@ -559,43 +590,6 @@ if "results" in st.session_state:
     if not active_results:
         st.info("No matching roles found. Try broadening keywords, selecting more experience levels, or clearing specific location filters.")
     else:
-        # Pagination calculations
-        total_items = len(active_results)
-        total_pages = max(1, (total_items + jobs_per_page - 1) // jobs_per_page)
-        st.session_state.current_page = min(max(1, st.session_state.current_page), total_pages)
-        current_page = st.session_state.current_page
-
-        start_idx = (current_page - 1) * jobs_per_page
-        end_idx = min(start_idx + jobs_per_page, total_items)
-        page_results = active_results[start_idx:end_idx]
-
-        # Top Pagination Toolbar
-        if total_pages > 1:
-            p_info, p_prev, p_num, p_next = st.columns([3, 1, 2, 1])
-            with p_info:
-                st.markdown(
-                    f'<div class="page-info">Showing <strong>{start_idx + 1}–{end_idx}</strong> of <strong>{total_items:,}</strong> roles</div>',
-                    unsafe_allow_html=True,
-                )
-            with p_prev:
-                if st.button("◀ Prev", disabled=(current_page <= 1), use_container_width=True, key="top_prev"):
-                    st.session_state.current_page -= 1
-                    st.rerun()
-            with p_num:
-                st.markdown(
-                    f'<div class="page-indicator">Page {current_page} of {total_pages}</div>',
-                    unsafe_allow_html=True,
-                )
-            with p_next:
-                if st.button("Next ▶", disabled=(current_page >= total_pages), use_container_width=True, key="top_next"):
-                    st.session_state.current_page += 1
-                    st.rerun()
-        else:
-            st.markdown(
-                f'<div class="page-info" style="margin-bottom: 0.8rem;">Showing all <strong>{total_items:,}</strong> roles</div>',
-                unsafe_allow_html=True,
-            )
-
         # Render only jobs on the current page (Fast DOM rendering!)
         for job in page_results:
             current_status = get_job_status(pipeline, job)
@@ -606,12 +600,14 @@ if "results" in st.session_state:
                 "Seniors": "badge-senior",
                 "Experienced": "badge-mid",
             }.get(exp_level, "")
+            resume_category = get_resume_category(job.get("title", "")) or "Uncategorized"
 
             st.markdown(
                 f'<div class="result">'
                 f'<h3><a href="{job["url"]}" target="_blank">{job["title"]}</a></h3>'
                 f'<div class="meta">'
                 f'<strong>{job["company"]}</strong> &nbsp;·&nbsp; <span>{job["location"]}</span>'
+                f'<span class="badge">{resume_category}</span>'
                 f'<span class="badge {badge_class}">{exp_level}</span>'
                 f'</div>'
                 f'</div>',

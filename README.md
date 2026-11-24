@@ -47,6 +47,11 @@ Traditional job aggregator platforms (LinkedIn, Indeed, ZipRecruiter) introduce 
   - 🌱 **New Grads & Early Career** (`entry-level`, `associate`, `swe 1`, `junior`, `level 1`)
   - 💼 **Experienced** (mid-level software engineering roles)
   - 🚀 **Seniors & Leads** (`senior`, `staff`, `principal`, `lead`, `architect`)
+- **Resume-Targeted Categorization:** Groups searchable roles by the resume to use:
+  - 🔌 **Embedded** (embedded, firmware, and networking roles)
+  - 💻 **General** (software engineering, backend, and Python roles)
+  - 🧠 **AI/ML** (machine learning, AI, MLOps, and data engineering roles)
+  - Unmatched titles remain under *Uncategorized*, and categories can be filtered in the sidebar.
 - **Geographic & Keyword Filtering:** Normalizes locations across all 50 US states, major tech hubs, and remote positions while filtering out non-US regions.
 - **Real-Time Discord Alerts:** Sends rich embeds to Discord channels the moment a role matching your target criteria appears, complete with automatic HTTP 429 rate-limit backoff.
 - **Interactive Streamlit Web Dashboard:** A fast, responsive UI featuring real-time multi-criteria filtering, role badges, and dark-mode styling.
