@@ -498,6 +498,8 @@ current_search_params = (
     us_only_checkbox,
     include_terms,
     exclude_terms,
+    pipeline_filter,
+    jobs_per_page,
 )
 
 # Execute search on button press, initial load, OR when any search filter changes
@@ -552,6 +554,13 @@ if "results" in st.session_state:
         active_results = [job for job in base_results if get_job_status(pipeline, job) == pipeline_filter]
     else:
         active_results = base_results
+
+    total_items = len(active_results)
+    total_pages = max(1, (total_items + jobs_per_page - 1) // jobs_per_page)
+    current_page = min(max(st.session_state.current_page, 1), total_pages)
+    st.session_state.current_page = current_page
+    page_start = (current_page - 1) * jobs_per_page
+    page_results = active_results[page_start : page_start + jobs_per_page]
 
     st.markdown(
         f'<div class="digest"><strong>{len(new_jobs_today):,} new jobs today</strong> · '
